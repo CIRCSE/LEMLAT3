@@ -22,7 +22,7 @@ Two versions are available:
 In order to use this version you need a working copy of MySQL Server in which it is restored the provided dump of the database.
  
 Downlad the archive containing the client version for your operation system.
-Extract the archive and open a console in the extracted direcory. Edit the configuration file my.cnf.sample providing all the information to access the database and save it as my.cnf
+Extract the archive and open a console in the extracted direcory. Edit the configuration file `my.cnf.sample` providing all the information to access the database and save it as `my.cnf`
 
 ## Stand alone installation
 Downlad the archive containing the embedded version for your operation system.
@@ -30,7 +30,7 @@ Extract the archive and open a console in the extracted direcory.
 
 
 ## Usage
-Both the client vesion an the stand-alone version use the same CLI interface, so, in the following substitute APPLICATION_NAME with lemlat_client or with lemlat according to the version you chose.
+Both the client vesion an the stand-alone version use the same CLI interface, so, in the following substitute `APPLICATION_NAME` with lemlat_client or with lemlat according to the version you chose.
 ### Get help
 Type:
 ```
@@ -43,7 +43,7 @@ Type:
 ./APPLICATION_NAME [-s 0|1|2]
 ```
 to start the application in interactive mode: you will be iteratively promted to enter a worform to analyze or a command to modify the behavior of the analizer.
-The optional parameter -s allows to select the initial LES source, according to the following input values:
+The optional parameter `-s` allows to select the initial LES source, according to the following input values:
 ```
      	0 for BASE les list
      	1 for ONOMASTICON les list
@@ -59,7 +59,7 @@ At the first prompt the list of available commands is provided:
 	\a to output in 'lemresult' FILE 
 	\d to output on SCREEN 
 ```
-You can always recall such list entering the command '\h'
+You can always recall such list entering the command `\h`
 ### Batch Mode
 You can process a batch of worform entering an input file conataining the wordforms you wish to analyze and an output file in a specified format by typing:
 ```
