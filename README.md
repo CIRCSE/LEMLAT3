@@ -11,7 +11,7 @@ Contribution to the morphological analyser of Latin LEMLAT 3.0 provided by the C
 
 # Binaries
 
-In the bin directory we provide a CLI implementation of the wordform analysis for Linux an OSX operation systems.
+In the bin directory we provide a CLI implementation of the wordform analysis for Linux, OSX an Windows operation systems.
 Two versions are available:
 - a client version which needs a working MySQL server containing the provided database
 - a stand alone version  which uses an embedded version of the database
@@ -30,7 +30,7 @@ Extract the archive and open a console in the extracted direcory.
 
 
 ## Usage
-Both the client vesion an the stand-alone version use the same CLI interface, so, in the following substitute `APPLICATION_NAME` with lemlat_client or with lemlat according to the version you chose.
+Both the client vesion an the stand-alone version use the same CLI interface, so, in the following substitute `APPLICATION_NAME` with lemlat_client or with lemlat according to the version you chose. For Windows do not use the initial `./`
 ### Get help
 Type:
 ```
