@@ -55,11 +55,11 @@ The optional parameter `-s` allows to select the lexical basis to use, according
      	2 for BASE + ONOMASTICON [default option]
 ```
 BASE: lexical basis resulting from the collation of three Latin dictionaries (40,014 lexical entries; 43,432 lemmas):
-- Georges, K.E., and Georges, H. 1913-1918. Ausführliches Lateinisch-Deutsches Handwörterbuch. Hahn, Hannover.
-- Glare, P.G.W. 1982. Oxford Latin Dictionary. Oxford University Press, Oxford.
-- Gradenwitz, O. 1904. Laterculi Vocum Latinarum. Hirzel, Leipzig.
+- Georges, K.E., and Georges, H. 1913-1918. *Ausführliches Lateinisch-Deutsches Handwörterbuch*. Hahn, Hannover.
+- Glare, P.G.W. 1982. *Oxford Latin Dictionary*. Oxford University Press, Oxford.
+- Gradenwitz, O. 1904. *Laterculi Vocum Latinarum*. Hirzel, Leipzig.
 
-ONOMASTICON: 26,415 lemmas from the Onomasticon of Forcellini, E. 1940. Lexicon Totius Latinitatis. Typis Seminarii, Padova.
+ONOMASTICON: 26,415 lemmas from the Onomasticon of Forcellini, E. 1940. *Lexicon Totius Latinitatis*. Typis Seminarii, Padova.
 
 At the first prompt the full list of the available commands is provided:
 ```
