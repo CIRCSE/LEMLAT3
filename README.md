@@ -26,12 +26,12 @@ In order to use this version you need a working copy of MySQL Server in which th
 - edit the configuration file `my.cnf.sample` providing the information needed to access the database and save it as `my.cnf`
 
 ## Stand alone installation
-Downlad the archive containing the embedded version for your operation system.
-Extract the archive and open a console in the extracted direcory.
+- download the archive containing the embedded version for your operation system
+- extract the archive and open a console in the extracted directory
 
 
 ## Usage
-Both the client vesion an the stand-alone version use the same CLI interface, so, in the following substitute `APPLICATION_NAME` with lemlat_client or with lemlat according to the version you chose. For Windows do not use the initial `./`
+Both the client version ann the stand-alone version use the same CLI interface. So, in the following replace `APPLICATION_NAME` with lemlat_client or with lemlat according to the version you chose. For Windows do not use the initial `./`
 ### Get help
 Type:
 ```
