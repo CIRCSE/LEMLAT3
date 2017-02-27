@@ -31,26 +31,29 @@ In order to use this version you need a working copy of MySQL Server in which th
 
 
 ## Usage
-Both the client version and the stand-alone version use the same CLI interface. So, in the following replace `APPLICATION_NAME` with `lemlat_client` or with `lemlat` according to the version you are using. For Windows do not use the initial `./`
+Both the client version and the stand-alone version use the same CLI interface. So, in the following replace `APPLICATION_NAME` either with `lemlat_client` or with `lemlat` according to the version you are using. For Windows do not use the initial `./`
+
 ### Get help
 Type:
 ```
 ./APPLICATION_NAME -h
 ```
-to see show basic usage information.
+to show basic usage information.
+
 ### Interactive mode
 Type:
 ```
 ./APPLICATION_NAME [-s 0|1|2]
 ```
-to start the application in interactive mode: you will be iteratively promted to enter a worform to analyze or a command to modify the behavior of the analizer.
-The optional parameter `-s` allows to select the initial LES source, according to the following input values:
+to start the application in interactive mode.
+You will be iteratively promted to enter a single worform to process or a command to modify the behavior of the analyser.
+The optional parameter `-s` allows to select the lexical basis to use, according to the following input values:
 ```
      	0 for BASE les list
      	1 for ONOMASTICON les list
      	2 for ALL les list [DEFAULT]
 ```
-At the first prompt the list of available commands is provided:
+At the first prompt the full list of the available commands is provided:
 ```
 	\h to show the list of available commands 
 	\q to QUIT 
@@ -60,7 +63,8 @@ At the first prompt the list of available commands is provided:
 	\a to output in 'lemresult' FILE 
 	\d to output on SCREEN 
 ```
-You can always recall such list entering the command `\h`
+You can always recall such list by entering the command `\h`.
+
 ### Batch Mode
 You can process a batch of worform entering an input file conataining the wordforms you wish to analyze and an output file in a specified format by typing:
 ```
