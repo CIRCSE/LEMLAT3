@@ -21,8 +21,9 @@ Two versions are made available:
 ### Prerequisite
 In order to use this version you need a working copy of MySQL Server in which the provided dump of the database is restored.
  
-Download the archive containing the client version for your operation system.
-Extract the archive and open a console in the extracted direcory. Edit the configuration file `my.cnf.sample` providing all the information to access the database and save it as `my.cnf`
+- download the archive containing the client version for your operation system
+- extract the archive and open a console in the extracted directory
+- edit the configuration file `my.cnf.sample` providing the information needed to access the database and save it as `my.cnf`
 
 ## Stand alone installation
 Downlad the archive containing the embedded version for your operation system.
