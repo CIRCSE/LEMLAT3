@@ -90,8 +90,13 @@ The three different formats provide different information:
 - the plain text file reports exactly the same information displayed in the interactive mode
 - the XML file includes the complete analysis for each wordform
 - the CSV file assigns to each wordform its lemma and Part of Speech (basic lemmatization). If one wordform is assigned more than one lemma, these are provided on separate lines. The Part of Speech is given both by using the [tagset of LEMLAT](http://www.lemlat3.eu/wp-content/uploads/2016/10/LEMLAT3.0-tagset_english.pdf) and the so called CODLEM (see [page 29 of LEMLAT database description](http://www.lemlat3.eu/wp-content/uploads/2016/10/LEMLAT3_database_description.pdf)). The format of the CSV file is the following:
-	- cddd
-	- sxsxsx
+	- input wordform
+	- processed wordform
+	- lemma
+	- PoS: CODLEM
+	- n_id of the lexical entry in the database of LEMLAT
+	- gender (for nouns only; * for adjectives)
+	- PoS: tagset of LEMLAT
 
 The list of the unknown worforms is provided in a separate plain text file with the same name of the input file and the extension '.unk'.
 
