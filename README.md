@@ -91,7 +91,7 @@ The three different formats provide different information:
 	- segmentation into formative elements
 	- morphological features, according to the [tagset of LEMLAT](http://www.lemlat3.eu/wp-content/uploads/2016/10/LEMLAT3.0-tagset_english.pdf)
 	- lemma with PoS. PoS is provided both according to the [tagset of LEMLAT](http://www.lemlat3.eu/wp-content/uploads/2016/10/LEMLAT3.0-tagset_english.pdf) and according to the CODLEM (see [page 29 of LEMLAT database description](http://www.lemlat3.eu/wp-content/uploads/2016/10/LEMLAT3_database_description.pdf))
-- the XML file includes the complete analysis for each wordform
+- the XML file includes the complete analysis for each wordform organized into explicitly named elements and attributes
 - the CSV file assigns to each wordform its lemma and Part of Speech (basic lemmatization). If one wordform is assigned more than one lemma, these are provided on separate lines. The Part of Speech is given both by using the [tagset of LEMLAT](http://www.lemlat3.eu/wp-content/uploads/2016/10/LEMLAT3.0-tagset_english.pdf) and the CODLEM (see [page 29 of LEMLAT database description](http://www.lemlat3.eu/wp-content/uploads/2016/10/LEMLAT3_database_description.pdf)). The format of the CSV file is the following:
 	- input wordform
 	- processed wordform
