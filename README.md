@@ -31,7 +31,7 @@ In order to use this version you need a working copy of MySQL Server in which th
 
 
 ## Usage
-Both the client version and the stand-alone version use the same CLI interface. So, in the following replace `APPLICATION_NAME` either with `lemlat_client` or with `lemlat` according to the version you are using. For Windows do not use the initial `./`
+Both the client version and the stand-alone version use the same CLI interface. So, in the following  replace `APPLICATION_NAME` either with `lemlat_client` or with `lemlat` according to the version you are using. For Windows do not use the initial `./`
 
 ### Get help
 Type:
