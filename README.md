@@ -5,7 +5,7 @@ Contribution to the morphological analyser of Latin LEMLAT 3.0 provided by the C
 
 # Database
 
-- lemlat_db.sql: MySQL database dump used by LEMLAT 3.0 to process word forms. All tables are released under CC-BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).
+- lemlat_db.sql: MySQL database dump used by LEMLAT 3.0 to process word forms. All tables are released under CC-BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
 - lemlat_documentation.pdf: description of the tables of lemlat_db and of the overall structure of wordform analysis
 
 
