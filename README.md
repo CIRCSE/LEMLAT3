@@ -5,23 +5,23 @@ Contribution to the morphological analyser of Latin LEMLAT 3.0 provided by the C
 
 # Database
 
-- lemlat_db.sql: MySQL database dump used by LEMLAT 3.0 to process word forms. All tables are released under CC-BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
-- lemlat_documentation.pdf: description of the tables of lemlat_db and of the overall structure of wordform analysis
+- lemlat_db.sql: MySQL database dump used by LEMLAT 3.0 to process wordforms. All tables are released under CC-BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- lemlat_documentation.pdf: description of the tables of lemlat_db and of the overall process of wordform analysis
 
 
 # Binaries
 
 In the bin directory we provide a CLI implementation of the wordform analysis for Linux, OSX an Windows operation systems.
-Two versions are available:
-- a client version which needs a working MySQL server containing the provided database
-- a stand alone version  which uses an embedded version of the database
+Two versions are made available:
+- a client version, which requires a working MySQL server containing the provided database
+- a stand alone version, which uses an embedded version of the database
 
 ## Client installation
 
 ### Prerequisite
-In order to use this version you need a working copy of MySQL Server in which it is restored the provided dump of the database.
+In order to use this version you need a working copy of MySQL Server in which the provided dump of the database is restored.
  
-Downlad the archive containing the client version for your operation system.
+Download the archive containing the client version for your operation system.
 Extract the archive and open a console in the extracted direcory. Edit the configuration file `my.cnf.sample` providing all the information to access the database and save it as `my.cnf`
 
 ## Stand alone installation
