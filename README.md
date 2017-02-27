@@ -49,9 +49,9 @@ to start the application in interactive mode.
 You will be iteratively promted to enter a single worform to process or a command to modify the behavior of the analyser.
 The optional parameter `-s` allows to select the lexical basis to use, according to the following input values:
 ```
-     	0 for BASE les list
-     	1 for ONOMASTICON les list
-     	2 for ALL les list [DEFAULT]
+     	0 for BASE
+     	1 for ONOMASTICON
+     	2 for BASE + ONOMASTICON [default choice]
 ```
 At the first prompt the full list of the available commands is provided:
 ```
