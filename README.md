@@ -90,5 +90,6 @@ The three different formats provide different information:
 - the plain text file reports exactly the same information displayed in the interactive mode
 - the XML file includes the complete analysis for each wordform
 - the CSV file assigns to each wordform its lemma and Part of Speech (basic lemmatization). If one wordform is assigned more than one lemma, these are provided on separate lines 
+
 The list of the unknown worforms is provided in a separate plain text file with the same name of the input file and the extension '.unk'.
 
