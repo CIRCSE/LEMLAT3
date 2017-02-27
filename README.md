@@ -74,7 +74,8 @@ At the first prompt the full list of the available commands is provided:
 You can always recall such list by entering the command `\h`.
 
 ### Batch Mode
-You can process a bunch of worforms by entering an input file featuring the wordforms to analyse and an output file in a specified format by typing:
+You can process a bunch of worforms by entering an input file featuring the list of wordforms to analyse. A full text can also be given in input. Processing of an input file is performed by typing
+
 ```
 ./APPLICATION_NAME [-s 0|1|2] -i input_file_name -o|-c|-x output_file_name 
 ```
