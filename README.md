@@ -47,7 +47,7 @@ Type:
 ```
 to start the application in interactive mode.
 
-You will be iteratively promted to enter a single worform to process or a command to modify the behavior of the analyser.
+You will be iteratively prompted to enter a single wordform to process or a command to modify the behavior of the analyser.
 The optional parameter `-s` allows to select the lexical basis to use, according to the following input values:
 ```
      	0 for BASE
@@ -74,7 +74,7 @@ At the first prompt the full list of the available commands is provided:
 You can always recall such list by entering the command `\h`.
 
 ### Batch Mode
-You can process a bunch of worforms by entering an input file featuring the list of wordforms to analyse. A full text can also be given in input. Processing an input file is performed by typing
+You can process a bunch of wordforms by entering an input file featuring the list of wordforms to analyse. A full text can also be given in input. Processing an input file is performed by typing
 
 ```
 ./APPLICATION_NAME [-s 0|1|2] -i input_file_name -o|-c|-x output_file_name 
@@ -102,5 +102,5 @@ The three different formats provide different information:
 	- gender (for nouns only; * for adjectives)
 	- PoS: tagset of LEMLAT
 
-The list of the unknown worforms is provided in a separate plain text file with the same name of the input file and the extension '.unk'.
+The list of the unknown wordforms is provided in a separate plain text file with the same name of the input file and the extension '.unk'.
 
