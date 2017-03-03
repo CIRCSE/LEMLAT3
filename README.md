@@ -47,7 +47,6 @@ Type:
 ```
 to start the application in interactive mode.
 
-You will be iteratively prompted to enter a single wordform to process or a command to modify the behavior of the analyzer.
 The optional parameter `-s` allows to select the lexical basis to use, according to the following input values:
 ```
      	0 for BASE
@@ -61,6 +60,17 @@ BASE: lexical basis resulting from the collation of three Latin dictionaries (40
 
 ONOMASTICON: 26,415 lemmas from the Onomasticon of Forcellini, E. 1940. *Lexicon Totius Latinitatis*. Typis Seminarii, Padova.
 
+For instance, in Windows, type:
+```
+lemlat.exe
+```
+
+If you want to select just the ONOMASTICON lexical basis, type:
+```
+lemlat.exe -s 1
+```
+
+You will be iteratively prompted to enter a single wordform to process or a command to modify the behavior of the analyzer.
 At the first prompt the full list of the available commands is provided:
 ```
 	\h to show the list of available commands 
