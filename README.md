@@ -114,3 +114,8 @@ The three different formats provide different information:
 
 The list of the unknown wordforms is provided in a separate plain text file with the same name of the input file and the extension '.unk'.
 
+For instance, type
+```
+lemlat.exe -s 1 -i cicero.txt -c cicero_lemmatized.txt
+```
+for using the ONOMASTICON lexical basis (`-s 1`) to analyze an input text named cicero.txt (`-i cicero.txt`) and output a CSV file named cicero_lemmatized.txt (`-c cicero_lemmatized.txt`). 
