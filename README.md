@@ -1,6 +1,6 @@
 # About
 
-Contribution to the morphological analyser of Latin LEMLAT 3.0 provided by the CIRCSE Research Centre.
+Contribution to the morphological analyzer of Latin LEMLAT 3.0 provided by the CIRCSE Research Centre.
 
 
 # Database
@@ -47,7 +47,6 @@ Type:
 ```
 to start the application in interactive mode.
 
-You will be iteratively promted to enter a single worform to process or a command to modify the behavior of the analyser.
 The optional parameter `-s` allows to select the lexical basis to use, according to the following input values:
 ```
      	0 for BASE
@@ -61,6 +60,17 @@ BASE: lexical basis resulting from the collation of three Latin dictionaries (40
 
 ONOMASTICON: 26,415 lemmas from the Onomasticon of Forcellini, E. 1940. *Lexicon Totius Latinitatis*. Typis Seminarii, Padova.
 
+For instance, in Windows, type:
+```
+lemlat.exe
+```
+
+If you want to select just the ONOMASTICON lexical basis, type:
+```
+lemlat.exe -s 1
+```
+
+You will be iteratively prompted to enter a single wordform to process or a command to modify the behavior of the analyzer.
 At the first prompt the full list of the available commands is provided:
 ```
 	\h to show the list of available commands 
@@ -74,7 +84,7 @@ At the first prompt the full list of the available commands is provided:
 You can always recall such list by entering the command `\h`.
 
 ### Batch Mode
-You can process a bunch of worforms by entering an input file featuring the list of wordforms to analyse. A full text can also be given in input. Processing an input file is performed by typing
+You can process a bunch of wordforms by entering an input file featuring the list of wordforms to analyze. A full text can also be given in input. Processing an input file is performed by typing
 
 ```
 ./APPLICATION_NAME [-s 0|1|2] -i input_file_name -o|-c|-x output_file_name 
@@ -102,5 +112,11 @@ The three different formats provide different information:
 	- gender (for nouns only; * for adjectives)
 	- PoS: tagset of LEMLAT
 
-The list of the unknown worforms is provided in a separate plain text file with the same name of the input file and the extension '.unk'.
+The list of the unknown wordforms is provided in a separate plain text file with the same name of the input file and the extension '.unk'.
 
+For instance, in Windows, type:
+```
+lemlat.exe -s 1 -i cicero.txt -c cicero_lemmatized.txt
+```
+for using the ONOMASTICON lexical basis (`-s 1`) to analyze an input text named 'cicero.txt' (`-i cicero.txt`) and output a CSV file named 'cicero_lemmatized.txt' (`-c cicero_lemmatized.txt`).
+NB: in this example, it is assumed that the input file 'cicero.txt' is placed in the same folder where 'lemlat.exe' is. Otherwise, provide the full path to the input file.
