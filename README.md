@@ -81,7 +81,7 @@ At the first prompt the full list of the available commands is provided:
 	\a to write output in 'lemresult' FILE 
 	\d to write output on SCREEN 
 ```
-You can always recall such list by entering the command `\h`.
+You can always recall such list by entering the command `\h`. To exit LEMLAT 3.0, type `end`.
 
 ### Batch Mode
 You can process a bunch of wordforms by entering an input file featuring the list of wordforms to analyze. A full text can also be given in input. Processing an input file is performed by typing
