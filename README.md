@@ -81,7 +81,7 @@ At the first prompt the full list of the available commands is provided:
 	\a to write output in 'lemresult' FILE 
 	\d to write output on SCREEN 
 ```
-You can always recall such list by entering the command `\h`.
+You can always recall such list by entering the command `\h`. To exit LEMLAT 3.0, type `end`.
 
 ### Batch Mode
 You can process a bunch of wordforms by entering an input file featuring the list of wordforms to analyze. A full text can also be given in input. Processing an input file is performed by typing
@@ -102,6 +102,7 @@ The three different formats provide different information:
 	- segmentation into formative elements
 	- morphological features, according to the [tagset of LEMLAT](http://www.lemlat3.eu/wp-content/uploads/2016/10/LEMLAT3.0-tagset_english.pdf)
 	- lemma with PoS. PoS is provided both according to the [tagset of LEMLAT](http://www.lemlat3.eu/wp-content/uploads/2016/10/LEMLAT3.0-tagset_english.pdf) and according to the CODLEM (see [page 29 of LEMLAT database description](http://www.lemlat3.eu/wp-content/uploads/2016/10/LEMLAT3_database_description.pdf))
+	- information about the derivational process of each morphologically derived lemma. See the [Word Formation Latin project](http://wfl.marginalia.it/) for details  
 - the XML file includes the complete analysis for each wordform organized into explicitly named elements and attributes
 - the CSV file assigns to each wordform its lemma and Part of Speech (basic lemmatization). If one wordform is assigned more than one lemma, these are provided on separate lines. The Part of Speech is given both by using the [tagset of LEMLAT](http://www.lemlat3.eu/wp-content/uploads/2016/10/LEMLAT3.0-tagset_english.pdf) and the CODLEM (see [page 29 of LEMLAT database description](http://www.lemlat3.eu/wp-content/uploads/2016/10/LEMLAT3_database_description.pdf)). The format of the CSV file is the following:
 	- input wordform
