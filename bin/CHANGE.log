@@ -1,3 +1,415 @@
-- Linux binaries are now compatible with MariaDB libraries version 10.1
-  tested compatibility with Mysql 5.7
+This file details the changes made on various tables of the lemlat_db since November 2015.
+The file is written in Italian until 25th July 2018.
 
+10 Novembre 2015
+
+1)
+Tabella "lessario"
+
+l8007
+les "longaev" -> les "longaeu"
+
+n0045
+gen "n" -> gen "m"
+
+p3345
+riga della fe "praesens"
+n_id P3345 -> n_id p3345
+
+m0929
+gen "n" -> gen "m"
+
+q0312
+les "quoqueversum" -> les "quoqueuersum"
+les "quoqueversus" -> les "quoqueuersus"
+
+s2491
+codles n3 -> codles n3n
+
+m1909
+les "mirobalan"
+codles n2 -> codles n2n
+
+
+2)
+Tabella "forme_ecc"
+Sostituito il codice 'a" con 'A" nel campo 'c01' per le seguenti righe.
+
+'100027', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '3', '7938', '2004-06-18 17:37:33'
+'100025', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '7937', '2004-06-18 17:33:10'
+'100024', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '7935', '2004-06-18 17:32:06'
+'64944', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5178', '2004-03-26 15:57:10'
+'64943', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5177', '2004-03-26 15:57:10'
+'64942', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5176', '2004-03-26 15:57:10'
+'64941', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5175', '2004-03-26 15:57:10'
+'64940', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5174', '2004-03-26 15:57:10'
+'64939', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5173', '2004-03-26 15:57:10'
+'64938', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5172', '2004-03-26 15:57:10'
+'64937', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5159', '2004-03-26 15:57:10'
+'64936', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5158', '2004-03-26 15:57:10'
+'64935', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5157', '2004-03-26 15:57:10'
+'64934', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5156', '2004-03-26 15:57:10'
+'64933', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5155', '2004-03-26 15:57:10'
+'64931', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5153', '2004-03-26 15:57:10'
+'64930', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5152', '2004-03-26 15:57:10'
+'64929', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5151', '2004-03-26 15:57:10'
+'64928', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5150', '2004-03-26 15:57:10'
+'64926', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5148', '2004-03-26 15:57:10'
+'64924', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5145', '2004-03-26 15:57:10'
+'64923', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5146', '2004-03-26 15:57:10'
+'64922', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5144', '2004-03-26 15:57:10'
+'64921', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5143', '2004-03-26 15:57:10'
+'64920', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5142', '2004-03-26 15:57:10'
+'64918', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5140', '2004-03-26 15:57:10'
+'64917', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5139', '2004-03-26 15:57:10'
+'64916', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5138', '2004-03-26 15:57:10'
+'64915', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5137', '2004-03-26 15:57:10'
+'64914', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5136', '2004-03-26 15:57:10'
+'64912', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5134', '2004-03-26 15:57:10'
+'64896', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5166', '2004-03-26 15:57:10'
+'64886', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5121', '2004-03-26 15:57:10'
+'64881', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5116', '2004-03-26 15:57:10'
+'64880', NULL, '', 'a', 'u', '-', '-', '-', 'r', '-', '-', '-', '1', '5115', '2004-03-26 15:57:10'
+'64879', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5114', '2004-03-26 15:57:10'
+'64878', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5113', '2004-03-26 15:57:10'
+'64877', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5112', '2004-03-26 15:57:10'
+'64875', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5110', '2004-03-26 15:57:10'
+'64874', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5109', '2004-03-26 15:57:10'
+'64873', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5108', '2004-03-26 15:57:10'
+'64872', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5107', '2004-03-26 15:57:10'
+'64871', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5106', '2004-03-26 15:57:10'
+'64870', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5105', '2004-03-26 15:57:10'
+'64869', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5104', '2004-03-26 15:57:10'
+'64868', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5103', '2004-03-26 15:57:10'
+'64867', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5102', '2004-03-26 15:57:10'
+'64866', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5101', '2004-03-26 15:57:10'
+'64865', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5100', '2004-03-26 15:57:10'
+'64864', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5099', '2004-03-26 15:57:10'
+'64863', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5098', '2004-03-26 15:57:10'
+'64862', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5097', '2004-03-26 15:57:10'
+'64861', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5096', '2004-03-26 15:57:10'
+'64860', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '3', '5095', '2004-03-26 15:57:10'
+'64859', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '3', '5094', '2004-03-26 15:57:10'
+'64858', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '3', '5093', '2004-03-26 15:57:10'
+'64857', NULL, '', 'a', 'o', '-', '-', '-', 'r', '-', '-', '-', '1', '5092', '2004-03-26 15:57:10'
+'64856', NULL, '', 'a', 'o', '-', '-', '-', 'r', '-', '-', '-', '1', '5091', '2004-03-26 15:57:10'
+'64855', NULL, '', 'a', 'o', '-', '-', '-', 'r', '-', '-', '-', '1', '5090', '2004-03-26 15:57:10'
+'64854', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '3', '5089', '2004-03-26 15:57:10'
+'64853', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '3', '5088', '2004-03-26 15:57:10'
+'64852', NULL, '', 'a', 'o', '-', '-', '-', 'r', '-', '-', '-', '3', '5087', '2004-03-26 15:57:10'
+'64851', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5086', '2004-03-26 15:57:10'
+'64850', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '3', '5085', '2004-03-26 15:57:10'
+'64849', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '3', '5084', '2004-03-26 15:57:10'
+'64848', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5083', '2004-03-26 15:57:10'
+'64847', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5082', '2004-03-26 15:57:10'
+'64846', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5081', '2004-03-26 15:57:10'
+'64845', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5080', '2004-03-26 15:57:10'
+'64844', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5079', '2004-03-26 15:57:10'
+'64841', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5074', '2004-03-26 15:57:10'
+'64840', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5073', '2004-03-26 15:57:10'
+'64839', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5072', '2004-03-26 15:57:10'
+'64838', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '2', '5071', '2004-03-26 15:57:10'
+'64834', NULL, '', 'a', 'u', '-', '-', '-', 'r', '-', '-', '-', '3', '5067', '2004-03-26 15:57:10'
+'64833', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5066', '2004-03-26 15:57:10'
+'64831', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '3', '5064', '2004-03-26 15:57:10'
+'64830', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5063', '2004-03-26 15:57:10'
+'64829', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '3', '5062', '2004-03-26 15:57:10'
+'64828', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5061', '2004-03-26 15:57:10'
+'64827', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5060', '2004-03-26 15:57:10'
+'64826', NULL, '', 'a', 'u', '-', '-', '-', 'r', '-', '-', '-', '1', '5059', '2004-03-26 15:57:10'
+'64825', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5058', '2004-03-26 15:57:10'
+'64822', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5055', '2004-03-26 15:57:10'
+'64821', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5054', '2004-03-26 15:57:10'
+'64820', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5053', '2004-03-26 15:57:10'
+'64819', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5052', '2004-03-26 15:57:10'
+'64818', NULL, '', 'a', 'o', '-', '-', '-', 'r', '-', '-', '-', '1', '5051', '2004-03-26 15:57:10'
+'64817', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5050', '2004-03-26 15:57:10'
+'64816', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5049', '2004-03-26 15:57:10'
+'64815', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5214', '2004-03-26 15:57:10'
+'64813', NULL, '', 'a', 'o', '-', '-', '-', 'r', '-', '-', '-', '1', '5213', '2004-03-26 15:57:10'
+'64812', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5212', '2004-03-26 15:57:10'
+'64811', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5211', '2004-03-26 15:57:10'
+'64809', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5209', '2004-03-26 15:57:10'
+'64808', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5208', '2004-03-26 15:57:10'
+'64806', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5206', '2004-03-26 15:57:10'
+'64805', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5205', '2004-03-26 15:57:10'
+'64803', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5203', '2004-03-26 15:57:10'
+'64802', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5202', '2004-03-26 15:57:10'
+'64799', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5199', '2004-03-26 15:57:10'
+'64798', NULL, '', 'a', 'u', '-', '-', '-', 'r', '-', '-', '-', '1', '5198', '2004-03-26 15:57:10'
+'64797', NULL, '', 'a', 'u', '-', '-', '-', 'r', '-', '-', '-', '1', '5197', '2004-03-26 15:57:10'
+'64796', NULL, '', 'a', 'o', '-', '-', '-', 'r', '-', '-', '-', '3', '5196', '2004-03-26 15:57:10'
+'64792', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5192', '2004-03-26 15:57:10'
+'64791', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5191', '2004-03-26 15:57:10'
+'64790', NULL, '', 'a', 'o', '-', '-', '-', 'r', '-', '-', '-', '1', '5190', '2004-03-26 15:57:10'
+'64789', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5189', '2004-03-26 15:57:10'
+'64788', NULL, '', 'a', 'u', '-', '-', '-', 'r', '-', '-', '-', '-', '5188', '2004-03-26 15:57:10'
+'64785', NULL, '', 'a', 'u', '-', '-', '-', 'r', '-', '-', '-', '3', '5185', '2004-03-26 15:57:10'
+'64783', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5183', '2004-03-26 15:57:10'
+'64782', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5182', '2004-03-26 15:57:10'
+'64781', NULL, '', 'a', 'u', '-', '-', '-', 'r', '-', '-', '-', '1', '5181', '2004-03-26 15:57:10'
+'64780', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5180', '2004-03-26 15:57:10'
+'64779', NULL, '', 'a', 'f', '-', '-', '-', 'r', '-', '-', '-', '1', '5179', '2004-03-26 15:57:10'
+
+
+3) Tabella Lemmario:
+removed follwing duplicate lines:
+
+'1200','aestiuus/-os','n2/1','','af-','a1030'
+'1216','aeternus','N2/1','*','af-','a1043'
+'1908','ambiguus','n2/1','','af-','a1624'
+'3081','arbitrarius','N2/1','*','af-','a2652'
+'3109','arcanus','N2/1','*','af-','a2675'
+'3653','assiduus','N2/1','*','af-','a3163'
+'4964','breuis','N3A','*','af-','b0630'
+'6013','carus','N2/1','*','af-','c0721'
+'6644','certus','n2/1','','af-','c1275'
+'6999','cieo','V2','','af-','c1604'
+'8276','commodus','n2/1','','af-','c2708'
+'9512','continuus','N2/1','*','af-','c3758'
+'10018','cottidianus','N2/1','*','af-','c4212'
+'10064','crastinus','n2/1','','af-','c4258'
+'10089','creber','N2/1','*','af-','c4277'
+'14958','exiguus','n2/1','','af-','e1489'
+'15597','fallo','V3','','af-','f0127'
+'17587','gratuitus','N2/1','*','af-','g0572'
+'18371','hornus','n2/1','','af-','h0575'
+'19056','immeritus','N2/1','*','af-','i0371'
+'19539','inauspicatus','N2/1','*','af-','i9805'
+'19620','incertus','n2/1','','af-','i0878'
+'20414','infinitus','n2/1','','af-','i1581'
+'20993','insperatus','N2/1','*','af-','i2089'
+'21707','inuitus','N2/1','*','af-','i2715'
+'23132','limus','n2/1','','af-','l0805'
+'23229','liquidus','n2/1','','af-','l0885'
+'23378','longinquus','N2/1','*','af-','l1018'
+'23862','magnus','N2/1','*','af-','m0132'
+'24039','manifestus','N2/1','*','af-','m0292'
+'24279','matutinus','n2/1','','af-','m0497'
+'24877','minimus','N2/1','*','af-','m1031'
+'25044','modicus','n2/1','','af-','m1174'
+'25484','multimodus','N2/1','*','af-','m1657'
+'25524','multus','N2/1','*','af-','m1695'
+'25714','mutuus','n2/1','','af-','m1878'
+'25971','necessarius','n2/1','','af-','n0141'
+'26190','nimius','n2/1','','af-','n0312'
+'27389','omnimodus','N2/1','*','af-','o0713'
+'28513','paruus','N2/1','*','af-','p0490'
+'28659','paucus','n2/1','','af-','p0605'
+'28682','paullulus','N2/1','*','af-','p0623'
+'28686','paullus','N2/1','*','af-','p0625'
+'28717','pauxillus','N2/1','*','af-','p0649'
+'29465','permagnus','N2/1','*','af-','p1335'
+'29517','permultus','n2/1','','af-','p1381'
+'29541','pernimius','N2/1','*','af-','p1404'
+'29629','perpetuus','n2/1','','af-','p1484'
+'31069','postremus','N2/1','*','af-','p2736'
+'32735','proximus','N2/1','*','af-','p4245'
+'33295','quadripertitus','N2/1','*','af-','q0069'
+'36225','sedulus','N2/1','*','af-','s0932'
+'36496','sempiternus','N2/1','*','af-','s1191'
+'36758','serus','n2/1','','af-','s1431'
+'37323','solus','N2/1','*','af-','s1947'
+'39092','superfluus','N2/1','*','af-','s3558'
+'39258','superuacaneus','N2/1','*','af-','s3715'
+'39359','supremus','N2/1','*','af-','s3813'
+'39857','tempestiuus','N2/1','*','af-','t0245'
+'40694','tranquillus','n2/1','','af-','t0968'
+'41312','tumultuarius','N2/1','*','af-','t1734'
+'41433','tutus','N2/1','*','af-','t1848'
+'42026','uerus','N2/1','*','af-','u0469'
+'42601','ultimus','N2/1','*','af-','u0943'
+
+
+
+12 novembre 2015
+
+Tabella: forme_ecc
+riga pr_key 1636 & les_id 30873
+colonna c03: F > H
+
+
+Tabella Lessario:
+added new les: par:
+n_id 'p4697'
+smv '+'
+les 'par'
+codles 'v1r'
+s_omo 'b'
+pr_key '100093'
+
+Tabella Lemmario:
+added new lemma
+id_lemma '28435' 
+lemma 'paro'
+codlem 'V1'
+codmorf 'VmF'
+n_id 'p0419'
+
+
+
+
+1 Dicembre 2015
+
+Tabella "lessario"
+- aggiunta la riga con pr_key 100094 -> n_id "a3440", les "audi", cod les "v7s", lem "audiui". Motivo: gestire forme come "audierunt", "audierit"
+
+- aggiunta la riga con pr_key 100095 -> n_id "c3712", les "contend", cod les "v7s". Motivo: gestire forme come "contenderunt", "contenderant"
+
+- modificata riga con pr_key 52001 -> les "relinq" cambiato in "relinqu". Motivo: produrre lemma "relinquo" e non "relinqo"
+
+- aggiunta riga con pr_key 100096 -> n_id "p5011", les "propterea", codles "i". Motivo: assenza in LEMLAT del lemma "propterea"
+
+
+2 Dicembre 2015
+
+Tabella "lessario"
+- aggiunta la riga con pr_key 100097 -> n_id "t1505", les "tametsi", codles "i". Motivo: assenza in LEMLAT del lemma "tametsi"
+- aggiunta la riga con pr_key 100098 -> n_id "p5656", les "priusquam", codles "i". Motivo: assenza in LEMLAT del lemma "priusquam"
+- aggiunta la riga con pr_key 100099 -> n_id "r1111", les "rettul", codles "v7s". Motivo: assenza in LEMLAT della base "rettul" per il perfetto del lemma "refero"
+- inserito il valore "+" nel campo "smv" della riga con pr_key 56279. Motivo: gestione delle basi del participio perfetto/futuro e del perfetto del lemma "spolio/-or", precedentemente non gestite
+- aggiunta la riga con pr_key 100100 -> n_id "m1743", les "muni", codles "v7s", lem "muniui". Motivo: assenza in LEMLAT della base "muni" del perfetto del lemma "munio" (i.e. forme come "munierat" non erano gestite)
+- corretto il les della riga con pr_key 41896. Da "paperc" a "peperc". Motivo: il perfetto del lemma "parco" Ë "peperci" e non "paperci"
+- aggiunta la riga con pr_key 100102 -> n_id "p5519", les "praeterquam", codles "i". Motivo: assenza in LEMLAT del lemma "praeterquam"
+- aggiunte le righe con pr_key 100103 e 100104: hanno rispettivamente codles "quen" e "quan". Servono per gestire le forme "quandam" e "quandam" del lemma "quidam". Per attribuire i codici morfologici a queste forme, abbiamo aggiunto le righe con pr_key 8092 e 8093 nella tabella "forme_ecc_original"
+
+
+24 Marzo 2016
+
+Tabella "lessario" (original)
+- inserito il valore "v" nel campo "clem" della riga con pr_key 17739. Motivo: mancata risalita al lemma "destino" della forma eccezionale "destinato"
+- corretto il valore nel campo "gen" della riga con pr_key 8741. Motivo: c'era il valore "m", che era sbagliato
+- aggiunte le righe con pr_key 100105, 100106 e 100107. Motivo: mancava la base (collocut) del participio perfetto (100106), del supino (100105)e del participio futuro (100106) del lemma "colloquor". Di conseguenza, la riga con pr_key 11534 Ë stata modificata, inserendo il valore "v" nel campo "clem" e togliendo il valore "+" nel campo "smv"
+- aggiunto un valore nel campo "codlem" alle righe con pr_key 3201, 3203, 4800, 4801, 8665, 8969, 9373, 9374, 9588, 9747, 12851, 18174, 18276, 21002, 21726, 64759, 26257, 27916, 41811, 41856, 43416, 43446, 45333, 45335, 47455, 47456, 56793, 60288, 60405, 65678, 42665, 27322, 27324, 27333, 27334, 27339, 27342, 27348, 27363, 32518, 32534, 6285, 6291, 65001, 65003, 65005, 23671, 23679, 65033, 28323, 28324, 28323,28324, 32607, 32608, 32618, 32592, 32595, 32596, 32597, 32598, 32599, 32600, 32603, 28309, 28314, 65025, 64999, 64992, 6274, 6276, 65066, 65054, 65106, 65118, 65127, 65139, 49778, 64711, 64731, 49793, 49775, 50261, 50270, 65080, 65092.
+Motivo: si tratta di righe di forme eccezionali prive del codlem (usciva codlem *).
+
+
+30 Marzo 2016
+
+Tabella "forme_ecc" (original)
+- cancellate le righe con pr_key = 6263 / 6264 / 6211. Erano errori
+
+
+17 Ottobre 2016
+
+
+Tabella "lessario"
+- sostituto il valore "v1r" con il valore "v3r" nel campo "codles" della riga con pr_key 42091. Era un errore
+
+
+4 Novembre 2016
+
+Tabella "forme_ecc"
+- riga con pr_key 5116 (les_id: 64881). Cambiati i valori dei campi c01, c02 e c03 da "Af-" a "VmH". Era un errore.
+
+
+1 Dicembre 2016
+Tabella "lessario"
+- riga con n_id "p3970" e pr_key "48069". Cancellata perchÈ la CLEM in questione (rappresentata dalla sola riga qui in oggetto) era una immotivata duplicazione della CLEM con n_id "p3966"
+- riga con n_id "r0998" e pr_key "51501". Cancellata perchÈ la CLEM in questione (rappresentata dalla sola riga qui in oggetto) era una immotivata duplicazione della CLEM con n_id "r0159"
+
+
+10 Gennaio 2017
+Tabella "lessario"
+- sostituto il valore "v1r" con il valore "v3r" nel campo "codles" della riga con pr_key 19062. Era un errore
+
+
+6 Febbraio 2017
+Tabella "lessario"
+- sostituto il valore "n2" con il valore "n6" nel campo "codles" della riga con pr_key 48974. Era un errore. Trattandosi di un aggettivo e non di un nome, di conseguenza, Ë stato sostituito il valore nel campo gen ("m" -> "*")
+
+
+12 Aprile 2017
+Tabella "lessario"
+- aggiunta la CLEM con n_id r7054, che consiste di un solo LES. Lemma "repens" (CODLEM: N3A)
+
+
+6 Novembre 2017
+Tabella "lessario"
+- sostituto (a) il valore "n7" con il valore "n32" nel campo "codles" e (b) il valore "*" con il valore "m" nel campo "gen" della riga con pr_key 61281. Era un errore
+
+
+6 Dicembre 2017
+Tabella "lessario"
+- sostituto (a) il valore "n71" con il valore "n31" nel campo "codles" e (b) il valore "*" con il valore "f" nel campo "gen" della riga con pr_key 29024. Era un errore
+Tabella "tab_le"
+- - sostituto il valore "6" con il valore "4" nel campo "codLE"  della riga con pr_key 12416. Era un errore (connesso al precedente)
+
+
+20 Dicembre 2017
+Tabella "lessario"
+- sostituto il valore "v3d" con il valore "v1d" nel campo "codles" della riga con pr_key 26638. Era un errore
+- sostituto il valore "v3d" con il valore "v1d" nel campo "codles" della riga con pr_key 23163. Era un errore
+- sostituto il valore "v3d" con il valore "v1d" nel campo "codles" della riga con pr_key 26410. Era un errore
+- sostituto il valore "v3d" con il valore "v1d" nel campo "codles" della riga con pr_key 26551. Era un errore
+- sostituto il valore "v3d" con il valore "v1d" nel campo "codles" della riga con pr_key 27639. Era un errore
+- sostituto il valore "v3d" con il valore "v1d" nel campo "codles" della riga con pr_key 28454. Era un errore
+- sostituto il valore "v3d" con il valore "v1d" nel campo "codles" della riga con pr_key 28895. Era un errore
+- sostituto il valore "v3d" con il valore "v1d" nel campo "codles" della riga con pr_key 29174. Era un errore
+- sostituto il valore "v3d" con il valore "v1d" nel campo "codles" della riga con pr_key 30514. Era un errore
+- rimosso il valore "+" dal campo "smv" della riga con pr_key 24954. Era un errore
+
+
+16 Gennaio 2018
+Tabella "lessario"
+Aggiunto il lemma "mas" (aggettivo), con n_id = 'm1952'. Apportate le conseguenti modifiche nella tabella 'tab_le'
+
+
+29 Gennaio 2018
+Tabella 'lessario'.
+Modificate 61 righe con la seguente query di aggiornamento:
+update lemlat_db.lessario 
+set lem = '-is'
+ where codles = 'n7' and les like '%ns' and lem = '';
+
+
+9 Febbraio 2018
+Tabella 'lessario'.
+Modificato il les della riga con pr_key 14361 da 'cordalent' a 'cordolent'. Era un errore.
+Modificato il codles della riga con pr_key 34932 da 'n7' a 'n32' e il genere da "*" a "2". Era un errore.
+
+
+12 Febbraio 2018
+Tabella 'lessario'.
+Modificati codles e gen della riga con pr_key 56719. codles da "n6" a "n2"; gen da "*" a "m"
+
+31 Maggio 2018
+Tabella 'lessario'.
+Aggiunta la riga con pr_key 126543. Mancava l'analisi del participio futuro di "nascor" come "natur-".
+
+10 Luglio 2018
+Tabella 'lessario'.
+Sostituito codles 'v64a' con codles 'v68a' sulla riga con pr_key 21378. Motivo: lemlat non analizzava la forma impersonale di congiuntivo presente "eatur".
+
+18 Luglio 2018
+Sistemate incoerenze di attribuzione dei codici nel campo codLe del lessario e nel campo codLE di tab_le per i sueguenti pr_key:
++--------+------------+-----+------+
+| pr_key | les        | LES | TAB  |
++--------+------------+-----+------+
+|   2614 | alter      | r   | 1    |
+|  18551 | dies       | m   | 4    |
+|  18550 | dihes      | m   | 4    |
+|   6268 | alterutr   | r   | 1    |
+|  38451 | nemin      | r   | c    |
+|  38513 | neutr      | r   | 1    |
+|  39244 | nonnemin   | r   | c    |
+|  64200 | utr        | r   | 1    |
+|  61687 | trychn     | 2   | 5    |
+|    788 | acratophor | 1   | 5    |
+|  36232 | melilot    | 2   | 5    |
+|  19987 | du         | p   | n    |
+|  39126 | nihil      | r   | z    |
+|  39127 | nil        | r   | z    |
+|  39248 | nonnihil   | r   | z    |
+|  39249 | nonnil     | r   | z    |
++--------+------------+-----+------+
+
+L'unica incoerenza di attribuzione del codice nel campo codLE sussiste per il les con pr_key 41719. Il codice Ë 8 nel lessario, mentre ci sono due righe in tab_le che registrano rispettivamente i due lemmi eccezionali della clem: "panis" con codLE 3 e "pane" con codLE 5.
+|  41719 | pan        | 8   | 3    |
+|  41719 | pan        | 8   | 5    |
+
+
+25th July 2015 
+- Linux binaries are now compatible with MariaDB libraries version 10.1 tested compatibility with Mysql 5.7
+- lemlat_db now includes the more than 85k lexical entries of the Du Cange Glossary of Medieval Latin. Full reference:
+Charles du Fresne Du Cange, Bénédictins de Saint-Maur, Pierre Carpentier, Louis Henschel, and Léopold Favre. 1883–1887. Glossarium mediae et infimae latinitatis. Niort.
