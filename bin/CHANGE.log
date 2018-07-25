@@ -409,7 +409,7 @@ L'unica incoerenza di attribuzione del codice nel campo codLE sussiste per il le
 |  41719 | pan        | 8   | 5    |
 
 
-25th July 2015 
+25th July 2018
 - Linux binaries are now compatible with MariaDB libraries version 10.1 tested compatibility with Mysql 5.7
 - lemlat_db now includes the more than 85k lexical entries of the Du Cange Glossary of Medieval Latin. Full reference:
 Charles du Fresne Du Cange, Bénédictins de Saint-Maur, Pierre Carpentier, Louis Henschel, and Léopold Favre. 1883–1887. Glossarium mediae et infimae latinitatis. Niort.
