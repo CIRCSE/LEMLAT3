@@ -43,7 +43,7 @@ to show basic usage information.
 ### Interactive mode
 Type:
 ```
-./APPLICATION_NAME [-s 0|1|2]
+./APPLICATION_NAME [-s 0|1|2|3]
 ```
 to start the application in interactive mode.
 
@@ -51,7 +51,8 @@ The optional parameter `-s` allows to select the lexical basis to use, according
 ```
      	0 for BASE
      	1 for ONOMASTICON
-     	2 for BASE + ONOMASTICON [default option]
+     	2 for DU CANGE
+     	3 for BASE + ONOMASTICON [default option]
 ```
 BASE: lexical basis resulting from the collation of three Latin dictionaries (40,014 lexical entries; 43,432 lemmas):
 - Georges, K.E., and Georges, H. 1913-1918. *Ausführliches Lateinisch-Deutsches Handwörterbuch*. Hahn, Hannover.
@@ -73,13 +74,14 @@ lemlat.exe -s 1
 You will be iteratively prompted to enter a single wordform to process or a command to modify the behavior of the analyzer.
 At the first prompt the full list of the available commands is provided:
 ```
-	\h to show the list of available commands 
+	\h to show this HELP 
 	\q to QUIT 
-	\B to select BASE source 
-	\O to select ONOMASTICON source 
-	\A to select BASE + ONOMASTICON source 
-	\a to write output in 'lemresult' FILE 
-	\d to write output on SCREEN 
+	\B select BASE LES source 
+	\O select ONOMASTICON LES source 
+	\D select DU CANGE LES source
+	\A select BASE + ONOMASTICON source 
+	\a to output in 'lemresult' FILE 
+	\d to output on SCREEN 
 ```
 You can always recall such list by entering the command `\h`. To exit LEMLAT 3.0, type `end`.
 
@@ -87,7 +89,7 @@ You can always recall such list by entering the command `\h`. To exit LEMLAT 3.0
 You can process a bunch of wordforms by entering an input file featuring the list of wordforms to analyze. A full text can also be given in input. Processing an input file is performed by typing
 
 ```
-./APPLICATION_NAME [-s 0|1|2] -i input_file_name -o|-c|-x output_file_name 
+./APPLICATION_NAME [-s 0|1|2|3] -i input_file_name -o|-c|-x output_file_name 
 ```
 Like for the interactive mode, the input parameter `-s` allows to select the lexical basis to use.
 
