@@ -61,6 +61,8 @@ BASE: lexical basis resulting from the collation of three Latin dictionaries (40
 
 ONOMASTICON: 26,415 lemmas from the Onomasticon of Forcellini, E. 1940. *Lexicon Totius Latinitatis*. Typis Seminarii, Padova.
 
+DU CANGE: 82,557 lemmas from the Medieval Latin Glossary by Charles du Fresne Du Cange, Bénédictins de Saint-Maur, Pierre Carpentier, Louis Henschel, and Léopold Favre. 1883–1887. *Glossarium mediae et infimae latinitatis*. Niort.
+
 For instance, in Windows, type:
 ```
 lemlat.exe
