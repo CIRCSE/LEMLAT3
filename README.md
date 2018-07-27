@@ -81,7 +81,7 @@ At the first prompt the full list of the available commands is provided:
 	\B select BASE LES source 
 	\O select ONOMASTICON LES source 
 	\D select DU CANGE LES source
-	\A select BASE + ONOMASTICON source 
+	\A select ALL LES source 
 	\a to output in 'lemresult' FILE 
 	\d to output on SCREEN 
 ```
