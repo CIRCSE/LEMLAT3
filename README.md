@@ -52,7 +52,7 @@ The optional parameter `-s` allows to select the lexical basis to use, according
      	0 for BASE
      	1 for ONOMASTICON
      	2 for DU CANGE
-     	3 for BASE + ONOMASTICON [default option]
+     	3 for ALL lexical bases [default option]
 ```
 BASE: lexical basis resulting from the collation of three Latin dictionaries (40,014 lexical entries; 43,432 lemmas):
 - Georges, K.E., and Georges, H. 1913-1918. *Ausführliches Lateinisch-Deutsches Handwörterbuch*. Hahn, Hannover.
