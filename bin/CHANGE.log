@@ -423,3 +423,5 @@ n_id='s9998'. Added les='satull' (codles='n6').
 18th September 2018
 Added n_id='a3743' and n_id='a3742', to register separate lexical entries for interjection 'a' and first letter of Latin alphabet 'a' (as reported in OLD).
 Moved the graphical variant 'ah' from a0001 CLEM ('a' preposition) to a3743 CLEM (interjection).
+Added n_id='a3744', to register a separate entry for lemma 'an' as preposition (as reported in OLD).
+
