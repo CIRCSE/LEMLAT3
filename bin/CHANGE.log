@@ -425,3 +425,6 @@ Added n_id='a3743' and n_id='a3742', to register separate lexical entries for in
 Moved the graphical variant 'ah' from a0001 CLEM ('a' preposition) to a3743 CLEM (interjection).
 Added n_id='a3744', to register a separate entry for lemma 'an' as preposition (as reported in OLD).
 
+3rd October 2018
+n_id = 'c2414' or n_id = 'p1306': changed columns with codles = 'v2ie' into codles = 'v2e' 
+
