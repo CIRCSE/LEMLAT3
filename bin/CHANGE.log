@@ -428,3 +428,6 @@ Added n_id='a3744', to register a separate entry for lemma 'an' as preposition (
 3rd October 2018
 n_id = 'c2414' or n_id = 'p1306': changed columns with codles = 'v2ie' into codles = 'v2e' 
 
+10th October 2018
+Table 'lessario'.
+Replaced codles 'v68a' with codles 'v64a' in row with pr_key 21378.
