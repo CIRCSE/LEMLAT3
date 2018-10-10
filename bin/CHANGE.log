@@ -430,4 +430,5 @@ n_id = 'c2414' or n_id = 'p1306': changed columns with codles = 'v2ie' into codl
 
 10th October 2018
 Table 'lessario'.
-Replaced codles 'v68a' with codles 'v64a' in row with pr_key 21378.
+Changed codles 'v64a' with codles 'v68a' in rows with pr_key 82, 11578, 17089, 18902, 22324, 31088, 38085, 42684, 45816, 47137, 51208, 60298, 57868, 57887, 12045, 42715, 43736, 52046, 52117, 52431, 56825..
+Motivation: to analyse impersonal passive forms of present subjunctive for verbs derived from "eo" (e.g. "abeatur").
