@@ -14,6 +14,7 @@ Contribution to the morphological analyzer of Latin LEMLAT 3.0 provided by the C
 Source code and build enviroments are in the folder 'lemlat_workspace':
 - Makefiles and packeging scripts for GNU/Linux and OSX are in sub-folder 'lemlat_workspace/Lemlat_client'
 - A Visual C solution is in sub-folder 'lemlat_workspace/winBuild'
+
 Mysql binaries are needed to build up the embedded databases
 
 
