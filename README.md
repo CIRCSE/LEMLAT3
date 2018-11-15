@@ -9,6 +9,14 @@ Contribution to the morphological analyzer of Latin LEMLAT 3.0 provided by the C
 - lemlat_documentation.pdf: description of the tables of lemlat_db and of the overall process of wordform analysis
 
 
+# Build environment
+
+Source code and build enviroments are in the folder 'lemlat_workspace':
+- Makefiles and packeging scripts for GNU/Linux and OSX are in sub-folder 'lemlat_workspace/Lemlat_client'
+- A Visual C solution is in sub-folder 'lemlat_workspace/winBuild'
+Mysql binaries are needed to build up the embedded databases
+
+
 # Binaries
 
 In the bin directory we provide a CLI implementation of the wordform analysis for Linux, OSX an Windows operation systems.
