@@ -1,0 +1,40 @@
+170412 17:05:17 [Note] Plugin 'FEDERATED' is disabled.
+170412 17:05:17 InnoDB: The InnoDB memory heap is disabled
+170412 17:05:17 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170412 17:05:17 InnoDB: Compressed tables use zlib 1.2.8
+170412 17:05:17 InnoDB: Using Linux native AIO
+170412 17:05:17 InnoDB: Initializing buffer pool, size = 128.0M
+170412 17:05:17 InnoDB: Completed initialization of buffer pool
+170412 17:05:17 InnoDB: highest supported file format is Barracuda.
+170412 17:05:17  InnoDB: Waiting for the background threads to start
+170412 17:05:18 InnoDB: 5.5.53 started; log sequence number 118836304
+170412 17:05:18 [Note] Server hostname (bind-address): '0.0.0.0'; port: 63301
+170412 17:05:18 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+170412 17:05:18 [Note] Server socket created on IP: '0.0.0.0'.
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+170412 17:05:18 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+170412 17:05:18 [Note] Event Scheduler: Loaded 0 events
+170412 17:05:18 [Note] bin/mysqld: ready for connections.
+Version: '5.5.53-0+deb8u1'  socket: '/home/paolo/LemLat2015/lemlat_workspace/LemLat_client/bin.linux/embeddedD/run/mysql63301.sock'  port: 63301  (Debian)
+170412 17:21:40 [Note] bin/mysqld: Normal shutdown
+
+170412 17:21:40 [Note] Event Scheduler: Purging the queue. 0 events
+170412 17:21:40  InnoDB: Starting shutdown...
+170412 17:21:41  InnoDB: Shutdown completed; log sequence number 183216575
+170412 17:21:41 [Note] bin/mysqld: Shutdown complete
+

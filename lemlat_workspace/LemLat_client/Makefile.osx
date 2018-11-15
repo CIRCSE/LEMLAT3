@@ -1,0 +1,80 @@
+MD=.
+SD=$(MD)/LemLat_client
+OD=debug.osx
+BD=$(MD)/bin.osx/debug
+BD_E=$(MD)/bin.osx/embeddedD
+LEMLATLIBDIR=$(MD)/../LemLatLIB
+MYSQLUTILDIR=$(MD)/../mysqlUtil
+LEMLATDBDIR=$(MD)/../LemLatDB
+
+OUTPUT=$(BD)/lemlat_client
+OUTPUT_EMB=$(BD_E)/lemlat
+
+SCRS=$(SD)/conIO.c
+OBJS=$(OD)/conIO.o $(OD)/LemLat_client.o $(OD)/parseCLI.o $(OD)/XMLOut.o $(OD)/CSVOut.o
+OBJS_E=$(OD)/conIO.o $(OD)/LemLat_client_emb.o $(OD)/parseCLI.o $(OD)/XMLOut.o $(OD)/CSVOut.o
+
+LIBS= \
+$(LEMLATLIBDIR)/lib.osx/debug/lemlatLIB.a \
+$(LEMLATDBDIR)/lib.osx/debug/lemlatDB_dtn.a \
+$(MYSQLUTILDIR)/lib.osx/debug/mysqlUtil.a
+INCS= -I\
+$(LEMLATLIBDIR)/include -I $(LEMLATDBDIR)/include
+
+CC=gcc
+
+# mysql_config --cflags
+#MYSQL_INCLUDE_DIR=/opt/local/include/mysql55/mysql/
+#MYSQL_INCLUDE_DIR=$(MD)/../mysql-5.7.17-macos10.12-x86_64/include
+MYSQL_INCLUDE_DIR=$(MD)/../mysql-5.6.20-osx10.6-x86_64/include
+MY_FLAGS=-I$(MYSQL_INCLUDE_DIR) -pipe -Os    -g -DNDEBUG
+
+FLAGS=$(MY_FLAGS) $(INCS)
+
+# mysql_config --libs
+#MYSQL_LIB_DIR=/opt/local/lib/mysql55/mysql
+#MYSQL_LIB_DIR=$(MD)/../mysql-5.7.17-macos10.12-x86_64/lib
+MYSQL_LIB_DIR=$(MD)/../mysql-5.6.20-osx10.6-x86_64/lib
+#MY_LIBS=-L/opt/local/lib/mysql55/mysql  -lmysqlclient  -lz
+MY_LIBS_dyn=-L$(MYSQL_LIB_DIR)  -lmysqlclient  -lz
+MY_LIBS=$(MYSQL_LIB_DIR)/libmysqlclient.a  /opt/local/lib/libz.a -lstdc++
+# mysql_config --libmysqld-libs ######NB added -lc++#########
+# MY_LIBS_E=-L$(MYSQL_LIB_DIR)  -lmysqld   -lz -lwrap -lc++
+MY_LIBS_E=-L$(MYSQL_LIB_DIR)  -lmysqld   /opt/local/lib/libz.a /opt/local/lib/libwrap.a -lstdc++
+
+client : conIO.o LemLat_client.o parseCLI.o XMLOut.o CSVOut.o
+	$(CC) -o $(OUTPUT) $(OBJS)  $(LIBS) $(MY_LIBS)
+
+dynamic : conIO.o LemLat_client.o parseCLI.o XMLOut.o CSVOut.o
+	$(CC) -o $(OUTPUT).s $(OBJS) $(LIBS) $(MY_LIBS_static)
+
+embedded: conIO.o LemLat_client_emb.o parseCLI.o XMLOut.o CSVOut.o
+	$(CC) -o $(OUTPUT_EMB) $(OBJS_E) $(LIBS)  $(MY_LIBS_E)
+
+conIO.o : $(SD)/conIO.c $(SD)/LemLat_client.h
+	$(CC) $(FLAGS) -c $(SD)/conIO.c -o $(OD)/conIO.o
+
+XMLOut.o : $(SD)/XMLOut.c
+	$(CC) $(FLAGS) -c $(SD)/XMLOut.c -o $(OD)/XMLOut.o
+
+CSVOut.o : $(SD)/CSVOut.c
+	$(CC) $(FLAGS) -c $(SD)/CSVOut.c -o $(OD)/CSVOut.o
+
+LemLat_client.o : $(SD)/LemLat_client.c 
+	$(CC) $(FLAGS) -c $(SD)/LemLat_client.c -o $(OD)/LemLat_client.o
+
+LemLat_client_emb.o : $(SD)/LemLat_client.c
+	$(CC) $(FLAGS) -DLL_EMB -c $(SD)/LemLat_client.c -o $(OD)/LemLat_client_emb.o
+
+parseCLI.o : $(SD)/parseCLI.c 
+	$(CC) $(FLAGS) -c $(SD)/parseCLI.c -o $(OD)/parseCLI.o
+
+clean_all:
+	rm -f $(OBJS)
+	rm -f $(OBJS_E)
+	rm -f $(OUTPUT)
+	rm -f $(OUTPUT_EMB)
+
+clean:
+	rm -f $(OBJS)
+	rm -f $(OBJS_E)

@@ -1,0 +1,20 @@
+
+#define TAB_SF_NAME "tabsf"
+#define SEG "segment"
+#define C_COD "comp_cod"
+
+#define C04 "c04"
+#define C05 "c05"
+#define C06 "c06"
+#define C07 "c07"
+#define C08 "c08"
+#define C09 "c09"
+#define C10 "c10"
+
+#define C04F "tabsf.c04"
+#define C05F "tabsf.c05"
+#define C06F "tabsf.c06"
+#define C07F "tabsf.c07"
+#define C08F "tabsf.c08"
+#define C09F "tabsf.c09"
+#define C10F "tabsf.c10"

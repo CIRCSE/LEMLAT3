@@ -1,0 +1,19 @@
+MD=.
+OD=debug.osx
+LD=$(MD)/lib.osx/debug
+SD=$(MD)/mysqlUtil
+MYSQL_INCLUDE_DIR=$(MD)/../mysql-5.6.20-osx10.6-x86_64/include
+
+mysqlUtil.a : $(OD)/mysqlUtil.o
+	ar rs $(LD)/mysqlUtil.a $(OD)/mysqlUtil.o
+
+$(OD)/mysqlUtil.o : $(SD)/mysqlUtil.c $(MD)/include/mysqlUtil.h
+	gcc -c $(SD)/mysqlUtil.c -o $(OD)/mysqlUtil.o \
+-I$(MD)/include/ -I$(MYSQL_INCLUDE_DIR) -g
+
+clean_all : 
+	rm -f $(OD)/*.o 
+	rm -f $(LD)/mysqlUtil.a
+
+clean : 
+	rm -f $(OD)/*.o 

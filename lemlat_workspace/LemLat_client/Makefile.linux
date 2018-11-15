@@ -1,0 +1,103 @@
+MD=.
+SD=$(MD)/LemLat_client
+OD=debug.linux
+BD=$(MD)/bin.linux/debug
+BD_E=$(MD)/bin.linux/embeddedD
+LEMLATLIBDIR=$(MD)/../LemLatLIB
+MYSQLUTILDIR=$(MD)/../mysqlUtil
+LEMLATDBDIR=$(MD)/../LemLatDB
+
+OUTPUT=$(BD)/lemlat_client
+OUTPUT_EMB=$(BD_E)/lemlat
+
+SCRS=$(SD)/conIO.c
+OBJS=$(OD)/conIO.o $(OD)/LemLat_client.o $(OD)/parseCLI.o $(OD)/XMLOut.o $(OD)/CSVOut.o
+OBJS_E=$(OD)/conIO.o $(OD)/LemLat_client_emb.o $(OD)/parseCLI.o $(OD)/XMLOut.o $(OD)/CSVOut.o
+
+LIBS= \
+$(LEMLATLIBDIR)/lib.linux/debug/lemlatLIB.a \
+$(LEMLATDBDIR)/lib.linux/debug/lemlatDB_dtn.a \
+$(MYSQLUTILDIR)/lib.linux/debug/mysqlUtil.a
+INCS= -I\
+$(LEMLATLIBDIR)/include -I $(LEMLATDBDIR)/include
+
+CC=gcc
+
+# mysql_config --cflags
+MY_FLAGS=-I/usr/include/mysql -DBIG_JOINS=1  -fno-strict-aliasing -DTAOCRYPT_DISABLE_X86ASM   -g -DNDEBUG
+#MY_FLAGS=-I/usr/include/mysql -DBIG_JOINS=1  -fno-strict-aliasing -DTAOCRYPT_DISABLE_X86ASM
+FLAGS=$(MY_FLAGS) $(INCS)
+
+# mysql_config --libs
+MY_LIBS=-L/usr/lib/i386-linux-gnu -lmysqlclient -lpthread -lz -lm -ldl
+MYSQL_LIB_DIR=/usr/lib/i386-linux-gnu
+MY_LIBS_S=$(MYSQL_LIB_DIR)/libmysqlclient.a -L/usr/lib/i386-linux-gnu -lpthread -lz -lm -ldl
+# mysql_config --libmysqld-libs 
+# NB added -lstdc++
+MY_LIBS_E=-L/usr/lib/i386-linux-gnu -lmysqld -lpthread -lz -lm -lwrap -lcrypt -ldl -laio -lstdc++
+
+#################   64bits:
+#-L/usr/lib/x86_64-linux-gnu -lmysqlclient -lpthread -lz -lm -lrt -latomic -ldl
+
+MY_LIBS_64=-L/usr/lib/x86_64-linux-gnu -lmysqlclient -lpthread -lz -lm -lrt -latomic -ldl
+MYSQL_LIB_DIR_64=/usr/lib/x86_64-linux-gnu
+#MY_LIBS_S_64=$(MYSQL_LIB_DIR_64)/libmysqlclient.a -L$(MYSQL_LIB_DIR_64) -lpthread -lz -lm -latomic  -ldl -lstdc++
+MY_LIBS_S_64=$(MYSQL_LIB_DIR_64)/libmariadbclient.a -L$(MYSQL_LIB_DIR_64) -lpthread -lz -lm -latomic  -ldl -lstdc++
+
+# mysql_config --libmysqld-libs 
+# NB added -lstdc++
+#-L/usr/lib/x86_64-linux-gnu -lmysqld -lpthread -lz -lm -lrt -latomic -lcrypt -ldl -laio -llz4 -lnuma
+
+MY_LIBS_E_64=-L$(MYSQL_LIB_DIR_64) -lmysqld -lpthread -lz -lm -lrt -latomic -lcrypt -ldl -laio -llz4 -lnuma -lstdc++
+
+
+client_64 : conIO.o LemLat_client.o parseCLI.o XMLOut.o CSVOut.o
+	$(CC) -o $(OUTPUT) $(OBJS) $(LIBS) $(MY_LIBS_S_64)
+
+dynamic_64 : conIO.o LemLat_client.o parseCLI.o XMLOut.o CSVOut.o
+	$(CC) -o $(OUTPUT).d $(OBJS)  $(LIBS) $(MY_LIBS_64)
+
+embedded_64: conIO.o LemLat_client_emb.o parseCLI.o XMLOut.o CSVOut.o
+	$(CC) -o $(OUTPUT_EMB) $(OBJS_E) $(LIBS)  $(MY_LIBS_E_64)
+
+
+
+##########################
+
+
+client : conIO.o LemLat_client.o parseCLI.o XMLOut.o CSVOut.o
+	$(CC) -o $(OUTPUT) $(OBJS) $(LIBS) $(MY_LIBS_S)
+
+dynamic : conIO.o LemLat_client.o parseCLI.o XMLOut.o CSVOut.o
+	$(CC) -o $(OUTPUT).d $(OBJS)  $(LIBS) $(MY_LIBS)
+
+embedded: conIO.o LemLat_client_emb.o parseCLI.o XMLOut.o CSVOut.o
+	$(CC) -o $(OUTPUT_EMB) $(OBJS_E) $(LIBS)  $(MY_LIBS_E)
+
+conIO.o : $(SD)/conIO.c $(SD)/LemLat_client.h 
+	$(CC) $(FLAGS) -c $(SD)/conIO.c -o $(OD)/conIO.o
+
+XMLOut.o : $(SD)/XMLOut.c
+	$(CC) $(FLAGS) -c $(SD)/XMLOut.c -o $(OD)/XMLOut.o
+
+CSVOut.o : $(SD)/CSVOut.c
+	$(CC) $(FLAGS) -c $(SD)/CSVOut.c -o $(OD)/CSVOut.o
+
+LemLat_client.o : $(SD)/LemLat_client.c 
+	$(CC) $(FLAGS) -c $(SD)/LemLat_client.c -o $(OD)/LemLat_client.o
+
+LemLat_client_emb.o : $(SD)/LemLat_client.c
+	$(CC) $(FLAGS) -DLL_EMB -c $(SD)/LemLat_client.c -o $(OD)/LemLat_client_emb.o
+
+parseCLI.o : $(SD)/parseCLI.c 
+	$(CC) $(FLAGS) -c $(SD)/parseCLI.c -o $(OD)/parseCLI.o
+
+clean_all:
+	rm -f $(OBJS)
+	rm -f $(OBJS_E)
+	rm -f $(OUTPUT)
+	rm -f $(OUTPUT_EMB)
+
+clean:
+	rm -f $(OBJS)
+	rm -f $(OBJS_E)

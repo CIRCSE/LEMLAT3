@@ -1,0 +1,181 @@
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include "lemlatLIB.h"
+//#include "lemlatDB.h"
+
+extern FILE  *pxml;
+
+char* codes[10]={"PoS","Type","Flexional_category","Mood",
+"Tense","Case","Gender","Number", "Person", "Degree"};
+
+void XMLheader()
+{
+	fprintf(pxml,"<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n");
+	fprintf(pxml,"<LEMLAT>\n");
+}
+
+void XMLending()
+{
+	fprintf(pxml,"</LEMLAT>\n");
+}
+
+void XMLOut()
+{
+	int i,l,j,a;
+	Lemma *curLemma;
+	Analysis *curAnalysis;
+
+	Lemma_Derivations lemma_derivations;
+	int isDerived;
+	short w,c;
+
+	//Analyses:
+	fprintf(pxml,"\t<Analyses>\n");
+	fprintf(pxml,"\t\t<form>%s</form>\n\t\t<alt_form>%s</alt_form>\n",
+		        analyses.in_form, analyses.alt_in_form);
+	for (a=0;a<analyses.numAnalysis; a++)
+	{
+		//Analysis:
+		curAnalysis=(analyses.analysis+a);
+		fprintf(pxml,"\t\t<Analysis>\n");
+
+ 		//enclitica:
+		if (*(curAnalysis->segments[6]))
+			fprintf(pxml,"\t\t\t<enc>%s</enc>\n",curAnalysis->segments[6]);
+
+		//particella:
+		if (curAnalysis->part)
+			fprintf(pxml,"\t\t\t<part>%s</part>\n",curAnalysis->segments[5]);
+
+		//segmentazione:
+		fprintf(pxml,"\t\t\t<segmentation>\n");
+		if (*(curAnalysis->segments[0])) 
+			fprintf(pxml,"\t\t\t\t<alt>%s</alt>\n",(curAnalysis->segments)[0]);
+		fprintf(pxml,"\t\t\t\t<les>%s</les>\n",(curAnalysis->segments)[1]);
+		if (*(curAnalysis->segments[2]))
+			fprintf(pxml,"\t\t\t\t<sm1>%s</sm1>\n",(curAnalysis->segments)[2]);
+		if (*(curAnalysis->segments[3]))
+			fprintf(pxml,"\t\t\t\t<sm2>%s</sm2>\n",(curAnalysis->segments)[3]);
+		if (*(curAnalysis->segments[4]))
+			fprintf(pxml,"\t\t\t\t<sf>%s</sf>\n",(curAnalysis->segments)[4]);
+		if (!curAnalysis->part && *(curAnalysis->segments[5]) )
+			fprintf(pxml,"\t\t\t\t<spf>%s</spf>\n",(curAnalysis->segments)[5]);
+		fprintf(pxml,"\t\t\t</segmentation>\n");
+
+		//sequenze di codici morfologici:
+		fprintf(pxml,"\t\t\t<morphological_analyses>\n");
+		for (i=0;i<curAnalysis->n_cod_morf; i++)
+		{
+/*
+			fprintf(pxml,"\t\t\t\t<morphological_codes>\n");
+			for (j=0;j<7;j++)
+				if (curAnalysis->cod_morf_4_10[i][j]!='-')
+					fprintf(pxml,"<%s>%c</%s>\n",codes[j+3],
+					curAnalysis->cod_morf_4_10[i][j],codes[j+3]);
+			fprintf(pxml,"</morphological_codes>\n");
+		}
+		fprintf(pxml,"</morphological_analyses>\n");
+*/
+			fprintf(pxml,"\t\t\t\t<morphological_codes>");
+			for (j=0;j<7;j++)
+					fprintf(pxml,"%c",curAnalysis->cod_morf_4_10[i][j]);
+			fprintf(pxml,"</morphological_codes>\n");
+		}
+		fprintf(pxml,"\t\t\t</morphological_analyses>\n");
+		//Lemmi:
+		fprintf(pxml,"\t\t\t<Lemmas>\n");
+		for (l=0;l<curAnalysis->lemmas.numL;l++)
+		{
+			curLemma=(curAnalysis->lemmas.lems+l);
+
+			if (curAnalysis->lemmas.numL>1)
+				if (curLemma->type==IPERLEMMA)
+					fprintf(pxml,"\t\t\t\t<Lemma type=\"iper\">\n");
+				else
+					fprintf(pxml,"\t\t\t\t<Lemma type=\"ipo\">\n");
+			else
+				fprintf(pxml,"\t\t\t\t<Lemma>\n");
+	
+			fprintf(pxml,"\t\t\t\t\t<lemma>%s</lemma>\n",curLemma->lemma);
+
+			//codici morfologici del lemma:
+			if ((curLemma->type==IPERLEMMA)||(curAnalysis->lemmas.numL==1))
+			{
+/*
+				fprintf(pxml,"<lemma_morphological_codes>\n");
+				for (j=0;j<3;j++)
+					if (curLemma->codmorf[j]!='-')
+						fprintf(pxml,"<%s>%c</%s>\n",codes[j],
+						curLemma->codmorf[j],codes[j]);
+				fprintf(pxml,"</lemma_morphological_codes>\n");
+*/
+				fprintf(pxml,"\t\t\t\t\t<lemma_morphological_codes>");
+				for (j=0;j<3;j++)
+					fprintf(pxml,"%c",curLemma->codmorf[j]);
+				fprintf(pxml,"</lemma_morphological_codes>\n");
+			}
+			fprintf(pxml,"\t\t\t\t\t<n_id>%s</n_id>\n",curLemma->n_id);
+			if (curLemma->gen)
+				fprintf(pxml,"\t\t\t\t\t<gen>%c</gen>\n",curLemma->gen);
+			else
+				fprintf(pxml,"\t\t\t\t\t<gen></gen>\n");
+
+			//derivazione:
+			strcpy(lemma_derivations.out_lemma.lemma,curLemma->lemma);
+			strcpy(lemma_derivations.out_lemma.codlem,curLemma->codlem);
+			strcpy(lemma_derivations.out_lemma.n_id,curLemma->n_id);
+			memcpy(lemma_derivations.out_lemma.codmorf,curLemma->codmorf,3);				 
+			lemma_derivations.out_lemma.gen=curLemma->gen;
+			isDerived=getLemmaDerivations( &lemma_derivations);
+//			fprintf(po,"\t-----------------------derivational info---------------------------\n");
+			if ( isDerived>0 ) {
+				WFR_Inst* curDerivation;
+				Lemma* curComp;
+				fprintf(pxml,"\t\t\t\t\t<Derivations>\n");
+				for (w=0;w<lemma_derivations.numDerivations; w++) {
+					curDerivation=&lemma_derivations.wfr_instances[w];
+					if (curDerivation->affix[0])
+					fprintf(pxml,"\t\t\t\t\t\t<Rule id=\"%s\" type=\"%s\" category=\"%s\" affix=\"%s\">\n", 
+					curDerivation->wfr_key, curDerivation->type, curDerivation->category, curDerivation->affix);
+					else
+					fprintf(pxml,"\t\t\t\t\t\t<Rule id=\"%s\" type=\"%s\" category=\"%s\">\n", 
+					curDerivation->wfr_key, curDerivation->type, curDerivation->category);
+					
+//					fprintf(po,"\tLexical Basis:\n");
+					for (c=0; c<curDerivation->numComp; c++) {
+						curComp=&curDerivation->inLemma[c];
+						memcpy(codmorf,curComp->codmorf,3);
+						if (curComp->src=='F')
+						fprintf(pxml,"\t\t\t\t\t\t<Lemma type=\"fictional\">\n");
+						else	
+						fprintf(pxml,"\t\t\t\t\t\t<Lemma>\n");
+						fprintf(pxml,"\t\t\t\t\t\t\t<lemma>%s</lemma>\n",curComp->lemma);
+						fprintf(pxml,"\t\t\t\t\t\t\t<codlem>%s</codlem>\n",curComp->lemma);
+						fprintf(pxml,"\t\t\t\t\t\t\t<lemma_morphological_codes>%s</lemma_morphological_codes>\n",
+						       codmorf);
+						fprintf(pxml,"\t\t\t\t\t\t\t<n_id>%s</n_id>\n",curComp->n_id);
+						if (curComp->gen)
+						fprintf(pxml,"\t\t\t\t\t\t\t<gen>%c</gen>\n",curComp->gen);
+						fprintf(pxml,"\t\t\t\t\t\t</Lemma>\n");						
+					}
+					fprintf(pxml,"\t\t\t\t\t\t</Rule>\n");
+				}
+				fprintf(pxml,"\t\t\t\t\t</Derivations>\n");
+			}
+			else		    
+				if ( isDerived==0 )
+					fprintf(po,"\tIS DERIVED: NO\n");
+				else		    
+					fprintf(po,"\tIS DERIVED: UNDEF\n");
+			//--derivazione
+				
+			fprintf(pxml,"\t\t\t\t</Lemma>\n");
+		}		
+		fprintf(pxml,"\t\t\t</Lemmas>\n");
+
+		fprintf(pxml,"\t\t</Analysis>\n");
+	}
+	fprintf(pxml,"\t</Analyses>\n");
+}
+

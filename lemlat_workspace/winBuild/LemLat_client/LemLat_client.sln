@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LemLat_client", "LemLat_client.vcxproj", "{E6DC5C18-A3F4-41DD-B770-8399180F0B84}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7282F270-C929-4528-908B-6DA77BC03EF2} = {7282F270-C929-4528-908B-6DA77BC03EF2}
+		{898110CF-3410-4D6D-958B-58209ADDE01C} = {898110CF-3410-4D6D-958B-58209ADDE01C}
+		{6B1B46CF-57BE-4898-A717-889B7786CD96} = {6B1B46CF-57BE-4898-A717-889B7786CD96}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LemLatLIB", "..\LemLatLIB\LemLatLIB.vcxproj", "{7282F270-C929-4528-908B-6DA77BC03EF2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{898110CF-3410-4D6D-958B-58209ADDE01C} = {898110CF-3410-4D6D-958B-58209ADDE01C}
+		{6B1B46CF-57BE-4898-A717-889B7786CD96} = {6B1B46CF-57BE-4898-A717-889B7786CD96}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LemLatDB", "..\LemLatDB\LemLatDB.vcxproj", "{6B1B46CF-57BE-4898-A717-889B7786CD96}"
+	ProjectSection(ProjectDependencies) = postProject
+		{898110CF-3410-4D6D-958B-58209ADDE01C} = {898110CF-3410-4D6D-958B-58209ADDE01C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mysqlUtil", "..\mysqlUtil\mysqlUtil.vcxproj", "{898110CF-3410-4D6D-958B-58209ADDE01C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DebugEmb|Win32 = DebugEmb|Win32
+		Release|Win32 = Release|Win32
+		ReleaseEmb|Win32 = ReleaseEmb|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6DC5C18-A3F4-41DD-B770-8399180F0B84}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6DC5C18-A3F4-41DD-B770-8399180F0B84}.Debug|Win32.Build.0 = Debug|Win32
+		{E6DC5C18-A3F4-41DD-B770-8399180F0B84}.DebugEmb|Win32.ActiveCfg = DebugEmb|Win32
+		{E6DC5C18-A3F4-41DD-B770-8399180F0B84}.DebugEmb|Win32.Build.0 = DebugEmb|Win32
+		{E6DC5C18-A3F4-41DD-B770-8399180F0B84}.Release|Win32.ActiveCfg = Release|Win32
+		{E6DC5C18-A3F4-41DD-B770-8399180F0B84}.Release|Win32.Build.0 = Release|Win32
+		{E6DC5C18-A3F4-41DD-B770-8399180F0B84}.ReleaseEmb|Win32.ActiveCfg = ReleaseEmb|Win32
+		{E6DC5C18-A3F4-41DD-B770-8399180F0B84}.ReleaseEmb|Win32.Build.0 = ReleaseEmb|Win32
+		{7282F270-C929-4528-908B-6DA77BC03EF2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7282F270-C929-4528-908B-6DA77BC03EF2}.Debug|Win32.Build.0 = Debug|Win32
+		{7282F270-C929-4528-908B-6DA77BC03EF2}.DebugEmb|Win32.ActiveCfg = Debug|Win32
+		{7282F270-C929-4528-908B-6DA77BC03EF2}.DebugEmb|Win32.Build.0 = Debug|Win32
+		{7282F270-C929-4528-908B-6DA77BC03EF2}.Release|Win32.ActiveCfg = Release|Win32
+		{7282F270-C929-4528-908B-6DA77BC03EF2}.Release|Win32.Build.0 = Release|Win32
+		{7282F270-C929-4528-908B-6DA77BC03EF2}.ReleaseEmb|Win32.ActiveCfg = Release|Win32
+		{7282F270-C929-4528-908B-6DA77BC03EF2}.ReleaseEmb|Win32.Build.0 = Release|Win32
+		{6B1B46CF-57BE-4898-A717-889B7786CD96}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6B1B46CF-57BE-4898-A717-889B7786CD96}.Debug|Win32.Build.0 = Debug|Win32
+		{6B1B46CF-57BE-4898-A717-889B7786CD96}.DebugEmb|Win32.ActiveCfg = Debug|Win32
+		{6B1B46CF-57BE-4898-A717-889B7786CD96}.DebugEmb|Win32.Build.0 = Debug|Win32
+		{6B1B46CF-57BE-4898-A717-889B7786CD96}.Release|Win32.ActiveCfg = Release|Win32
+		{6B1B46CF-57BE-4898-A717-889B7786CD96}.Release|Win32.Build.0 = Release|Win32
+		{6B1B46CF-57BE-4898-A717-889B7786CD96}.ReleaseEmb|Win32.ActiveCfg = Release|Win32
+		{6B1B46CF-57BE-4898-A717-889B7786CD96}.ReleaseEmb|Win32.Build.0 = Release|Win32
+		{898110CF-3410-4D6D-958B-58209ADDE01C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{898110CF-3410-4D6D-958B-58209ADDE01C}.Debug|Win32.Build.0 = Debug|Win32
+		{898110CF-3410-4D6D-958B-58209ADDE01C}.DebugEmb|Win32.ActiveCfg = Debug|Win32
+		{898110CF-3410-4D6D-958B-58209ADDE01C}.DebugEmb|Win32.Build.0 = Debug|Win32
+		{898110CF-3410-4D6D-958B-58209ADDE01C}.Release|Win32.ActiveCfg = Release|Win32
+		{898110CF-3410-4D6D-958B-58209ADDE01C}.Release|Win32.Build.0 = Release|Win32
+		{898110CF-3410-4D6D-958B-58209ADDE01C}.ReleaseEmb|Win32.ActiveCfg = Release|Win32
+		{898110CF-3410-4D6D-958B-58209ADDE01C}.ReleaseEmb|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

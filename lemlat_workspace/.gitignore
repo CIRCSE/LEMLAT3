@@ -1,0 +1,5 @@
+.metadata/*
+lemlat_php
+my.cnf
+*.zip
+*.tar.gz

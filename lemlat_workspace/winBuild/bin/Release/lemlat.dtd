@@ -1,0 +1,34 @@
+<!ELEMENT LEMLAT (Analyses*)>
+<!ELEMENT Analyses (input_worform, analysed_worform?, Analysis*)>
+<!ELEMENT input_worform (#PCDATA)>
+<!ELEMENT analysed_worform (#PCDATA)>
+<!ELEMENT Analysis (enc?, part?, segmentation?, morphological_analyses, Lemmas)>
+<!ELEMENT enc (#PCDATA)>
+<!ELEMENT part (#PCDATA)>
+<!ELEMENT segmentation (alt?, les, sm1?, sm2?, sf?, spf?)>
+<!ELEMENT les (#PCDATA)>
+<!ELEMENT alt (#PCDATA)>
+<!ELEMENT sm1 (#PCDATA)>
+<!ELEMENT sm2 (#PCDATA)>
+<!ELEMENT sf (#PCDATA)>
+<!ELEMENT spf (#PCDATA)>
+
+<!ELEMENT morphological_analyses (morphological_feats*)>
+<!ELEMENT Lemmas (Lemma+)>
+
+<!ELEMENT morphological_feats (#PCDATA)>
+
+<!ELEMENT Lemma (Rule*)>
+<!ATTLIST Lemma type (iper|ipo|intermediate|additional|fictional) #IMPLIED>
+<!ATTLIST Lemma is_derived (true|false|UNDEFINED) #IMPLIED>
+<!ATTLIST Lemma lemma CDATA #REQUIRED>
+<!ATTLIST Lemma gen CDATA #REQUIRED>
+<!ATTLIST Lemma codmorf CDATA #REQUIRED>
+<!ATTLIST Lemma codlem CDATA #REQUIRED>
+<!ATTLIST Lemma n_id CDATA #REQUIRED>
+
+<!ELEMENT Rule (Lemma+)>
+<!ATTLIST Rule id CDATA #REQUIRED>
+<!ATTLIST Rule type CDATA #REQUIRED>
+<!ATTLIST Rule category CDATA #REQUIRED>
+<!ATTLIST Rule affix CDATA #IMPLIED>

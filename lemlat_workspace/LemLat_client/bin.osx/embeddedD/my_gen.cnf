@@ -1,0 +1,28 @@
+#mysql configuration file
+#for lemlat application
+[mysqld_safe]
+ledir = /Users/paolo/Devel/lemlat_workspace/LemLat_client/bin.osx/embeddedD/bin
+
+[mysqld]
+port = 63301
+socket = /Users/paolo/Devel/lemlat_workspace/LemLat_client/bin.osx/embeddedD/run/mysql63301.sock
+basedir = /Users/paolo/Devel/lemlat_workspace/LemLat_client/bin.osx/embeddedD
+datadir = /Users/paolo/Devel/lemlat_workspace/LemLat_client/bin.osx/embeddedD/data
+tmpdir = /Users/paolo/Devel/lemlat_workspace/LemLat_client/bin.osx/embeddedD/tmp
+pid-file = /Users/paolo/Devel/lemlat_workspace/LemLat_client/bin.osx/embeddedD/tmp/mysql66301.pid
+log-error
+
+[lemlat_CLIENT]
+default-character-set=latin1
+host=localhost
+user=root
+password=PaShalom
+database=lemlat_db
+
+[lemlat_EMB]
+database=lemlat_db
+
+[lemlat_EMB_SERVER]
+basedir=.
+datadir=./data
+#log-error=./error.log

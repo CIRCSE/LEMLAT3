@@ -1,0 +1,35 @@
+<!ELEMENT LEMLAT (Analyses*)>
+<!ELEMENT Analyses (input_worform, analysed_worform?, Analysis*)>
+<!ELEMENT input_worform (#PCDATA)>
+<!ELEMENT analysed_worform (#PCDATA)>
+<!ELEMENT Analysis (enc?, part?, segmentation?, morphological_analyses, Lemmas)>
+<!ELEMENT enc (#PCDATA)>
+<!ELEMENT part (#PCDATA)>
+<!ELEMENT segmentation (alt?, les, sm1?, sm2?, sf?, spf?)>
+<!ELEMENT les (#PCDATA)>
+<!ELEMENT alt (#PCDATA)>
+<!ELEMENT sm1 (#PCDATA)>
+<!ELEMENT sm2 (#PCDATA)>
+<!ELEMENT sf (#PCDATA)>
+<!ELEMENT spf (#PCDATA)>
+
+<!ELEMENT morphological_analyses (morphological_feats*)>
+<!ELEMENT Lemmas (Lemma+)>
+
+<!ELEMENT morphological_feats (Mood?, Tense?, Case?, Gender?, Number?, Person?, Degree?)>
+<!ELEMENT Mood (#PCDATA)>
+<!ELEMENT Tense (#PCDATA)>
+<!ELEMENT Case (#PCDATA)>
+<!ELEMENT Gender (#PCDATA)>
+<!ELEMENT Number (#PCDATA)>
+<!ELEMENT Person (#PCDATA)>
+<!ELEMENT Degree (#PCDATA)>
+
+<!ELEMENT Lemma (lemma, lemma_gender?, lemma_morphological_codes?)>
+<!ATTLIST Lemma type (iper|ipo) #IMPLIED>
+<!ELEMENT lemma (#PCDATA)>
+<!ELEMENT lemma_gender (#PCDATA)>
+<!ELEMENT lemma_morphological_codes (PoS, Type?, Flexional_category?)>
+<!ELEMENT PoS (#PCDATA)>
+<!ELEMENT Type (#PCDATA)>
+<!ELEMENT Flexional_category (#PCDATA)>
