@@ -2,7 +2,7 @@
 
 Contribution of the [CIRCSE Research Centre](https://centridiricerca.unicatt.it/circse_index.html) to the Latin morphological analyzer and lemmatizer **LEMLAT 3.0**.
 
-LEMLAT 3.0 official website: http://www.lemlat3.eu/
+LEMLAT 3.0 official website: http://www.lemlat3.eu/<br />
 LEMLAT 3.0 credits: http://www.lemlat3.eu/about/credits/
 
 To cite all versions of LEMLAT 3.0, you can adapt the following:
