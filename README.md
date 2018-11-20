@@ -1,7 +1,12 @@
 # About
 
-Contribution to the morphological analyzer of Latin LEMLAT 3.0 provided by the CIRCSE Research Centre.
+Contribution of the [CIRCSE Research Centre](https://centridiricerca.unicatt.it/circse_index.html) to the Latin morphological analyzer and lemmatizer **LEMLAT 3.0**.
 
+To cite all versions of LEMLAT 3.0, you can adapt the following:
+
+	Marco Passarotti, Paolo Ruffolo, Flavio M. Cecchini, Eleonora Litta, Marco Budassi. (2018). LEMLAT 3.0. DOI: https://doi.org/10.5281/zenodo.1492133
+
+DOIs for the individual releases of LEMLAT 3.0 are available here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1492133.svg)](https://doi.org/10.5281/zenodo.1492133)
 
 # Database
 
