@@ -18,7 +18,7 @@ DOIs for the individual releases of LEMLAT 3.0 are available under [![DOI](https
 
 ## Installation and use
 
-See the [Wiki of this repository](https://github.com/CIRCSE/LEMLAT3/wiki) for information on how to install and use LEMLAT 3.0.
+See the [Wiki of this repository](https://github.com/CIRCSE/LEMLAT3/wiki) for instructions on how to install and use LEMLAT 3.0.
 
 ## Copyright
 
