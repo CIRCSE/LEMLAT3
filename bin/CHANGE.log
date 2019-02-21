@@ -438,4 +438,9 @@ Table 'lessario'.
 Moved les 'rept' with codles 'N2' (pr_key='51710') from the CLEM of lemma 'repo' (n_id='r1286') to a CLEM on its own (n_id='r1512').
 Motivation: "reptus" is a second declension noun with its separate entry in G&G.
 
+21st February 2019
+Lemma 'pus' (particle)
+Table 'lessario'. Row with pr_key = '48488' -> codles= 'n' changed to codles = 'i'
+Table 'forme_ecc'. Removed row with pr_key = '6150'
+Table 'lemmario'= row with id_lemma = '33102'. Changed codlem = 'N? to codlem = 'I'. Changed upostag = 'NOUN' to ' upostag = 'PART'
 
