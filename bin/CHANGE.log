@@ -508,5 +508,6 @@ Table 'lemmario': changed upostag = 'ADJ' to 'NUM' to the ordinal numerals (58 i
 1st March 2019
 Table 'lessario': added value 'v' in field 'clem' for row with pr_key= '62378'. It was missing and, thus, the fe 'uetera' was not lemmatized.
 
-
+Table 'forme_ecc': changed the value of field 'c02' from 'f' to 'u' for rows with les_id='40159' or les_id='40160'. Exceptional forms of lemma 'omnis'
+As a consequence -> table 'lemmario': remaoved row with id_lemma='27399'. It was lemma 'omnis' with codmorf='Af-' (an error)
 
