@@ -515,7 +515,6 @@ Table 'lessario: added value '-is' in field 'lem' for rows with pr_key= '54640' 
 As a consequence -> table 'lemmario': corrected the value for the lemma field of rows of lemmas with id_lemma= '8205' and '36788'
 
 17th June 2019
-
 - c3218: replaced LE "catafract" with "catafractes" in tab_le
 - c1528: added LE "chrysanthemon" in tab_le
 - l0276: added "v" in field "clem" of les "liber"
@@ -523,3 +522,8 @@ As a consequence -> table 'lemmario': corrected the value for the lemma field of
 - q0315: removed value "quotui" from field "lem" of row with pr_key='49494' in lessario table
 - m0868: replaced lem "m''liarium" with "mi''liarium" in field "lem" of row with pr_key='36353'
 - removed hyphen from the following LE in tab_le: agri-cultio (les_id='6309'), agri-cultor (6310), agri-cultura (6311), decem-uir (16017), expensi-latio (23382), iuris-dictio (32717), rati-habitatio (52383), usus-capio (63577), usus-receptio (63589)
+
+27th June 2019
+Table 'lessario': removed value '=' from column 'lem' of row with pr_key '155231'. The correct lemma is 'arco' and not 'arcon'
+
+
