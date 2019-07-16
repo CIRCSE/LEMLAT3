@@ -527,5 +527,5 @@ As a consequence -> table 'lemmario': corrected the value for the lemma field of
 Table 'lessario': removed value '=' from column 'lem' of row with pr_key '155231'. The correct lemma is 'arco' and not 'arcon'
 
 16th July 2019
-Table 'lessario': fixed clem with n_id='d1276' (lemmas "diameter", "diametros/-us/"). Added masculine noun "diameter" masculine & separated from feminine noun "diametros/-us"
-)
+Table 'lessario': fixed clem with n_id='d1276' (lemmas "diameter", "diametros/-us/"). Added masculine noun "diameter" masculine & separated from feminine noun "diametros/-us".
+Table "lemmario": clem with n_id='c4579'. Added 'SCONJ' as upostag_2
