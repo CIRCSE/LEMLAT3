@@ -552,12 +552,16 @@ Table 'lessario':
     t1486, tonitruus/tonitru: added a line for the neuter version tonitru, made tonitrus and tonitruus only masculine. Added tonitruus, tonitrui m. (Gaffiot). The lemma should be tonitrus as v.
     t0109, tapete/tapes: added tapes as only masculine, removed from tapete line, now only neuter. The lemma should rather be tapete/tapetum, with tapete as v
     g0210 genu/genus/genum: according to Georges, Gaffiot, OLD and L&S, made genu only n4 n., added genus,us m. and genum,i n., and added exceptional form genus in n/v/a n. (interpreted as 3rd declension, but isolated: we do not know the genitive form). The lemma should be genu as v.
+    s1727 sinape/sinapis/... : changed so that -e are only n, -is are f. Consequently removed fe's. Lemma shouldonly be -i, n.
+    d1276: fe for sub. diametros is superfluous, removed and created LE for it referring to line 18065
 - codles changes:
     l0136, lageos: n2 -> n2e 
     c4853, cypru/cypros: n2 -> n2e
     p1975, phthiropoeos: n2 -> n2e and addition of -us/-os with respective codLE
     s1435, sesimoides: n32 -> n3n2
     t1208, trichomanes: n32 -> n3n2
+    u0487, uesper: n2e -> n2
+    o0625, oleaster: n2e -> n2
 - exceptional forms:
     loca as n. pl. for locus, l0360
     Added interpretations as ablative, vocative, nominative, genitive and accusative of echo (e0085)
