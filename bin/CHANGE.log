@@ -531,4 +531,37 @@ Table 'lessario': fixed clem with n_id='d1276' (lemmas "diameter", "diametros/-u
 Table "lemmario": clem with n_id='c4579'. Added 'SCONJ' as upostag_2
 Table 'lessario': 
 - clem u0750, added codLE 3 to line 62732 (uyr) to block formation and analysis of nonexistent uyrus
-- Gender changes: c1222 n -> m; c1428 m -> n; c1435 n -> f; c1449 n -> m; c1468 2 -> n; c1501 m -> n; c1508 m-> n; c1532 n -> f; c1544 n-> m; c1564 n -> m; c1687 n -> m; c1947 m -> n; c1961 m -> n; c2141 n -> f; c4365 n -> m (on the basis of quotations, but remains doubtful if it rather is an adjective); 
+- Gender changes: 
+    c1222 n -> m
+    c1428 m -> n
+    c1435 n -> f
+    c1449 n -> m
+    c1468 2 -> n
+    c1501 m -> n
+    c1508 m -> n
+    c1532 n -> f
+    c1544 n -> m
+    c1564 n -> m
+    c1687 n -> m
+    c1947 m -> n
+    c1961 m -> n
+    c2141 n -> f
+    c4365 n -> m (on the basis of quotations, but remains doubtful if it rather is an adjective)
+    o0230 1 -> 2
+- clem changes: 
+    t1486, tonitruus/tonitru: added a line for the neuter version tonitru, made tonitrus and tonitruus only masculine. Added tonitruus, tonitrui m. (Gaffiot)
+    t0109, tapete/tapes: added tapes as only masculine, removed from tapete line, now only neuter. The lemma should rather be tapete/tapetum, with tapete as v
+    g0210 genu/genus/genum: according to Georges, Gaffiot, OLD and L&S, made genu only n4 n., added genus,us m. and genum,i n., and added exceptional form genus in n/v/a n. (interpreted as 3rd declension, but isolated: we do not know the genitive form)
+- codles changes:
+    l0136, lageos: n2 -> n2e 
+    c4853, cypru/cypros: n2 -> n2e
+    p1975, phthiropoeos: n2 -> n2e and addition of -us/-os with respective codLE
+    s1435, sesimoides: n32 -> n3n2
+    t1208, trichomanes: n32 -> n3n2
+- exceptional forms:
+    loca as n. pl. for locus, l0360
+
+
+
+
+
