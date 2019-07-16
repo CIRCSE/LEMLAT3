@@ -529,5 +529,6 @@ Table 'lessario': removed value '=' from column 'lem' of row with pr_key '155231
 16th July 2019
 Table 'lessario': fixed clem with n_id='d1276' (lemmas "diameter", "diametros/-us/"). Added masculine noun "diameter" masculine & separated from feminine noun "diametros/-us".
 Table "lemmario": clem with n_id='c4579'. Added 'SCONJ' as upostag_2
-Table 'lessario': clem u0750, added codLE 3 to line 62732 (uyr) to block formation and analysis of nonexistent uyrus
-
+Table 'lessario': 
+- clem u0750, added codLE 3 to line 62732 (uyr) to block formation and analysis of nonexistent uyrus
+- Gender changes: c1222 n -> m; c1428 m -> n; c1435 n -> f; c1449 n -> m; c1468 2 -> n; c1501 m -> n; c1508 m-> n; c1532 n -> f; c1544 n-> m; c1564 n -> m; c1687 n -> m; c1947 m -> n; c1961 m -> n; c2141 n -> f; c4365 n -> m (on the basis of quotations, but remains doubtful if it rather is an adjective); 
