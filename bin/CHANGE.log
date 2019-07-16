@@ -549,9 +549,9 @@ Table 'lessario':
     c4365 n -> m (on the basis of quotations, but remains doubtful if it rather is an adjective)
     o0230 1 -> 2
 - clem changes: 
-    t1486, tonitruus/tonitru: added a line for the neuter version tonitru, made tonitrus and tonitruus only masculine. Added tonitruus, tonitrui m. (Gaffiot)
+    t1486, tonitruus/tonitru: added a line for the neuter version tonitru, made tonitrus and tonitruus only masculine. Added tonitruus, tonitrui m. (Gaffiot). The lemma should be tonitrus as v.
     t0109, tapete/tapes: added tapes as only masculine, removed from tapete line, now only neuter. The lemma should rather be tapete/tapetum, with tapete as v
-    g0210 genu/genus/genum: according to Georges, Gaffiot, OLD and L&S, made genu only n4 n., added genus,us m. and genum,i n., and added exceptional form genus in n/v/a n. (interpreted as 3rd declension, but isolated: we do not know the genitive form)
+    g0210 genu/genus/genum: according to Georges, Gaffiot, OLD and L&S, made genu only n4 n., added genus,us m. and genum,i n., and added exceptional form genus in n/v/a n. (interpreted as 3rd declension, but isolated: we do not know the genitive form). The lemma should be genu as v.
 - codles changes:
     l0136, lageos: n2 -> n2e 
     c4853, cypru/cypros: n2 -> n2e
@@ -560,6 +560,7 @@ Table 'lessario':
     t1208, trichomanes: n32 -> n3n2
 - exceptional forms:
     loca as n. pl. for locus, l0360
+    Added interpretations as ablative, vocative, nominative, genitive and accusative of echo (e0085)
 
 
 
