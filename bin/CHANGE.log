@@ -576,8 +576,14 @@ Table 'lessario':
     Added interpretations as ablative, vocative, nominative, genitive and accusative of echo (e0085)
     36420 person 3 -> 1
    
+24th July 2019
+Table "tabLE"
+- created lemma eccezionale "cichorion"
+- changed lemma eccezionale "xybaphos" in "oxybaphus"
 
-
+Table "lessario"
+haudscio
+- h0952: les "hausc" changed in "haudsc"
 
 
 
