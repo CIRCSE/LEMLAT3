@@ -582,8 +582,10 @@ Table "tabLE"
 - changed lemma eccezionale "xybaphos" in "oxybaphus"
 
 Table "lessario"
-haudscio
-- h0952: les "hausc" changed in "haudsc"
+- n_id='h0952': les "hausc" changed in "haudsc"
+- n_id='83791': les 'thesaurochrysonicochry' changed into 'thesaurochrysonicochrysid'
+- n_id='D79D5': les 'honorificabilitudinita' changed into 'honorificabilitudinitat'
+- IMPORTANT CHANGE: extended the length of column 'les' from 22 to 25 characters
 
 
 
