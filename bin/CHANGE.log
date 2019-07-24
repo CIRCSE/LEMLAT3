@@ -556,6 +556,7 @@ Table 'lessario':
     d1276: fe for sub. diametros is superfluous, removed and created LE for it referring to line 18065. Added codLE 3 to diameter for technical purposes.
     d2213: completely restructured. fe dracontios removed as non-existent, added a f sub dracontios (not found in many sources, only as greekish adjective for vitis). Separated dracontium, dracontea, dracontia (lat), dracontion, dracontias (gr). This entry is actually a set of very different lemmas: it is now not represented as -on/-um/-os anymore. 
     h0192, helianthes: helianthidis is not attested, only a feminine form helianthis beside n helianthes in the sources. lem and LE corrected.
+    p2206, added piius as pii-us (n6), according to Georges. In any case, this brings to forms like piiissimus.
 - codles changes:
     l0136, lageos: n2 -> n2e 
     c4853, cypru/cypros: n2 -> n2e
@@ -567,6 +568,7 @@ Table 'lessario':
     n9806, nescioqui & n9807, nescioquis: pr -> fe (and added codlem PR) - formal change, but technically and logically relevant
     DB534: v6d -> v61a Note: v6d is never used and f.e. gives the incorrect form postferr
     s1751 (sinistim-): n6 -> n6s Note: b wrong codLE, no codLE for superlatives; removed also from senesterior
+    p2206: n6i -> n6 (pi-us vs ?p-ius vs ?pi-ius)
 - exceptional forms:
     loca as n. pl. for locus, l0360
     Added interpretations as ablative, vocative, nominative, genitive and accusative of echo (e0085)
