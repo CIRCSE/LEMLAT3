@@ -569,6 +569,8 @@ Table 'lessario':
     DB534: v6d -> v61a Note: v6d is never used and f.e. gives the incorrect form postferr
     s1751 (sinistim-): n6 -> n6s Note: b wrong codLE, no codLE for superlatives; removed also from senesterior
     p2206: n6i -> n6 (pi-us vs ?p-ius vs ?pi-ius)
+    D874G, laficus: n6 -> n2 (m)
+    DBFB0, raficius: n6i -> n2i (m)
 - exceptional forms:
     loca as n. pl. for locus, l0360
     Added interpretations as ablative, vocative, nominative, genitive and accusative of echo (e0085)
