@@ -590,5 +590,5 @@ Table "lessario"
 25th July 2019
 Table "lessario"
 - fixed errors in CLEM with n_id='a3465'
-
+- n_id='13561': changed vale of field 'lem' from "cimber" to "calaber" 
 
