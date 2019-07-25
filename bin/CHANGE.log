@@ -587,5 +587,8 @@ Table "lessario"
 - n_id='D79D5': les 'honorificabilitudinita' changed into 'honorificabilitudinitat'
 - IMPORTANT CHANGE: extended the length of column 'les' from 22 to 25 characters
 
+25th July 2019
+Table "lessario"
+- fixed errors in CLEM with n_id='a3465'
 
 
