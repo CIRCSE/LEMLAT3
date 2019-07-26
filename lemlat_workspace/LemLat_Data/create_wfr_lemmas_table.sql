@@ -1,11 +1,18 @@
+-- SAFE UPDATE lemmas_wfr table
+-- INSERT ***ONLY*** Fict lemmas
+
 
 DROP TABLE IF EXISTS lemlat_db.lemmas_wfr;
-DROP TABLE IF EXISTS lemlat_db.lemmario;
 
-CREATE TABLE lemlat_db.lemmario LIKE derivational_db.lemmario;
+-- NOOOO!!!!!
+-- DROP TABLE IF EXISTS lemlat_db.lemmario;
+-- CREATE TABLE lemlat_db.lemmario LIKE derivational_db.lemmario;
 
-INSERT INTO lemlat_db.lemmario
-SELECT * FROM derivational_db.lemmario;
+-- importa i soli lemmi fittizi
+-- NB: nella versione corrente il lemmario di derivational db manca di upostag
+
+INSERT IGNORE INTO lemlat_db.lemmario(id_lemma, lemma, codlem, gen, codmorf, n_id, lemma_reduced, src)
+SELECT id_lemma, lemma, codlem, gen, codmorf, n_id, lemma_reduced, src FROM derivational_db.lemmario WHERE src='F';
  
 CREATE TABLE lemlat_db.lemmas_wfr AS
 SELECT wfr_key, wfr_rel.o_id_lemma, wfr_rel.i_id_lemma, i_ord, category, wfr.type,
@@ -24,5 +31,5 @@ ADD  UNIQUE KEY `row_key` (`i_id_lemma`,`i_ord`,`o_id_lemma`,`wfr_key`),
 ADD  KEY `idx_wfr_key` (`wfr_key`),
 ADD  KEY `i_id_lemma` (`i_id_lemma`),
 ADD  KEY `o_id_lemma` (`o_id_lemma`),
-ADD  CONSTRAINT `i_lemma_fk` FOREIGN KEY (`i_id_lemma`) REFERENCES `lemmario` (`id_lemma`) ON DELETE CASCADE ON UPDATE CASCADE,
-ADD  CONSTRAINT `o_lemma_fk` FOREIGN KEY (`o_id_lemma`) REFERENCES `lemmario` (`id_lemma`) ON DELETE CASCADE ON UPDATE CASCADE
+ADD  CONSTRAINT `i_lemma_fk` FOREIGN KEY (`i_id_lemma`) REFERENCES `lemmario` (`id_lemma`) /*ON DELETE CASCADE*/ ON UPDATE CASCADE,
+ADD  CONSTRAINT `o_lemma_fk` FOREIGN KEY (`o_id_lemma`) REFERENCES `lemmario` (`id_lemma`) /*ON DELETE CASCADE*/ ON UPDATE CASCADE
