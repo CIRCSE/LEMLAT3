@@ -2525,3 +2525,11 @@ id_lemma	NEW_gen
 58601	m
 108603	*
  
+29th January 2020
+Tables "lessario" and "lemmario"
+e0015: gen = m->f
+DD80E: gen = m->f
+DD80G: gen = m->f
+s2023: gen = m->f
+DF14B: gen = *->m; codles=n71->n2; codlem = N2/1->N2; codmorf = Af-->NcB; upostag = ADJ->NOUN
+D831D: gen = m->*; codles=n31->n7c; codlem = N3B->N3A; codmorf = NcC->Af-; upostag = NOUN->ADJ
