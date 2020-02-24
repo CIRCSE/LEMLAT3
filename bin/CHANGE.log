@@ -2533,3 +2533,17 @@ DD80G: gen = m->f
 s2023: gen = m->f
 DF14B: gen = *->m; codles=n71->n2; codlem = N2/1->N2; codmorf = Af-->NcB; upostag = ADJ->NOUN
 D831D: gen = m->*; codles=n31->n7c; codlem = N3B->N3A; codmorf = NcC->Af-; upostag = NOUN->ADJ
+
+24th February 2020
+Tables "lessario" and "lemmario"
+gen = f->m for rows of "lessario" with pr_key:
+20197
+20202
+20245
+20255
+23386
+21526
+21607
+27393
+47065
+
