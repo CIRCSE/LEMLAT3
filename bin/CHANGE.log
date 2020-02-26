@@ -2547,3 +2547,16 @@ gen = f->m for rows of "lessario" with pr_key:
 27393
 47065
 
+26th February 2020
+Tables "lessario" and "lemmario"
+
+--Modified--
+'m0218', 'm', '', '', '', '', 'mal', 'n2', '', 'b', '+', '', '', '', '', '', '', '', '35260', '2018-07-24 18:08:15', 'B'
+'m0218', 'n', '', '', '', '', 'mal', 'n2n', 'ma\"lum', '', '+', '', '', '', '', '', '', '', '35261', '2018-07-24 18:08:15', 'B'
+->
+'m9806', 'm', '', '', '', '', 'mal', 'n2', '', 'b', '', '', '', '', '', '', '', '', '35260', '2018-07-24 18:08:15', 'B'
+'m0218', 'n', '', '', '', '', 'mal', 'n2n', 'ma\"lum', '', '', '', '', '', '', '', '', '', '35261','2018-07-24 18:08:15', 'B'
+Changed n_id to lemma "malus" (NOUN, II decl., masculine: "stick/tree"), because it must belong to a CLEM different than that of "ma''lum" ("apple").
+In "lemmario", this implied the change of n_id for lemma "malus" (id_lemma= '23957').
+
+
