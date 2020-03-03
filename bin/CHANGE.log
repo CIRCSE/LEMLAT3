@@ -2560,4 +2560,4 @@ In "lemmario", this implied the change of n_id for lemma "malus" (id_lemma= '239
 3th March 2020
 Tables "lessario" and "lemmario":
 - fixed gen of lemma with n_id='c0752' ("cassis,-is"): not 'f', but 'm'
-
+- assigned the same CLEM (n_id) to "carduus" (N4) and "carduus" (N2). "carduus" (N2) was assigned n_id='c0635' instead of n_id='c0113'
