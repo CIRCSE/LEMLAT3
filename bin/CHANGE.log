@@ -2557,4 +2557,7 @@ Tables "lessario" and "lemmario"
 Changed n_id to lemma "malus" (NOUN, II decl., masculine: "stick/tree"), because it must belong to a CLEM different than that of "ma''lum" ("apple").
 In "lemmario", this implied the change of n_id for lemma "malus" (id_lemma= '23957').
 
+3th March 2020
+Tables "lessario" and "lemmario":
+- fixed gen of lemma with n_id='c0752' ("cassis,-is"): not 'f', but 'm'
 
