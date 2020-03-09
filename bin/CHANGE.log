@@ -2561,3 +2561,61 @@ In "lemmario", this implied the change of n_id for lemma "malus" (id_lemma= '239
 Tables "lessario" and "lemmario":
 - fixed gen of lemma with n_id='c0752' ("cassis,-is"): not 'f', but 'm'
 - assigned the same CLEM (n_id) to "carduus" (N4) and "carduus" (N2). "carduus" (N2) was assigned n_id='c0635' instead of n_id='c0113'
+
+9th March 2020
+Tables "lessario" and "lemmario":
+
+D58B3		v				eiec	v3r		a									170148	2018-07-24 18:16:39	D
+D58B3	*					eiec	n41											170149	2018-07-24 18:16:39	D
+D58B3	*	i				eiec	n6p1											170150	2018-07-24 18:16:39	D
+D58B3	*	i				eiec	n6p2											170151	2018-07-24 18:16:39	D
+D58B3						eiec	v7s											170688	2018-07-24 18:16:39	D
+D58B4						eiic	v3r		b									124324	2018-07-24 18:16:39	D
+->
+D58B3		v				eiic	v5r		a									170148	2018-07-24 18:16:39	D
+D58B3	*					eiect	n41											170149	2018-07-24 18:16:39	D
+D58B3	*	i				eiect	n6p1											170150	2018-07-24 18:16:39	D
+D58B3	*	i				eiectur	n6p2											170151	2018-07-24 18:16:39	D
+D58B3						eiex	v7s											170688	2018-07-24 18:16:39	D
+D58B4		v				eiic	v5r		b									124324	2018-07-24 18:16:39	D
+
+Added lines:
+D58B4	*					eiect	n41											181483	2020-03-09 13:49:25	D
+D58B4	*	i				eiect	n6p1											181484	2020-03-09 13:49:25	D
+D58B4	*	i				eiectur	n6p2											181485	2020-03-09 13:49:25	D
+D58B4						eiex	v7s											181486	2020-03-09 13:49:25	D
+
+'DE04C','','v','','','','suruix','v3r','','','','','','','','','',NULL,'170629','2018-07-24 18:16:39','D'
+'DE04C','*','','','','','suruix','n41','','','','','','','','','',NULL,'170630','2018-07-24 18:16:39','D'
+'DE04C','*','i','','','','suruix','n6p1','','','','','','','','','',NULL,'170631','2018-07-24 18:16:39','D'
+'DE04C','*','i','','','','suruix','n6p2','','','','','','','','','',NULL,'170632','2018-07-24 18:16:39','D'
+'DE04C','','','','','','suruix','v7s','','','','','','','','','',NULL,'170633','2018-07-24 18:16:39','D'
+->
+'DE04C','','v','','','','suruiu','v3i','','','','','','','','','',NULL,'170629','2018-07-24 18:16:39','D'
+'DE04C','','','','','','suruix','v7s','','','','','','','','','',NULL,'170633','2018-07-24 18:16:39','D'
+
+D4FE5	*	i				deiung	n6p1											172883	2018-07-24 18:16:39	D
+D4FE5	*	i				deiung	n6p2											172884	2018-07-24 18:16:39	D
+D4FE5	*					deiung	n41											172885	2018-07-24 18:16:39	D
+D4FE5		v				deiung	v3r											173498	2018-07-24 18:16:39	D
+->
+D4FE5	*	i				deiunct	n6p1											172883	2018-07-24 18:16:39	D
+D4FE5	*	i				deiunctur	n6p2											172884	2018-07-24 18:16:39	D
+D4FE5	*					deiunct	n41											172885	2018-07-24 18:16:39	D
+D4FE5		v				deiung	v3r											173498	2018-07-24 18:16:39	D
+
+Added line:
+D4FE5						deiunx	v7s											181487	2020-03-09 13:56:24	D
+
+D530H		v				discurr	v3r		a									170123	2018-07-24 18:16:39	D
+D530H	*					discurs	n41											170124	2018-07-24 18:16:39	D
+D530H	*	i				discurs	n6p1											170125	2018-07-24 18:16:39	D
+D530H	*	i				discurs	n6p2											170126	2018-07-24 18:16:39	D
+->
+D530H		v				discurr	v3r		a									170123	2018-07-24 18:16:39	D
+D530H	*					discurs	n41											170124	2018-07-24 18:16:39	D
+D530H	*	i				discurs	n6p1											170125	2018-07-24 18:16:39	D
+D530H	*	i				discursur	n6p2											170126	2018-07-24 18:16:39	D
+
+Added line:
+D530H						discucurr	v7s											181488	2020-03-09 13:58:59	D
