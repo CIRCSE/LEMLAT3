@@ -2627,4 +2627,17 @@ Table 'lemmario': fixed UPOSTAG for lemma with id_lemma='35896' (n_id='s0640'; "
 Tables 'lemmario' and 'lessario': changed lemma "decius" with n_id='23275' ADJ -> PROPN
 Tables 'lemmario' and 'lessario': changed lemma "adrianus" with n_id='2231' ADJ -> PROPN
 Tables 'lemmario' and 'lessario': changed lemma "iuvenalis" with n_id='45050' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "alcimus" with n_id='4086' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "benedictus" with n_id='11574' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "constantinus" with n_id='20417' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "damascenus" with n_id='22856' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "festus" with n_id='32936' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "latinus" with n_id='46109' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "leuiticus" with n_id='46943' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "meliboeus" with n_id='51033' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "pyrenaeus" with n_id='68346' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "teucrus" with n_id='83412' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "theophilus" with n_id='83695' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "transtiberinus" with n_id='85245' ADJ -> PROPN
+
 
