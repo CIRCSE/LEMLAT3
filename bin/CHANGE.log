@@ -2623,4 +2623,8 @@ D530H						discucurr	v7s											181488	2020-03-09 13:58:59	D
 23th March 2020
 Table 'lemmario': fixed UPOSTAG for lemma with id_lemma='35896' (n_id='s0640'; "scilicet"). INTJ -> ADV
 
+27 March 2020
+Tables 'lemmario' and 'lessario': changed lemma "decius" with n_id='23275' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "adrianus" with n_id='2231' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "iuvenalis" with n_id='45050' ADJ -> PROPN
 
