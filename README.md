@@ -14,13 +14,11 @@ To cite LEMLAT 3.0 (first release), you can adapt the following:
 
 >Marco Passarotti, Paolo Ruffolo, Flavio M. Cecchini, Eleonora Litta, Marco Budassi (2018) *LEMLAT 3.0*. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1492134.svg)](https://doi.org/10.5281/zenodo.1492134)
 
-To cite **all versions/releases** of LEMLAT 3 use DOI: https://doi.org/10.5281/zenodo.1492133
+To cite **all versions/releases** of LEMLAT 3.0 use DOI: https://doi.org/10.5281/zenodo.1492133
 
-Click [HERE](https://wiki.digitalclassicist.org/LemLat#References) to view LEMLAT's entry in the [Digital Classicist Wiki](https://wiki.digitalclassicist.org/Main_Page).
+## Documentation and use
 
-## Installation and use
-
-See the [Wiki of this repository](https://github.com/CIRCSE/LEMLAT3/wiki) for instructions on how to install and use LEMLAT 3.0.
+See the [Wiki of this repository](https://github.com/CIRCSE/LEMLAT3/wiki) for the full documentation and instructions on how to run LEMLAT 3.0.
 
 ## Copyright
 
