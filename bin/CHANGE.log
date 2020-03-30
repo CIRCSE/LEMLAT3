@@ -2557,7 +2557,7 @@ Tables "lessario" and "lemmario"
 Changed n_id to lemma "malus" (NOUN, II decl., masculine: "stick/tree"), because it must belong to a CLEM different than that of "ma''lum" ("apple").
 In "lemmario", this implied the change of n_id for lemma "malus" (id_lemma= '23957').
 
-3th March 2020
+3rd March 2020
 Tables "lessario" and "lemmario":
 - fixed gen of lemma with n_id='c0752' ("cassis,-is"): not 'f', but 'm'
 - assigned the same CLEM (n_id) to "carduus" (N4) and "carduus" (N2). "carduus" (N2) was assigned n_id='c0635' instead of n_id='c0113'
@@ -2620,10 +2620,10 @@ D530H	*	i				discursur	n6p2											170126	2018-07-24 18:16:39	D
 Added line:
 D530H						discucurr	v7s											181488	2020-03-09 13:58:59	D
 
-23th March 2020
+23rd March 2020
 Table 'lemmario': fixed UPOSTAG for lemma with id_lemma='35896' (n_id='s0640'; "scilicet"). INTJ -> ADV
 
-27 March 2020
+27th March 2020
 Tables 'lemmario' and 'lessario': changed lemma "decius" with n_id='23275' ADJ -> PROPN
 Tables 'lemmario' and 'lessario': changed lemma "adrianus" with n_id='2231' ADJ -> PROPN
 Tables 'lemmario' and 'lessario': changed lemma "iuvenalis" with n_id='45050' ADJ -> PROPN
@@ -2640,4 +2640,20 @@ Tables 'lemmario' and 'lessario': changed lemma "teucrus" with n_id='83412' ADJ 
 Tables 'lemmario' and 'lessario': changed lemma "theophilus" with n_id='83695' ADJ -> PROPN
 Tables 'lemmario' and 'lessario': changed lemma "transtiberinus" with n_id='85245' ADJ -> PROPN
 
+30th March 2020
+Tables 'lemmario' and 'lessario': changed lemma "delius" with n_id='23902' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "demetrius" with n_id='23993' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "dionysius" with n_id='25659' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "horatius" with n_id='38589' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "hostilius" with n_id='38753' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "innocentius" with n_id='42432' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "liuius" with n_id='47686' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "manlius" with n_id='49769' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "ouidius" with n_id='58784' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "plinius" with n_id='64129' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "publius" with n_id='67859' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "statius" with n_id='78286' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "terentius" with n_id='83024' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "tiberius" with n_id='84126' ADJ -> PROPN
+Tables 'lemmario' and 'lessario': changed lemma "uergilius" with n_id='88669' ADJ -> PROPN
 
