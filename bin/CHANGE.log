@@ -2659,3 +2659,23 @@ Tables 'lemmario' and 'lessario': changed lemma "uergilius" with n_id='88669' AD
 
 Tables 'lemmario' and 'lessario': changed lemma "honestus" with n_id='38539' ADJ -> PROPN
 Tables 'lemmario' and 'lessario': changed lemma "octauianus" with n_id='56914' ADJ -> PROPN
+
+23rd May 2020
+#Lemma "melinus" (n_id='m0650'; upostag='ADJ'; id_lemma='24469') does not have graphicl vairant with two "l' ("mellinus")
+#Table: lessario
+'m0167', '*', 'v', '', '', '', 'mellin', 'n6', '', 'b', '', '', '', '', '', '', '', '', '35864', '2018-07-24 18:08:15', 'B'
+->
+'m0167', '*', 'v', '', '', '', 'mellin', 'n6', '', '', '', '', '', '', '', '', '', '', '35864', '2018-07-24 18:08:15', 'B'
+
+'m0650', '*', 'v', '', '', '', 'mellin', 'n6', '', 'a', '', '', '', '', '', '', '', '', '35922', '2018-07-24 18:08:15', 'B'
+->
+removed
+
+'m0650', '*', 'i', '', '', '', 'melin', 'n6', 'me\"li\"nus', '', '', '', '', '', '', '', '', '', '35923', '2018-07-24 18:08:15', 'B'
+->
+'m0650', '*', '', '', '', '', 'melin', 'n6', 'me\"li\"nus', '', '', '', '', '', '', '', '', '', '35923', '2020-05-23 09:57:37', 'B'
+
+#Table: lemmario
+'24469', 'mellinus', 'N2/1', '*', 'Af-', 'm0650', 'mellinus', 'ADJ', NULL, 'B'
+->
+'24469', 'me\'\'li\'\'nus', 'N2/1', '*', 'Af-', 'm0650', 'me\'\'li\'\'nus', 'ADJ', NULL, 'B'
