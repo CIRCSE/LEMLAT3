@@ -2679,3 +2679,10 @@ removed
 '24469', 'mellinus', 'N2/1', '*', 'Af-', 'm0650', 'mellinus', 'ADJ', NULL, 'B'
 ->
 '24469', 'me\'\'li\'\'nus', 'N2/1', '*', 'Af-', 'm0650', 'me\'\'li\'\'nus', 'ADJ', NULL, 'B'
+
+#Tabella 'lessario'
+#Riga con pr_key='56237' (les='string'): codles='v1r' -> codles='v3r'
+#Tabella 'lemmario'
+#Riga con id_lemma='38065' (lemma='stringo'): codmorf='Vmf' -> codmorf='VmH'
+UPDATE lessario SET codles='v3r' WHERE pr_key=56237;
+UPDATE lemario SET codmorf='VmH' WHERE id_lemma=38065;
