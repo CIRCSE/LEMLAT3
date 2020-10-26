@@ -2685,4 +2685,42 @@ removed
 #Tabella 'lemmario'
 #Riga con id_lemma='38065' (lemma='stringo'): codmorf='Vmf' -> codmorf='VmH'
 UPDATE lessario SET codles='v3r' WHERE pr_key=56237;
-UPDATE lemario SET codmorf='VmH', codlem='V3' WHERE id_lemma=38065;
+UPDATE lemmario SET codmorf='VmH', codlem='V3' WHERE id_lemma=38065;
+
+26th October 2020
+Fixed gender of lemma 'exodus' (n_id='e8525'), from feminine to masculine, in table 'lessario' and in table 'lemmario'
+
+#'adam' (n_id='1621'): added ipolemma with fl_cat:'n1e'
+Table 'lessario'
+Added row:
+'1621', 'm', '', '', '', '', 'adam', 'n1e', '=', '', '', '', 'p', '3', '', '', '', NULL, '181490', '2020-10-26 15:58:45', 'O'
+Added NX in field 'codlem', and v in field 'clem'
+'1621', '', 'v', '', '', '', 'adam', 'n', '', '', '', 'NX', 'p', '', '', '', '', NULL, '84966', '2020-10-26 16:06:17', 'O'
+
+'abraham' (n_id='437'): added ipolemma with fl_cat:'n1e'
+Table 'lessario'
+Added row:
+'437', 'm', '', '', '', '', 'abraham', 'n1e', '=', '', '', '', 'p', '3', '', '', '', NULL, '181491', '2020-10-26 16:11:52', 'O'
+Added NX in field 'codlem', and v in field 'clem'
+'437', '', 'v', '', '', '', 'abraham', 'n', '', '', '', 'NX', 'p', '', '', '', '', NULL, '85156', '2020-10-26 16:10:16', 'O'
+
+'david' (n_id='23046'): added ipolemma with fl_cat:'n3'
+Table 'lessario'
+Added row:
+'23046', 'm', '', '', '', '', 'dauid', 'n3', '=', '', '', '', 'p', '3', '', '', '', NULL, '181492', '2020-10-26 16:14:33', 'O'
+Added NX in field 'codlem', and v in field 'clem'
+'23046', '', 'v', '', '', '', 'dauid', 'n', '', '', '', 'NX', 'p', '', '', '', '', NULL, '85002', '2020-10-26 16:14:25', 'O'
+
+'israel' (n_id='44378'): added ipolemma with fl_cat:'n3' in lemlat
+Table 'lessario'
+Added row:
+'44378', 'm', '', '', '', '', 'israel', 'n3', '=', '', '', '', 'p', '3', '', '', '', NULL, '181493', '2020-10-26 16:17:38', 'O'
+Added NX in field 'codlem', and v in field 'clem'
+'44378', '', 'v', '', '', '', 'israel', 'n', '', '', '', 'NX', 'p', '', '', '', '', NULL, '85163', '2020-10-26 16:17:38', 'O'
+
+#'ioel' (n_id='44733'): added ipolemma with fl_cat:'n3' in lemlat
+Table 'lessario'
+Added row:
+'44733', 'm', '', '', '', '', 'ioel', 'n3', '=', '', '', '', 'p', '3', '', '', '', NULL, '181494', '2020-10-26 16:20:15', 'O'
+Added NX in field 'codlem', and v in field 'clem'
+'44733', '', 'v', '', '', '', 'ioel', 'n', '', '', '', 'NX', 'p', '', '', '', '', NULL, '85199', '2020-10-26 16:20:15', 'O'
