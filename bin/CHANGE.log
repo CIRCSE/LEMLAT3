@@ -2685,4 +2685,4 @@ removed
 #Tabella 'lemmario'
 #Riga con id_lemma='38065' (lemma='stringo'): codmorf='Vmf' -> codmorf='VmH'
 UPDATE lessario SET codles='v3r' WHERE pr_key=56237;
-UPDATE lemario SET codmorf='VmH' WHERE id_lemma=38065;
+UPDATE lemario SET codmorf='VmH', codlem='V3' WHERE id_lemma=38065;
