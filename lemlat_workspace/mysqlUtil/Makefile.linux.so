@@ -1,0 +1,20 @@
+MD=.
+OD=debug.linux
+LD=$(MD)/lib.linux/debug
+SD=$(MD)/mysqlUtil
+MYSQL_INCLUDE_DIR=/usr/include/mysql/
+
+FLAGS=-I$(MD)/include/ -I$(MYSQL_INCLUDE_DIR) -g -fPIC
+
+mysqlUtil.a : $(OD)/mysqlUtil.o
+	ar rs $(LD)/mysqlUtil.a $(OD)/mysqlUtil.o
+
+$(OD)/mysqlUtil.o : $(SD)/mysqlUtil.c $(MD)/include/mysqlUtil.h
+	gcc -c $(SD)/mysqlUtil.c -o $(OD)/mysqlUtil.o $(FLAGS)
+
+clean_all : 
+	rm -f $(OD)/*.o 
+	rm -f $(LD)/mysqlUtil.a
+
+clean : 
+	rm -f $(OD)/*.o 

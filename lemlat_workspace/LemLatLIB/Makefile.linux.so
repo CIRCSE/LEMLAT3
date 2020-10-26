@@ -1,0 +1,72 @@
+# Directories
+MD=.
+OD=debug.linux
+LD=$(MD)/lib.linux/debug
+SD=$(MD)/LemLatLIB
+LEMLATDBDIR=$(MD)/../LemLatDB
+MYSQL_INCLUDE_DIR=/usr/include/mysql
+
+# Compiler
+CC=gcc
+# Output filename 
+OUTPUT=$(LD)/lemlatLIB.a
+#OUTPUT_E=$(MD)/lib/debug/lemlatLIB_e.a
+
+# Source files
+SRCS=$(SD)/Sil.c \
+     $(SD)/Silinit.c  \
+     $(SD)/sillib.c \
+     $(SD)/Silcall.c \
+     $(SD)/Sillem.c \
+     $(SD)/lemmatiz.c \
+     $(SD)/lemmi_ecc.c  
+# Output object files (*.o)
+#OBJS_C=$(OD)/Silio.o
+#OBJS_E=$(OD)/Silio_e.o
+OBJS=$(OD)/Sil.o \
+     $(OD)/Silinit.o \
+     $(OD)/Sillib.o \
+     $(OD)/Silcall.o \
+     $(OD)/Sillem.o \
+     $(OD)/lemmatiz.o \
+     $(OD)/lemmi_ecc.o
+
+# Include files
+INCS=$(SD)/sillem.h \
+     $(SD)/sillib.h \
+     $(SD)/silset.h
+
+# Flags
+#FLAGS=-Wall -g -I$(SD)/ -I$(LEMLATDBDIR)/include/ -I$(MD)/include/ -I$(MYSQL_INCLUDE_DIR)/
+# needed for .so 
+FLAGS=-Wall -g -I$(SD)/ -I$(LEMLATDBDIR)/include/ -I$(MD)/include/ -I$(MYSQL_INCLUDE_DIR)/ -fPIC
+
+$(OUTPUT) : $(OBJS) $(OBJS_C)  $(INCS)
+	ar rs $(OUTPUT) $(OBJS) 
+
+$(OD)/Sil.o : $(SD)/Sil.c
+	$(CC) -c $(SD)/Sil.c -o $(OD)/Sil.o $(FLAGS) 
+$(OD)/Silinit.o : $(SD)/Silinit.c
+	$(CC) -c $(SD)/Silinit.c -o $(OD)/Silinit.o $(FLAGS) 
+$(OD)/Sillib.o : $(SD)/sillib.c
+	$(CC) -c $(SD)/sillib.c -o $(OD)/Sillib.o $(FLAGS) 
+$(OD)/Silcall.o : $(SD)/Silcall.c
+	$(CC) -c $(SD)/Silcall.c -o $(OD)/Silcall.o $(FLAGS)
+$(OD)/Sillem.o : $(SD)/Sillem.c
+	$(CC) -c $(SD)/Sillem.c -o $(OD)/Sillem.o $(FLAGS)
+$(OD)/lemmatiz.o : $(SD)/lemmatiz.c
+	$(CC) -c $(SD)/lemmatiz.c -o $(OD)/lemmatiz.o $(FLAGS)
+$(OD)/lemmi_ecc.o : $(SD)/lemmi_ecc.c
+	$(CC) -c $(SD)/lemmi_ecc.c -o $(OD)/lemmi_ecc.o $(FLAGS)
+
+#emb : $(OBJS) $(OBJS_E)  $(INCS)
+#	ar rs $(OUTPUT_E) $(OBJS) $(OBJS_E)
+
+
+clean_all:
+	rm -f $(OD)/*.o
+	rm -f $(OUTPUT)
+
+clean:
+	rm -f $(OD)/*.o
+
