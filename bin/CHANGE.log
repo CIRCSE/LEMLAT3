@@ -2724,3 +2724,32 @@ Added row:
 '44733', 'm', '', '', '', '', 'ioel', 'n3', '=', '', '', '', 'p', '3', '', '', '', NULL, '181494', '2020-10-26 16:20:15', 'O'
 Added NX in field 'codlem', and v in field 'clem'
 '44733', '', 'v', '', '', '', 'ioel', 'n', '', '', '', 'NX', 'p', '', '', '', '', NULL, '85199', '2020-10-26 16:20:15', 'O'
+
+######################
+#lemmario record:
++----------+--------+
+| id_lemma | lemma  |
++----------+--------+
+|    71701 | adam   |
+|    95331 | dauid  |
+|    95330 | dauid  |
+|   112416 | ioel   |
+|   112584 | israel |
++----------+--------+
+# cambio upostag da 'NOUN' a 'PROPN'
+#        gen     da ''     a 'm'
+# per le corrispondenti entrate del lessario
++--------+--------+
+| pr_key | les    |
++--------+--------+
+| 164912 | adam   |
+| 166046 | dauid  |
+| 165667 | dauid  |
+| 165122 | ioel   |
+| 165757 | israel |
++--------+--------+
+# cambio type da '' a 'p'
+# per le corrispondenti 
+forme_ecc:
+c07='m'
+#############################
