@@ -2753,3 +2753,9 @@ Added NX in field 'codlem', and v in field 'clem'
 forme_ecc:
 c07='m'
 #############################
+
+(bugfix) lemma "curiatius" da ADJ a NOUN:
+- lessario: n_id='22372' -> gen='m', codles='n2i', type='p'
+- lemmario: n_id='22372' -> codlem='N2', gen='m', codmorf='NpB', upostag='PROPN'
+
+
