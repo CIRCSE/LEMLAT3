@@ -2758,4 +2758,26 @@ c07='m'
 - lessario: n_id='22372' -> gen='m', codles='n2i', type='p'
 - lemmario: n_id='22372' -> codlem='N2', gen='m', codmorf='NpB', upostag='PROPN'
 
+############################
+
+aggiunta entrata lessario/lemmario
+
+#Tabella 'lessario'
+n_id='l9921'
+les='lustr'
+smv='+'
+codles='v1d'
+lem='-or'
+src='B'
+
+#Tabella 'lemmario'
+lemma='lustror'
+codlem='V1'
+codmorf='VmF'
+n_id='l9921'
+lemma_reduced='lustror'
+upostag='VERB'
+src='B'
+
+
 

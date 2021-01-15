@@ -1,1 +1,1 @@
-../../lemlat_db_26-07-2019.sql
+../../lemlat_db.sql
