@@ -2779,5 +2779,36 @@ lemma_reduced='lustror'
 upostag='VERB'
 src='B'
 
+#######################
 
+BUGFIX principium:
+
+--lemlat_db.lessario--
+
+(1)
+
+n_id='p4684'
+pr_key=''46937''
+
+gen='n' -> gen=''
+les='princip' -> les='principium'
+codles='n2ni' -> les='i'
+s_omo='b' -> s_omo=''
+
+
+
+(2)
+n_id='p3568'
+pr_key='46936'
+
+s_omo='a' -> s_omo=''
+
+--lemlat_db.lemmario--
+
+id_lemma='31987'
+
+codlem='N2' -> codlem='I'
+gen='n' -> gen=''
+codmorf='NcB' -> codmorf='X--'
+upostag='NOUN' -> upostag='ADV'
 
