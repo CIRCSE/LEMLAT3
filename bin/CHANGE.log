@@ -2812,3 +2812,9 @@ gen='n' -> gen=''
 codmorf='NcB' -> codmorf='X--'
 upostag='NOUN' -> upostag='ADV'
 
+#######################
+eliminazione di 'gallus' i.e. n_id='g0061'
+i.e.:
+lessario: pr_key = 25702 
+lemmario: id_lemma= 17025
+
