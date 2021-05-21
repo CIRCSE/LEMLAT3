@@ -2818,3 +2818,18 @@ i.e.:
 lessario: pr_key = 25702 
 lemmario: id_lemma= 17025
 
+
+
+###########
+aggiunta les 'subsiciu' nella clem di s3118 in lemlat_db.lessario:
+'s3118','n','','','','','subsiciu','n2n','','','','','','','','s07','',NULL,'181496','2021-05-21 11:14:56','B'
+'s3118','n','','','','','subseciu','n2n','','','','','','','','','',NULL,'181497','2021-05-21 11:14:56','B'
+'s3118','n','','','','','succisiu','n2n','','','','','','','','s01','',NULL,'181498','2021-05-21 11:14:56','B'
+
+aggiunta a lemlat_db.lemmario:
+'157233','subsiciuum','N2','n','NcB','s3118','subsiciuum','NOUN',NULL,'B'
+
+aggiunta a lemmas_wfr:
+'102','157233','38607','1','Derivation_Conversion','A-To-N',NULL
+
+
