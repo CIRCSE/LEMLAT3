@@ -2829,7 +2829,21 @@ aggiunta les 'subsiciu' nella clem di s3118 in lemlat_db.lessario:
 aggiunta a lemlat_db.lemmario:
 '157233','subsiciuum','N2','n','NcB','s3118','subsiciuum','NOUN',NULL,'B'
 
+
+!!!!!!!!!!!!!!!!!!
 aggiunta a lemmas_wfr:
 '102','157233','38607','1','Derivation_Conversion','A-To-N',NULL
+ERRORE!!!
+!!!!!!!!!!!!!!!
+
+./aggiuntePerLASLA/INSERT_lila_entry_AGGIUNTE.sql
+./BUGFIX_quinquennalis.sql
+./BUGFIX_gallus/bugfix_gallus.sql
+./aggiuntePerEgloghe/BUGFIX_n1-as.txt
+./aggiuntePerEgloghe/aggiunteManuali_BUGFIXES.sql
+./BUGFIX_lemmaVariantHypo/BUGFIX_lemmaVariantHypo.txt
+./BUGFIX_lemmaVariantHypo/BUGFIX_lemmaVariantHypo.sql
+./BUGFIX_ceu/bugfix_ceu.sql
+
 
 
