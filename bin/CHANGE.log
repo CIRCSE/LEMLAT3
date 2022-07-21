@@ -2849,3 +2849,21 @@ ERRORE!!!
 BUGFIX_ripo2ripare.sql
 
 BUGFIX_diapanton_refacio_elino.sql
+
+BUGFIX 'leuis':
+UPDATE `lemlat_db`.`tab_le` SET `codLE`='d' WHERE `pr_key`='2772';
+UPDATE `lemlat_db`.`tab_le` SET `codLE`='d' WHERE `pr_key`='2773’;
+
+Modifiche per Confessiones (v.  lila_db/modifiche/aggiuntePerConfessiones/modificheLiLaLemLat.sql):
+* cambiamento genere da  m a f
+lemmario id_lemma: 76630, 76631
+lessario n_id: D1501, D1502
+* cambiamento POS da ADJ a PROPN
+lemmario id_lemma 60252
+lessario     n_id 50623
+* cambiamento POS da ADJ a PROPN
+lemmario id_lemma 62808
+lessario     n_id 58063
+* cambiamento POS da ADJ a PROPN
+lemmario id_lemma 65067
+lessario     n_id 66460
