@@ -1,0 +1,35 @@
+
+In soldoni, la questione è questa:
+perché la forma “ ” non viene analizzata da Lemlat,
+malgrado sia potenzialmente segmentabile come composta del
+les “dexter”(pr_key 17953, n_id “d0000” e codles “n6”) e del
+sf “us” (compatibile con codles “n6”  stando alla tabella tabsf)?
+
+Con Marco ipotizzavamo che ciò fosse legato alla generazione di un lemma tramite il campo “lem”
+– in cui è riportato il valore “=” nel campo corrispondente – e che questo impedisse in qualche modo la segmentazione.
+
+Ma questa ipotesi si scontra con il fatto che
+la forma “aedulium” venga correttamente analizzata come nominativo singolare:
+les “aedul” (pr_key 20260, n_id “e0110”, codles “n2ni”) +
+sf “ium” (compatibile con codles “n2ni”);
+e questo malgrado anche in questo caso sia riportato un valore
+nel campo “lem” (“edulium”),
+che però in questo caso non impedisce la segmentazione.
+
+Un contrasto ancora più evidente è quello tra le forme
+“scamandrus” – che viene analizzata – e
+“scholastrus” – che non viene analizzata.
+Questo malgrado potenzialmente le due forme possano essere analizzate allo stesso modo,
+come dettagliato qui sotto per i due casi:
+
+“scamandrus” (analizzato):
+les “scamandr” (pr_key 72083, n_id “73712”, codles “n2”, “scamander” in campo lem) +
+sf “us”
+*“scholastrus” (non analizzato):
+les “scamandr” (pr_key 120333, n_id “DCG4G”, codles “n2”, “scholaster” in campo lem) +
+sf “us”
+
+In questo caso, l’unica differenza tra i due casi è che
+il primo è un nome proprio dell’onomasticon:
+ma ci pare strano che sia questo a motivare la differenza nell’analisi.
+
