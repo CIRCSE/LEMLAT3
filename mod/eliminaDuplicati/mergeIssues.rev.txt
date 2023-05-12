@@ -1,0 +1,211 @@
+
+
+Distribuzione dei gruppi per cardinalità delle sorgenti:
+
++------+------+------+------+
+| NoB  | NoO  | NoD  | c    |
++------+------+------+------+
+| many | zero | many |    1 | *
+| one  | many | many |    1 | B
+| one  | one  | many |   10 | B
+| one  | one  | one  |   48 | B
+| one  | zero | many | 2080 | B
+| one  | zero | one  | 7657 | B
+| zero | many | one  |    2 | *
+| zero | one  | many |   11 | O
+| zero | one  | one  |   77 | O
+| zero | zero | many | 3568 | Dd | Dr
++------+------+------+------+
+
+Criteri di scelta dei candidati (priorità):
+Base (B) -> Onomasticon (O) -> Ducange ( Dd | Dr )
+Fra i lemmi di ducange considero prioritari quelli recanti
+informazioni derivazionali, altrimenti opero scelta casuale (primo n_id in ordine alfabetico)
+
+Problemi SELEZIONE CANDIDATO:
+=============================
+1.
+(*) per i gruppi seguenti esiste più di un candidato :
++------------+--------+-----+---------+----------+---------+---------+------+------+------+---------------------------------------------------------------------+--------------+
+| lemma      | codlem | gen | codmorf | NoLemLat | NoLiLaL | NoLiLaH | NoB  | NoO  | NoD  | LemLatLST                                                           | LiLaLST      |
++------------+--------+-----+---------+----------+---------+---------+------+------+------+---------------------------------------------------------------------+--------------+
+| augustinus | N2/1   | *   | Af-     |        3 |       1 |       0 |    0 |    2 |    1 | 48429(10162),48430(10164),78796(D1CA9)                              | lemma/33193  |
+| baebius    | N2/1   | *   | Af-     |        3 |       1 |       0 |    0 |    2 |    1 | 48741(10881),48742(10882),79471(D1EGC)                              | lemma/33767  |
+| manna      | N1     | f   | NcA     |        5 |       1 |       0 |    2 |    0 |    3 | 24051(m0302),24052(m9981),117088(D9185),117087(D9184),117089(D9186) | lemma/113308 |
++------------+--------+-----+---------+----------+---------+---------+------+------+------+---------------------------------------------------------------------+--------------+
+
+Come eseguire il raggruppamento?
+MARCO:
+- augustinus: tieni 48429(10162). Rimuovi gli altri 2
+- baebius: tieni 1 qualsiasi dei 2 lemmi dell'Onomasticon. Rimuovi gli altri 2
+- manna: tieni i 2 lemmi della Base. Rimuovi i 3 lemmi dell'Onomasticon
+
+2.
+
+Per il gruppo
++---------+--------+-----+---------+----------+---------+---------+------+------+------+---------------------------+-------------+
+| lemma   | codlem | gen | codmorf | NoLemLat | NoLiLaL | NoLiLaH | NoB  | NoO  | NoD  | LemLatLST                 | LiLaLST     |
++---------+--------+-----+---------+----------+---------+---------+------+------+------+---------------------------+-------------+
+| bibleus | N2/1   | *   | Af-     |        2 |       1 |       0 |    0 |    0 |    2 | 81355(D2310),81356(D2311) | lemma/35355 |
++---------+--------+-----+---------+----------+---------+---------+------+------+------+---------------------------+-------------+
+
+I  due lemmi fra cui operare la scelta sono entrambi citati in derivational_db:
+
++------------+------------+----------+-------+-----------+--------+-------+------------+----------+----------+-------+-----------+--------+---------+----------+-------------------+
+| i_id_lemma | i_lemma    | i_codlem | i_gen | i_codmorf | i_n_id | i_ord | o_id_lemma | o_lemma  | o_codlem | o_gen | o_codmorf | o_n_id | wfr_key | category | type              |
++------------+------------+----------+-------+-----------+--------+-------+------------+----------+----------+-------+-----------+--------+---------+----------+-------------------+
+|      81356 | bibleus    | N2/1     | *     | Af-       | D2311  |     1 |      81373 | biblosus | N2/1     | *     | Af-       | D2320  | 183     | A-To-A   | Derivation_Suffix |
+|       4613 | biblus/-os | N2       | f     | NcB       | b0310  |     1 |      81355 | bibleus  | N2/1     | *     | Af-       | D2310  | 58      | N-To-A   | Derivation_Suffix |
++------------+------------+----------+-------+-----------+--------+-------+------------+----------+----------+-------+-----------+--------+---------+----------+-------------------+
+i due lemmi 'bibleus' sono in effetti distinti?
+MARCO:
+- no. Non sono distinti. Vanno unificati, scegliendo di tenere uno qualsiasi dei 2. La derivazione, dunque, è biblus/-os -> bibleus -> biblosus
+
+Problemi di ELIMINAZIONE:
+=========================
+
+Per i gruppi seguenti i lemmi da 'eliminare' sono riferiti in una o più regole di derivazione:
+
++----------+--------+-----+---------+----------+---------+---------+------+------+------+------------------------------------------+-------------+
+| lemma    | codlem | gen | codmorf | NoLemLat | NoLiLaL | NoLiLaH | NoB  | NoO  | NoD  | LemLatLST                                | LiLaLST     |
++----------+--------+-----+---------+----------+---------+---------+------+------+------+------------------------------------------+-------------+
+| bibleus  | N2/1   | *   | Af-     |        2 |       1 |       0 |    0 |    0 |    2 | 81355(D2310),81356(D2311)                | lemma/35355 |
+| lanius   | N2/1   | *   | Af-     |        2 |       1 |       0 |    0 |    1 |    1 | 113558(D882H),57974(45754)               | lemma/61275 |
+| legius   | N2/1   | *   | Af-     |        2 |       1 |       0 |    0 |    1 |    1 | 114327(D8A7A),58285(46476)               | lemma/61771 |
+| madius   | N2/1   | *   | Af-     |        3 |       1 |       0 |    0 |    1 |    2 | 116156(D8G87),116155(D8G86),59402(48988) | lemma/63100 |
+| modius   | N2/1   | *   | Af-     |        3 |       1 |       0 |    0 |    1 |    2 | 61118(52549),119817(D9AF9),119818(D9AFA) | lemma/65979 |
+| ponticus | N2/1   | *   | Af-     |        2 |       1 |       0 |    0 |    1 |    1 | 64935(64692),128439(DB3DE)               | lemma/72495 |
++----------+--------+-----+---------+----------+---------+---------+------+------+------+------------------------------------------+-------------+
+MARCO:
+- bibleus: ho risposto qui sopra
+- lanius: il lemma dell'Onomasticon va corretto in un nome proprio, perché è il nome di un console (fl_cat=n2; gen=m; upostag=PROPN) -> non va eliminato nessun lemma; va creato il PROPN in LiLa
+- legius: il lemma dell'Onomasticon va corretto in un nome proprio, perché è il nome di una gens romana e non ha a che fare con il "legius" dell Du Cange (fl_cat=n2; gen=m; upostag=PROPN) -> non va eliminato nessun lemma; va creato il PROPN in LiLa
+- madius: il lemma dell'Onomasticon va corretto in un nome proprio, perché è il nome di una gens romana (fl_cat=n2; gen=m; upostag=PROPN). Dei due lemmi del Du Cange, uno va corretto in un nome comune (fl_cat=n2; gen=m; upostag=NOUN). -> non va eliminato nessun lemma; vanno creati il PROPN e il NOUN in LiLa
+- modius: il lemma dell'Onomasticon va corretto in un nome proprio, perché è il nome di una console (fl_cat=n2; gen=m; upostag=PROPN). Dei due lemmi del Du Cange, uno va corretto in un nome comune (fl_cat=n2; gen=m; upostag=NOUN) e poi va eliminato (perché è un doppione con il nome comune "modius" della Base). -> va creato il PROPN in LiLa
+- ponticus: probabile errore in WFL. Segnalo a Eleonora.
+Ecco come intervenire sulle righe del lessario dei lemmi in questione:
+
+--- aggiunta:
+legius (n_id='46476'); lanius(n_id=''45754'); madius (n_id='48988'); modius (n_id='52549')
+LESSARIO:
+- gen= '*' -> m'
+- codles= 'n6i' -> n2i'
+- type='p'
+LEMMARIO:
+- codlem='N2/1' -> N2
+- gen= '*' -> m'
+- codmorf='Af-' -> 'NpB'
+- upostag='ADJ' -> 'PROPN'
+
+madius & modius (src='D' -> dei 2 'madius' e dei 2 'modius' modificare quello che non è coinvolto in una regola di formazione da WFL)
+LESSARIO:
+- gen= '*' -> m'
+- codles= 'n6i' -> n2i'
+- type='p'
+LEMMARIO:
+- codlem='N2/1' -> N2
+- gen= '*' -> m'
+- codmorf='Af-' -> 'NcB'
+- upostag='ADJ' -> 'NOUN'
+
+Anche per i lemmi dell’Onomastico tieni traccia, come per quelli del DC.
+-----
+
+
+
+CONTROLLO lessario:
+===================
+
+Le righe del lessario relative agli n_id da eliminare sono presenti anche
+nelle righe del candidato:
+- i gruppi che non risptettano il criterio sono contenute nel file:
+  checkMerge.tsv
+- i gruppi che rispettano il criterio in :
+  doMerge.tsv
+
+MARCO su "checkMerge.tsv":
+- lemma che finisce in -io (codlem=N3B) [663 +158 casi] ->
+  se la differenza tra B e D/O è che sulla riga di B il codles=n31 e sulla riga di D/O il codles=n3,
+  si proceda pure alla eliminazione del lemma/i di D/O
+- lemma che finisce in -tas (codlem=N3B) [264 casi] ->
+  se la differenza tra B e D/O è che sulla riga di B il codles=n31 e sulla riga di D/O il codles=n3,
+  si proceda pure alla eliminazione del lemma/i di D/O
+- lemma che finisce in -or (codlem=N3B) [435 casi] ->
+  se la differenza tra B e D/O è che sulla riga di B il codles=n31 e sulla riga di D/O il codles=n3,
+  si proceda pure alla eliminazione del lemma/i di D/O
+- se la differenza tra le righe in questione del lessario consiste
+      nella presenza del valore "+" nella colonna piu della clem di B e
+      nell'assenza di un valore in piu della clem di O/D,
+  si proceda pure alla eliminazione del lemma/i di D/O (esempio: abacus)
+- se la differenza tra le righe in questione del lessario consiste
+     nella presenza di un valore nella colonna a_gra della clem di B e
+     nell'assenza di un valore in a_gra della clem di O/D,
+  si proceda pure alla eliminazione del lemma/i di D/O (esempio: abstinentia)
+- se la differenza tra le righe in questione del lessario consiste
+     nella presenza del valore "v" nella colonna clem della clem di B e
+     nell'assenza di un valore in clem della clem di O/D,
+  si proceda pure alla eliminazione del lemma/i di D/O (esempio: acceia)
+- se la differenza tra le righe in questione del lessario consiste
+     nella presenza del valore "v*r" nella colonna codles della clem di B e
+     nel valore "v*i" in codles della clem di O/D,
+  si proceda pure alla eliminazione del lemma/i di D/O (esempio: aberro)
+- se il codlem=V* e la differenza tra i les in questione riguarda i campi clem e/o smv,
+  l'eliminazione non dovrebbe sollevare problemi
+  -> ma, prima di farla, fornire un report dei lemmi coinvolti
+
+
+-- checkMerge_1:
+Confermo l’accorpamento di questi casi, eliminando la/le clem con src=‘D’ e mantenendo solo quella/e con src=‘B’.
+L’accorpamento va eseguito facendo ‘percolare’ il valore ‘+’ del campo ’smv’ dalla clem di D alla corrispondente clem di B. Se la clem di B ha più di una riga, va scelta la riga con il valore ‘v’ nel campo ’clem’ (e che, per ulteriore controllo, ha il medesimo valore della riga da rimuovere nel campo ‘les’).
+Nulla viene fatto sul campo ‘clem’.
+
+Si veda, ad esempio, 'abrenuntio' ('a0139'; 'D018F’).
+La riga del lessario con src='D', les='abrenunti', n_id=''D018F'' e codles='v1r' è candidata alla rimozione. Essa ha smv='+'. La riga del lessario che va mantenuta (n_id='a0139') NON ha '+' in campo 'smv'. Eliminare la riga candidata alla rimozione e scrivere il valore '+' in 'smv' della riga restante (quella con src=‘B'). La 'v' in campo clem, invece, non va trasferita.
+
+
+-- checkMerge_2:
+regole:
+
+- lemma che finisce in -o (codlem=N3B) ->
+  se la differenza tra B e D/O è che sulla riga di B il codles=n31 e sulla riga di D/O il codles=n3 (OR codles=n3p),
+  si proceda pure alla eliminazione del lemma/i di D/O  
+- lemma che finisce in -x (codlem=N3B) ->
+  se la differenza tra B e D/O è che sulla riga di B il codles=n31 e sulla riga di D/O il codles=n3 (OR codles=n3p),
+  si proceda pure alla eliminazione del lemma/i di D/O
+  
+- lemma che finisce in -n (codlem=N3B) ->
+  se la differenza tra B e D/O è che sulla riga di B il codles=n3n1 e sulla riga di D/O il codles=n3n (OR codles=n3p),
+  si proceda pure alla eliminazione del lemma/i di D/O
+- lemma che finisce in -a (codlem=N3B) ->
+  se la differenza tra B e D/O è che sulla riga di B il codles=n3n1 e sulla riga di D/O il codles=n3n (OR codles=n3p),
+  si proceda pure alla eliminazione del lemma/i di D/O
+- lemma che finisce in -us (codlem=N2) ->
+  se la differenza tra B e D/O è che sulla riga di B il codles=n3n1 e sulla riga di D/O il codles=n3n (OR codles=n3p),
+  si proceda pure alla eliminazione del lemma/i di D/O
+  
+- lemma che finisce in -e (codlem=N3B) ->
+  se la differenza tra B e D/O è che sulla riga di B il codles=n3n2 e sulla riga di D/O il codles=n3n (OR codles=n3p),
+  si proceda pure alla eliminazione del lemma/i di D/O
+  
+- lemma che finisce in -us (codlem=N3B) ->
+  se la differenza tra B e D/O è che sulla riga di B il codles=n2e e sulla riga di D/O il codles=n2,
+  si proceda pure alla eliminazione del lemma/i di D/O
+  
+- lemma che finisce in -us (codlem=N2/1) ->
+  se la differenza tra B e D/O è la presenza di un qualsiasi valore nei campi a_gra e/o lem in B e la sua assenza in D/O,
+  si proceda pure alla eliminazione del lemma/i di D/O
+  
+- lemma che finisce in -is (codlem=N3B) ->
+  se la differenza tra B e D/O è che sulla riga di B il codles=n31 OR concles=n32 e sulla riga di D/O il codles=n3 (OR codles=n3p),
+  si proceda pure alla eliminazione del lemma/i di D/O
+  
+- lemma che finisce in -a (codlem=N1) ->
+  se la differenza tra B e D/O è la presenza di un qualsiasi valore nei campi a_gra e/o lem in B e la sua assenza in D/O
+  OPPURE è che sulla riga di B il codles=n1e e sulla riga di D/O il codles=n1,
+  si proceda pure alla eliminazione del lemma/i di D/O
+  
+- lemma che finisce in -o (codlem=V3) ->
+  se la differenza tra B e D/O è che tutte le righe della clem di D/O sono contenute anche nella clem di B (al netto del valore 'v' in clem),
+  si proceda pure alla eliminazione del lemma/i di D/O
+
+

@@ -1,0 +1,53 @@
+Quelli che seguono sono i lemmi di LemLat che al momento corrisposndono ad
+una solo entrata della lemmaBank, ma NON saranno raggruppati in una sola
+entrata del lemmario. Potrebbero perciò richiedere uno 'sdoppiamento'
+della corrispondente entrata di LiLa in due o più omografi
+
+============================
+
++------------+--------+-----+---------+----------+---------+---------+------+------+------+---------------------------------------------------------------------+--------------+
+| lemma      | codlem | gen | codmorf | NoLemLat | NoLiLaL | NoLiLaH | NoB  | NoO  | NoD  | LemLatLST                                                           | LiLaLST      |
++------------+--------+-----+---------+----------+---------+---------+------+------+------+---------------------------------------------------------------------+--------------+
+| manna      | N1     | f   | NcA     |        5 |       1 |       0 |    2 |    0 |    3 | 24051(m0302),24052(m9981),117088(D9185),117087(D9184),117089(D9186) | lemma/113308 |
++------------+--------+-----+---------+----------+---------+---------+------+------+------+---------------------------------------------------------------------+--------------+
+
+- manna: tieni i 2 lemmi della Base. Rimuovi i 3 lemmi dell'Onomasticon
+
+=============================
+
+Per tutti i segunti casi si andrà a creare una situazione di
+molti ad uno (lemlat -> lila)
+
+--
+inlex	N3A	*	Af-	D808H	D8090
+non bisogna fare niente
+--
+cardo	N3B	m	NcC	c0633	D314B,D314C
+D314B, che va mantenuto
+--
+ales	N3B	2	NcC	a1332	D0BH3
+--
+lar	N3B	m	NcC	D889G	D889H,D88A0
+--
+mas	N3B	m	NcC	m0417	D93E6
+=NB= ha un omografo
+--
+merges	N3B	f	NcC	m0801	D9788,D9789
+--
+sanguis	N3B	m	NcC	DCD0D	DCD0G,DCD0H,DCD0E,DCD0F
+Nel caso di "sanguis", il lemma da tenere è DCD0F (invece di DCD0D):
+tutti gli altri sono da eliminare.
+--
+uis	N3B	f	NcC	u0804	DE7D7,DE7D8,DE7D5,DE7D6
+Nel caso di "uis", procedere all'eliminazione di tutti i candidati, tranne che di DE7D6 (che è da tenere)
+vanno tutte eliminate (accorpate a quella della Base: u0804),
+tranne quella indicata (DE7D6), che resta e non va accorpata a niente.
+
+======================
+Per i seguenti è stato deciso di creare delle entrata autonome in LiLa
+(eventuali risorse collegate potrebbero dover essere modificate):
+
+| lanius   | N2/1   | *   | Af-     |        2 |       1 |       0 |    0 |    1 |    1 | 113558(D882H),57974(45754)               | lemma/61275 |
+| legius   | N2/1   | *   | Af-     |        2 |       1 |       0 |    0 |    1 |    1 | 114327(D8A7A),58285(46476)               | lemma/61771 |
+| madius   | N2/1   | *   | Af-     |        3 |       1 |       0 |    0 |    1 |    2 | 116156(D8G87),116155(D8G86),59402(48988) | lemma/63100 |
+| modius   | N2/1   | *   | Af-     |        3 |       1 |       0 |    0 |    1 |    2 | 61118(52549),119817(D9AF9),119818(D9AFA) | lemma/65979 |
