@@ -2869,3 +2869,8 @@ lemmario id_lemma 65067
 lessario     n_id 66460
 mod/modificheDucange.sql
 ../lemlat_db_dumps/lemlat_db_DO_10-02-2023.sql.gz
+
+mod/modificheDucangeBF.sql
+**DDL** aggiundo TS a lemmario - creo tabelle per la cacellazione dei doppioni ducange (deprecazione):
+	mod/creaTabDeprecati.sql
+mod/eliminaDuplicati/BUGFIX.sql
