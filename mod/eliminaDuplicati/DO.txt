@@ -1,0 +1,8 @@
+\. ../../UPD_lemmas_wfr.sql
+\. ../creaTabDeprecati.sql
+\. findGroups.sql
+\. MERGE.sql
+\. ../start.sql
+\. ADD_LES.sql
+\. DEL_LES.sql
+COMMIT;
