@@ -2873,4 +2873,13 @@ mod/modificheDucange.sql
 mod/modificheDucangeBF.sql
 **DDL** aggiundo TS a lemmario - creo tabelle per la cacellazione dei doppioni ducange (deprecazione):
 	mod/creaTabDeprecati.sql
-mod/eliminaDuplicati/BUGFIX.sql
+bugfix per eliminazione duplicati (mod/eliminaDuplicati)
+BUGFIX_duplicatiDucange3.sql
+BUGFIX_duplicatiDucange2.sql
+BUGFIX_duplicatiDucange1.sql
+
+eliminazione duplicati ducange
+BUGFIX_duplicatiDucange4.sql
+bugfix eliminazione duplicati: gruppi non predendentemente considerati.
+
+
