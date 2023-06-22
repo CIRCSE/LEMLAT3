@@ -1,0 +1,8 @@
+
+1. Verificare sovrappasizionoe Onomasicon - Ducange:
+   se ci sono è un problema.
+1.1. Modificare Vista per ouput Ducange ( clem miste).
+2. Cambio readme (del programma)
+3. Aggiornamento Git
+
+
