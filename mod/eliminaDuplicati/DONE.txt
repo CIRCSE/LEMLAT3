@@ -1,0 +1,43 @@
+=================== MAIN: cartella 'main' ========================
+- Rilevamento e correzione errori
+- Creazione delle tabelle di supporto
+- Estrazione e revisione dei gruppi di duplicati
+- Raggruppamento dei duplicati
+  + semplice eliminazione
+  + modifica di alcune clem (aggiunta righe) prima delle eliminazione
+
+groups.tsv
+mergeIssues.txt
+mergeIssues.rev.txt
+inserimentoManuale.sql
+checkOmoLiLa.txt
+deepMerge.check.sql
+deepMerge.sql
+deepMerge.tsv
+BUGFIX_duplicatiDucange1.sql
+BUGFIX_duplicatiDucange2.sql
+MERGE.sql
+ADD_LES.sql
+DEL_LES.sql
+doMerge.tsv
+checkMerge.tsv
+findGroups.sql
+DO.txt
+
+================== ISSUE #1: cartella 'issue1' ==============================
+- Correzione errori
+- Aggiunta gruppi aggiuntivi non precedentemente individuati:
+--  a) mancata normalizzazione del lemma
+--  b) non contenenti vodi di ducange 
+
+BUGFIX_duplicatiDucange3.sql
+reportCfr.txt
+checkIntOnoDucange.tsv
+duplicatiOnomasticon.tsv
+checkAbsum.txt
+BUGFIX_absum.sql
+checkMultLemma_ducange.tsv
+checkMergeBF.tsv
+findGroupsBF.sql
+BUGFIX_duplicatiDucange4.sql
+

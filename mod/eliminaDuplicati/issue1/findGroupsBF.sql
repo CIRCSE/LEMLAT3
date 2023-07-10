@@ -1,7 +1,7 @@
 
 -- gruppi aggiuntivi non precedentemente individuati:
 --  a) mancata normalizzazione del lemma
---  b) non contenenti vodi di ducange 
+--  b) non contenenti lemmi di ducange (solo onmasticon) 
 DROP TEMPORARY TABLE IF EXISTS groups;
 CREATE TEMPORARY TABLE groups
 SELECT lemma, codlem, gen, codmorf,

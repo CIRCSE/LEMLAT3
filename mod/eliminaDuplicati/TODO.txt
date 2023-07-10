@@ -1,8 +1,8 @@
-
-1. Verificare sovrappasizionoe Onomasicon - Ducange:
-   se ci sono è un problema.
 1.1. Modificare Vista per ouput Ducange ( clem miste).
 2. Cambio readme (del programma)
 3. Aggiornamento Git
+
+4. Controllare la correttezza di corrspondenze 1:N fra tra lemmi di
+   LemLat (lemma, codlem, gen, codmorf) ed entrate di LiLa
 
 
