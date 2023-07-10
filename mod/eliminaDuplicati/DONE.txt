@@ -41,3 +41,16 @@ checkMergeBF.tsv
 findGroupsBF.sql
 BUGFIX_duplicatiDucange4.sql
 
+================== ISSUE #2: cartella 'issue2' ==============================
+- Correzione errori
+- Aggiunta gruppi aggiuntivi non precedentemente individuati:
+--  a) mancata normalizzazione del lemma (quantità delle vocali)
+--  b) rapporto uno a molti fra 'lemmi lila' e entrate lilaBank
+
+BUGFIX_duplicatiDucange5.sql
+findGroupsBF2.sql
+groupsAdd.check.tsv
+groupsAdd.ok.tsv
+groupsAdd.tsv
+
+
