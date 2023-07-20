@@ -53,4 +53,6 @@ groupsAdd.check.tsv
 groupsAdd.ok.tsv
 groupsAdd.tsv
 
++ bugfix:
+findGroupsBF3.sql
 

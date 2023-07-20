@@ -111,8 +111,9 @@ FROM lemmario WHERE n_id IN( SELECT DISTINCT n_id FROM throw);
 
 /* */
 
--- PRE: lessario 159369 | lemmario 137200
 
--- POST: lessario 158670 | lemmario 136552
+-- PRE: lessario 158670 | lemmario 136552
+
+-- POST: lessario 158658 | lemmario 136540
 
 
