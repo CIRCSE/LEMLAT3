@@ -1,0 +1,169 @@
+
+
+-- Distribuzione gruppi per difformità:
+
++------+-------+------+-------+------+
+| NoL1 | NoCL1 | NoG1 | NoCM1 | N    |
++------+-------+------+-------+------+
+| N    | 1     | 1    | 1     | 2046 | => groupsQuasi.soloLemma.tsv +....
+| 1    | 1     | N    | 1     |  142 | => groupsQuasi.soloGen.tsv
+| N    | 1     | N    | 1     |   87 | => groupsQuasi.LemmaGen.tsv
+| 1    | 1     | 1    | N     |   20 | v. (B)
+| 1    | N     | 1    | N     |   12 | v. (C)
+| 1    | N     | N    | N     |    7 | v. (C)
+| 1    | N     | 1    | 1     |    2 | v. (A)
+| N    | 1     | 1    | N     |    2 | v. (C)
+| N    | 1     | N    | N     |    1 | v. (C)
++------+-------+------+-------+------+
+
+-- ======== SOLO lemma =====
+Distribuzione per sorgente:
++------+------+------+------+
+| NoB1 | NoO1 | NoD1 | c    |
++------+------+------+------+
+| 0    | 0    | N    |  605 |
+| 0    | N    | 0    |    2 |
+| 1    | 0    | 1    | 1313 |
+| 1    | 0    | N    |  113 |
+| 1    | 1    | 0    |   10 |
+| N    | 0    | 1    |    3 | <= rivedere a mano (*)
++------+------+------+------+
+
+
+(*) Casi  NON trattabili automaticamnete :
++--------------+--------+-----+---------+----------+-----+-----+-----+----------------------------------------------------+-----+------------------------+
+| LiLaRef      | codlem | gen | codmorf | NoLemLat | NoB | NoO | NoD | LemLatLST                                          | NoL | lemmaLST               |
++--------------+--------+-----+---------+----------+-----+-----+-----+----------------------------------------------------+-----+------------------------+
+| lemma/120402 | V1     |     | VmF     |        3 |   2 |   0 |   1 | 130669(DBB9A),32928(p4418),32926(p4418)            |   3 | pugillo,pugilo,pugilor |
+| lemma/87112  | V3     |     | VmH     |        3 |   2 |   0 |   1 | 70976(D0286),282(a0268),320(a0268)                 |   3 | accado,accedo,accido   |
+| lemma/97341  | V1     |     | VmF     |        4 |   3 |   0 |   1 | 93617(D47F7),10549(c4706),33592(c4706),9858(c4706) |   4 | coro,couro,curo,quro   |
++--------------+--------+-----+---------+----------+-----+-----+-----+----------------------------------------------------+-----+------------------------+
+#MARCO:
+#- lemma/120402: rimuovere il lemma del D (DBB9A). Nel campo lem della riga del lessario con pr_key='48289' scrivere il valore lem='-o/-or'
+#- lemma/87112: rimuovere il lemma del D (D0286). Aggiungere alla clem della B (a0268) le righe del lessario originariamente della clem di D che hanno pr_key: 139521, 139522, 139523
+#- lemma/97341: rimuovere il lemma del D (D47F7)
+
+
+groupsQuasi.soloLemma.tsv: elenco completo dei gruppi 
+checkLemlat.tsv          : controllo copertura in lemlat:  ultimo campo 'OK' se il lemma da cancellare è prodotto,
+                           'NO' altrimenti
+
+L1_L2.NO.txt, diffDstr.NO.tsv: dettagli/distriuzioni delle varinati per le coppie 'NO'
+#MARCO: il file include anche casi in cui la variante del lemma in questione sia analizzata dalla Base e non dal Ducange.
+#Invece, dovrebbe contenere solo le varianti dei lemmi che sono analizzate dal Ducange, ma non anche dalla Base,
+#perché sono i casi problematici nel momento in cui si cancella la clem del Ducange.
+#Ad esempio, a[-s-]{+d+}signatio -> assignatio è analizzato solo dalla Base; adsignatio è analizzato sia da B che da D.
+#Dunque, cancellare la clem di D non è un problema, in quanto la sua analisi è già coperta da B.
+#Un caso vero che fa problema è, invece, ad esempio, ad[-a-]equo -> adequo è analizzata solo da D,
+#adaequo è analizzata solo da B. Dunque, cancellare la clem di D (per adequo) è un problema,
+#in quanto si perde l'analisi di adequo.
+#Il file, dunque, andrebbe ricostruito tenendo conto di questo.
+
+
+L1_L2.OK.txt, diffDstr.OK.tsv: dettagli/distriuzioni delle varinati per le coppie 'OK'
+#MARCO: va bene rimuovere la/le clem Du Cange ->
+#NB: alla riga 25 (a[-b-]{+d+}breuio): abbiamo un ulteriore lemma del Du Cange oltre a D053E,
+#che va unificato ad "adbrevio/abbrevio" della Base (a0030) -> si tratta di "abrevio" (D0194).
+#Va rimosso anche da LiLa e "abrevio" va aggiunta come nuova wr del lemma "adbrevio/abbrevio".
+#Ci saranno altri casi del genere in L1_L2.OK.txt?
+#Non credo, ma per verificarlo si potrebbe vedere se esista in lemlat il lemma che risulta dalla
+#rimozione dei valori tra parentesi quadre E parentesi graffe.
+#Ad esempio, per a[-c-]{+d+}clamo, verificare se esista "aclamo".
+#Se esistesse, segnalarlo e vedrò se si tratti di veri o falsi positivi.
+
+-- ======= SOLO gen  =====
+ditribuzione delle difforimità:
+#COMMENTI DI #MARCO DOPO ->
++--------+----+
+| genLST | c  |
++--------+----+
+| ,n     |  7 | -> ok rimuovere D
+| 1,m    | 33 | -> ok rimuovere D se c'è lem='-us/-um' nella clem di B. C'è sempre?
+| 1,n    | 46 | -> ok rimuovere D se c'è lem='-um/-us' nella clem di B. C'è sempre?
+| 2,f    | 20 | -> ok rimuovere D se gen='2' nella clem di B e gen = 'f' nella clem di D
+| 2,m    | 25 | -> ok rimuovere D se gen='2' nella clem di B e gen = 'm' nella clem di D
+| 2,n    |  1 | -> ok rimuovere D
+| 3,f    |  1 | -> ok rimuovere D
+| 3,n    |  5 | -> ok rimuovere D
+| f,m    |  4 | -> ok rimuovere D. Questi due da O vanno tenuti separati in lemlat: 63966(62196),63967(62197)
++--------+----+
+dettagli in: groupsQuasi.soloGen.tsv
+
+
+
+-- ======= SOLO lemma + gen  =====
+dettagli in: groupsQuasi.LemmaGen.tsv
+#MARCO: ok rimuovere D
+
+
+-- ======= (A) SOLO codlem =====
+
++--------------+----------------------------+-----------+
+| LiLaRef      | LemLatLST                  | codlemLST |
++--------------+----------------------------+-----------+
+| lemma/104197 | 101987(D638G),15842(f9350) | V,V3      |
+| lemma/128895 | 156401(DF656),41027(t1273) | N,NY      |
++--------------+----------------------------+-----------+
+*/
+#MARCO
+- lemma/104197: ok rimuovere D
+- lemma/128895: ok rimuovere D
+
+
+-- ======= (B) SOLO codmorf =====
+#COMMENTI DI #MARCO DOPO ->
++--------------+----------------------------+------------+
+| LiLaRef      | LemLatLST                  | codmorfLST |
++--------------+----------------------------+------------+
+| lemma/100257 | 53027(27166),13188(d2341)  | Af-,Ao-    | -> ok rimuovere D
+| lemma/10266  | 45694(4136),45693(4136)    | NpB,NpC    | -> la label/wr di lemma/10266 va corretta in "alectus" (ora è "alecto"). Niente da modificare in lemlat
+| lemma/10687  | 57533(44378),112584(D8494) | NcP,NpP    | -> ok rimuovere D
+| lemma/10878  | 57322(44733),112416(D83H3) | NcP,NpP    | -> ok rimuovere D
+| lemma/113508 | 62165(55479),26333(n0145)  | Af-,Ao-    | -> ok rimuovere D
+| lemma/113886 | 122128(DA089),26401(n0574) | Ad-,Ao-    | -> ok rimuovere D
+| lemma/114666 | 62413(56919),27121(o0458)  | Af-,Ao-    | -> ok rimuovere D
+| lemma/121200 | 131602(DBECE),33483(q0229) | Ad-,Af-    | -> ok rimuovere D
+| lemma/121214 | 131617(DBEDD),33496(q0243) | Ad-,Ao-    | -> ok rimuovere D
+| lemma/121313 | 90416(DBEA5),43231(q9202)  | Pu-,Py-    | -> ok rimuovere D
+| lemma/121488 | 133129(DC2C7),34220(r0123) | Af-,Au-    | -> ok rimuovere D
+| lemma/123320 | 139303(DD5DD),37102(s0275) | Ad-,Af-    | -> ok rimuovere D
+| lemma/124417 | 66685(75412),36613(s1305)  | Af-,Ao-    | -> ok rimuovere D
+| lemma/124431 | 138404(DD2C6),36628(s1319) | Af-,Ao-    | -> ok rimuovere D
+| lemma/127502 | 66516(74527),36177(s9990)  | Af-,Ao-    | -> ok rimuovere D
+| lemma/127957 | 68077(83196),40050(t0413)  | Af-,Ao-    | -> ok rimuovere D
+| lemma/2993   | 44598(1621),71701(D050E)   | NcP,NpP    | -> ok rimuovere D
+| lemma/4578   | 52360(23046),95331(D4DA8)  | NcP,NpP    | -> ok rimuovere D
+| lemma/97250  | 94616(D4B35),10471(c4623)  | Af-,Au-    | -> ok rimuovere D
+| lemma/98867  | 52393(23260),10916(d0935)  | Af-,Ao-    | -> ok rimuovere D
++--------------+----------------------------+------------+
+*/
+
+-- ======= (C) resto =====
+#COMMENTI DI #MARCO DOPO ->
++--------------+-----------------------------------------------------+-----------------------------+-----------+--------+------------+
+| LiLaRef      | LemLatLST                                           | lemmaLST                    | codlemLST | genLST | codmorfLST |
++--------------+-----------------------------------------------------+-----------------------------+-----------+--------+------------+
+| lemma/101962 | 150584(D5G0G),14874(e1416)                          | exedo                       | V3,VA     |        | VmH,VmN    | -> ok rimuovere D
+| lemma/103198 | 54515(32936),15949(f0444)                           | festus                      | N2,N2/1   | *,m    | Af-,NpB    | -> non apportare nessuna modifica a lemlat 
+| lemma/105645 | 56544(38539),18329(h0538)                           | honestus                    | N2,N2/1   | *,m    | Af-,NpB    | -> non apportare nessuna modifica a lemlat 
+| lemma/109275 | 57702(45050),22155(i3093)                           | iuuenalis                   | N3A,N3B   | *,m    | Af-,NpC    | -> non apportare nessuna modifica a lemlat 
+| lemma/112616 | 119934(D9B25),25122(m1245)                          | molo                        | V1,V3     |        | VmF,VmH    | -> non apportare nessuna modifica a lemlat 
+| lemma/113638 | 121770(D9H41),26122(n0261)                          | neuter                      | N2/1,PR   | *      | Af-,Pu-    | -> rimuovere la clem del DuCange
+| lemma/113646 | 121779(D9H4D),26133(n0269)                          | nexo                        | V1,V3     |        | VmF,VmH    | -> rimuovere la clem del DuCange
+| lemma/114081 | 122218(DA0DH),26481(n0776)                          | nullus                      | N2/1,PR   | *      | Af-,Pu-    | -> rimuovere la clem del DuCange
+| lemma/121068 | 131213(DBD75),33348(q0113)                          | qualis                      | N3A,PR    | *      | Af-,P5-    | -> rimuovere la clem del DuCange
+| lemma/121092 | 131228(DBD8F),33372(q0135)                          | quantus                     | N2/1,PR   | *      | Af-,P5-    | -> rimuovere la clem del DuCange
+| lemma/121102 | 65366(68992),131595(DBEC7),33551(q0144)             | quinctus,quintus            | N2/1      | *      | Af-,Ao-    |  -> rimuovere la clem del DuCange e quella dell'O
+| lemma/122337 | 131768(DBF4C),33599(r0961)                          | rabio                       | V1,V5     |        | VmF,VmM    | -> rimuovere la clem del DuCange
+| lemma/123932 | 135239(DD04F),138941(DD491),36126(s0844)            | se,sibi                     | PR        | ,*     | Px-,Py-    | -> rimuovere le clem del DuCange
+| lemma/127165 | 141825(DE0AC),39452(s3894)                          | suus                        | N2/1,PR   | *      | Af-,Ps-    | -> rimuovere la clem del DuCange
+| lemma/128689 | 68742(85245),40825(t1090)                           | transtiberinus              | N2,N2/1   | *,m    | Af-,NpB    | -> non apportare nessuna modifica a lemlat 
+| lemma/14187  | 60599(51297),60598(51298)                           | menas                       | N1,N3B    | m      | NpA,NpC    | -> rimuovere la clem 51298
+| lemma/46243  | 52397(23275),95421(D4E6D)                           | decius                      | N2,N2/1   | *,m    | Af-,NpB    | -> non apportare nessuna modifica a lemlat 
+| lemma/63100  | 116155(D8G86),116156(D8G87)                         | madius                      | N2,N2/1   | *,m    | Af-,NcB    | -> non apportare nessuna modifica a lemlat 
+| lemma/65979  | 119817(D9AF9),119818(D9AFA)                         | modius                      | N2,N2/1   | *,m    | Af-,NcB    | -> non apportare nessuna modifica a lemlat 
+| lemma/88457  | 74139(D0E53),1750(a1483)                            | alter                       | N2/1,PR   | *      | Af-,P6-    | -> non apportare nessuna modifica a lemlat
+| lemma/95041  | 90944(D3GB3),8138(c2588)                            | comitatus                   | N2,N4     | m      | NcB,NcD    | -> rimuovere le clem del DuCange
+| lemma/98316  | 95720(D4F6G),95721(D4F76),11165(d0423),11164(d0423) | defretum,defructum,defrutum | N2        | n      | NcB,Y--    | -> rimuovere le clem del DuCange
++--------------+-----------------------------------------------------+-----------------------------+-----------+--------+------------+
+

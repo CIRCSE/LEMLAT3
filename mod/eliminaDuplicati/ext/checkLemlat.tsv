@@ -1,0 +1,2266 @@
+codlem	gen	codmorf	LiLaRef	n_id	lemma	Throw_n_id	Throw_lemma	chk
+N3B	m	NcC	lemma/86838	a0013	abba	D0056	abbas	OK
+V3		VmH	lemma/87382	a0516	adbibo	D006E	abbibo	OK
+N3B	n	NcC	lemma/86866	a0039	abdomen	D00A2	abdumen	OK
+V3		VmH	lemma/88044	a1122	afluo	D00D2	abfluo	OK
+I		X--	lemma/90905	a3700	ab-intus	D00H2	abintus	OK
+I		X--	lemma/90906	a3701	ab-inuicem	D00H3	abinuicem	OK
+V4		VmL	lemma/86919	a0086	abligurrio	D0128	abligurio	OK
+V1		VmF	lemma/87587	a0710	adnodo	D013C	abnodo	OK
+N4	m	NcD	lemma/86965	a0128	abortus	D016G	aborsus	OK
+N		NcP	lemma/26327	D018E	abreiscep	D0196	abreyscep	NO
+V1		VmF	lemma/90805	a3588	ausculto	D01CC	absculto	OK
+N2	n	NcB	lemma/88231	a1281	apsinthium	D01EG	absinthium	OK
+N3B	f	NcC	lemma/89674	a2568	apsis	D01EH	absis	OK
+V1		VmF	lemma/90273	a3101	asporto	D01H8	absporto	OK
+N2	n	NcB	lemma/88231	a1281	apsinthium	D022A	absynthium	OK
+N3A	*	Af-	lemma/26478	D00HD	abissalis	D024D	abyssalis	NO
+V1		VmF	lemma/26810	D03B6	achapto	D026E	acapto	NO
+N2	m	NcB	lemma/26524	D027B	acatapanus	D027E	acathapanus	NO
+N2	n	NcB	lemma/87075	a0232	acation	D027G	acatium	OK
+N1	f	NcA	lemma/87085	a0241	acceia	D02E3	accia	OK
+N1	f	NcA	lemma/87176	a0330	acedia	D02F5	accidia	NO
+N2	m	NcB	lemma/26802	D0258	acaliculus	D03AG	achaliculus	NO
+N2	n	NcB	lemma/26809	D026D	acaptamentum	D03B5	achaptamentum	NO
+N3B	m	NcC	lemma/26509	D026F	acaptator	D03B7	achaptator	NO
+N2	m	NcB	lemma/26821	D0280	acatus	D03C2	achatus	NO
+N2	n	NcB	lemma/87211	a0360	acetum	D03CE	achetum	NO
+N1	f	NcA	lemma/87226	a0374	acia	D03CG	achia	NO
+N2	m	NcB	lemma/87238	a0385	acinus	D03D8	achinus	NO
+N2	m	NcB	lemma/87249	a0395	acoluthus	D03DH	acholytus	NO
+N1	f	NcA	lemma/87297	a0436	acta	D03E4	achta	NO
+N1	f	NcA	lemma/87321	a0458	acucula	D03F4	acicula	OK
+N1	f	NcA	lemma/87176	a0330	acedia	D03F6	acidia	OK
+N2	m	NcB	lemma/87249	a0395	acoluthus	D040E	acoletus	OK
+N2	m	NcB	lemma/87249	a0395	acoluthus	D040G	acolitus	OK
+N2	m	NcB	lemma/87249	a0395	acoluthus	D040H	acolytus	NO
+N1	f	NcA	lemma/87221	a0370	achora	D041H	acora	OK
+N2	n	NcB	lemma/88343	a1373	aquifolium	D0458	acrifolium	OK
+N3B	n	NcC	lemma/87281	a0422	acroama	D0471	acroma	OK
+N1	f	NcA	lemma/89692	a2585	aqua	D04D1	acua	OK
+N2	n	NcB	lemma/27081	D04E1	acuidamentum	D04GF	acuydamentum	NO
+V1		VmF	lemma/27082	D04E2	acuido	D04GG	acuydo	NO
+N3A	*	Af-	lemma/27117	D03GC	aciralis	D04H0	acyralis	NO
+N2	n	NcB	lemma/27118	D03H2	acisterium	D04H1	acysterium	NO
+V1		VmF	lemma/86856	a0030	abbreuio	D053E	adbreuio	OK
+N1	f	NcA	lemma/27188	D02B0	accensa	D0542	adcensa	NO
+V1		VmF	lemma/87127	a0283	acclamo	D054E	adclamo	OK
+V3		VmH	lemma/87136	a0291	accognosco	D0553	adcognosco	OK
+V1		VmF	lemma/87145	a0300	accorporo	D0558	adcorporo	OK
+N3B	f	NcC	lemma/87399	a0533	additio	D056C	addicio	NO
+V1		VmF	lemma/87348	a0483	adaequo	D0589	adequo	NO
+V1		VmF	lemma/87350	a0485	adaero	D058F	adero	NO
+N2/1	*	Af-	lemma/87981	a1060	affaber	D0599	adfaber	OK
+N3B	f	NcC	lemma/87988	a1067	affatio	D059C	adfatio	OK
+N2/1	*	Af-	lemma/88000	a1078	affectuosus	D059H	adfectuosus	OK
+V3		VmH	lemma/88006	a1084	affigo	D05A6	adfigo	OK
+V1		VmF	lemma/88007	a1085	affiguro	D05A7	adfiguro	OK
+V1		VmF	lemma/88027	a1105	afflo	D05A9	adflo	OK
+V1		VmF	lemma/27961	D08E7	afforo	D05AA	adforo	NO
+V1		VmF	lemma/88042	a1120	affurcillo	D05AG	adfurcillo	OK
+V1		VmF	lemma/88068	a1144	aggeniculor	D05B0	adgeniculor	OK
+V1		VmF	lemma/88078	a1154	agglutino	D05B6	adglutino	OK
+V3		VmH	lemma/88110	a1183	agnascor	D05B8	adgnascor	OK
+V1		VmF	lemma/88081	a1157	aggrauo	D05BA	adgrauo	OK
+V1		VmF	lemma/88373	a1403	allego	D0602	adlego	OK
+V1		VmF	lemma/88384	a1414	alleuio	D060A	adleuio	OK
+N3B	f	NcC	lemma/88654	a1661	amentatio	D0624	admentatio	OK
+N2	n	NcB	lemma/88694	a1695	ammentum	D0626	admentum	OK
+V1		VmF	lemma/87524	a0653	adminiculo	D062G	adminiculor	OK
+N3B	f	NcC	lemma/88112	a1185	agnatio	D066E	adnatio	OK
+V1		VmF	lemma/89109	a2059	annihilo	D0672	adnihilo	OK
+V1		VmF	lemma/89123	a2071	annullo	D0679	adnullo	OK
+V1		VmF	lemma/87693	a0807	adulescentior	D0687	adolescentior	OK
+N2	m	NcB	lemma/88676	a1681	adulescentulus	D0688	adolescentulus	OK
+N1	f	NcA	lemma/87630	a0750	adoria	D069F	adorea	OK
+V4		VmL	lemma/87632	a0751	adorior	D06A2	adorio	OK
+V3		VmH	lemma/89603	a2504	applaudo	D06B4	adplaudo	OK
+I		X--	lemma/89605	a2506	applene	D06B5	adplene	OK
+V1		VmF	lemma/89607	a2508	applico	D06B7	adplico	OK
+V1		VmF	lemma/31173	D13B8	appodio	D06B8	adpodio	NO
+V3		VmH	lemma/89613	a2513	appono	D06B9	adpono	OK
+V3		VmH	lemma/89623	a2523	apprehendo	D06BE	adprehendo	OK
+V1		VmF	lemma/89627	a2527	appretio	D06BF	adpretio	OK
+V1		VmF	lemma/89642	a2542	appropinquo	D06C3	adpropinquo	OK
+V1		VmF	lemma/89643	a2543	appropio	D06C2	adpropio	OK
+V1		VmF	lemma/89645	a2545	approprio	D06C4	adproprio	OK
+I		X--	lemma/90490	a3301	atque	D06C7	adque	OK
+V3		VmH	lemma/87263	a0406	acquiesco	D06C9	adquiesco	OK
+V3		VmH	lemma/90079	a2924	arrodo	D06EB	adrodo	OK
+V4		VmL	lemma/90353	a3171	assilio	D06F1	adsalio	OK
+N3B	f	NcC	lemma/90200	a3036	ascriptio	D06F6	adscriptio	OK
+N3B	f	NcC	lemma/90290	a3114	assectatio	D06F9	adsectatio	OK
+N3B	m	NcC	lemma/90291	a3115	assectator	D06FA	adsectator	OK
+V1		VmF	lemma/90300	a3123	assello	D06FD	adsello	OK
+N3B	f	NcC	lemma/90305	a3128	assentatio	D06FH	adsentatio	OK
+N3B	m	NcC	lemma/90946	a6142	assertor	D06G1	adsertor	OK
+N3B	f	NcC	lemma/90328	a3148	assessio	D06G3	adsessio	OK
+N3B	m	NcC	lemma/90329	a3149	assessor	D06G4	adsessor	OK
+N1	f	NcA	lemma/90326	a3146	assessura	D06G7	adsessura	OK
+V2		VmG	lemma/90340	a3159	assideo	D06G9	adsideo	OK
+N3B	f	NcC	lemma/90347	a3165	assignatio	D06GC	adsignatio	OK
+V1		VmF	lemma/90351	a3169	assigno	D06GB	adsigno	OK
+V1		VmF	lemma/90357	a3175	assimulo	D06GD	adsimilo	OK
+V1		VmF	lemma/90357	a3175	assimulo	D06GE	adsimulo	OK
+N3B	f	NcC	lemma/90333	a3152	assestrix	D06GF	adsistrix	OK
+V1		VmF	lemma/90370	a3188	assolo	D06H0	adsolo	OK
+V5		VmM	lemma/90262	a3091	aspicio	D06H5	adspicio	OK
+N3B	m	NcC	lemma/90419	a3236	astipulator	D06HF	adstipulator	OK
+V1		VmF	lemma/90421	a3237	astipulor	D06HE	adstipulo	OK
+V3		VmH	lemma/90434	a3249	astrepo	D06HH	adstrepo	OK
+N3B	f	NcC	lemma/90377	a3195	assuetudo	D0701	adsuetudo	OK
+N4	m	NcD	lemma/91051	a8907	assultus	D0702	adsultus	OK
+V1		VmF	lemma/90522	a3329	attamino	D0707	adtamino	OK
+N5	f	NcE	lemma/90529	a3336	attemperies	D0709	adtemperies	OK
+V1		VmF	lemma/90531	a3338	attempto	D070B	adtempto	OK
+V3		VmH	lemma/90532	a3339	attendo	D070E	adtendo	OK
+V1		VmF	lemma/90538	a3345	attermino	D070F	adtermino	OK
+V1		VmF	lemma/90558	a3365	attitulo	D070H	adtitulo	OK
+V3		VmH	lemma/90569	a3376	attraho	D0714	adtraho	OK
+V1		VmF	lemma/90571	a3378	attrecto	D0715	adtrecto	OK
+V1		VmF	lemma/90578	a3385	attropo	D0716	adtropo	OK
+N2/1	*	Af-	lemma/87655	a0773	aduenticius	D0734	aduentitius	NO
+N2	n	NcB	lemma/87447	a0579	adiantum	D079A	adyantum	NO
+N2	m	NcB	lemma/105074	h0031	haedus	D07BA	aedus	OK
+N3B	f	NcC	lemma/100770	e0274	electio	D07CD	aelectio	NO
+V1		VmF	lemma/87804	a0900	aemulor	D07D1	aemulo	OK
+N2	n	NcB	lemma/89343	a2271	aeneum	D07DF	aenum	OK
+N3A	*	Af-	lemma/87854	a0946	aequiperabilis	D07FA	aequiparabilis	OK
+V1		VmF	lemma/87859	a0951	aequipero	D07FC	aequiparo	OK
+N2	m	NpB	lemma/6456	29971	ethicus	3154	aethicus	NO
+N3B	f	NcC	lemma/87955	a1037	aetas	D0837	aeuitas	OK
+N2	n	NcB	lemma/27870	D0856	affaitamentum	D0871	affaytamentum	NO
+N2	n	NcB	lemma/27986	D08G1	affranchisamentum	D08G3	affrancisamentum	NO
+N3B	f	NcC	lemma/28014	D08HB	affrontacio	D08HE	affrontatio	NO
+V1		VmF	lemma/27287	D05B9	adgrauor	D09AA	aggrauor	NO
+N3B	f	NcC	lemma/88112	a1185	agnatio	D09F2	agnacio	NO
+N1	m	NcA	lemma/88154	a1218	agonotheta	D09HE	agonitheta	OK
+V1		VmF	lemma/88152	a1216	agonizor	D09HF	agonizo	OK
+N3A	*	Af-	lemma/28296	D0A18	agrairalis	D0A2H	agrayralis	NO
+N1	f	NcA	lemma/87273	a0414	acredula	D0A36	agredula	OK
+N1	f	NcA	lemma/91114	a9238	agri-cultura	D0A4G	agricultura	OK
+N1	f	NcA	lemma/91114	a9238	agri-cultura	D0A4G	agricultura	OK
+N2	n	NcB	lemma/88343	a1373	aquifolium	D0A53	agrifolium	OK
+N1	f	NcA	lemma/28492	D0819	aessella	D0ADA	aissella	NO
+N2	n	NcB	lemma/88196	a1254	aizoum	D0AE6	aizoon	OK
+N1	m	NcA	lemma/89738	a2626	arabarches	D0AF6	alabarches	OK
+N1	f	NcA	lemma/91163	a9980	arabarchia	D0AF7	alabarchia	OK
+N1	f	NcA	lemma/88208	a1265	alapa	D0B04	alapha	NO
+N2	m	NcB	lemma/28557	D0B06	alaphus	D0B0D	alapus	NO
+N3B	n	NcC	lemma/86915	a0082	ablegmina	D0B5G	albegmina	OK
+N1	f	NcA	lemma/28711	D0BB5	alcaidaria	D0BBG	alcaydaria	NO
+N1	f	NcA	lemma/28731	D0BCE	alchia	D0BD5	alcia	NO
+N3B	f	NcC	lemma/88277	a1319	alcyon	D0BD9	alcion	OK
+N2/1	*	Af-	lemma/88304	a1342	algiosus	D0BDA	alciosus	OK
+N2	n	NcB	lemma/88352	a1382	alium	D0BHE	aleum	OK
+N1	f	NcA	lemma/28802	D0BFB	aleia	D0C03	aleya	NO
+N1	f	NcA	lemma/88282	a1324	alea	D0C41	alia	OK
+N2	n	NcB	lemma/88204	a1261	alabrum	D0C53	alibrum	OK
+N1	f	NcA	lemma/88313	a1350	alica	D0C57	alicha	NO
+N1	m	NcA	lemma/88347	a1377	alipta	D0C99	aliptes	OK
+N1	f	NcA	lemma/29041	D0CFH	alleluia	D0CG0	alleluya	NO
+N2	n	NcB	lemma/29043	D0CG2	alleluiarium	D0CG3	alleluyarium	NO
+N2	n	NcB	lemma/88352	a1382	alium	D0D03	alleum	OK
+N1	f	NcA	lemma/29037	D0CFD	alleia	D0D09	alleya	NO
+N1	f	NcA	lemma/29081	D060B	adlicula	D0D14	allicula	NO
+N1	f	NcA	lemma/29200	D0D99	almarchia	D0D9A	almarcia	NO
+N1	f	NcA	lemma/88431	a1459	aloe	D0DDF	aloa	OK
+N2	m	NcB	lemma/29307	D0DG0	alophus	D0DG4	alopus	NO
+N1	f	NcA	lemma/29344	D0E0D	alphita	D0E19	alpita	NO
+V1		VmF	lemma/88461	a1486	altercor	D0E59	alterco	OK
+N1	f	NcA	lemma/88475	a1500	althaea	D0E6B	althea	OK
+N3A	*	Af-	lemma/88472	a1497	alterplex	D0E8C	altriplex	OK
+N2	m	NcB	lemma/130521	u0956	ulucus	D0E9C	alucus	OK
+N1	f	NcA	lemma/105130	h0081	hama	D0EDD	ama	OK
+V1		VmF	lemma/88565	a1578	amarico	D0EH4	amaricor	OK
+N3B	m	NcC	lemma/130532	u0967	umbo	D0F7C	ambo	OK
+N1	f	NcA	lemma/88632	a1640	ambubaia	D0F9A	ambubia	OK
+N2	n	NcB	lemma/88791	a1784	ampullagium	D0F9H	ambulacium	OK
+N1	f	NcA	lemma/88762	a1757	amphora	D0FE8	amfora	OK
+V1		VmF	lemma/88677	a1682	amico	D0FF7	amicor	OK
+N1	f	NcA	lemma/88814	a1806	amygdala	D0FGH	amigdala	NO
+N2	n	NcB	lemma/88816	a1806	amygdalum	D0FH0	amigdalum	NO
+V1		VmF	lemma/87541	a0668	admiror	D0G35	ammiror	OK
+N2/1	*	Af-	lemma/105145	h0095	hammoniacus	5234	ammoniacus	OK
+N3B	f	NcC	lemma/87561	a0685	admonitio	D0G3F	ammonitio	OK
+N3B	f	NcC	lemma/87567	a0691	admotio	D0G41	ammotio	OK
+V2		VmG	lemma/87568	a0692	admoueo	D0G42	ammoueo	OK
+N2	n	NcB	lemma/88803	a1796	amuletum	D0G5D	amoletum	OK
+V1		VmF	lemma/88822	a1812	amylo	D0G5C	amolo	OK
+N2	n	NcB	lemma/88823	a1813	amylum	D0G5H	amolum	OK
+N2	n	NcB	lemma/88761	a1756	amphitheatrum	D0GB3	amphiteatrum	OK
+N2	n	NcB	lemma/88761	a1756	amphitheatrum	D0GB3	amphiteatrum	OK
+N2	m	NcB	lemma/29940	D0G9F	amphibalus	D0GBF	ampibalus	NO
+N1	f	NcA	lemma/88762	a1757	amphora	D0GDF	ampora	OK
+N3B	n	NcC	lemma/29964	D0GBA	amphorisma	D0GDG	amporisma	NO
+N1	f	NcA	lemma/105150	h0099	hamula	D0GF2	amula	OK
+N2	m	NcB	lemma/105152	h0101	hamus	D0GFE	amus	OK
+N1	f	NcA	lemma/89929	a2791	anaphora	D0H06	anafora	OK
+V1		VmF	lemma/89376	a2303	anxo	D0H54	anaxo	OK
+N2	n	NcB	lemma/88930	a1907	ancaesa	D0H6B	ancesa	NO
+N1	f	NcA	lemma/30153	D0H5B	anca	D0H6D	ancha	NO
+N1	f	NcA	lemma/30149	D0H67	anceria	D0H71	ancheria	NO
+N3B	n	NcC	lemma/88938	a1915	ancile	D0H72	anchile	NO
+N1	f	NcA	lemma/88953	a1927	ancora	D0H78	anchora	OK
+N1	f	NcA	lemma/88958	a1931	ancrae	D0H82	anchrae	NO
+V1		VmF	lemma/88943	a1919	ancillor	D0H8F	ancillo	OK
+N1	f	NcA	lemma/88937	a1914	anchusa	D0HBB	ancusa	NO
+N1	f	NcA	lemma/88762	a1757	amphora	D0HGC	anfora	OK
+N2	m	NcB	lemma/89010	a1972	angarus	D100G	angarius	OK
+V1		VmF	lemma/89009	a1971	angario	D100H	angarizo	OK
+N2	n	NcB	lemma/88946	a1922	ancistron	D1030	angistrum	OK
+N1	f	NcA	lemma/88958	a1931	ancrae	D1040	angrae	OK
+V3		VmH	lemma/87580	a0703	adnecto	D10BF	annecto	OK
+N2	n	NcB	lemma/87590	a0712	adnotamentum	D10E7	annotamentum	OK
+N3B	f	NcC	lemma/87591	a0713	adnotatio	D10E9	annotatio	OK
+V1		VmF	lemma/87594	a0716	adnoto	D10E8	annoto	OK
+N2	m	NcB	lemma/90141	a2981	anularius	D10FG	annularius	OK
+N2	m	NcB	lemma/89363	a2290	anulus	D10G0	annulus	OK
+N2/1	*	Af-	lemma/89135	a2082	anomalos	D10H3	anomalus	OK
+V3		VmH	lemma/91081	a9053	ante-dico	D113G	antedico	OK
+N2	n	NcB	lemma/30701	D1197	anthicorium	D11B9	anticorium	NO
+N2/1	*	Af-	lemma/87976	a1056	antiquus	D11BC	anticus	OK
+I		X--	lemma/89188	a2131	antegerio	D11D1	antigerio	OK
+N2	n	NcB	lemma/89196	a2139	antelogium	D11DB	antilogium	OK
+N2	m	NcB	lemma/30816	D11A1	anthypatus	D11E9	antipatus	NO
+V1		VmF	lemma/89233	a2176	antesto	D11GG	antisto	OK
+N2	n	NcB	lemma/30676	D119F	anthropomorfeon	D1212	antropomorfeon	NO
+N3B	f	NcC	lemma/30811	D1218	antrussio	D1219	antrustio	NO
+N2	m	NcB	lemma/30816	D11A1	anthypatus	D121F	antyphatus	NO
+N3B	f	NcC	lemma/89374	a2301	anxitudo	D1238	anxietudo	OK
+N1	f	NcA	lemma/89445	a2360	apicula	D1263	apecula	OK
+N3A	*	Af-	lemma/89398	a2323	apertibilis	D127E	aperibilis	OK
+N3B	f	NcC	lemma/89456	a2369	apis	D128C	apes	OK
+N3B	f	NcC	lemma/89456	a2369	apis	D128C	apes	OK
+N2	m	NcB	lemma/89393	a2319	apenarii	D12BF	apinarii	OK
+N1	f	NcA	lemma/89470	a2381	apocha	D12D6	apoca	OK
+N2	n	NcB	lemma/89501	a2409	apologeticon	D12G6	apologeticum	OK
+N1	f	NcA	lemma/89550	a2451	apotheca	D132C	apoteca	NO
+V1		VmF	lemma/89559	a2460	apozymo	D133A	apozimo	NO
+N1	f	NcA	lemma/31138	D06AH	adpensa	D138D	appensa	NO
+N1	f	NcA	lemma/89462	a2374	apluda	D13B2	appluda	OK
+N3B	f	NcC	lemma/27515	D06C1	adprisio	D13F6	apprisio	NO
+N1	f	NcA	lemma/89673	D01E0	absida	D1415	apsida	NO
+V1		VmF	lemma/87019	a0179	absono	D1417	apsono	OK
+N2/1	*	Af-	lemma/26448	D0228	absus	D141A	apsus	NO
+N2	n	NcB	lemma/31305	D1446	aquairolium	D146B	aquayrolium	NO
+N4	m	NcD	lemma/90901	a3670	aquae-ductus	D146D	aqueductus	OK
+N2	n	NcB	lemma/89693	a2586	aquaelicium	D1484	aquilicium	OK
+N3B	n	NcC	lemma/89730	a2618	aquiminale	D148D	aquimanile	OK
+N1	f	NcA	lemma/90158	a2998	aratia	D14A8	aracia	OK
+V4		VmL	lemma/31404	D06CH	adramio	D14BF	aramio	NO
+N3B	m	NcC	lemma/89915	a2780	arepennis	D14D5	arapennis	OK
+N2	n	NcB	lemma/89777	a2657	arbitrium	D14H0	arbiterium	OK
+V1		VmF	lemma/89779	a2658	arbitror	D14H7	arbitro	OK
+N2	n	NcB	lemma/89933	a2795	argentum	D1539	arcentum	OK
+V4		VmL	lemma/89812	D02CG	accersio	D1542	arcessio	NO
+N1	f	NcA	lemma/89797	a2674	arca	D1547	archa	OK
+N2	n	NcB	lemma/31531	D151E	arcagium	D154A	archagium	NO
+N2	n	NcB	lemma/31500	D1521	arcaragium	D154E	archaragium	NO
+N2	n	NcB	lemma/31504	D1526	arcarium	D154G	archarium	NO
+N2	m	NcB	lemma/90160	a3000	arcarius	D154H	archarius	OK
+N2/1	*	Af-	lemma/90930	a3730	archebulius	7891	archebuleus	OK
+N2	m	NcB	lemma/31518	D1538	arcellus	D1555	archellus	NO
+N1	f	NcA	lemma/89807	a2684	arcera	D1558	archera	NO
+N2	n	NcB	lemma/89875	a2744	arcisellium	D15D2	archisellium	OK
+N3A	*	Af-	lemma/90057	a2905	arcitenens	D15DH	architenens	NO
+N2	n	NcB	lemma/89865	a2734	archium	D15ED	archiuum	OK
+N2	n	NcB	lemma/31665	D15D7	archisterium	D15G6	arcisterium	NO
+N1	f	NcA	lemma/89891	a2759	arcula	D15GA	arcla	OK
+N2	n	NcB	lemma/31685	D15EH	archonium	D15GG	arconium	NO
+N1	f	NcA	lemma/105161	h0109	harenaria	D1637	arenaria	OK
+N2	n	NcB	lemma/105163	h0109	harenarium	D163B	arenarium	OK
+N2	m	NcB	lemma/105162	h0109	harenarius	D163D	arenarius	OK
+V4		VmL	lemma/31404	D06CH	adramio	D16AE	arhamio	NO
+N1	f	NcA	lemma/89909	a2775	area	D16AF	aria	OK
+N1	f	NcA	lemma/105064	h0022	hariola	D16CB	ariola	OK
+N1	f	NcA	lemma/89914	a2779	areola	D16CB	ariola	OK
+V1		VmF	lemma/105173	h0118	hariolor	D16CC	ariolor	OK
+N2	m	NcB	lemma/105086	h0041	hariolus	D16CD	ariolus	OK
+N3B	m	NcC	lemma/89915	a2780	arepennis	D16CH	aripennis	OK
+N2	m	NcB	lemma/90160	a3000	arcarius	D16ED	arkarius	OK
+N3B	f	NcC	lemma/90005	a2861	armatio	D16F4	armacio	NO
+N1	f	NcA	lemma/105177	h0122	harmonia	D1738	armonia	OK
+N1	f	NcA	lemma/105180	h0124	harpa	D176E	arpa	OK
+V1		VmF	lemma/105183	h0127	harpago	D1772	arpago	OK
+N3A	*	Af-	lemma/90057	a2905	arcitenens	D178G	arquitenens	OK
+N2	n	NcB	lemma/32104	D17C4	arreiragium	D17F0	arreyragium	NO
+N2	n	NcB	lemma/90092	a2937	arsineum	D181C	arsinum	OK
+N1	f	NcA	lemma/90098	a2943	arteria	D182C	artaeria	NO
+N3B	m	NcC	lemma/90097	a2942	artemon	D183D	artemo	OK
+N2	n	NcB	lemma/89875	a2744	arcisellium	D1882	artisellium	OK
+N2	n	NcB	lemma/105957	h0854	harundinetum	D18B5	arundinetum	OK
+N2	n	NcB	lemma/105194	h0136	haruspicium	D18BC	aruspicium	OK
+N1	f	NcA	lemma/89737	a2625	ara	D18C9	asa	OK
+N1	m	NcA	lemma/90194	a3030	ascites	D18F7	aschites	NO
+N1	f	NcA	lemma/90183	a3019	ascella	D18FF	ascilla	OK
+N1	f	NcA	lemma/90197	a3033	ascopa	D18H4	ascopera	OK
+V1		VmF	lemma/90805	a3588	ausculto	D18HB	asculto	OK
+N1	f	NcA	lemma/105158	h0107	harena	D1913	asena	OK
+N2	n	NcB	lemma/90479	a3290	asylum	D1929	asilum	NO
+V4		VmL	lemma/90353	a3171	assilio	D199C	assalio	OK
+N4	m	NcD	lemma/91051	a8907	assultus	D19A0	assaltus	OK
+N1	f	NcA	lemma/32597	D06G0	adsentia	D19F1	assentia	NO
+N2	m	NcB	lemma/100757	e0261	essedarius	D1A0B	assidarius	OK
+N3B	f	NcC	lemma/90354	a3172	assimulatio	D1A3B	assimilatio	OK
+N3B	m	NcC	lemma/90172	a3009	as	D1A42	assis	OK
+N3B	m	NcC	lemma/90172	a3009	as	D1A42	assis	OK
+N3B	m	NcC	lemma/90884	a3654	axis	D1A42	assis	OK
+N3B	f	NcC	lemma/90333	a3152	assestrix	D1A5G	assistrix	OK
+N1	f	NcA	lemma/105195	h0137	hasta	D1A8G	asta	OK
+N1	f	NcA	lemma/27581	D06H9	adstantia	D1AA0	astantia	NO
+N2	n	NcB	lemma/105197	h0138	hastarium	D1AA3	astarium	OK
+N2/1	*	Af-	hypolemma/76700	h0139	hastatus	D1AA9	astatus	OK
+V1		VmF	lemma/90421	a3237	astipulor	D1ABE	astipulo	OK
+N1	f	NcA	lemma/105205	h0145	hastula	D1AE8	astula	OK
+N1	f	NcA	lemma/90379	a3197	assula	D1AE8	astula	OK
+I		X--	lemma/87344	a0479	ad	D1AFA	at	OK
+N2/1	*	Af-	lemma/90965	a6300	atomus	D1B0C	athomus	NO
+V1		VmF	lemma/90571	a3378	attrecto	D1BA4	attracto	OK
+N3B	f	NcC	lemma/90584	a3390	atturatio	D1BB6	atturacio	NO
+N1	f	NcA	lemma/90519	a3326	aucella	D1C0E	aucula	OK
+N3B	f	NcC	lemma/90625	a3426	aucupatio	D1C0G	aucupacio	NO
+N2	n	NcB	lemma/90681	a3479	augmentum	D1C98	augumentum	OK
+N2	n	NcB	lemma/90717	a3507	aulaeum	D1CF0	auleum	NO
+N1	f	NcA	lemma/114910	o0679	ollula	D1CF8	aulula	OK
+N2	m	NcB	lemma/90729	a3518	aulos	D1CF9	aulus	OK
+V1		VmF	lemma/33282	D1CGH	auoio	D1CHD	auoyo	NO
+N2	n	NcB	lemma/115176	o0925	oraculum	D1D06	auraculum	OK
+N3B	f	NcC	lemma/90799	a3582	aurugo	D1D3G	aurigo	OK
+N2/1	*	Af-	lemma/90801	a3584	aurulentus	D1D5C	aurolentus	OK
+N2	n	NcB	lemma/105211	h0151	haustrum	D1D91	austrum	OK
+N2	n	NcB	lemma/115404	o1132	ostrum	D1D91	austrum	OK
+N1	f	NcA	lemma/33415	D1D9G	autentica	D1DA9	authentica	NO
+V1		VmF	lemma/33426	D1DAF	authorico	D1DBG	autorico	NO
+N3A	*	Af-	lemma/33442	D1DAG	authorisabilis	D1DC1	autorisabilis	NO
+N2	n	NcB	lemma/28486	D0AD1	aisamentum	D1E0B	aysamentum	NO
+N2/1	*	Af-	lemma/33540	D0AD3	aisatus	D1E0C	aysatus	NO
+N2/1	*	Af-	lemma/33545	D0AD6	aisitus	D1E10	aysitus	NO
+N1	f	NcA	lemma/33547	D0AD8	aissada	D1E12	ayssada	NO
+N2	n	NcB	lemma/33552	D1E17	azacatorium	D1E18	azachatorium	NO
+N2	n	NcB	lemma/33619	D1E5G	babilonicum	D1E6C	babylonicum	NO
+N1	f	NcA	lemma/129458	u0003	uacca	D1E8D	baccha	OK
+N1	f	NcA	lemma/91231	b0038	bacca	D1E8D	baccha	OK
+N1	f	NcA	lemma/33644	D1E7D	baccalaria	D1E8E	bacchalaria	NO
+N2	m	NcB	lemma/33656	D1E81	baccalarius	D1E8G	bacchalarius	NO
+N1	f	NcA	lemma/33657	D1E83	baccania	D1E8H	bacchania	NO
+N2	n	NcB	lemma/33658	D1E89	baccarium	D1E90	baccharium	NO
+N1	f	NcA	lemma/91224	b0033	bacula	D1E9E	baccula	OK
+N2	m	NcB	lemma/91210	b0023	bacchus	D1E9G	baccus	NO
+N1	f	NcA	lemma/91191	b0006	baca	D1EA5	bacha	NO
+N3B	n	NcC	lemma/33683	D1EAH	bachile	D1EC1	bacile	NO
+N3B	m	NcC	lemma/33836	D1F34	baillio	D1F3C	bailo	NO
+V1		VmF	lemma/91239	b0046	baiulo	D1F41	baiolo	OK
+N2	m	NcB	lemma/91240	b0047	baiulus	D1F43	baiolus	OK
+N1	f	NcA	lemma/129531	u0069	ualua	D1F8G	balba	OK
+N1	f	NcA	lemma/91257	b0063	ballaena	D1FBB	balena	OK
+N2	n	NcB	lemma/91283	b0085	balneum	D1FD9	balineum	OK
+N1	f	NcA	lemma/91265	b0070	ballista	D1FE0	balista	OK
+N1	f	NcA	lemma/91262	b0068	ballematia	D1FF9	ballemathia	NO
+N1	f	NcA	lemma/91297	b0097	baluca	D1FH5	balluca	OK
+V1		VmF	lemma/91292	b0094	balteo	D1G21	baltheo	NO
+N1	f	NcA	lemma/34105	D1G47	banca	D1G4G	bancha	NO
+N2	m	NcB	lemma/91302	b0102	bancus	D1G58	banchus	NO
+N2	n	NcB	lemma/34122	D1G62	bandairagium	D1G65	bandayragium	NO
+V1		VmF	lemma/34185	D1GAA	banneio	D1GB4	banneyo	NO
+N1	f	NcA	lemma/34261	D1GG5	baraca	D1GG7	baracha	NO
+N2	m	NcB	lemma/34365	D1H64	barchonus	D1H69	barconus	NO
+N1	f	NcA	lemma/34369	D1H6E	bardaea	D1H74	bardea	NO
+N2	m	NcB	lemma/34466	D1HD8	barracanus	D1HDA	barrachanus	NO
+N3B	f	NcC	lemma/91383	b0170	basis	D2051	bassis	OK
+N3B	f	NcC	lemma/91383	b0170	basis	D2051	bassis	OK
+N1	f	NcA	lemma/34672	D209C	bataia	D20B1	bataya	NO
+N1	f	NcA	lemma/34678	D20A2	batalia	D20C2	bathalia	NO
+N1	f	NcA	lemma/91396	b0183	batioca	D20C6	bathioca	NO
+N2	n	NcB	lemma/129635	u0162	uatillum	D20D0	batillum	OK
+V3		VmH	lemma/91404	b0191	battuo	D20F0	batto	OK
+N3B	m	NcC	lemma/33836	D1F34	baillio	D213E	baylo	NO
+N2	m	NcB	lemma/34900	D216H	beccarius	D2172	beccharius	NO
+N2	m	NcB	lemma/91379	b0166	beluus	D21B1	belbus	OK
+N3B	m	NcC	lemma/129976	u0467	ueruex	D223A	berbix	OK
+N1	f	NcA	lemma/91528	b0307	bibliotheca	D231B	biblioteca	NO
+N3B	f	NcC	lemma/91644	b0411	bipertitio	D23FC	bipartitio	OK
+N1	f	NcA	lemma/92054	b0789	byrsa	D23H8	birsa	NO
+N1	f	NcA	lemma/35624	D240D	biscatia	D2410	bischatia	NO
+N3B	m	NcC	lemma/130388	u0830	uispillo	D2430	bispellio	OK
+N3B	m	NcC	lemma/130388	u0830	uispillo	D2431	bispello	OK
+N2	m	NcB	lemma/91663	b0427	bisextus	D243H	bissextus	OK
+N2/1	*	Af-	hypolemma/78056	u0883	uittatus	D2460	bittatus	OK
+N1	f	NcA	lemma/35758	D249A	blanca	D249H	blancha	NO
+N2	m	NcB	lemma/35759	D249C	blancardus	D24A0	blanchardus	NO
+N2/1	*	Af-	lemma/35873	D24H2	bloius	D24H9	bloyus	NO
+N1	f	NcA	lemma/35902	D250D	boairia	D251H	boayria	NO
+N1	f	NcA	lemma/91737	b0494	boa	D2521	boba	OK
+N3B	m	NcC	lemma/91824	b0574	bouinator	D252B	bobinator	OK
+N1	f	NcA	lemma/91961	b0707	bucula	D2579	bocula	OK
+N2	m	NcB	lemma/91740	b0498	boethus	D25A0	boetus	NO
+V1		VmF	lemma/36387	D26GD	bosco	D26GH	boscho	NO
+N2	m	NcB	lemma/36398	D26H5	boschus	D26HD	boscus	NO
+N2	m	NcB	lemma/35975	D256E	bocius	D274C	botius	NO
+N1	f	NcA	lemma/91737	b0494	boa	D2773	boua	OK
+N2	m	NcB	lemma/36516	D2785	boucellus	D2787	bouchellus	NO
+V1		VmF	lemma/91784	b0539	boo	D2778	bouo	OK
+N1	f	NcA	lemma/36621	D25D0	boisseria	D27EE	boysseria	NO
+N3B	n	NcC	lemma/92112	b9697	brachiale	D27H1	bracchiale	OK
+N1	f	NcA	lemma/36643	D27G5	bracae	D27HG	brachae	NO
+N3B	n	NcC	lemma/36664	D27G8	bracale	D27HH	brachale	NO
+N2	m	NcB	lemma/36669	D27H9	bracellus	D2804	brachellus	NO
+N2	n	NcB	lemma/36662	D27HD	bracerium	D2807	bracherium	NO
+N2	m	NcB	lemma/36672	D27HE	bracetus	D2808	brachetus	NO
+N2/1	*	Af-	lemma/91838	b0586	bracchiatus	D280F	brachiatus	OK
+N2	n	NcB	lemma/91840	b0589	bracchiolum	D2817	brachiolum	OK
+N2	n	NcB	lemma/91842	b0591	bracchium	D281C	brachium	OK
+N3B	m	NcC	lemma/91864	b0612	bratteator	D282F	bracteator	OK
+N1	f	NcA	lemma/91866	b0614	bratteola	D282G	bracteola	OK
+N2	n	NcB	lemma/91829	b0578	brabeum	D28AA	brauium	OK
+N1	f	NcA	lemma/36822	D284H	braida	D28B6	brayda	NO
+N2	n	NcB	lemma/36709	D2839	braesium	D28F0	bresium	NO
+N2/1	*	Af-	lemma/91890	b0637	brocchus	D2958	broccus	OK
+N2/1	*	Af-	lemma/91890	b0637	brocchus	D2964	brochus	OK
+N2	m	NcB	lemma/37013	D2963	brochus	D2969	brocus	NO
+N2	m	NcB	lemma/37046	D2988	broilus	D29B9	broylus	NO
+N2	m	NcB	lemma/91898	b0645	bruchus	D29C2	brucus	NO
+V1		VmF	lemma/91928	b0672	bubulo	D2A0D	bubilo	NO
+N1	f	NcA	lemma/91933	b0677	bucca	D2A1E	buca	OK
+N1	f	NcA	lemma/91933	b0677	bucca	D2A3B	buccha	NO
+N2	n	NcB	lemma/37238	D2A2F	buccasinum	D2A3C	bucchasinum	NO
+N1	f	NcA	lemma/92072	b0804	bucina	D2A3F	buccina	OK
+V1		VmF	lemma/91951	b0696	bucino	D2A3H	buccino	OK
+N2	m	NcB	lemma/92073	b0805	bucinus	D2A43	buccinus	OK
+N1	f	NcA	lemma/91933	b0677	bucca	D2A58	bucha	NO
+N1	f	NcA	lemma/92072	b0804	bucina	D2A5G	buchina	NO
+N1	m	NcA	lemma/91930	b0674	bucaeda	D2A63	bucida	OK
+N1	f	NcA	lemma/91935	b0679	buccella	D2A64	bucilla	OK
+N2	n	NcB	lemma/91948	b0692	bucetum	D2A69	bucitum	OK
+N2	m	NcB	lemma/91916	b0661	bubalus	D2A88	bufalus	OK
+N1	f	NcA	lemma/37423	D2AGC	burchia	D2AGG	burcia	NO
+N2	m	NcB	lemma/92018	b0757	burricus	D2B60	buricus	OK
+V4		VmL	lemma/91796	b0550	borrio	D2B68	burio	OK
+N2	m	NcB	lemma/92018	b0757	burricus	D2B7G	burrichus	OK
+V4		VmL	lemma/91796	b0550	borrio	D2B80	burrio	OK
+N1	f	NcA	lemma/92054	b0789	byrsa	D2B86	bursa	OK
+N1	f	NcA	lemma/37570	D2B9B	busca	D2BA1	buscha	NO
+N1	f	NcA	lemma/37583	D2BA7	buschia	D2BAA	buscia	NO
+N1	f	NcA	lemma/37641	D2BEE	buthsecarla	D2BG5	butsecarla	NO
+N2/1	*	Af-	lemma/35562	D23F3	binomius	D2C17	bynomius	NO
+N1	f	NcA	lemma/91651	b0416	birota	D2C1C	byrota	NO
+N2	m	NcB	lemma/91652	b0417	birrus	D2C1D	byrrus	OK
+N1	f	NcA	lemma/37715	D247F	bizantia	D2C24	byzantia	NO
+N2	m	NcB	lemma/92136	c0021	caccabus	D2CAA	cacabus	OK
+N1	f	NcA	lemma/40898	D2CB8	caceria	D2CBE	cacheria	NO
+N2	m	NcB	lemma/37856	D2CBF	cachi	D2CC4	caci	NO
+N1	f	NcA	lemma/37857	D2CBG	cachia	D2CC5	cacia	NO
+N1	f	NcA	lemma/92153	c0037	cacochymia	D2CCG	cacochimia	NO
+N1	f	NcA	lemma/37844	D2CB3	cacea	D2CHE	caecia	NO
+N2	m	NcB	lemma/93371	c1096	cenarius	D2D0F	caenarius	NO
+N2	m	NcB	lemma/40910	D2CAF	cacanus	D2D2A	caganus	NO
+N1	f	NcA	lemma/92305	c0175	calautica	D2D75	calantica	OK
+N2/1	*	Af-	lemma/93637	c1324	chalasticus	D2D7F	calasticus	OK
+N2	m	NcB	lemma/92302	c0172	calathus	D2D86	calatus	NO
+N1	f	NcA	lemma/38075	D2DBF	calceria	D2DC5	calcheria	NO
+N1	f	NcA	lemma/38082	D2DCA	calcia	D2DC6	calchia	NO
+V1		VmF	lemma/92337	c0203	calco	D2DC3	calcho	NO
+N2	m	NcB	lemma/92323	c0189	calceamentarius	D2DCE	calciamentarius	OK
+N2	n	NcB	lemma/93366	c1091	calcearium	D2DD2	calciarium	OK
+N2	m	NcB	lemma/93240	c0984	calcearius	D2DD4	calciarius	OK
+N3B	m	NcC	lemma/92326	c0192	calceator	D2DD8	calciator	OK
+V1		VmF	lemma/92327	c0193	calceo	D2DCG	calcio	OK
+N3B	f	NcC	lemma/97615	c8338	chalcitis	D2DEC	calcitis	NO
+N1	f	NcA	lemma/93602	c1294	calidaria	D2DG7	caldaria	OK
+N1	f	NcA	lemma/109592	k0002	kalendae	D2E0A	calendae	OK
+N2	n	NcB	lemma/109593	k0003	kalendarium	D2E0C	calendarium	OK
+N2	n	NcB	lemma/38151	D2DHH	calefagium	D2E1D	calfagium	NO
+N2	n	NcB	lemma/92359	c0223	caliandrum	D2E33	caliendrum	OK
+N2/1	*	Af-	lemma/97748	c9912	callaecus	13787	callaicus	OK
+N1	f	NcA	lemma/92423	c0281	caltha	D2E9A	calta	OK
+N		NcP	lemma/38310	D2E28	calibs	D2EBE	calybs	NO
+N1	m	NcA	lemma/38203	D2E42	calipha	D2EBF	calypha	NO
+N1	f	NcA	lemma/92382	c0244	caliptra	D2EBG	calyptra	NO
+N1	f	NcA	lemma/92457	c0308	camara	D2F02	camera	OK
+N2/1	*	Af-	lemma/92458	c0309	camararius	D2F15	camerarius	OK
+N2/1	*	Af-	lemma/92458	c0309	camararius	D2F15	camerarius	OK
+N2/1	*	Af-	lemma/92458	c0309	camararius	D2F15	camerarius	OK
+V1		VmF	lemma/92460	c0310	camaro	D2F0H	camero	OK
+N2	m	NcB	lemma/38323	D2ECC	camaeus	D2F27	cameus	NO
+V1		VmF	lemma/92500	c0344	campso	D2FB7	camso	OK
+N1	f	NcA	lemma/92507	c0351	canaba	D2FE4	canapa	OK
+N1	f	NcA	lemma/92507	c0351	canaba	D2FFE	canaua	OK
+N2	m	NcB	lemma/92624	c0449	cantharulus	D2GF7	cantarulus	OK
+N2	m	NcB	lemma/92631	c0455	cantherius	D2GGB	canterius	OK
+N1	f	NcA	lemma/38794	D2GE3	cantara	D2GGE	canthara	NO
+N2	m	NcB	lemma/92632	c0456	canthus	D2H1D	cantus	OK
+N1	f	NcA	lemma/92124	c0009	cabanna	D2H3G	capanna	OK
+N3B	f	NcC	lemma/92770	c0571	captio	D2H4C	capcio	NO
+V1		VmF	lemma/92666	c0484	caperro	D2H8A	capero	OK
+N2	n	NcB	lemma/92714	c0523	capitum	D2H98	capetum	OK
+N1	f	NcA	lemma/38884	D2H34	capa	D2H9F	capha	NO
+N1	f	NcA	lemma/38986	D2HCC	capischolia	D2HCD	capiscolia	NO
+N2	n	NcB	lemma/92668	c0486	caphisterium	D2HCH	capisterium	OK
+N3B	n	NcC	lemma/92694	c0507	capital	D2HE3	capitale	OK
+N2	m	NcB	lemma/92708	c0518	capreolus	D3075	capriolus	OK
+N2/1	*	Af-	lemma/39163	D30C4	capucius	D30E2	caputius	NO
+N1	f	NcA	lemma/93701	c1383	chara	D30EB	cara	NO
+N3B	m	NcC	lemma/93704	c1386	character	D30F4	caracter	OK
+N2	m	NcB	lemma/92800	c0595	caragius	D30G0	caragus	OK
+V1		VmF	lemma/93708	c1390	charaxo	D3105	caraxo	OK
+N2	n	NcB	lemma/39257	D311F	carcannum	D312H	carchannum	NO
+N2	n	NcB	lemma/92899	c0683	caroenum	D316G	carenum	OK
+V1		VmF	lemma/92924	c0705	carrico	D3190	carico	OK
+N1	f	NcA	lemma/92835	c0625	caryota	D31A8	cariota	OK
+N1	f	NcA	lemma/92864	c0652	carissa	D31AD	carisa	OK
+N3B	n	NcC	lemma/93710	c1392	charisma	D31AF	carisma	NO
+N1	f	NcA	lemma/41053	D3173	careria	D328C	carreria	NO
+N1	f	NcA	lemma/39581	D324C	carra	D3297	carrha	NO
+N1	f	NcA	lemma/39584	D329B	carrica	D329E	carricha	NO
+N1	f	NcA	lemma/92929	c0710	carruca	D32D0	carrucha	OK
+N2	m	NcB	lemma/92931	c0711	carrucarius	D32D2	carrucharius	OK
+N1	f	NcA	lemma/93715	c1396	charta	D32E2	carta	OK
+N2	n	NcB	lemma/39677	D32GD	carteironum	D32HH	carteyronum	NO
+N1	f	NcA	lemma/93729	c1407	chartula	D3320	cartula	OK
+N1	f	NcA	lemma/92929	c0710	carruca	D3332	caruca	OK
+N2/1	*	Af-	lemma/92971	c0745	cassabundus	D3342	casabundus	OK
+N3B	n	NcC	lemma/93731	c1409	chasma	D3397	casma	NO
+N1	f	NcA	lemma/92967	c0741	casia	D33D3	cassia	OK
+V1		VmF	lemma/39930	D340H	castico	D3411	casticho	NO
+N1	f	NcA	lemma/93039	c0800	casula	D3453	casubla	OK
+N3B	m	NcC	lemma/93041	c0802	catabolenses	D346C	catabulenses	OK
+N2	n	NcB	lemma/93043	c0804	catabolum	D346D	catabulum	OK
+N2	m	NcB	lemma/93049	c0809	cataclysmos	D346H	cataclismus	NO
+N2	m	NcB	lemma/93049	c0809	cataclysmos	D3471	cataclysmus	OK
+N1	m	NcA	lemma/95724	c3218	catafractes	D3494	cataphracta	OK
+N2	n	NcB	lemma/93128	c0883	catharticum	D34A4	catarticum	NO
+V1		VmF	lemma/93107	c0864	catechizo	D34BD	catecizo	NO
+N1	f	NcA	lemma/93112	c0868	cateia	D34DC	cateya	NO
+N1	f	NcA	lemma/40091	D345H	cata	D34DF	catha	NO
+N2	m	NcB	lemma/40019	D3483	catalettus	D34E3	cathalettus	NO
+V1		VmF	lemma/93077	c0836	cataplasmo	D34E7	cathaplasmo	NO
+N1	f	NcA	lemma/93093	c0851	catasta	D34EG	cathasta	NO
+N2	m	NcB	lemma/93105	c0862	catechismus	D34F0	cathecismus	NO
+N2	m	NcB	lemma/40109	D34B9	catechizari	D34F1	cathecizari	NO
+N1	f	NcA	lemma/93117	c0872	catena	D34FD	cathena	NO
+N2	n	NcB	lemma/40080	D34CH	catenaticum	D34FG	cathenaticum	NO
+N2	n	NcB	lemma/40124	D34DA	catesamittum	D34G3	cathesamittum	NO
+V1		VmF	lemma/40130	D34DE	catezizo	D34GA	cathezizo	NO
+N2	m	NcB	lemma/40159	D34HA	cathomus	D3512	catomus	NO
+N2	m	NcB	lemma/93151	c0903	catlaster	D351E	catulaster	OK
+N2	m	NcB	lemma/92986	c0759	cattus	D3523	catus	OK
+V1		VmF	lemma/93221	c0966	cauillor	D35BG	cauillo	OK
+N2	m	NcB	lemma/93247	c0989	caupulus	D35DA	caupillus	OK
+N1	f	NcA	lemma/93261	c1003	causea	D35F0	causia	OK
+V1		VmF	lemma/93271	c1012	causor	D35ED	causo	OK
+N1	f	NcA	lemma/37987	D2D3F	caibola	D360F	caybola	NO
+N2	m	NcB	lemma/37991	D2D41	cairellus	D3610	cayrellus	NO
+N2	m	NcB	lemma/40381	D2D43	caironus	D3614	cayronus	NO
+N2	n	NcB	lemma/40384	D2D47	caium	D3618	cayum	NO
+N1	f	NcA	lemma/37844	D2CB3	cacea	D3637	cecia	NO
+N3B	n	NcC	lemma/92209	c0085	caelamen	D3651	celamen	NO
+N2	n	NcB	lemma/97675	c9834	caelatum	D365A	celatum	NO
+N1	f	NcA	lemma/92256	c0130	caelatura	D365B	celatura	NO
+N2/1	*	Af-	lemma/92213	c0089	caelestinus	D3677	celestinus	NO
+N1	f	NcA	lemma/92215	c0091	caelia	D367D	celia	OK
+N2	m	NcB	lemma/40473	D2D09	caelibatus	D367E	celibatus	NO
+N2	m	NcB	lemma/93341	c1068	cellariarius	D368B	cellararius	OK
+N2	m	NcB	lemma/93341	c1068	cellariarius	D3694	cellerarius	OK
+N3B	f	NcC	lemma/93743	c1419	chelonitis	D36A0	celonitis	NO
+N2	n	NcB	lemma/97622	c9105	caelum	D36AA	celum	NO
+N2	m	NcB	lemma/40503	D367G	celidrus	D36AC	celydrus	NO
+N2	m	NcB	lemma/92232	c0106	caementarius	D36B1	cementarius	NO
+N1	f	NcA	lemma/40571	D36FD	centa	D36H8	centha	NO
+N2/1	*	Af-	lemma/92237	c0111	caenulentus	D3724	cenulentus	OK
+N2	n	NcB	lemma/92238	c0112	caenum	D3726	cenum	OK
+N1	f	NcA	lemma/92622	c0447	caeparia	D372C	ceparia	OK
+N2	m	NcB	lemma/92735	c0541	caeparius	D372F	ceparius	OK
+N1	f	NcA	lemma/37946	D2D0H	caepia	D373F	cepia	NO
+N1	f	NcA	lemma/93486	c1194	caepula	D374E	cepula	OK
+N2	n	NcB	lemma/40655	D2D12	caepum	D374G	cepum	NO
+N1	f	NcA	lemma/40682	D376H	cerca	D3775	cercha	NO
+V1		VmF	lemma/40678	D3770	cerco	D3777	cercho	NO
+N2	m	NcB	lemma/94053	c1685	circius	D377H	cercius	OK
+N2	n	NcB	lemma/92245	c0119	caerefolium	D3793	cerefolium	OK
+N1	f	NcA	lemma/92114	c0000	caerimonia	D3795	ceremonia	OK
+V1		VmF	lemma/40708	D2D13	caeremonior	D3798	ceremonior	NO
+N1	f	NcA	lemma/93588	c1281	ceruesia	D37A6	cereuisia	OK
+N1	f	NcA	lemma/92114	c0000	caerimonia	D37B8	cerimonia	OK
+N1	f	NcA	lemma/93588	c1281	ceruesia	D37G0	ceruesa	OK
+N1	f	NcA	lemma/93588	c1281	ceruesia	D37GG	ceruisa	OK
+N2	n	NcB	lemma/92947	c0726	caeruleum	D37H2	ceruleum	NO
+N1	f	NcA	lemma/97751	c9913	caesa	D37HC	cesa	NO
+N3B	m	NcC	lemma/92265	c0139	caespes	D3805	cespes	OK
+V1		VmF	lemma/92268	c0142	caespito	D3807	cespito	OK
+N2	m	NcB	lemma/94359	c1974	cistifer	D3828	cestifer	OK
+N4	m	NcD	lemma/92271	c0145	caestus	D382B	cestus	OK
+N1	f	NcA	lemma/99187	d1245	diaeta	D382D	ceta	OK
+N2	n	NcB	lemma/40865	D3834	cethoninum	D383B	cetoninum	NO
+N1	f	NcA	lemma/40889	D2C48	cabanaria	D3850	chabanaria	NO
+N1	f	NcA	lemma/40892	D2C62	cabentia	D3854	chabentia	NO
+N2	m	NcB	lemma/40895	D2C84	cabocellus	D3857	chabocellus	NO
+N2	m	NcB	lemma/40910	D2CAF	cacanus	D3859	chacanus	NO
+N1	f	NcA	lemma/37844	D2CB3	cacea	D385B	chacea	NO
+N1	f	NcA	lemma/40898	D2CB8	caceria	D385D	chaceria	NO
+N1	f	NcA	lemma/37844	D2CB3	cacea	D3864	chaecia	NO
+N2	n	NcB	lemma/37958	D2D1G	cafagium	D3866	chafagium	NO
+N2	m	NcB	lemma/40910	D2CAF	cacanus	D386A	chaganus	NO
+N1	f	NcA	lemma/92277	c0150	caia	D386B	chaia	NO
+N2	m	NcB	lemma/40913	D2D74	calannus	D386E	chalannus	NO
+N1	f	NcA	lemma/38075	D2DBF	calceria	D386H	chalceria	NO
+N2	n	NcB	lemma/38151	D2DHH	calefagium	D3876	chalfagium	NO
+N1	f	NcA	lemma/40921	D2E23	calia	D3878	chalia	NO
+N2	n	NcB	lemma/38198	D2E34	califa	D3879	chalifa	NO
+N1	f	NcA	lemma/40922	D2E71	calma	D387A	chalma	NO
+N1	f	NcA	lemma/93748	c1423	chema	D3886	chama	OK
+N2	m	NcB	lemma/40938	D2EEB	cambellanus	D3889	chambellanus	NO
+N2	m	NcB	lemma/38383	D2EGE	cambrerius	D388D	chambrerius	NO
+N2	n	NcB	lemma/40943	D2EHG	camelotum	D388F	chamelotum	NO
+N1	f	NcA	lemma/92457	c0308	camara	D388H	chamera	NO
+N2	m	NcB	lemma/40947	D2F3C	caminerius	D3892	chaminerius	NO
+N2	m	NcB	lemma/40958	D2F74	camperius	D389E	champerius	NO
+N2	m	NcB	lemma/92506	c0350	camus	D38A0	chamus	NO
+N1	f	NcA	lemma/92507	c0351	canaba	D38A2	chanaba	NO
+N2	n	NcB	lemma/38821	D2GG9	canterium	D38B4	chanterium	NO
+N2	m	NcB	lemma/92631	c0455	cantherius	D38B5	chanterius	NO
+N3B	m	NcC	lemma/38840	D2H01	canto	D38B6	chanto	NO
+N1	f	NcA	lemma/38884	D2H34	capa	D38B9	chapa	NO
+N1	f	NcA	lemma/141581	D2H5C	capella	D38BB	chapella	NO
+N2	n	NcB	lemma/92700	c0513	capitellum	D38BG	chapitellum	NO
+N2	n	NcB	lemma/40993	D30CD	capularium	D38C7	chapularium	NO
+V1		VmF	lemma/40996	D30F8	caracterizo	D38CE	characterizo	NO
+N2	m	NcB	lemma/92800	c0595	caragius	D38CH	charagius	NO
+N3B	n	NcC	lemma/40998	D30FH	caragma	D38D0	charagma	NO
+N3B	m	NcC	lemma/39237	D3106	caraxator	D38D4	charaxator	NO
+N3B	m	NcC	lemma/92844	c0633	cardo	D38D9	chardo	NO
+N1	f	NcA	lemma/41053	D3173	careria	D38DA	chareria	NO
+N2	n	NcB	lemma/41014	D3184	cargatorium	D38E2	chargatorium	NO
+N1	f	NcA	lemma/41017	D3186	cargia	D38E5	chargia	NO
+V1		VmF	lemma/39341	D318D	cario	D38EC	chario	NO
+N2	n	NcB	lemma/39371	D31B1	caristeum	D38F6	charisteum	NO
+N2	m	NcB	lemma/39376	D31B7	caritaderius	D38F7	charitaderius	NO
+N3B	f	NcC	lemma/92867	c0655	caritas	D38F8	charitas	OK
+N2/1	*	Af-	lemma/41030	D31C9	caritatiuus	D38F9	charitatiuus	NO
+N2/1	*	Af-	lemma/39383	D31CD	caritosus	D38FB	charitosus	NO
+N2	n	NcB	lemma/39385	D31CG	cariuarium	D38FC	chariuarium	NO
+N2	m	NcB	lemma/39418	D31F1	carmus	D38FF	charmus	NO
+N2	n	NcB	lemma/41034	D31F6	carnagium	D38FG	charnagium	NO
+N1	f	NcA	lemma/41039	D31H5	carneria	D38G3	charneria	NO
+N2	n	NcB	lemma/41040	D31H8	carnerium	D38G4	charnerium	NO
+N2	n	NcB	lemma/39525	D3259	carragium	D38GC	charragium	NO
+N1	f	NcA	lemma/39534	D3265	carrata	D38GE	charrata	NO
+N1	f	NcA	lemma/41053	D3173	careria	D38H1	charreria	NO
+N2	n	NcB	lemma/39577	D3293	carreum	D38HA	charreum	NO
+N2	n	NcB	lemma/41061	D3298	carriagium	D38HC	charriagium	NO
+N2	n	NcB	lemma/41068	D32BG	carruagium	D3901	charruagium	NO
+N1	f	NcA	lemma/39657	D32FA	cartapacia	D390D	chartapacia	NO
+N2	m	NcB	lemma/41076	D32H0	cartellarii	D3910	chartellarii	NO
+N2	m	NcB	lemma/41078	D32HD	carterius	D3912	charterius	NO
+N2	n	NcB	lemma/39703	D330C	carticinium	D3915	charticinium	NO
+V1		VmF	lemma/39720	D3321	cartulo	D391F	chartulo	NO
+N2	n	NcB	lemma/39754	D3348	casalamentum	D3928	chasalamentum	NO
+N2	n	NcB	lemma/39769	D3356	casamentum	D3929	chasamentum	NO
+N2	n	NcB	lemma/41095	D337G	casellum	D392E	chasellum	NO
+N1	f	NcA	lemma/41098	D3395	caslania	D392H	chaslania	NO
+N1	f	NcA	lemma/39834	D33A1	cassa	D3931	chassa	NO
+N2	n	NcB	lemma/39839	D33B1	cassamentum	D3932	chassamentum	NO
+N1	f	NcA	lemma/92967	c0741	casia	D3933	chassia	NO
+N3B	m	NcC	lemma/41106	D3424	casto	D393B	chasto	NO
+N1	f	NcA	lemma/93039	c0800	casula	D393E	chasula	NO
+N1	f	NcA	lemma/40091	D345H	cata	D393F	chata	NO
+N2	m	NcB	lemma/41109	D34H7	cathologus	D393H	chatologus	NO
+N2	n	NcB	lemma/41111	D352H	cauagium	D3941	chauagium	NO
+N1	f	NcA	lemma/40188	D353A	caualcata	D3942	chaualcata	NO
+N2	n	NcB	lemma/41112	D353H	cauallagium	D3943	chauallagium	NO
+N1	f	NcA	lemma/40228	D3567	caucia	D394E	chaucia	NO
+N2	n	NcB	lemma/41131	D35B2	caufagium	D3956	chaufagium	NO
+N1	f	NcA	lemma/40621	D3728	ceoca	D3982	cheoca	NO
+N2	m	NcB	lemma/40651	D3746	ceppus	D3987	cheppus	NO
+I		X--	lemma/93635	c1322	chaere	D398C	chere	OK
+N1	f	NcA	lemma/92114	c0000	caerimonia	D398F	cherimonia	NO
+N2	n	NcB	lemma/40806	D37GD	ceruigium	D399E	cheruigium	NO
+N1	f	NcA	lemma/97751	c9913	caesa	D39A1	chesa	NO
+N1	f	NcA	lemma/40821	D37HF	cesia	D39A4	chesia	NO
+N3B	n	NcC	lemma/94667	c2253	cochlear	D39GF	chochlear	NO
+N1	f	NcA	lemma/96642	c4068	corona	D3A28	chorona	OK
+N3B	f	NcC	lemma/94751	c2335	cohors	D3A2B	chors	OK
+N3B	f	NcC	lemma/97421	c4779	cyclas	D3A9D	ciclas	NO
+N2	m	NcB	lemma/97423	c4781	cyclus	D3A9G	ciclus	NO
+N1	f	NcA	lemma/41511	D39D8	chimatura	D3AD5	cimatura	NO
+N2	n	NcB	lemma/93925	c1575	ciborium	D3ADD	cimborium	NO
+N2	n	NcB	lemma/92276	c0149	caementum	D3AE2	cimentum	OK
+N2	n	NcB	lemma/41522	D3AE0	cimelia	D3AEE	cimilia	NO
+N2	n	NcB	lemma/97212	c4588	cuminum	D3AF1	ciminum	OK
+N2	n	NcB	lemma/94681	c2267	coemeterium	D3AF4	cimiterium	OK
+N		NcP	lemma/41570	D36C3	cenegild	D3AHC	cinegild	NO
+N3B	f	NcC	lemma/123725	s0648	sciniphes	D3B14	cinifes	OK
+N3B	f	NcC	lemma/123725	s0648	sciniphes	D3B14	cinifes	OK
+N2	m	NcB	lemma/94064	c1694	circulus	D3B66	circlus	OK
+N3B	f	NcC	lemma/94154	c1783	circumitio	D3B6E	circuitio	OK
+N3B	m	NcC	lemma/94155	c1784	circumitor	D3B6G	circuitor	OK
+N4	m	NcD	lemma/97841	c9989	circumitus	D3B71	circuitus	OK
+N2/1	*	Af-	lemma/94128	c1757	circumforaneus	D3B8B	circumforanus	OK
+N2	m	NcB	lemma/41710	D39EH	chirocleus	D3BB5	cirocleus	NO
+N2	m	NcB	lemma/41716	D39F4	chirogryllus	D3BBB	cirogrillus	NO
+N2	m	NcB	lemma/41729	D39FA	chirurgicus	D3BC9	cirurgicus	NO
+N1	f	NcA	lemma/41809	D39G0	chiueria	D3BHH	ciueria	NO
+N1	f	NcA	lemma/40622	D3729	ceola	D3C18	ciula	NO
+N2/1	*	Af-	lemma/93793	c1462	chlamydatus	D3C44	clamidatus	NO
+N3B	f	NcC	lemma/93795	c1463	chlamys	D3C46	clamis	OK
+N1	f	NcA	lemma/94527	c2124	clitellae	D3D1A	cletellae	OK
+N2/1	*	Af-	lemma/42105	D3D5B	cliuacius	D3D5D	cliuatius	NO
+N1	f	NcA	lemma/42115	D3D65	cloca	D3D69	clocha	NO
+N2/1	*	Af-	lemma/94464	c2063	claudus	D3D79	clodus	OK
+N1	f	NcA	lemma/42138	D3CGD	cleia	D3D81	cloia	NO
+N2	n	NcB	lemma/94478	c2077	claustrum	D3D92	clostrum	OK
+N1	f	NcA	lemma/42138	D3CGD	cleia	D3D9E	cloya	NO
+N1	f	NcA	lemma/104725	g0423	gluma	D3DAA	cluma	OK
+N2	n	NcB	lemma/94553	c2146	clunaculum	D3DAC	clunabulum	OK
+N2	n	NcB	lemma/94475	c2074	claustellum	D3DBH	clustellum	OK
+N2	n	NcB	lemma/94478	c2077	claustrum	D3DC0	clustrum	OK
+N2	n	NcB	lemma/97325	c4690	crustulum	D3DC0	clustrum	OK
+N1	f	NcA	lemma/97556	c7059	clausura	D3DC2	clusura	OK
+V1		VmF	lemma/94523	c2121	clipeo	D3DC8	clypeo	NO
+N1	f	NcA	lemma/42272	D39GE	chochia	D3E01	cochia	NO
+N3B	n	NcC	lemma/94667	c2253	cochlear	D3E0A	cochleare	OK
+N1	f	NcA	lemma/93448	c1161	coquina	D3E11	cocina	OK
+N2/1	*	Af-	lemma/96542	c3983	coquinarius	D3E13	cocinarius	OK
+N2/1	*	Af-	lemma/96542	c3983	coquinarius	D3E13	cocinarius	OK
+N3B	n	NcC	lemma/94667	c2253	cochlear	D3E1E	coclear	OK
+N2	n	NcB	lemma/94669	c2255	cochlearium	D3E1H	coclearium	OK
+N2	n	NcB	lemma/97603	c7934	cochlearium	D3E1H	coclearium	OK
+N2/1	*	Af-	lemma/42290	D3E0D	cochlearius	D3E20	coclearius	NO
+N2/1	*	Af-	lemma/94670	c2256	cochleatus	D3E22	cocleatus	NO
+N2	n	NcB	lemma/94669	c2255	cochlearium	D3E23	cocliarium	OK
+N2	n	NcB	lemma/97603	c7934	cochlearium	D3E23	cocliarium	OK
+V3		VmH	lemma/96550	c3991	coquo	D3DH8	coco	OK
+N2	m	NcB	lemma/97005	c4403	crocodilus	D3E28	cocodrillus	OK
+N2	m	NcB	lemma/42303	D3E0F	cochonus	D3E2F	coconus	NO
+N2	m	NcB	lemma/96551	c3992	coquus	D3E50	cocus	OK
+N1	f	NcA	lemma/93186	c0935	cauda	D3E53	coda	OK
+N3B	m	NcC	lemma/93188	c0937	caudex	D3E5B	codex	OK
+N2/1	*	Af-	lemma/93191	c0940	caudicarius	D3E5F	codicarius	OK
+N2/1	*	Af-	lemma/93191	c0940	caudicarius	D3E5F	codicarius	OK
+N2/1	*	Af-	lemma/92224	c0100	caeliger	D3E73	coeliger	OK
+N1	f	NcA	lemma/93364	c1089	cena	D3E7A	coena	OK
+N2/1	*	Af-	lemma/93368	c1093	cenaculatus	D3E7C	coenaculatus	OK
+N3B	f	NcC	lemma/93373	c1098	cenatio	D3E80	coenatio	OK
+N3B	m	NcC	lemma/42212	D3DDF	coaequator	D3E95	coequator	NO
+N2/1	*	Af-	lemma/93808	c1473	choicus	D3EFC	coicus	NO
+N1	f	NcA	lemma/93810	c1475	cholera	D3F24	colera	NO
+N3B	m	NcC	lemma/42525	D39H7	choleres	D3F28	coleres	NO
+N1	f	NcA	lemma/97165	c4547	culina	D3F43	colina	OK
+N1	f	NcA	lemma/94910	c2476	collyrida	D3FCG	collirida	NO
+N3B	n	NcC	lemma/94966	c2522	columbar	D3G22	columbare	OK
+N2	n	NcB	lemma/97164	c4546	colostrum	D3G3E	colustrum	OK
+N2	n	NcB	lemma/97212	c4588	cuminum	D3G99	cominum	OK
+N3B	m	NcC	lemma/95036	c2583	comissator	D3G9C	comisator	OK
+V1		VmF	lemma/95045	c2592	comitio	D3GC1	comitior	OK
+V1		VmF	lemma/95052	c2595	comitor	D3GA6	comito	OK
+V1		VmF	lemma/95120	c2656	commentor	D3H03	commento	OK
+N2	n	NcB	lemma/95125	c2661	commercium	D3H0F	commerchium	NO
+N2	n	NcB	lemma/95191	c2718	compectum	D3H99	compactum	OK
+V3		VmH	lemma/95339	c2854	complector	D3HGE	complecto	OK
+N2	m	NcB	lemma/95420	c2934	computus	D401E	compotus	OK
+V1		VmF	lemma/95015	c2563	combino	D4060	conbino	NO
+N1	f	NcA	lemma/95489	c2998	concha	D4061	conca	OK
+N2	n	NcB	lemma/43188	D407C	conceilum	D4094	conceylum	NO
+N1	f	NcA	lemma/95492	c3001	conchicla	D40A6	concicla	OK
+N3B	f	NcC	lemma/96301	c3759	contio	D40BE	concio	OK
+N2/1	*	Af-	lemma/96305	c3763	contionarius	D40BG	concionarius	OK
+N2/1	*	Af-	lemma/96305	c3763	contionarius	D40BG	concionarius	OK
+N3B	f	NcC	lemma/96301	c3759	contio	D40F6	conctio	OK
+N1	f	NcA	lemma/95495	c3004	conchula	D40FG	concula	OK
+N3B	n	NcC	lemma/95705	c3200	condyloma	D4120	condiloma	NO
+N2	m	NcB	lemma/95699	c3194	condylus	D4123	condilus	NO
+N2/1	*	Af-	lemma/95693	c3188	conducticius	D415G	conductitius	NO
+N3A	*	Af-	lemma/43597	D39HG	chonestabilis	D4181	conestabilis	NO
+N		NcP	lemma/43528	D39HH	chonhol	D4236	conhol	NO
+V1		VmF	lemma/95956	c3440	coniuro	D4249	coniero	OK
+N2	m	NcB	lemma/94797	c2374	collactaneus	D426D	conlactaneus	OK
+N3B	m	NcC	lemma/94812	c2385	collator	D4271	conlator	OK
+V1		VmF	lemma/94890	c2457	collumino	D427G	conlumino	OK
+N3B	f	NcC	lemma/94894	c2461	collusio	D427H	conlusio	OK
+N3A	*	Af-	lemma/43597	D39HG	chonestabilis	D428A	connestabilis	NO
+N3B	f	NcC	lemma/95707	c3202	conexio	D428D	connexio	OK
+N1	f	NcA	lemma/97799	c9957	coniuentia	D428H	conniuentia	OK
+N2/1	*	Af-	lemma/43604	D4264	conius	D4291	connius	NO
+N2	m	NcB	lemma/97273	c4643	cunnus	D4299	connus	OK
+N2	n	NcB	lemma/95365	c2879	compluuium	D42A4	conpluuium	OK
+N3B	f	NcC	lemma/97599	c7889	compotrix	D42A5	conpotrix	OK
+V3		VmH	lemma/95972	c3456	conquiro	D42AC	conquaero	OK
+N2	m	NcB	lemma/96684	c4108	correus	D42CF	conreus	OK
+V1		VmF	lemma/96700	c4124	corrogo	D42D2	conrogo	OK
+V1		VmF	lemma/96701	c4125	corrotundo	D42D3	conrotundo	OK
+V1		VmF	lemma/96008	c3489	consecro	D42D9	consacro	OK
+N3B	f	NcC	lemma/96068	c3546	consitio	D42HB	consicio	NO
+V1		VmF	lemma/96062	c3540	consimilo	D431B	consimulo	NO
+V1		VmF	lemma/96096	c3569	consolo	D4331	consolor	OK
+V1		VmF	lemma/96120	c3590	conspicor	D434F	conspico	OK
+N3B	f	NcC	lemma/97240	c4614	cunctatio	D43C4	contatio	OK
+N1	f	NcA	lemma/96389	c3839	contumelia	D447H	contumia	OK
+N2	m	NcB	lemma/96491	c3935	conuoluolus	D44EC	conuoluulus	OK
+N1	f	NcA	lemma/93325	c1053	copula	D4527	copla	OK
+N3B	m	NcC	lemma/93238	c0982	caupo	D4529	copo	OK
+N1	f	NcA	lemma/93241	c0985	cauponicula	D452C	coponicula	OK
+N3B	m	NcC	lemma/44163	D3A0A	choralis	D456F	coralis	NO
+N2	n	NcB	lemma/96564	c4003	corallium	D4570	corallum	OK
+N1	f	NcA	lemma/93826	c1489	chorda	D45A8	corda	OK
+N2	m	NcB	lemma/93827	c1490	chordapsus	D45AH	cordapsus	NO
+N2/1	*	Af-	lemma/92709	c0519	cardiacus	D45CH	cordiacus	OK
+I		X--	lemma/96582	c4019	cordacitus	D45D7	cordicitus	OK
+N3B	m	NcC	lemma/93828	c1491	chordifex	D45D9	cordifex	NO
+N1	f	NcA	lemma/96589	c4026	cordyla	D45F2	cordula	OK
+N3B	m	NcC	lemma/41342	D3A16	choreator	D45FF	coreator	NO
+N2	m	NcB	lemma/93831	c1494	chorepiscopus	D45G8	corepiscopus	NO
+N2	n	NcB	lemma/96747	c4170	coryletum	D460D	coriletum	OK
+N1	m	NcA	lemma/41351	D3A1G	chorista	D4618	corista	NO
+N1	f	NcA	lemma/96757	c4180	coryza	D461F	coriza	NO
+N1	f	NcA	lemma/96642	c4068	corona	D4629	corna	OK
+N1	m	NcA	lemma/96630	c4061	cornupeta	D4654	cornipeta	OK
+N3B	f	NcC	lemma/94751	c2335	cohors	D46FH	cors	OK
+N2	m	NcB	lemma/44547	D46H9	cortesanus	D46HD	corthesanus	NO
+N2/1	*	Af-	lemma/96761	c4184	cosmicos	D4738	cosmicus	OK
+N2	m	NcB	lemma/96764	c4185	cosmos	D473C	cosmus	OK
+N2/1	*	Af-	lemma/44687	D4799	coterius	D479F	cotherius	NO
+I		X--	lemma/96794	c4213	cottidie	D479G	cothidie	NO
+N3B	m	NcC	lemma/96782	c4201	cotho	D47A2	cothon	OK
+I		X--	lemma/96794	c4213	cottidie	D47AG	cotidie	OK
+N3B	f	NcC	lemma/96758	c4181	cos	D47B4	cotis	OK
+N3B	f	NcC	lemma/96758	c4181	cos	D47B4	cotis	OK
+N3B	f	NcC	lemma/97401	c4762	cutis	D47B4	cotis	OK
+N3B	f	NcC	lemma/97401	c4762	cutis	D47B4	cotis	OK
+N1	f	NcA	lemma/44693	D47A0	cothlanda	D47B7	cotlanda	NO
+N2	m	NcB	lemma/96786	c4205	cothurnus	D47CG	coturnus	OK
+N2	m	NcB	lemma/96804	c4222	couinnus	D47EB	couinus	OK
+N2	m	NcB	lemma/44830	D3EGD	coisinus	D4817	coysinus	NO
+N3B	f	NcC	lemma/44956	D48AB	credicio	D48AF	creditio	NO
+N1	f	NcA	lemma/92664	c0483	capra	D48DB	crepa	OK
+V1		VmF	lemma/96951	c4354	criminor	D4929	crimino	OK
+V1		VmF	lemma/45051	D3A3E	chrio	D490H	crio	NO
+N1	f	NcA	lemma/97080	c4471	crypta	D4940	cripta	OK
+N3B	n	NcC	lemma/93850	c1510	chrisma	D4949	crisma	NO
+N2	n	NcB	lemma/41378	D3A40	chrismon	D494B	crismon	NO
+N2	n	NcB	lemma/45100	D3A42	chrisobolum	D494C	crisobolum	NO
+V1		VmF	lemma/96965	c4367	criso	D4956	crisso	OK
+N1	f	NcA	lemma/41390	D3A4G	chroada	D4971	croada	NO
+N1	f	NcA	lemma/41395	D3A53	chronica	D49A9	cronica	NO
+N1	f	NcA	lemma/97080	c4471	crypta	D49HG	crupta	OK
+N2/1	*	Af-	lemma/97094	c4483	cubicularius	D4A5E	cubuclarius	OK
+N2/1	*	Af-	lemma/97094	c4483	cubicularius	D4A5E	cubuclarius	OK
+N1	f	NcA	lemma/93448	c1161	coquina	D4A66	cucina	OK
+V4		VmL	lemma/97111	c4496	cuccubio	D4A6G	cucubio	OK
+N1	f	NcA	lemma/97165	c4547	culina	D4ADG	culna	OK
+N1	f	NcA	lemma/97437	c4795	cyma	D4B00	cuma	OK
+N1	f	NcA	lemma/97267	c4637	cunila	D4B3B	cunela	OK
+N2	m	NcB	lemma/97273	c4643	cunnus	D4B55	cunus	OK
+N1	f	NcA	lemma/93673	c1357	cuppedia	D4B61	cupedia	OK
+N3A	*	Af-	lemma/97293	c4662	cuppes	D4B6B	cupes	OK
+N1	f	NcA	lemma/93325	c1053	copula	D4B7D	cupla	OK
+N3B	m	NcC	lemma/93238	c0982	caupo	D4B7G	cupo	OK
+N1	f	NcA	lemma/97275	c4645	cupa	D4B7H	cuppa	OK
+N1	f	NcA	lemma/97299	c4668	cupula	D4B88	cuppula	OK
+N2	n	NcB	lemma/97500	c4852	cyprum	D4B8B	cuprum	OK
+N2	n	NcB	lemma/97604	c7935	cyprum	D4B8B	cuprum	OK
+N2	n	NcB	lemma/93925	c1575	ciborium	D4CE4	cymborium	NO
+N2	n	NcB	lemma/45877	D3AE7	cimeterium	D4CE8	cymeterium	NO
+N2	n	NcB	lemma/41522	D3AE0	cimelia	D4CEA	cymilia	NO
+N2	n	NcB	lemma/94681	c2267	coemeterium	D4CEC	cymiterium	NO
+N		NcP	lemma/41570	D36C3	cenegild	D4CF0	cynegild	NO
+N2	m	NcB	lemma/94030	c1666	cippus	D4CFA	cyppus	NO
+N1	f	NcA	lemma/45894	D3B3H	cipriana	D4CFD	cypriana	NO
+N1	f	NcA	lemma/41636	D3B4H	circbota	D4CG0	cyrcbota	NO
+N2	m	NcB	lemma/41707	D3BB2	cirlistus	D4CG8	cyrlistus	NO
+N2	m	NcB	lemma/41716	D39F4	chirogryllus	D4CGA	cyrogrillus	NO
+N2	m	NcB	lemma/45906	D3BBF	cirologus	D4CGC	cyrologus	NO
+N2	n	NcB	lemma/41767	D3BF2	cisurgium	D4CH1	cysurgium	NO
+N1	f	NcA	lemma/40622	D3729	ceola	D4CH3	cyula	NO
+V1		VmF	lemma/97957	d0095	debacchor	D4DDE	debaccho	OK
+N3A	*	Af-	lemma/97965	d0103	debil	D4DF2	debilis	OK
+V3		VmH	lemma/98048	d0178	decerpo	D4E26	decarpo	OK
+N2	m	NcB	lemma/98024	d0156	decem-primus	D4E32	decemprimus	OK
+N2	m	NcB	lemma/46231	D4E54	dechi	D4E57	deci	NO
+N2	m	NcB	lemma/99139	d1200	decimanus	D4EC2	decumanus	OK
+I		X--	lemma/98169	d0286	decussatim	D4EDB	decusatim	OK
+V1		VmF	lemma/98200	d0313	dedignor	D4EF2	dedigno	OK
+N3B	f	NcC	lemma/98211	d0324	deductio	D4EFC	deduccio	NO
+V1		VmF	lemma/98222	d0333	defaeco	D4EH8	defeco	NO
+N1	f	NcA	lemma/46461	D4F9G	degrae	D4FA7	degre	NO
+V1		VmF	lemma/98380	d0484	deiero	D4FE6	deiuro	OK
+N2/1	*	Af-	lemma/98490	d0583	delirus	D4FG7	delerus	OK
+V4		VmL	lemma/98557	d0644	demolior	D4G6G	demolio	OK
+N2	m	NcB	lemma/45942	D4D10	daemulus	D4G82	demulus	NO
+N1	f	NcA	lemma/98636	d0719	dentharpaga	D4GBD	dentarpaga	NO
+N2/1	*	Af-	hypolemma/83207	d0795	depinnatus	D4GFE	depennatus	OK
+V1		VmF	lemma/98744	d0824	depopulor	D4H08	depopulo	OK
+V1		VmF	lemma/98786	d0861	depretio	D4H27	deprecio	OK
+V3		VmH	lemma/98781	d0856	deprehendo	D4H28	deprendo	OK
+N3A	*	Af-	lemma/98801	d0876	depugis	D4H44	depygis	OK
+V4		VmL	lemma/46868	D4H87	desaisio	D4H95	desaysio	NO
+N2/1	*	Af-	lemma/97855	d0000	dexter	D50F2	dextimus	OK
+N1	f	NcA	lemma/97858	d0003	dextera	D50F3	dextra	OK
+N1	f	NcA	lemma/47178	D4FDH	deita	D50G9	deyta	NO
+N2/1	*	Af-	lemma/47244	D5139	diarhodinus	D513C	diarodinus	NO
+N1	f	NcA	lemma/99280	d1329	dica	D5161	dicha	NO
+N1	f	NcA	lemma/99187	d1245	diaeta	D51A0	dieta	OK
+N2	n	NcB	lemma/47390	D51GG	dignerium	D5250	dinerium	NO
+V1		VmF	lemma/99767	d1868	disraro	D5288	diraro	OK
+N3B	m	NcC	lemma/47572	D52CH	discariator	D52EA	dischariator	NO
+N2	m	NcB	lemma/99673	d1778	discus	D52EB	dischus	NO
+N2/1	*	Af-	lemma/100333	d2415	dyscolus	D52G1	discolus	NO
+N1	f	NcA	lemma/100334	d2416	dysenteria	D531D	disenteria	NO
+V1		VmF	lemma/99702	d1806	dispalor	D5362	dispalo	OK
+V3		VmH	lemma/99579	d1684	dirumpo	D53BE	disrumpo	OK
+N2	n	NcB	lemma/99762	d1863	dissaeptum	D53CD	disseptum	OK
+V1		VmF	lemma/99810	d1910	dissimulo	D53D8	dissimilo	OK
+N2	n	NcB	lemma/99088	d1152	deuerticulum	D5424	diuerticulum	OK
+N3B	m	NcC	lemma/100032	d2125	dolo	D54EH	dolon	OK
+N1	f	NcA	lemma/98034	d0165	domina	D5552	domna	OK
+N1	f	NcA	lemma/98182	d0298	dominula	D555A	domnula	OK
+N2	m	NcB	lemma/98183	d0299	dominulus	D555B	domnulus	OK
+N2	m	NcB	lemma/98084	d0210	dominus	D555C	domnus	OK
+N1	f	NcA	lemma/48293	D562A	dreitura	D5639	dreytura	NO
+N2	m	NcB	lemma/100150	d2234	dromos	D5650	dromus	OK
+N1	m	NcA	lemma/48387	D568D	duca	D56AD	ducha	NO
+N1	f	NcA	lemma/48401	D56AF	duchissa	D56BB	ducissa	NO
+N3B	m	NcC	lemma/91435	b0220	bellator	D56D1	duellator	OK
+N2	n	NcB	lemma/91461	b0244	bellum	D56D8	duellum	OK
+N3A	*	Af-	lemma/91557	b0332	bidens	D56E6	duidens	OK
+I		X--	lemma/100243	d2324	dumtaxat	D56HA	duntaxat	OK
+N2	n	NcB	lemma/100088	d2180	donum	D56HB	dunum	OK
+N2	n	NcB	lemma/91351	b0144	bonum	D570A	duonum	OK
+N3B	n	NcC	lemma/99542	d1651	diploma	D572A	duploma	OK
+N2	n	NcB	lemma/47220	D511E	dialagium	D5764	dyalagium	NO
+N2	n	NcB	lemma/48542	D524B	dinamidium	D576A	dynamidium	NO
+N2	n	NcB	lemma/47390	D51GG	dignerium	D576C	dynerium	NO
+N2/1	*	Af-	lemma/48544	D5260	diocesianus	D576D	dyocesianus	NO
+N3B	f	NcC	lemma/48548	D5340	disis	D576H	dysis	NO
+N2/1	*	Af-	lemma/105995	h9962	hebeninus	D5785	ebeninus	OK
+N2/1	*	Af-	lemma/100490	e0011	eboratus	D579C	eburatus	OK
+N3B	n	NcC	lemma/93763	c1437	cheuma	D57A2	eccheuma	OK
+V1		VmF	lemma/48631	D57CF	eclipso	D57D0	eclypso	NO
+N3B	m	NcC	lemma/48621	D57C4	echones	D57D1	econes	NO
+N3B	f	NcC	lemma/102348	e1783	exstasis	D57DA	ecstasis	OK
+N3B	f	NcC	lemma/102348	e1783	exstasis	D57DA	ecstasis	OK
+N2	n	NcB	lemma/27703	D07A6	aedificamentum	D57FE	edificamentum	NO
+N2	n	NcB	lemma/87743	a0851	aedificium	D57FF	edificium	NO
+N3B	m	NcC	lemma/87747	a0855	aedilis	D57FH	edilis	OK
+N3B	f	NcC	lemma/87748	a0856	aedilitas	D57G0	edilitas	NO
+N2/1	*	Af-	lemma/89149	a2095	aedilicius	D57G1	edilitius	NO
+V1		VmF	lemma/114816	o0590	offoco	D5842	effoco	OK
+N3B	f	NcC	lemma/100673	e0181	effugatio	D585F	effugacio	NO
+N2/1	*	Af-	lemma/87761	a0866	aeger	D5878	eger	NO
+N2/1	*	Af-	lemma/100709	e0215	egestosus	D587E	egestuosus	OK
+N1	f	NcA	lemma/27717	D07BF	aegilopa	D5883	egilopa	NO
+N2	n	NcB	lemma/87783	a0881	aegrimonium	D589B	egrimonium	NO
+N2/1	*	Af-	lemma/87789	a0887	aegrotaticius	D589E	egrotatitius	NO
+N2/1	*	Af-	lemma/87791	a0889	aegroticius	D589F	egroticius	NO
+N2	n	NcB	lemma/100768	e0272	electarium	D58EC	electuarium	OK
+N2/1	*	Af-	lemma/100792	e0295	elementicius	D58GD	elementitius	NO
+N1	f	NcA	lemma/105294	h0226	hemina	D59C4	emina	OK
+N1	f	NcA	lemma/105150	h0099	hamula	D59DE	emola	OK
+N2	n	NcB	lemma/101007	e0488	emolumentum	D59E1	emolimentum	OK
+N2	n	NcB	lemma/101090	e0568	enchiridion	D5A38	enchiridium	OK
+N3B	f	NcC	lemma/107240	i1171	incus	D5A4B	encudo	OK
+N1	f	NcA	lemma/101155	e0628	entelechia	D5A4H	endelechia	OK
+N3B	n	NcC	lemma/102616	e9584	energema	D5A63	energima	OK
+N2/1	*	Af-	lemma/101128	e0602	enneadicus	D5A98	enneaticus	OK
+N2	n	NcB	lemma/108140	i2015	insicium	D5AB4	ensicium	OK
+N2	n	NcB	lemma/87815	a0909	aenulum	D5ADF	enulum	NO
+N3B	n	NcC	lemma/105313	h0242	hepar	D5AF6	epar	OK
+N1	m	NcA	lemma/101224	e0700	epibata	D5AG8	ephibata	NO
+N2	n	NcB	lemma/49365	D5AH0	epicaedium	D5AH2	epicedium	NO
+N1	f	NcA	lemma/49359	D5AGA	ephicerna	D5AH3	epicerna	NO
+N2	m	NcB	lemma/101245	e0719	epicyclus	D5AH4	epiciclus	NO
+N2	n	NcB	lemma/101286	e0757	epiraedium	D5B25	epirhedium	NO
+N2/1	*	Af-	lemma/101327	e0794	epitritos	D5B66	epitritus	OK
+V1		VmF	lemma/101350	e0817	epulor	D5B78	epulo	OK
+N1	m	NcA	lemma/101224	e0700	epibata	D5B7E	epybata	NO
+N1	f	NcA	lemma/49467	D5B05	epifora	D5B7G	epyfora	NO
+N2	n	NcB	lemma/101271	e0744	epimenia	D5B80	epymenia	NO
+N2	n	NcB	lemma/101320	e0787	epitogium	D5B87	epythogium	NO
+N1	f	NcA	lemma/49477	D07E7	aequantia	D5B8A	equantia	NO
+N2	m	NcB	lemma/101357	e0823	equiferus	D5B9B	equifer	OK
+N2/1	*	Af-	lemma/49489	D07F6	aequilocus	D5B9D	equilocus	NO
+V1		VmF	lemma/87869	a0961	aequo	D5B8B	equo	NO
+I		X--	lemma/49510	D07GD	aequorabiliter	D5BBC	equorabiliter	NO
+N2	m	NcB	lemma/100552	e0070	eculeus	D5BBE	equuleus	OK
+I		X--	lemma/102268	e1707	exradicitus	D5BC5	eradicitus	OK
+N3B	n	NcC	lemma/87876	a0968	aeramen	D5BC6	eramen	OK
+N2	n	NcB	lemma/87877	a0969	aeramentum	D5BC8	eramentum	NO
+N3B	m	NcC	lemma/87882	a0971	aerator	D5BCF	erator	NO
+N2	m	NcB	lemma/109575	i9916	irenaceus	D5BGE	erinaceus	OK
+N3A	*	Af-	lemma/87892	a0979	aeripes	D5BH0	eripes	NO
+N3B	m	NcC	lemma/87900	a0986	aero	D5C0G	ero	OK
+N1	f	NcA	lemma/27791	D080H	aescaeta	D5C61	escaeta	NO
+V3		VmH	lemma/49669	D5C5D	escado	D5CA2	eschado	NO
+N2/1	*	Af-	lemma/49749	D5C6F	escalmamentus	D5CAE	eschalmamentus	NO
+N1	f	NcA	lemma/49688	D5C71	escanchia	D5CAG	eschanchia	NO
+V1		VmF	lemma/49762	D5C86	escario	D5CBD	eschario	NO
+N1	f	NcA	lemma/49719	D5C8G	escassa	D5CC2	eschassa	NO
+N2	n	NcB	lemma/49721	D5C91	escaticum	D5CC5	eschaticum	NO
+N2	m	NcB	lemma/49724	D5C95	escaudetus	D5CC7	eschaudetus	NO
+N1	f	NcA	lemma/27791	D080H	aescaeta	D5CCH	escheta	NO
+N2/1	*	Af-	lemma/49798	D5CE2	eschoparius	D5CG9	escoparius	NO
+N		NcP	lemma/49799	D5CE3	eschot	D5CH4	escot	NO
+N2	n	NcB	lemma/87923	a1009	aesculetum	D5D12	esculetum	OK
+N2	f	NcB	lemma/87927	a1013	aesculus	D5D15	esculus	OK
+N2/1	*	Af-	lemma/108137	i2014	insiciatus	D5D30	esiciatus	OK
+N3B	m	NcC	lemma/109119	i2944	isox	D5D59	esox	OK
+N2	n	NcB	lemma/50027	D5D9A	essaium	D5DA6	essayum	NO
+N1	f	NcA	lemma/28492	D0819	aessella	D5DAG	essella	NO
+N2	n	NcB	lemma/87938	a1023	aestimium	D5DG8	estimium	NO
+N2	n	NcB	lemma/87946	a1030	aestiua	D5DGB	estiua	NO
+N2	n	NcB	lemma/50142	D5DH3	estocagium	D5DH4	estochagium	NO
+N2	n	NcB	lemma/87948	a1032	aestuarium	D5E1F	estuarium	NO
+V1		VmF	lemma/87960	a1042	aeterno	D5E33	eterno	NO
+N1	f	NcA	lemma/101546	e1002	ethice	D5E3B	ethica	OK
+V1		VmF	lemma/102006	e1457	exhalo	D5EG2	exalo	OK
+V1		VmF	lemma/101769	e1219	examurgo	D5F03	examurco	OK
+N1	f	NcA	lemma/27791	D080H	aescaeta	D5F4D	excaeta	NO
+V1		VmF	lemma/50885	D5HA2	exscaturizo	D5F68	excaturizo	NO
+V1		VmF	lemma/101888	e1333	excodico	D5F6A	excaudico	OK
+N1	f	NcA	lemma/27791	D080H	aescaeta	D5F8D	exchaeta	NO
+N2	n	NcB	lemma/50491	D5F57	excangium	D5F8G	exchangium	NO
+V1		VmF	lemma/102285	e1724	exscreo	D5FDB	excreo	OK
+V3		VmH	lemma/100563	e0081	edico	D5FHB	exdico	OK
+V1		VmF	lemma/102290	e1729	exseco	D5FHH	execo	OK
+N3B	f	NcC	lemma/102292	e1731	exsecrabilitas	D5G02	execrabilitas	OK
+V1		VmF	lemma/102297	e1736	exsecror	D5G03	execror	OK
+N3B	f	NcC	lemma/102301	e1739	exsecutio	D5G09	executio	OK
+N1	f	NcA	lemma/102305	e1742	exsequiae	D5G3D	exequiae	OK
+N3B	m	NcC	lemma/100663	e0172	effractor	D5G6E	exfractor	OK
+V1		VmF	lemma/102015	e1466	exheredo	D5G79	exhaeredo	NO
+N3B	m	NcC	lemma/102016	e1467	exheres	D5G7A	exhaeres	NO
+N1	f	NcA	lemma/101184	e0656	exedra	D5G7G	exhedra	OK
+V1		VmF	lemma/101979	e1432	exentero	D5GAG	exintero	OK
+V1		VmF	lemma/102321	e1757	exsinuo	D5GAH	exinuo	NO
+V1		VmF	lemma/102099	e1547	exorcizo	D5GF7	exorcidio	OK
+N3A	*	Af-	lemma/102331	e1767	exspectabilis	D5H01	expectabilis	OK
+N3B	f	NcC	lemma/102332	e1768	exspectatio	D5H07	expectatio	OK
+V1		VmF	lemma/102335	e1771	exspecto	D5H05	expecto	OK
+V4		VmL	lemma/102165	e1604	experior	D5H35	experio	OK
+N1	f	NcA	lemma/50827	D5H4E	explechia	D5H4F	explecia	NO
+V1		VmF	lemma/50883	D5F51	excambio	D5HA0	exscambio	NO
+N2	n	NcB	lemma/50888	D5FHA	excutum	D5HA5	exscutum	NO
+V1		VmF	lemma/50897	D5G9H	exilio	D5HAH	exsilio	NO
+V1		VmF	lemma/102487	e1910	exulo	D5HB4	exsolo	OK
+V1		VmF	lemma/50746	D5GE8	exomnio	D5HB7	exsomnio	NO
+N2	n	NcB	lemma/50850	D5H6E	expolium	D5HBE	exspolium	NO
+N2/1	*	Af-	lemma/102481	e1905	exulaticius	D5HC6	exsulaticius	OK
+N2/1	*	Af-	lemma/102481	e1905	exulaticius	D5HC6	exsulaticius	OK
+N3B	f	NcC	lemma/102375	e1808	exulatio	D5HC7	exsulatio	OK
+N1	f	NcA	lemma/102689	e9990	exstantia	D5HD8	extantia	OK
+N3B	f	NcC	lemma/102348	e1783	exstasis	D5HDB	extasis	OK
+N3B	f	NcC	lemma/102348	e1783	exstasis	D5HDB	extasis	OK
+V1		VmF	lemma/102349	e1784	exsterno	D5HF2	externo	OK
+V1		VmF	lemma/102359	e1794	exstirpo	D5HG3	extirpo	OK
+V1		VmF	lemma/102387	e1819	exsupero	D6039	exupero	OK
+N2	n	NcB	lemma/48832	D58BC	eisiamentum	D604B	eysiamentum	NO
+N1	f	NcA	lemma/48835	D58BF	eissariata	D604D	eyssariata	NO
+V1		VmF	lemma/102738	f0032	fabulor	D608D	fabulo	OK
+N1	f	NcA	lemma/117588	p1842	phalanga	D612C	falanga	OK
+N1	f	NcA	lemma/117595	p1849	phalerae	D6172	falerae	OK
+N3B	f	NcC	lemma/102875	f0153	fames	D61FA	famis	OK
+N2	m	NcB	lemma/105086	h0041	hariolus	D6236	fariolus	OK
+N1	f	NcA	lemma/102904	f0181	fartura	D625E	farsura	OK
+N2	m	NcB	lemma/120769	p8874	phaseolus	D6287	faseolus	OK
+N3B	n	NcC	lemma/117629	p1880	phasma	D628G	fasma	OK
+V1		VmF	lemma/103542	f0751	focilo	D62E9	faucillo	OK
+N3B	m	NcC	lemma/103027	f0288	fautor	D62FC	fauitor	OK
+N2	m	NcB	lemma/51209	D6120	faissus	D630F	fayssus	NO
+N2	m	NcB	lemma/105074	h0031	haedus	D6337	fedus	OK
+N1	f	NcA	lemma/103303	f0535	filicula	D6352	felicula	OK
+N3B	f	NcC	lemma/103062	f0321	feles	D6354	felis	OK
+N3B	n	NcC	lemma/103088	f0347	femur	D637B	femus	NO
+N2/1	*	Af-	lemma/102700	f0001	faenarius	D6384	fenarius	OK
+N2/1	*	Af-	lemma/102700	f0001	faenarius	D6384	fenarius	OK
+N2/1	*	Af-	lemma/102799	f0087	faeneus	D63A0	feneus	OK
+N3B	n	NcC	lemma/102806	f0092	faenile	D63A8	fenile	OK
+N2	n	NcB	lemma/103162	f0411	fertum	D63CC	ferctum	OK
+N3B	f	NcC	lemma/102934	f0208	farrago	D6404	ferrago	OK
+N3B	m	NcC	lemma/51828	D63E4	fertho	D6439	ferto	NO
+N3B	n	NcC	lemma/51962	D60H0	faestingmen	D6474	festingmen	NO
+N1	f	NcA	lemma/103093	f0352	fenestra	D6483	festra	OK
+N1	f	NcA	lemma/103565	f0771	foetutina	D649B	fetutina	OK
+N1	f	NcA	lemma/103218	f0460	fibula	D64C0	fibla	OK
+N2	n	NcB	lemma/104186	f9226	fidei-commissum	D64G7	fideicommissum	OK
+N2	n	NcB	lemma/117746	p1993	phylacterium	D6531	filacterium	OK
+N1	f	NcA	lemma/103296	f0528	filia	D654B	fileia	OK
+N1	f	NcA	lemma/103192	f0438	festuca	D6612	fistuca	OK
+N1	f	NcA	lemma/52334	D661B	fithwita	D6622	fitwita	NO
+N1	f	NcA	lemma/103218	f0460	fibula	D662G	fixula	OK
+N2	m	NcB	lemma/52406	D668D	flanchus	D668E	flancus	NO
+V1		VmF	lemma/103765	f0959	fraxo	D66BC	flaxo	OK
+N1	f	NcA	lemma/117676	p1926	phlebotomia	D66C4	flebotomia	OK
+V1		VmF	lemma/117678	p1928	phlebotomo	D66C1	flebotomo	OK
+N2	m	NcB	lemma/117679	p1929	phlebotomus	D66C7	flebotomus	OK
+N3B	n	NcC	lemma/117681	p1930	phlegma	D66D3	flegma	OK
+N3B	n	NcC	lemma/117681	p1930	phlegma	D66D3	flegma	OK
+N2/1	*	Af-	lemma/103510	f0722	fluidus	D6743	fluuidus	OK
+N1	m	NcA	lemma/52593	D66FG	flima	D6750	flyma	NO
+N2/1	*	Af-	lemma/103539	f0749	focacius	D6772	focatius	OK
+N2/1	*	Af-	lemma/103539	f0749	focacius	D6772	focatius	OK
+N1	f	NcA	lemma/103212	f0456	feta	D67BD	foeta	OK
+N2	n	NcB	lemma/103406	f0626	folium	D67EG	foleum	OK
+N1	f	NcA	lemma/52728	D67E6	foleia	D67F0	foleya	NO
+N1	f	NcA	lemma/52852	D686D	forca	D687C	forcha	NO
+N2	n	NcB	lemma/52863	D6870	forcagium	D687E	forchagium	NO
+N2	m	NcB	lemma/52873	D6882	forchonus	D6889	forconus	NO
+N		NcP	lemma/52898	D68A5	forestael	D68AH	forestel	NO
+N3A	*	Af-	lemma/103639	f0841	formicabilis	D691F	formicalis	OK
+V1		VmF	lemma/103676	f0876	fornico	D695D	fornicor	OK
+N1	f	NcA	lemma/103522	f0732	fossa	D6A0B	fotsa	OK
+V1		VmF	lemma/103388	f0613	flagro	D6A6B	fraglo	OK
+V1		VmF	lemma/103736	f0931	fragro	D6A6B	fraglo	OK
+N3B	f	NcC	lemma/53376	D6A9B	franchitas	D6AB4	francitas	NO
+N2	m	NcB	lemma/53358	D6A9D	franchus	D6ABH	francus	NO
+N1	f	NcA	lemma/53411	D6AD9	frasca	D6AE0	frascha	NO
+N2	n	NcB	lemma/53299	D6A57	fraedum	D6B18	fredum	NO
+N2/1	*	Af-	lemma/53587	D6B23	freigrauius	D6B7B	freygrauius	NO
+N2	n	NcB	lemma/103036	f0297	frigidarium	D6B9G	frigdarium	OK
+V4		VmL	lemma/103821	f1010	friguttio	D6BBH	fringulirre	NO
+N2/1	*	Af-	lemma/53672	D6BD7	friscus	D6BD3	frischus	NO
+N1	f	NcA	lemma/103360	f0586	fitilla	D6BEF	fritilla	OK
+V1		VmF	lemma/103895	f1071	frustror	D6C84	frustro	OK
+N2	n	NcB	lemma/103898	f1074	frustum	D6C8A	frustrum	OK
+N1	f	NcA	lemma/103920	f1095	fugela	D6CBF	fugella	OK
+N1	f	NcA	lemma/103950	f1119	fulica	D6CCA	fulca	OK
+N1	f	NcA	lemma/103950	f1119	fulica	D6CCD	fulcha	NO
+N2	n	NcB	lemma/103934	f1107	fulcrum	D6CCE	fulchrum	NO
+V3		VmH	lemma/104023	f1184	fungor	D6D43	fungo	OK
+N3B	f	NcC	lemma/103612	f0814	forceps	D6D72	furceps	OK
+N1	f	NcA	lemma/104041	f1200	furca	D6D73	furcha	NO
+V1		VmF	lemma/104075	f1230	furor	D6D5B	furo	OK
+N1	f	NcA	lemma/54182	D652D	fihtwita	D6DHB	futhwita	NO
+N1	f	NcA	lemma/54182	D652D	fihtwita	D6E0D	fyhtwita	NO
+N1	f	NcA	lemma/52135	D6534	filargiria	D6E0F	fylargiria	NO
+N1	f	NcA	lemma/54203	D65CG	firderinga	D6E11	fyrderinga	NO
+N3B	n	NcC	lemma/54204	D65D3	firebote	D6E12	fyrebote	NO
+N		NcP	lemma/54205	D65D5	firken	D6E13	fyrken	NO
+N1	f	NcA	lemma/104274	g0027	galea	D6EAH	galaea	NO
+N3B	n	NcC	lemma/92454	c0305	calymma	D6F1E	galumma	OK
+N		NcP	lemma/54625	D6FAB	garanthinx	D6FAE	garantinx	NO
+N3B	f	NcC	lemma/54658	D6FCD	garcio	D6G48	garsio	NO
+N1	f	NcA	lemma/104247	g0003	gabata	D6G90	gauata	OK
+N2	n	NcB	lemma/54977	D6E9A	gainagium	D6GFE	gaynagium	NO
+N1	f	NcA	lemma/54335	D6E9F	gaiola	D6GFG	gayola	NO
+N3B	m	NcC	lemma/104597	g0301	gillo	D6H14	gello	OK
+N2	n	NcB	lemma/104998	g0685	gynaeceum	D6H40	genaecium	NO
+N2	n	NcB	lemma/104998	g0685	gynaeceum	D6H48	genecium	NO
+N3B	m	NcC	lemma/100705	e0211	egero	D6HF7	gero	OK
+N2	n	NcB	lemma/104374	g0110	gaesum	D7001	gessum	OK
+N2	n	NcB	lemma/104374	g0110	gaesum	D701D	gesum	OK
+N3B	m	NpC	lemma/8113	35723	gigans	35730	gigas	NO
+N2/1	*	Af-	lemma/104596	g0300	giluus	D7070	gilbus	OK
+N2	n	NcB	lemma/104991	g0679	gymnasium	D7083	gimnasium	NO
+N2/1	*	Af-	lemma/105001	g0688	gypsarius	D70B1	gipsarius	NO
+N2	n	NcB	lemma/105005	g0692	gypsum	D70B3	gipsum	NO
+N2	m	NcB	lemma/105006	g0693	gyrgillus	D70BG	girgillus	NO
+V1		VmF	lemma/105008	g0695	gyro	D70B7	giro	OK
+N1	f	NcA	lemma/104648	g0348	glarea	D70GF	glaria	OK
+V1		VmF	lemma/104652	g0352	glattito	D70HC	glaucito	OK
+N3B	m	NcC	lemma/55508	D7110	gleinator	D711F	gleynator	NO
+N1	f	NcA	lemma/104716	g0414	glossa	D7166	glosa	OK
+N2	n	NcB	lemma/104715	g0413	glosarium	D716G	glossarium	OK
+V4		VmL	lemma/104740	g0438	gluttio	D7181	glutio	OK
+N3B	m	NcC	lemma/104742	g0440	glutto	D7183	gluto	OK
+N2/1	*	Af-	lemma/104743	g0441	glittus	D7188	glutus	OK
+V1		VmF	lemma/113466	n0108	nauo	D7197	gnauo	OK
+N3A	*	Af-	lemma/113751	n0445	nobilis	D719B	gnobilis	OK
+V3		VmH	lemma/113840	n0534	nosco	D719E	gnosco	OK
+I		X--	lemma/97680	c9838	corgo	D71G8	gorgo	OK
+V1		VmF	lemma/104803	g0501	graecisso	D7261	graecizo	OK
+V1		VmF	lemma/104872	g0566	gratificor	D730G	gratifico	OK
+N3B	f	NcC	lemma/104893	g0586	grauedo	D7362	grauido	OK
+N1	f	NcA	lemma/97080	c4471	crypta	D73E0	gripta	NO
+N2	m	NcB	lemma/104251	g0007	grypus	D73E1	gripus	NO
+N1	f	NcA	lemma/104926	g0617	groma	D7428	gruma	OK
+V4		VmL	lemma/104940	g0630	grundio	D7435	grunnio	OK
+N1	f	NcA	lemma/97080	c4471	crypta	D744H	grypta	NO
+N1	f	NcA	lemma/56420	D74BG	guarnachia	D74BH	guarnacia	NO
+N1	f	NcA	lemma/56461	D7470	guaita	D74E9	guayta	NO
+N2	n	NcB	lemma/56516	D74G3	gueitum	D7501	gueytum	NO
+N1	f	NcA	lemma/104987	g0676	gubia	D75B9	guuia	OK
+N1	f	NcA	lemma/56580	D753E	guisa	D75BD	guysa	NO
+N1	f	NcA	lemma/56693	D7071	gilda	D75C5	gylda	NO
+N		NcP	lemma/55349	D707D	giltwite	D75C7	gyltwite	NO
+V1		VmF	lemma/56695	D7084	gimnologizo	D75CC	gymnologizo	NO
+N2	m	NcB	lemma/56706	D70C5	girouagi	D75D9	gyrouagi	NO
+N3B	m	NcC	lemma/86838	a0013	abba	D75DG	habba	NO
+N2/1	*	Af-	lemma/87054	a0213	abundus	D75H8	habundus	OK
+N1	f	NcA	lemma/56756	D75HE	haceta	D75HG	hacheta	NO
+N1	m	NcA	lemma/105372	h0292	heredipeta	D7614	haeredipeta	NO
+N3B	f	NcC	lemma/105374	h0294	hereditas	D7620	haereditas	NO
+V1		VmF	lemma/105375	h0295	heredito	D761B	haeredito	NO
+N2	m	NcB	lemma/88414	a1443	allus	D766B	hallus	OK
+N1	f	NcA	lemma/105158	h0107	harena	D76H0	hasena	OK
+N2/1	*	Af-	lemma/105230	h0168	hecatompylus	37259	hecatompylos	OK
+N2/1	*	Af-	lemma/105230	h0168	hecatompylus	37259	hecatompylos	OK
+N2	n	NcB	lemma/87743	a0851	aedificium	D7768	hedificium	NO
+N2	m	NcB	lemma/105074	h0031	haedus	D776D	hedus	OK
+N2	m	NcB	lemma/100879	e0370	elucus	D77A7	helucus	OK
+N2/1	*	Af-	lemma/105296	h0228	hemiolios	D77B1	hemiolius	OK
+N2/1	*	Af-	lemma/105296	h0228	hemiolios	D77B1	hemiolius	OK
+N1	f	NcA	lemma/101378	e0843	era	D77D6	hera	OK
+N1	f	NcA	lemma/101487	e0945	eruilia	D77G2	herbilia	OK
+N2	n	NcB	lemma/101497	e0956	eruum	D77G7	herbum	OK
+N1	f	NcA	lemma/57268	D77GB	herchia	D77GC	hercia	NO
+N2	n	NcB	lemma/101389	e0852	erctum	D77GH	herctum	OK
+N2	n	NcB	lemma/57287	D7618	haereditagium	D7800	hereditagium	NO
+N2	n	NcB	lemma/56779	D7619	haereditamentum	D7806	hereditamentum	NO
+N2	n	NcB	lemma/56782	D761H	haereditarium	D780C	hereditarium	NO
+V1		VmF	lemma/56776	D7611	haeredo	D77HD	heredo	NO
+N3B	f	NcC	lemma/105092	h0047	haeresis	D7829	heresis	OK
+N3B	f	NcC	lemma/105092	h0047	haeresis	D7829	heresis	OK
+N3A	*	Af-	lemma/57320	D762D	haereticalis	D782E	hereticalis	NO
+N2/1	*	Af-	lemma/105093	h0048	haereticus	D782H	hereticus	NO
+N3A	*	Af-	lemma/101425	e0885	erilis	D7844	herilis	OK
+N1	f	NcA	lemma/105389	h0309	hirnea	D7878	hernia	OK
+N2/1	*	Af-	lemma/105544	h0446	hirneosus	D7879	herniosus	OK
+N1	f	NcA	lemma/105793	h0676	hydra	D78D2	hida	NO
+N1	f	NcA	lemma/105793	h0676	hydra	D78D5	hidra	NO
+V1		VmF	lemma/105845	h0726	hymnizo	D78GA	himnizo	NO
+N1	f	NcA	lemma/105389	h0309	hirnea	D790H	hirnia	OK
+N1	f	NcA	lemma/105542	h0444	hirnea	D790H	hirnia	OK
+N2	m	NcB	lemma/108969	i2801	irpus	D7912	hirpus	OK
+N3B	f	NcC	lemma/105952	h0828	hystrix	D7937	histrix	OK
+N2	n	NcB	lemma/57471	D78CA	hibernagium	D793E	hiuernagium	NO
+N3B	n	NcC	lemma/115001	o0768	onus	D79E3	honus	OK
+N3B	n	NcC	lemma/115001	o0768	onus	D79E3	honus	OK
+N1	f	NcA	lemma/104082	f1236	forda	D79F8	horda	OK
+V1		VmF	lemma/105744	h0626	hospitor	D7A21	hospito	OK
+N2	m	NcB	lemma/57928	D7AAD	hucellus	D7AAH	huchellus	NO
+N3B	n	NcC	lemma/130486	u0922	ulcus	D7ACA	hulcus	OK
+N3B	n	NcC	lemma/130486	u0922	ulcus	D7ACA	hulcus	OK
+V1		VmF	lemma/130548	u0982	umecto	D7ADD	humecto	OK
+N2/1	*	Af-	lemma/130549	u0983	umectus	D7ADF	humectus	OK
+N3B	n	NcC	lemma/130554	u0986	umerale	D7AE0	humerale	OK
+N2	m	NcB	lemma/130555	u0987	umerulus	D7AE1	humerulus	OK
+V1		VmF	lemma/130559	u0991	umido	D7AE4	humido	OK
+V1		VmF	lemma/130566	u0997	umigo	D7AE5	humigo	OK
+N2/1	*	Af-	lemma/130568	u0999	umorosus	D7AF5	humorosus	OK
+N2	n	NcB	lemma/57471	D78CA	hibernagium	D7B14	hybernagium	NO
+N2	m	NcB	lemma/105829	h0711	hydrus	D7B20	hydros	OK
+N2	m	NcB	lemma/105829	h0711	hydrus	D7B20	hydros	OK
+N3B	m	NcC	lemma/57487	D78DB	hiemantes	D7B23	hyemantes	NO
+N3B	m	NcC	lemma/108968	i2800	irpex	D7B52	hyrpex	OK
+N2	n	NcB	lemma/57471	D78CA	hibernagium	D7B56	hyuernagium	NO
+N2	n	NcB	lemma/106124	i0115	ientaculum	D7BBC	iantaculum	OK
+N1	f	NcA	lemma/106092	i0085	idololatria	D7C0A	idolatria	OK
+N2	n	NcB	lemma/106093	i0086	idoleum	D7C0B	idolium	OK
+N2	n	NcB	lemma/106097	i0090	idolon	D7C0F	idolum	OK
+N1	f	NcA	lemma/105379	h0299	hilla	D7C6E	illa	OK
+V1		VmF	lemma/106317	i0293	imaginor	D7CB5	imagino	OK
+N3A	*	Af-	lemma/106388	i0358	immemor	D7D05	immemoris	OK
+V4		VmL	lemma/106551	i0514	impertio	D7D4A	impartior	OK
+N2	n	NcB	lemma/106494	i0460	impedimentum	D7D67	impelimentum	OK
+N5	f	NcE	lemma/106525	i0490	imperfundities	D7D80	imperfundies	OK
+N3A	*	Af-	lemma/106666	i0623	impraeuaricabilis	D7E05	impreuaricabilis	NO
+N2/1	*	Af-	lemma/106838	i0787	inaspicuus	D7E61	inadspicuus	OK
+N2/1	*	Af-	lemma/107896	i1782	iniquus	D7E67	inaequus	OK
+N3B	f	NcC	lemma/106335	i0308	imbonitas	D7EA2	inbonitas	OK
+V1		VmF	lemma/106946	i0889	incharaxo	D7ED7	incaraxo	OK
+V1		VmF	lemma/58881	D7EFA	incateno	D7EFG	incatheno	NO
+V1		VmF	lemma/107246	i1176	incuso	D7EG5	incauso	OK
+N1	f	NcA	lemma/58824	D7EB1	incaesa	D7F13	incesa	NO
+N2	n	NcB	lemma/58922	D7EE3	incarimentum	D7F1F	incharimentum	NO
+N2/1	*	Af-	lemma/107008	i0948	inclutus	D7F7D	inclitus	OK
+V1		VmF	lemma/58992	D7F7C	inclito	D7F85	inclyto	NO
+N2/1	*	Af-	lemma/107008	i0948	inclutus	D7F86	inclytus	OK
+V1		VmF	lemma/106912	i0859	inceno	D7F88	incoeno	OK
+N3B	f	NcC	lemma/107240	i1171	incus	D7G01	incudo	OK
+N3B	f	NcC	lemma/107240	i1171	incus	D7G01	incudo	OK
+V1		VmF	lemma/106959	i0901	incilo	D7G02	inculo	NO
+V1		VmF	lemma/107349	i1272	indigito	D7G8E	indigeto	OK
+V1		VmF	lemma/107359	i1280	indignor	D7G8G	indigno	OK
+V3		VmH	lemma/107370	i1290	indipiscor	D7G99	indipisco	OK
+N3B	f	NcC	lemma/59194	D7G6G	indicio	D7GAD	inditio	NO
+V1		VmF	lemma/106539	i0503	impero	D7GE7	indupero	OK
+V1		VmF	lemma/107841	i1730	inheredito	D802H	inhaeredito	NO
+V1		VmF	lemma/108883	i2724	inumigo	D804A	inhumigo	OK
+V1		VmF	lemma/106191	i0177	illaboro	D8084	inlaboro	OK
+N3A	*	Af-	lemma/106195	i0181	illacrimabilis	D8085	inlacrimabilis	OK
+N3B	f	NcC	lemma/106212	i0197	illatio	D8089	inlatio	OK
+N2	n	NcB	lemma/58378	D7C77	illatum	D808A	inlatum	NO
+V1		VmF	lemma/106224	i0207	illecebro	D808C	inlecebro	OK
+N3A	*	Af-	lemma/106236	i0219	illex	D808H	inlex	OK
+N3B	f	NcC	lemma/106247	i0230	illicitatio	D8091	inlicitatio	OK
+V1		VmF	lemma/106255	i0238	illigo	D8095	inligo	OK
+V1		VmF	lemma/106287	i0268	illumino	D8099	inlumino	OK
+N2/1	*	Af-	lemma/106390	i0360	immemoratus	D809G	inmemoratus	OK
+N3A	*	Af-	lemma/106439	i0407	immortalis	D80A2	inmortalis	OK
+N3A	*	Af-	lemma/106470	i0437	impalpabilis	D80F7	inpalpabilis	OK
+V3		VmH	lemma/106588	i0547	impingo	D80G0	inpingo	OK
+V1		VmF	lemma/106601	i0560	implano	D80G2	inplano	OK
+V3		VmH	lemma/106614	i0572	implicisco	D80G5	inplicisco	OK
+N3A	*	Af-	lemma/106639	i0596	importabilis	D80G8	inportabilis	OK
+N2	m	NcB	lemma/58679	D7DG9	impotus	D80GC	inpotus	NO
+N2/1	*	Af-	lemma/106659	i0616	impraemeditatus	D80GF	inpraemeditatus	OK
+N3A	*	Af-	lemma/106691	i0647	improlis	D80H6	inprolis	OK
+N1	f	NcA	lemma/59686	D80HH	inquaesta	D8107	inquesta	NO
+V1		VmF	lemma/108970	i2802	irradio	D811F	inradio	OK
+N3B	f	NcC	lemma/108974	i2806	irrationabilitas	D811G	inrationabilitas	OK
+N3A	*	Af-	lemma/108973	i2805	irrationalis	D8120	inrationalis	OK
+N3B	f	NcC	lemma/108996	i2828	irreligiositas	D812A	inreligiositas	OK
+N3B	f	NcC	lemma/109014	i2846	irreptio	D812F	inreptio	OK
+N3A	*	Af-	lemma/109442	i7855	irrespirabilis	D812H	inrespirabilis	OK
+N3A	*	Af-	lemma/109030	i2862	irreuerens	D8130	inreuerens	OK
+N2/1	*	Af-	lemma/109044	i2874	irriguus	D8134	inriguus	OK
+N3B	f	NcC	lemma/109056	i2886	irritatrix	D8137	inritatrix	OK
+V1		VmF	lemma/109065	i2894	irroto	D8138	inroto	OK
+V1		VmF	lemma/108100	i1977	insector	D815C	insecto	OK
+V1		VmF	lemma/108147	i2020	insidior	D8184	insidio	OK
+N2/1	*	Af-	lemma/108085	i1963	inscius	D81FE	instius	NO
+N2	n	NcB	lemma/108297	i2164	insubulum	D81GD	insublum	OK
+V1		VmF	lemma/108299	i2166	insuco	D81H1	insucco	OK
+N1	f	NcA	lemma/108359	i2223	intellegentia	D8238	intelligentia	OK
+V3		VmH	lemma/108367	i2231	intellego	D823A	intelligo	OK
+N2/1	*	Af-	lemma/108381	i2244	intemptatus	D8258	intentatus	OK
+V1		VmF	lemma/108448	i2307	interdo	D8299	interduo	OK
+V1		VmF	lemma/108752	i2596	intro	D8268	intero	OK
+V3		VmH	lemma/108715	i2560	intinguo	D831E	intingo	OK
+V1		VmF	lemma/60067	D8313	inthroniso	D8369	introniso	NO
+I		X--	lemma/108769	i2617	introuorsus	D836A	introuersus	OK
+N2	m	NcB	lemma/105493	h0399	hinnuleus	D83D7	inuleus	OK
+V3		VmH	lemma/108889	i2729	inunguo	D83DE	inungo	OK
+V1		VmF	lemma/108924	i2763	iocor	D83G0	ioco	OK
+V1		VmF	lemma/109159	i2988	iucundo	D83H1	iocundo	OK
+N2/1	*	Af-	lemma/105539	h0440	hircosus	D8447	ircosus	OK
+N2	n	NcB	lemma/108140	i2015	insicium	D848B	isicium	OK
+N1	f	NcA	lemma/86565	DEC96	ystoria	D84A0	istoria	NO
+N3B	f	NcC	lemma/105952	h0828	hystrix	D84A4	istrix	NO
+N2	n	NcB	lemma/106705	i0660	iubilaeum	D84CA	iubileum	NO
+N2	n	NcB	lemma/109213	i3034	iuncetum	D8519	iunchetum	NO
+I		X--	lemma/127099	s3832	sursum	D85A7	iusum	OK
+N2	m	NcB	lemma/142833	D759D	guti	D85AB	iuti	NO
+N1	f	NcA	lemma/92438	c0292	calumnia	D85F0	kalumnia	OK
+N1	f	NcA	lemma/109757	l0141	labia	D8687	labea	OK
+N3B	m	NcC	lemma/109606	l0012	labeo	D869F	labio	OK
+N2/1	*	Af-	lemma/109655	l0056	lacertosus	D86F9	lacertuosus	OK
+N2/1	*	Af-	lemma/109643	l0046	lacer	D86FA	lacerus	OK
+N1	f	NcA	lemma/60922	D86DD	laca	D86FC	lacha	NO
+N3B	m	NcC	lemma/60949	D86FF	lachinones	D86G2	lacinones	NO
+N2/1	*	Af-	lemma/109673	l0073	lacrimatorius	D86H1	lacrymatorius	NO
+N1	f	NcA	lemma/109752	l0138	lagona	D875D	lagena	OK
+N1	f	NcA	lemma/109752	l0138	lagona	D876D	laguna	OK
+N1	f	NcA	lemma/109788	l0169	lamina	D87AC	lamna	OK
+N1	f	NcA	lemma/109816	l0192	lanciola	D87DH	lanceola	OK
+N1	f	NcA	lemma/109813	l0189	lancea	D87E6	lancia	OK
+N1	f	NcA	lemma/109788	l0169	lamina	D8831	lanna	OK
+N2	n	NcB	lemma/110041	l0381	lapsanum	D888B	lapsanium	OK
+N2	n	NcB	lemma/109950	l0303	laridum	D88AG	lardum	OK
+V4		VmL	lemma/109941	l0294	largior	D88BE	largio	OK
+N1	f	NcA	lemma/109878	l0243	lanterna	D88H6	laterna	OK
+N1	f	NcA	lemma/110110	l0439	lautumiae	D8911	latomiae	OK
+N2	m	NcB	lemma/61470	D88HD	lathos	D891A	latos	NO
+N1	f	NcA	lemma/109821	l0197	latrina	D894E	lauatrina	OK
+N2	n	NcB	lemma/61082	D8779	laignerium	D89CB	laygnerium	NO
+N3B	n	NcC	lemma/61638	D8738	laeamen	D89DF	leamen	NO
+N2	m	NcB	lemma/61657	D89F2	lechitus	D89F4	lecitus	NO
+N1	m	NcA	lemma/110161	l0482	legerupa	D8A6F	legirupa	OK
+N1	f	NcA	lemma/110483	l0755	ligula	D8A7H	legula	OK
+N2/1	*	Af-	lemma/110396	l0688	leguminarius	D8A80	legumenarius	OK
+N2/1	*	Af-	lemma/110396	l0688	leguminarius	D8A80	legumenarius	OK
+N3B	f	NcC	lemma/61825	D8AB5	lencio	D8AD5	lentio	NO
+N3B	f	NcC	lemma/110212	l0528	lens	D8AD8	lentis	OK
+N3B	f	NcC	lemma/110212	l0528	lens	D8AD8	lentis	OK
+N2	n	NcB	lemma/61032	D873G	laernum	D8AGH	lernum	NO
+N3B	n	NcC	lemma/109725	l0118	laetamen	D8B11	letamen	NO
+N1	f	NcA	lemma/61939	D8745	laetania	D8B12	letania	NO
+N1	f	NcA	lemma/61939	D8745	laetania	D8B1E	lethania	NO
+N2	n	NcB	lemma/110293	l0594	letum	D8B20	lethum	OK
+N2	m	NcB	lemma/142798	D8747	laeti	D8B21	leti	NO
+N2	m	NcB	lemma/61969	l0130	laetus	D8B31	letus	NO
+N1	f	NcA	lemma/110331	l0629	leuga	D8B5H	leuca	OK
+N1	f	NcA	lemma/61784	D8A87	leida	D8BAD	leyda	NO
+N1	f	NcA	lemma/62134	D8BHC	lica	D8C06	licha	NO
+N1	f	NcA	lemma/62137	D8C09	lichia	D8C0F	licia	NO
+N1	f	NcA	lemma/62139	D8C0C	lichina	D8C14	licina	NO
+N1	f	NcA	lemma/111070	l1269	lycisca	D8C1C	licisca	NO
+N1	f	NcA	lemma/110458	l0735	lienteria	D8C50	lientheria	NO
+N1	f	NcA	lemma/111078	l1276	lympha	D8CEH	limpa	OK
+N1	f	NcA	lemma/110450	l0730	linea	D8D1F	linia	OK
+N2	n	NcB	lemma/110552	l0813	lineamentum	D8D20	liniamentum	OK
+N2/1	*	Af-	lemma/110583	l0842	linostemus	D8D3D	linostimus	OK
+N1	f	NcA	lemma/62442	D8D79	lisca	D8D7B	lischa	NO
+N1	f	NcA	lemma/110668	l0922	littera	D8D92	litera	OK
+N1	f	NcA	lemma/62568	D8DHG	lochia	D8E02	locia	NO
+N2	n	NcB	lemma/110743	l0986	logeum	D8E3A	logium	OK
+N2	n	NcB	lemma/62721	D8EB7	lothum	D8EC4	lotum	NO
+N		NcP	lemma/62774	D8EF1	lucar	D8EGB	luchar	NO
+V1		VmF	lemma/110887	l1111	lucror	D8F00	lucro	OK
+N3B	f	NcC	lemma/62823	D8F20	ludices	D8F28	ludix	NO
+N3B	f	NcC	lemma/110947	l1164	luitio	D8F4B	luicio	NO
+N2	n	NcB	lemma/110762	l1001	lomentum	D8F62	lumentum	OK
+N2	m	NcB	lemma/110076	l0409	lonchus	D8F80	lunchus	OK
+N1	f	NcA	lemma/110812	l1048	lorica	D8FB1	lurica	OK
+N2	n	NcB	lemma/62942	D8FD1	luterium	D8FD7	lutherium	NO
+N3B	m	NcC	lemma/110829	l1062	lotor	D8FDD	lutor	OK
+N2	m	NcB	lemma/62957	D8BC2	liardus	D8FEC	lyardus	NO
+N2	m	NcB	lemma/111069	l1268	lychnus	D8FED	lychinus	OK
+N2/1	*	Af-	lemma/62961	D8C7A	ligius	D8FF0	lygius	NO
+N2	n	NcB	lemma/62969	D8DB9	litostratum	D8FF9	lytostratum	NO
+N1	f	NcA	lemma/111187	m0019	machaera	D8G01	macera	OK
+N1	f	NcA	lemma/111730	m0483	mattea	D8G64	mactea	OK
+V1		VmF	lemma/112102	m0787	mercor	D8G97	maercor	NO
+N3B	m	NcC	lemma/111747	m0498	mauors	D8G9G	mafors	OK
+N3B	f	NcC	lemma/111324	m0135	magydaris	D8GH0	magudaris	OK
+N1	f	NcA	lemma/111242	m0070	maea	D8GHH	maia	OK
+N2/1	*	Af-	lemma/111327	m0138	maiestus	D8H14	maiiestus	OK
+N1	f	NcA	lemma/111379	m0181	maleuolentia	D8HFC	maliuolentia	OK
+N2/1	*	Af-	lemma/111409	m0207	malobathratus	D900C	malobatratus	NO
+N1	f	NcA	lemma/111414	m0212	maltha	D901F	malta	OK
+N1	f	NcA	lemma/111442	m0235	mammula	D905E	mamula	OK
+N1	f	NcA	lemma/63588	D9081	manca	D9093	mancha	NO
+N2	m	NcB	lemma/63589	D9085	mancaldus	D9095	manchaldus	NO
+N2/1	*	Af-	lemma/63635	D90C3	mandaerius	D90D2	mandatarius	NO
+N2/1	*	Af-	lemma/63635	D90C3	mandaerius	D90EB	manderius	NO
+N1	f	NcA	lemma/111549	m0332	mantisa	D91EE	mantissa	OK
+V3		VmH	lemma/113286	m9607	manu-mitto	D920H	manumitto	OK
+N1	f	NcA	lemma/64007	D9278	marca	D928H	marcha	NO
+N1	f	NcA	lemma/64015	D9284	marcasita	D92A2	marchasita	NO
+N3B	f	NcC	lemma/64042	D9288	marcatio	D92A4	marchatio	NO
+N2	n	NcB	lemma/64019	D9289	marcatum	D92A5	marchatum	NO
+N1	f	NcA	lemma/64063	D92BC	marchia	D92DA	marcia	NO
+N3A	*	Af-	lemma/64064	D92BG	marchiabilis	D92DB	marciabilis	NO
+N2	n	NcB	lemma/64089	D92BH	marchiagium	D92DC	marciagium	NO
+V1		VmF	lemma/64041	D92A1	marcho	D9282	marco	NO
+N2	n	NcB	lemma/64141	D92H8	marescagium	D92HC	mareschagium	NO
+N1	f	NcA	lemma/111648	m0414	martyra	D93C2	martira	NO
+N2	n	NcB	lemma/111649	m0414	martyrium	D93C4	martirium	NO
+N2	m	NcB	lemma/111601	m0376	marculus	D93D0	martulus	OK
+N1	f	NcA	lemma/64372	D93F2	masca	D93FA	mascha	NO
+N1	f	NcA	lemma/64684	D8H1E	mainada	D9401	masnada	NO
+N1	f	NcA	lemma/111677	m0438	mastruca	D9464	mastruga	OK
+N3B	f	NcC	lemma/111683	m0443	mataris	D9498	materis	OK
+N3B	f	NcC	lemma/111708	m0462	mathesis	D949G	matesis	NO
+N1	f	NcA	lemma/64541	D9473	mata	D94A0	matha	NO
+N2	n	NcB	lemma/64542	D9477	matalacium	D94A1	mathalacium	NO
+N2	n	NcB	lemma/63213	D8H08	maidanum	D951F	maydanum	NO
+N1	f	NcA	lemma/64678	D8H0C	maiera	D951G	mayera	NO
+N1	f	NcA	lemma/64684	D8H1E	mainada	D9525	maynada	NO
+N2	n	NcB	lemma/64685	D8H1G	mainagium	D9526	maynagium	NO
+N2	n	NcB	lemma/64686	D8H20	mainamentum	D9527	maynamentum	NO
+N2/1	*	Af-	lemma/63239	D8H27	mainerius	D952A	maynerius	NO
+N1	f	NcA	lemma/64693	D8H5G	maita	D952G	mayta	NO
+N1	f	NcA	lemma/64696	D8H5H	maiteriata	D9531	mayteriata	NO
+N2	m	NcB	lemma/111766	m0513	mechanicus	D9558	mecanicus	NO
+N1	f	NcA	lemma/111777	m0523	medela	D9574	medella	OK
+N2	m	NcB	lemma/111785	m0529	mediastrinus	D9591	mediastinus	OK
+N1	m	NcA	lemma/64835	D95F2	megaducas	D95F5	megalducas	NO
+N1	f	NcA	lemma/111864	m0595	melancholia	D9611	melancolia	NO
+N2	m	NcB	lemma/111898	m0620	melicus	D962A	melichus	NO
+N3B	f	NcC	lemma/111884	m0611	meles	D963A	melis	OK
+N2	n	NcB	lemma/111894	m0619	melicraton	D964C	mellicratum	OK
+N1	f	NcA	lemma/111968	m0675	melota	D9665	melote	OK
+N1	f	NcA	lemma/111968	m0675	melota	D9665	melote	OK
+V1		VmF	lemma/112006	m0706	memoro	D9688	memoror	OK
+N2	n	NcB	lemma/111401	m0200	maenianum	D96DD	menianum	OK
+N2	n	NcB	lemma/112564	m1201	moenianum	D96DD	menianum	OK
+N2/1	*	Af-	lemma/112084	m0771	meracus	D9725	meratus	OK
+N2/1	*	Af-	lemma/112031	m0726	mercennarius	D9744	mercenarius	OK
+N2/1	*	Af-	lemma/112031	m0726	mercennarius	D9744	mercenarius	OK
+V1		VmF	lemma/112103	m0787	mercor	D9731	merco	OK
+N2	n	NcB	lemma/63116	D8G98	maeremium	D9772	meremium	NO
+V1		VmF	lemma/112132	m0812	meridio	D9799	meridior	OK
+N3B	m	NcC	lemma/112046	m0739	mensis	D97GE	mesis	OK
+N3B	m	NcC	lemma/112046	m0739	mensis	D97GE	mesis	OK
+N1	f	NcA	lemma/111254	m0081	maestitia	D985A	mestitia	NO
+N2	m	NcB	lemma/113209	m1897	myotacismus	D986G	metacismus	OK
+N1	f	NcA	lemma/111684	m0444	mataxa	D9883	metaxa	OK
+V1		VmF	lemma/112235	m0894	metor	D987C	meto	OK
+N2	m	NcB	lemma/65468	D989A	methodus	D98A4	metodus	NO
+N1	f	NcA	lemma/64862	D95GG	meiaria	D98C3	meyaria	NO
+N1	f	NcA	lemma/64889	D960A	meiteria	D98CD	meyteria	NO
+N1	f	NcA	lemma/112292	m0951	mica	D98FA	micha	NO
+V1		VmF	lemma/65568	D98G0	micholor	D98G4	micolor	NO
+N3B	f	NcC	lemma/112346	m1003	miluago	D992F	millago	OK
+N1	f	NcA	lemma/112328	m0986	milipeda	D9938	millepeda	OK
+N3B	m	NcC	lemma/112327	m0985	milio	D993G	millio	OK
+V1		VmF	lemma/112400	m1048	minor	D9959	mino	OK
+N3B	f	NcC	lemma/112420	m1068	minutio	D99C5	minucio	NO
+V4		VmL	lemma/112409	m1058	minurrio	D99CC	minurio	OK
+N2	m	NcB	lemma/112264	m0921	minuscularii	D99DE	minutularii	OK
+V1		VmF	lemma/112443	m1092	miror	D99F6	miro	OK
+N1	f	NcA	lemma/113261	m1950	myrta	D99H1	mirta	OK
+N2	n	NcB	lemma/113240	m1933	mysterium	D9A5B	misterium	OK
+N1	f	NcA	lemma/112421	m1069	mixtura	D9A6A	mistura	OK
+N2	n	NcB	lemma/65467	D9898	methium	D9A81	mithium	NO
+N1	f	NcA	lemma/112493	m1138	mitra	D9A82	mithra	NO
+N2	m	NcB	lemma/113256	m1947	myxus	D9AB9	mixus	NO
+N1	f	NcA	lemma/112362	m1016	mina	D9ABE	mna	OK
+N1	f	NcA	lemma/113394	n0050	nassiterna	D9ABF	mnasiterna	OK
+V1		VmF	lemma/112525	m1167	moderor	D9ADF	modero	OK
+V1		VmF	lemma/66000	m0080	maestifico	D9AH5	moestifico	NO
+N1	f	NcA	lemma/111254	m0081	maestitia	D9AH6	moestitia	OK
+N3B	f	NcC	lemma/112570	m1206	molatio	D9B1H	molacio	NO
+V4		VmL	lemma/112591	m1223	molior	D9B6E	molio	OK
+N3B	f	NcC	lemma/112578	m1213	moles	D9B6H	molis	OK
+N1	f	NcA	lemma/112909	m1613	multa	D9BA3	molta	OK
+N2	m	NcB	lemma/112643	m1270	monachus	D9BCC	monacus	NO
+N1	f	NcA	lemma/112663	m1290	monela	D9BEH	monella	OK
+V1		VmF	lemma/112803	m1416	moror	D9C7E	moro	OK
+N2	m	NcB	lemma/113209	m1897	myotacismus	D9D5E	motacismus	OK
+N1	f	NcA	lemma/66530	D9D56	mota	D9D6B	motha	NO
+N2	m	NcB	lemma/66584	D9B0G	moiolus	D9D9E	moyolus	NO
+N2	m	NcB	lemma/112864	m1471	mucus	D9DAG	muccus	OK
+N1	f	NcA	lemma/112909	m1613	multa	D9DEF	mulcta	OK
+N2/1	*	Af-	lemma/112914	m1617	multaticius	D9E11	multatitius	NO
+N3B	f	NcC	lemma/113055	m1745	munitio	D9E7B	municio	NO
+N1	f	NcA	lemma/66814	D9EA7	muraillia	D9EB8	murayllia	NO
+N1	f	NcA	lemma/111466	m0257	murrina	D9ED6	murina	OK
+N1	f	NcA	lemma/111466	m0257	murrina	D9EE7	murrhina	NO
+N1	f	NcA	lemma/113261	m1950	myrta	D9EEC	murta	OK
+N1	f	NcA	lemma/112282	m0939	myrteta	D9EEF	murteta	OK
+N2	n	NcB	lemma/112283	m0940	myrtetum	D9EEG	murtetum	OK
+N2	n	NcB	lemma/111651	m0415	museum	D9EFH	musaeum	OK
+N2	n	NcB	lemma/111814	m0551	museum	D9EFH	musaeum	OK
+N2	m	NcB	lemma/66904	D9EH9	muscetus	D9EHD	muschetus	NO
+N2	m	NcB	lemma/113119	m1816	musculus	D9F05	musclus	OK
+N2	n	NcB	lemma/111814	m0551	museum	D9F2A	musium	OK
+N3B	m	NcC	lemma/113129	m1826	musimo	D9F2D	musmo	OK
+N1	f	NcA	lemma/113146	m1844	mustricula	D9F45	mustricola	OK
+N2	n	NcB	lemma/112284	m0941	mausoleum	D9F49	musuleum	OK
+N2	n	NcB	lemma/113169	m1865	mutunium	D9F68	mutinium	OK
+N3B	m	NcC	lemma/113172	m1868	mutto	D9F6D	muto	OK
+N2	n	NcB	lemma/113169	m1865	mutunium	D9F6G	mutonium	OK
+V1		VmF	lemma/113181	m1876	mutuor	D9F75	mutuo	OK
+N3B	m	NcC	lemma/113201	m1892	myoparon	D9F8A	myoparo	OK
+N3B	f	NcC	lemma/113460	n0103	nauis	D9FAE	nabis	OK
+N2/1	*	Af-	lemma/104756	g0453	gnarus	D9FG7	narus	OK
+N2	m	NcB	lemma/67157	D9G19	nathinaeus	D9G1F	natineus	NO
+N1	f	NcA	lemma/113444	n0090	nauicella	D9G5B	naucella	OK
+N1	f	NcA	lemma/113445	n0091	nauicula	D9G5G	naucula	OK
+N3B	f	NcC	lemma/67230	D9G78	nauicio	D9G95	nauitio	NO
+N1	f	NcA	lemma/113471	n0113	nausea	D9GA5	nausia	OK
+N1	f	NcA	lemma/113392	n0048	nassa	D9GB6	naxa	OK
+N2	n	NcB	lemma/67408	D9GG6	neiagium	D9H4C	neyagium	NO
+N2/1	*	Af-	lemma/113853	n0545	nothus	55561	notus	NO
+N3B	n	NcC	lemma/113728	n0341	nouendiale	DA07C	nouemdiale	OK
+N1	f	NcA	lemma/113909	n0595	nubecula	DA0B0	nubicula	OK
+N1	f	NcA	lemma/114013	n0695	nuptiae	DA0B9	nubtiae	OK
+N3B	n	NcC	lemma/113811	n0506	nomisma	DA0F7	numisma	OK
+N2/1	*	Af-	lemma/113732	n0344	nuntius	DA0FG	nuncius	OK
+N2/1	*	Af-	lemma/113732	n0344	nuntius	DA0FG	nuncius	OK
+N2	n	NcB	lemma/113739	n0351	nutricium	DA10F	nutritium	OK
+N2/1	*	Af-	lemma/113736	n0348	nutricius	DA10G	nutritius	OK
+N2/1	*	Af-	lemma/113736	n0348	nutricius	DA10G	nutritius	OK
+V1		VmF	lemma/114577	o0379	occento	DA12G	obcanto	OK
+V3		VmH	lemma/114623	o0420	occurro	DA132	obcurro	OK
+N1	f	NcA	lemma/114323	o0144	oboedientia	DA139	obedientia	OK
+N3B	f	NcC	lemma/114336	o0157	oboeditio	DA145	obeditio	OK
+N2/1	*	Af-	lemma/114178	o0007	obaeratus	DA14C	oberatus	NO
+N3B	f	NcC	lemma/114813	o0587	offirmatio	DA151	obfirmatio	OK
+V3		VmH	lemma/115124	o0877	oppono	DA1B0	obpono	OK
+V1		VmF	lemma/90805	a3588	ausculto	DA1C7	obsculto	OK
+N1	f	NcA	lemma/114396	o0212	obsequella	DA1D3	obsequela	OK
+V1		VmF	lemma/114429	o0241	obsidior	DA1F2	obsidio	OK
+N1	m	NcA	lemma/114644	o0436	oclopecta	DA24C	oclopeta	OK
+N3B	f	NcC	lemma/68098	DA2C2	offersio	DA2C8	offertio	NO
+N1	f	NcA	lemma/114904	o0672	olla	DA2GF	ola	OK
+N1	f	NcA	lemma/114839	o0613	oica	DA2H6	olca	OK
+V1		VmF	lemma/105589	h0485	holero	DA30A	olero	OK
+N2/1	*	Af-	lemma/105590	h0486	holitorius	57417	olitorius	OK
+N2/1	*	Af-	lemma/105590	h0486	holitorius	57417	olitorius	OK
+N2/1	*	Af-	lemma/105607	h0501	holosericus	DA337	olosericus	OK
+N2/1	*	Af-	lemma/105613	h0507	holouitreus	DA339	olouitreus	OK
+V1		VmF	lemma/115029	o0793	operor	DA385	opero	OK
+N2	n	NcB	lemma/115116	o0869	oppidum	DA3A7	opidum	OK
+N2/1	*	Af-	lemma/115068	o0829	opiniosus	DA3B7	opinosus	OK
+N2	n	NcB	lemma/68330	DA1FE	obstagium	DA3D6	opstagium	NO
+N1	f	NcA	lemma/90751	a3538	aurata	DA3G2	orata	OK
+N2	m	NcB	lemma/105671	h0562	hordeolus	DA41A	ordeolus	OK
+N1	f	NcA	lemma/105676	h0567	horia	DA46D	oria	OK
+N2/1	*	Af-	lemma/90752	a3539	auricularius	DA46F	oricularius	OK
+N2/1	*	Af-	lemma/90752	a3539	auricularius	DA46F	oricularius	OK
+N1	f	NcA	lemma/115325	DA46H	oridia	DA486	oriza	NO
+N1	f	NcA	lemma/130840	u1260	urna	DA493	orna	OK
+N2	m	NcB	lemma/105731	h0616	hortulanus	DA4DA	ortulanus	OK
+N2	m	NcB	lemma/105734	h0619	hortus	DA4DE	ortus	OK
+N2	n	NcB	lemma/68543	DA4EC	osceum	DA4ED	oscheum	NO
+N2	n	NcB	lemma/114794	o0572	ossuarium	DA4H1	ossarium	OK
+N2/1	*	Af-	lemma/115362	o1094	ossuosus	DA4HA	ossosus	OK
+N1	f	NcA	lemma/105745	h0628	hostia	DA525	ostia	OK
+V1		VmF	lemma/114464	o0271	obsto	DA50H	osto	OK
+N1	f	NcA	lemma/114801	o0576	ostrea	DA53B	ostria	OK
+N1	f	NcA	lemma/115452	o1173	oxyblatta	DA58F	oxiblatta	NO
+N2	n	NcB	lemma/115454	o1175	oxycominum	DA58G	oxicominum	NO
+N1	f	NcA	lemma/115479	o1195	ozaena	DA59F	ozina	OK
+N2	m	NcB	lemma/120835	p9863	pactus	DA5CD	pachtus	NO
+V3		VmH	lemma/115592	p0023	paco	DA612	pago	OK
+V3		VmH	lemma/115825	p0223	pango	DA612	pago	OK
+N2	m	NcB	lemma/117583	p1838	phager	DA635	pagrus	OK
+N1	f	NcA	lemma/117588	p1842	phalanga	DA66B	palanga	OK
+N1	f	NcA	lemma/115671	p0090	palatha	DA67B	palata	NO
+N2	n	NcB	lemma/115672	p0091	palathium	DA685	palatium	NO
+N2	n	NcB	lemma/68936	DA68C	palchum	DA68D	palcum	NO
+N1	f	NcA	lemma/115657	p0081	palaestra	DA6B2	palestra	NO
+V1		VmF	lemma/115663	p0084	palaestro	DA6B3	palestro	NO
+N2	m	NcB	lemma/117601	p1854	phallus	DA6HH	pallus	NO
+N1	f	NcA	lemma/69162	DA77B	panchra	DA784	pancra	NO
+N2	n	NcB	lemma/115830	p0227	panicum	DA7C5	panichium	NO
+N2	n	NcB	lemma/115830	p0227	panicum	DA7C8	panicium	OK
+N2	n	NcB	lemma/69298	DA805	panteon	DA809	pantheon	NO
+N1	f	NcA	lemma/115828	p0226	panicula	DA81B	panucla	OK
+N1	f	NcA	lemma/115828	p0226	panicula	DA81C	panucula	OK
+V1		VmF	lemma/115892	p0276	pappo	DA831	papo	OK
+N2	n	NcB	lemma/115911	p0294	paracenterium	DA86G	paracentherium	NO
+N3B	f	NcC	lemma/116072	p0430	paropsis	DA8B9	parapsis	OK
+N3B	f	NcC	lemma/116072	p0430	paropsis	DA8C9	parasis	OK
+N2	m	NcB	lemma/69511	DA8HD	parcus	DA8GA	parchus	NO
+N2	n	NcB	lemma/116087	p0443	parsimonium	DA8H2	parcimonium	OK
+N3B	f	NcC	lemma/116027	p0387	parenthesis	DA91B	parentesis	NO
+N1	f	NcA	lemma/69550	DA92G	pargia	DA936	pargya	NO
+N1	f	NcA	lemma/120799	p9828	parentia	DA949	parientia	OK
+N3B	m	NcC	lemma/116062	p0420	paron	DA97A	paro	OK
+N1	f	NcA	lemma/116065	p0423	paroecia	DA97C	parochia	OK
+N2	m	NcB	lemma/69659	DA9AH	parscalcus	DA9B0	parschalcus	NO
+V4		VmL	lemma/116113	p0468	partio	DA9F5	partior	OK
+V1		VmF	lemma/69740	DAA06	pascairo	DAA0C	pascayro	NO
+N2	n	NcB	lemma/69735	DAA02	pascagium	DAA11	paschagium	NO
+N2	n	NcB	lemma/69738	DAA0A	pascarium	DAA13	pascharium	NO
+V1		VmF	lemma/69746	DAA09	pasco	DAA12	pascho	NO
+N3A	*	Af-	lemma/116138	p0492	pascalis	DAA22	pascualis	OK
+N2/1	*	Af-	lemma/116153	p0503	passerarius	DAA54	passarius	OK
+N2/1	*	Af-	lemma/116153	p0503	passerarius	DAA54	passarius	OK
+N1	f	NcA	lemma/69926	DAAF4	patalia	DAAH7	pathalia	NO
+V1		VmF	lemma/116246	p0586	patrisso	DAB33	patrizo	OK
+N2/1	*	Af-	lemma/116294	p0625	paullus	DAB8H	paulus	OK
+N1	f	NcA	lemma/118552	p2683	posia	DABAD	pausea	OK
+N1	f	NcA	lemma/68888	DA649	pairola	DABC8	payrola	NO
+N2	n	NcB	lemma/70131	DA64E	paisnaticum	DABCF	paysnaticum	NO
+N1	f	NcA	lemma/70133	DA651	paisseria	DABCH	paysseria	NO
+N2	n	NcB	lemma/70135	DA654	paium	DABD1	payum	NO
+N1	f	NcA	lemma/70150	DABE0	peca	DABEH	pecha	NO
+N1	f	NcA	lemma/70167	DABF3	pechia	DABF4	pecia	NO
+N1	f	NcA	lemma/115610	p0039	paedia	DAC4B	pedia	NO
+V1		VmF	lemma/116407	p0727	peduculo	DAC5A	pediculo	OK
+N3B	m	NcC	lemma/115616	p0045	paedor	DAC71	pedor	OK
+N2	m	NcB	lemma/120064	p4093	pediculus	DAC7A	peduclus	OK
+N1	f	NcA	lemma/68815	DA5H0	paela	DACB5	pela	NO
+N2	m	NcB	lemma/116432	p0747	pelicanus	DACC4	pelecanus	OK
+N1	f	NcA	lemma/68817	DA5H3	paella	DACDA	pella	NO
+N3B	m	NcC	lemma/117851	p2080	pinax	DAD0E	penax	OK
+N3B	n	NcC	lemma/116482	p0793	penetrale	DAD3B	penetral	OK
+N1	f	NcA	lemma/115585	p0018	paenula	DAD9E	penula	OK
+N2/1	*	Af-	lemma/115628	p0056	paenulatus	DAD9F	penulatus	OK
+V1		VmF	lemma/116789	p1079	perenno	DADD1	peranno	OK
+V3		VmH	lemma/116631	p0927	percaedo	DADEA	percedo	NO
+N1	f	NcA	lemma/116630	p0926	perca	DADF0	percha	NO
+V1		VmF	lemma/70727	DAE19	perendino	DAE56	perhendino	NO
+V1		VmF	lemma/116789	p1079	perenno	DAE57	perhenno	NO
+V1		VmF	lemma/116417	p0736	peiero	DAE89	periuro	OK
+N1	f	NcA	lemma/68818	DA5H4	paerria	DAEED	perria	NO
+N2	n	NcB	lemma/117525	p1787	petheredium	DAFA7	peteredium	NO
+N2	n	NcB	lemma/71030	DAF91	petagium	DAFA9	pethagium	NO
+N2	n	NcB	lemma/117550	p1810	petorritum	DAFC3	petoritum	OK
+N2/1	*	Af-	lemma/117539	p1801	petilus	DAFEF	petulus	OK
+N2	m	NcB	lemma/71091	DA5H5	paetus	DAFF1	petus	NO
+N1	f	NcA	lemma/71109	DACA9	peireria	DAFG1	peyreria	NO
+N2/1	*	Af-	lemma/70334	DACAA	peirerius	DAFG3	peyrerius	NO
+N2	m	NcB	lemma/70337	DACAD	peironus	DAFG6	peyronus	NO
+N3B	m	NcC	lemma/117586	p1840	phagon	DAFHF	phago	OK
+N2	m	NcB	lemma/115652	p0076	pagus	DAFHH	phagus	NO
+N1	f	NcA	lemma/102824	f0106	fala	DAG00	phala	OK
+N1	f	NcA	lemma/102827	f0109	falarica	DAG0B	phalarica	OK
+N2	n	NcB	lemma/68961	DA6AF	palergium	DAG0H	phalergium	NO
+N1	f	NcA	lemma/71152	DA73H	paltena	DAG12	phaltena	NO
+N1	f	NcA	lemma/71159	DA865	para	DAG1D	phara	NO
+N1	f	NcA	lemma/115634	p0061	paeonia	DAG2G	pheonia	NO
+N2	n	NcB	lemma/117746	p1993	phylacterium	DAG36	philacterium	OK
+V3		VmH	lemma/117732	p1979	phthisisco	DAG72	phtisisco	NO
+N1	f	NcA	lemma/117792	p2034	pica	DAG9H	picha	NO
+N1	f	NcA	lemma/117778	p2023	picea	DAGA1	pichea	NO
+N2	n	NcB	lemma/117984	p2194	pittaciolum	DAGBC	pictaciolum	OK
+V1		VmF	lemma/117806	p2046	pignero	DAGGD	pignoro	OK
+N2	n	NcB	lemma/71405	DAG3E	philetum	DAH27	piletum	NO
+N1	f	NcA	lemma/117839	p2071	pilula	DAH54	pillula	OK
+N2	m	NcB	lemma/120639	p4641	pylorus	DAH5C	pilorus	NO
+N2	n	NcB	lemma/117671	p1921	philtrum	DAH6A	piltrum	NO
+V1		VmF	lemma/117903	p2126	pipilo	DAHDD	pipulo	NO
+N2	m	NcB	lemma/120651	p4652	pyrgus	DAHF0	pirgus	NO
+N1	f	NcA	lemma/120666	p4665	pyrula	DAHG0	pirula	NO
+V1		VmF	lemma/120674	p4673	pytisso	DB062	pitisso	OK
+N3B	f	NcC	lemma/120680	p4679	pyxis	DB07E	pixis	OK
+N1	f	NcA	lemma/71749	DB095	placea	DB0A3	plachea	NO
+N2	n	NcB	lemma/71758	DB0A2	placetum	DB0A4	plachetum	NO
+N1	f	NcA	lemma/118045	p2249	planca	DB0FC	plancha	NO
+N1	f	NcA	lemma/115670	p0089	palasea	DB131	plasea	OK
+N1	f	NcA	lemma/71920	DB16G	plathoma	DB177	platoma	NO
+N1	f	NcA	lemma/71796	DB0E2	plaidura	DB197	playdura	NO
+N1	f	NcA	lemma/118121	p2311	plebecula	DB1B3	plebicula	OK
+V1		VmF	lemma/117678	p1928	phlebotomo	DB1B9	plebotomo	NO
+N1	f	NcA	lemma/72047	DB1CH	pleidura	DB1G9	pleydura	NO
+N2/1	*	Af-	lemma/119857	p3899	plaustrarius	DB20H	plostrarius	OK
+N2/1	*	Af-	lemma/119857	p3899	plaustrarius	DB20H	plostrarius	OK
+N3B	m	NcC	lemma/118250	p2423	poderes	DB283	poderis	OK
+N3B	f	NcC	lemma/115625	p0053	paenitudo	DB2B3	poenitudo	OK
+V1		VmF	lemma/118271	p2441	poetor	DB2BA	poeto	OK
+N2	n	NcB	lemma/72273	DAG5H	pholagium	DB2EC	polagium	NO
+N3B	m	NcC	lemma/118307	p2475	pollio	DB30F	polio	OK
+N2	m	NcB	lemma/118360	p2517	polypus	DB30H	polipus	NO
+N2	n	NcB	lemma/72343	DB317	polithogum	DB31E	politogum	NO
+N3B	f	NcC	lemma/118313	p2480	pollutio	DB347	pollucio	NO
+N2	n	NcB	lemma/72404	DB2HA	poliandrum	DB360	polyandrum	NO
+N3A	*	Af-	lemma/72325	DB302	poliformis	DB365	polyformis	NO
+N2	m	NcB	lemma/72336	DB30G	polippus	DB36B	polyppus	NO
+N2	n	NcB	lemma/118377	p2530	pomerium	DB386	pomoerium	OK
+N2/1	*	Af-	lemma/120358	p4377	publicus	DB3G4	poplicus	OK
+N2/1	*	Af-	lemma/118457	p2601	populneus	DB3HF	populnus	OK
+V1		VmF	lemma/118459	p2602	populor	DB3GC	populo	OK
+N2	m	NcB	lemma/119994	p4028	porcellus	DB425	porcillus	OK
+V3		VmH	lemma/118500	p2638	porrigo	DB43A	porgo	OK
+N2/1	*	Af-	lemma/118522	p2657	portentosus	DB4AH	portentuosus	OK
+N3A	*	Af-	lemma/118519	p2654	portensis	64905	portuensis	OK
+N1	f	NcA	lemma/118552	p2683	posia	DB4HC	possia	OK
+V1		VmF	lemma/118634	p2753	postumo	DB539	posthumo	NO
+V1		VmF	lemma/118648	p2765	potentor	DB575	potento	OK
+N1	f	NcA	lemma/72833	DB581	poteria	DB596	potheria	NO
+N1	f	NcA	lemma/74392	DB2DF	poipia	DB5C9	poypia	NO
+V1		VmF	lemma/118778	p2880	praeconor	DB5HB	praecono	OK
+N1	f	NcA	lemma/116900	p1188	pergula	DB60E	praecula	NO
+V1		VmF	lemma/118858	p2951	praedor	DB616	praedo	OK
+N2	n	NcB	lemma/119697	p3748	proelium	DB66F	praelium	OK
+V1		VmF	lemma/119030	p3118	praemior	DB67E	praemio	OK
+V1		VmF	lemma/119364	p3435	praeuaricor	DB714	praeuarico	OK
+N2/1	*	Af-	lemma/118677	p2787	practicus	DB755	praticus	NO
+N2/1	*	Af-	lemma/118703	p2812	praecanus	DB76D	precanus	NO
+N3B	m	NcC	lemma/118715	p2823	praecentor	DB77G	precentor	NO
+N2	n	NcB	lemma/72939	DB5G7	praeciagium	DB786	preciagium	NO
+V1		VmF	lemma/119430	p3496	precor	DB76E	preco	OK
+N3A	*	Af-	lemma/72963	DB607	praecordialis	DB790	precordialis	NO
+N1	f	NcA	lemma/116900	p1188	pergula	DB792	precula	OK
+N1	f	NcA	lemma/118801	p2900	praeda	DB795	preda	NO
+N1	f	NcA	lemma/73259	DB618	praedaria	DB798	predaria	NO
+N2/1	*	Af-	lemma/73260	DB619	praedarius	DB799	predarius	NO
+N1	f	NcA	lemma/73261	DB61F	praedella	DB79A	predella	NO
+N1	f	NcA	lemma/72980	DB61H	praederia	DB79B	prederia	NO
+V1		VmF	lemma/118858	p2951	praedor	DB797	predo	NO
+V1		VmF	lemma/118939	p3029	praegno	DB7A0	pregno	NO
+N2	n	NcB	lemma/73271	DB665	praeiuramentum	DB7A6	preiuramentum	NO
+N3B	f	NcC	lemma/118981	p3071	praelibatio	DB7A7	prelibatio	NO
+V3		VmH	lemma/119432	p3497	prehendo	DB7AE	prendo	OK
+N1	f	NcA	lemma/73057	DB689	praenicula	DB7AH	prenicula	NO
+N2	n	NcB	lemma/73068	DB696	praepedium	DB7B5	prepedium	NO
+N1	f	NcA	lemma/73289	DB6AD	praesa	DB7BC	presa	NO
+N1	f	NcA	lemma/73290	DB6AH	praesalia	DB7BH	presalia	NO
+I		X--	hypolemma/106785	p3275	praesentialiter	DB7D1	presentialiter	NO
+N1	f	NcA	lemma/73304	DB6D3	praesia	DB7D5	presia	NO
+N2	n	NcB	lemma/73104	DB6D4	praesiagium	DB7D6	presiagium	NO
+N2/1	*	Af-	lemma/73309	DB6E9	praesonarius	DB7DB	presonarius	NO
+N1	f	NcA	lemma/73329	DB6EE	praesta	DB7F8	presta	NO
+N2	m	NcB	lemma/73330	DB6EH	praestaldi	DB7F9	prestaldi	NO
+N3B	m	NcC	lemma/119231	p3313	praestator	DB7FB	prestator	NO
+V1		VmF	lemma/119246	p3327	praesto	DB7FA	presto	NO
+N1	f	NcA	lemma/73146	DB6H9	praesura	DB7FH	presura	NO
+V1		VmF	lemma/73338	DB6HB	praetaxo	DB7G4	pretaxo	NO
+N		NcP	lemma/73160	DB719	praeueiril	DB7GH	preueiril	NO
+N2/1	*	Af-	lemma/73384	DB815	primicerius	DB817	primicherius	NO
+N2/1	*	Af-	lemma/119475	p3539	primigenius	DB834	primogenius	OK
+N2/1	*	Af-	lemma/119475	p3539	primigenius	DB834	primogenius	OK
+N3B	f	NcC	lemma/119521	p3583	priuatio	DB883	priuacio	NO
+N3B	f	NcC	lemma/119580	p3637	procatio	DB8CD	procacio	NO
+N2	n	NcB	lemma/119592	p3649	procestria	DB8D5	procastria	OK
+V1		VmF	lemma/119696	p3747	proelior	DB931	proelio	OK
+V3		VmH	lemma/119714	p3764	proficiscor	DB94D	proficisco	OK
+N1	f	NcA	lemma/73665	DB98C	prolita	DB99B	prolyta	NO
+N2	n	NcB	lemma/119866	p3908	promunturium	DB9A8	promontorium	OK
+N1	f	NcA	lemma/120034	p4065	prorsa	DBA2A	prosa	OK
+N3B	f	NcC	lemma/120137	p4165	protensio	DBA79	protentio	NO
+N2	m	NcB	lemma/73852	DBA78	protentinus	DBA81	prothentinus	NO
+N2	m	NcB	lemma/73855	DBA84	prothocapellanus	DBA98	protocapellanus	NO
+N2	m	NcB	lemma/73925	DBA8G	prothus	DBACE	protus	NO
+N2	n	NcB	lemma/120297	p4321	psiathium	DBB42	psiatium	NO
+N2	n	NcB	lemma/128311	t0738	tisanarium	DBB52	ptisanarium	OK
+N2/1	*	Af-	lemma/120421	p4435	pulcher	DBBC9	pulcer	OK
+N2	n	NcB	lemma/120426	p4440	puleium	DBBD1	pulegium	OK
+N2	m	NcB	lemma/118360	p2517	polypus	DBBH0	pulpus	OK
+N		NcP	lemma/71233	DAG75	phund	DBC51	pund	NO
+N1	f	NcA	lemma/118547	p2678	posca	DBCA5	pusca	OK
+N1	f	NcA	lemma/118547	p2678	posca	DBCA6	puscha	NO
+N1	f	NcA	lemma/71287	DAGB8	picta	DBCDG	pycta	NO
+N2	n	NcB	lemma/71295	DAGC3	pictatium	DBCDH	pyctatium	NO
+N2	n	NcB	lemma/117913	p2134	piracium	DBCE5	pyracium	NO
+N2/1	*	Af-	lemma/71575	DAHEA	piratus	DBCEC	pyratus	NO
+N2/1	*	Af-	lemma/71580	DAHEG	pirgius	DBCEF	pyrgius	NO
+N2	n	NcB	lemma/71582	DAHF3	piritegium	DBCF0	pyritegium	NO
+N2	f	NcB	lemma/119310	p3389	pirus	DBCF7	pyrus	OK
+N3B	m	NcC	lemma/71601	DAHGD	pisalis	DBCF8	pysalis	NO
+N2	n	NcB	lemma/121266	q0289	quadriangulum	DBCHB	quadrangulum	OK
+N3A	*	Af-	lemma/121034	q0084	quadrupes	DBD3A	quadripes	OK
+N2	n	NcB	lemma/121294	q0316	quadriuium	DBD4F	quadruuium	OK
+I		X--	lemma/121074	q0118	quam-diu	DBD7B	quamdiu	OK
+N2/1	*	Af-	lemma/120972	q0025	quadriduanus	DBE51	quatriduanus	OK
+V1		VmF	lemma/94652	c2241	coaxo	DBE63	quaxo	OK
+V1		VmF	lemma/121148	q0183	querelor	DBE72	querelo	OK
+V3		VmH	lemma/121047	q0096	quaero	DBE7C	quero	OK
+N1	f	NcA	lemma/74733	DBD56	quaesta	DBE96	questa	NO
+V1		VmF	lemma/121311	q9103	quaestiono	DBE9B	questiono	NO
+N3B	m	NcC	lemma/121056	q0105	quaestor	DBE9C	questor	OK
+V1		VmF	lemma/74736	DBD68	quaestuo	DBE9D	questuo	NO
+N2/1	*	Af-	lemma/121064	q0109	quaestuosus	DBE9E	questuosus	NO
+V1		VmF	lemma/121177	q0209	quieto	DBEB5	quietor	OK
+N2	n	NcB	lemma/121239	q0265	quinquennium	DBEE9	quinquenium	OK
+N3A	*	Af-	lemma/121256	q0280	quinquiplex	DBEEE	quinqueplex	OK
+V3		VmH	lemma/96550	c3991	coquo	DBF24	quoquo	OK
+N3B	m	NcC	lemma/90060	a2908	arrabo	DBF54	rabo	OK
+N1	f	NcA	lemma/121368	r0011	racana	DBF6H	rachana	OK
+N1	f	NcA	lemma/121368	r0011	racana	DBF76	rachena	OK
+N1	f	NcA	lemma/121368	r0011	racana	DBFB6	raga	OK
+V1		VmF	lemma/122340	r0962	racco	DBFH8	ranco	OK
+V1		VmF	lemma/122425	r1044	raucor	DBGFA	rauco	OK
+N2/1	*	Af-	lemma/75305	DBFCA	raimatus	DBH07	raymatus	NO
+N1	f	NcA	lemma/75017	DBFCG	raisa	DBH09	raysa	NO
+N2/1	*	Af-	lemma/121520	r0154	recepticius	DBHBD	receptitius	NO
+N3B	m	NcC	lemma/75418	DBH84	recamator	DBHDB	rechamator	NO
+V1		VmF	lemma/75470	DBH8E	recapto	DBHDD	rechapto	NO
+V1		VmF	lemma/75472	DBH8G	recasso	DBHDF	rechasso	NO
+N2	n	NcB	lemma/75474	DBH91	recatum	DBHE0	rechatum	NO
+N3B	m	NcC	lemma/121522	r0156	receptor	DBHE2	recheptor	NO
+N2	n	NcB	lemma/75464	DBHD6	recetum	DBHE3	rechetum	NO
+N2	n	NcB	lemma/122081	r0708	ricinium	DBHEE	recinium	OK
+V3		VmH	lemma/122397	r1016	recludo	DBHGH	reclaudo	OK
+V1		VmF	lemma/122430	r1047	recordor	DC05A	recordo	OK
+N3B	f	NcC	lemma/121531	r0165	reciperatio	DC0A1	recuperatio	OK
+N3B	m	NcC	lemma/121533	r0167	reciperator	DC0A3	recuperator	OK
+V1		VmF	lemma/122387	r1006	recipero	DC09B	recupero	OK
+N2	m	NcB	lemma/75611	DBHE5	rechus	DC0AG	recus	NO
+N1	f	NcA	lemma/121386	r0029	raeda	DC0B8	reda	OK
+V3		VmH	lemma/122481	r1098	reduco	DC0DD	redduco	OK
+V5		VmM	lemma/122501	r1117	reficio	DC12D	refacio	OK
+V1		VmF	lemma/122520	r1134	refragor	DC183	refrago	OK
+V1		VmF	lemma/122549	r1161	regyro	DC1F5	regiro	NO
+N3B	n	NcC	lemma/121671	r0303	regimen	DC1FG	regmen	OK
+N1	f	NcA	lemma/75916	DC203	reguaita	DC20A	reguayta	NO
+V1		VmF	lemma/122546	r1159	regulo	DC21E	regulor	OK
+V1		VmF	lemma/122471	r1088	redintegro	DC25A	reintegro	OK
+V1		VmF	lemma/122572	r1183	reliquor	DC2BE	reliquo	OK
+V3		VmH	lemma/122601	r1208	reminiscor	DC2H8	reminisco	OK
+V1		VmF	lemma/122615	r1232	remuneror	DC32G	remunero	OK
+N2	n	NcB	lemma/76221	DC386	repairium	DC3A4	repayrium	NO
+V1		VmF	lemma/76332	DC40G	reproco	DC40H	reprocho	NO
+V3		VmH	lemma/122689	r1304	repuerasco	DC41G	repueresco	OK
+V2		VmG	lemma/122775	r1388	reticeo	DC537	retaceo	OK
+N2	n	NcB	lemma/121954	r0584	retiaculum	DC562	rethiaculum	NO
+N1	f	NcA	lemma/76570	DC564	rethinga	DC580	retinga	NO
+V3		VmH	lemma/122964	r8002	retro-ago	DC5C1	retroago	OK
+V3		VmH	lemma/122968	r8006	retro-flecto	DC5DB	retroflecto	OK
+V3		VmH	lemma/122972	r8010	retro-uerto	DC5F9	retrouerto	OK
+N2	n	NcB	lemma/76571	DC565	rethum	DC5G1	retum	NO
+V3		VmH	lemma/122809	r1434	reuertor	DC635	reuerto	OK
+N3B	n	NcC	lemma/122030	r0664	rheuma	DC65D	reuma	OK
+N3B	n	NcC	lemma/122030	r0664	rheuma	DC65D	reuma	OK
+N2/1	*	Af-	lemma/122031	r0665	rheumaticus	DC65E	reumaticus	OK
+V1		VmF	lemma/122830	r1453	rheumatizo	DC65F	reumatizo	NO
+N1	f	NcA	lemma/75982	DC262	reisa	DC673	reysa	NO
+N1	f	NcA	lemma/74950	DBF81	rada	DC678	rhada	NO
+N1	f	NcA	lemma/121386	r0029	raeda	DC67H	rheda	OK
+N1	f	NcA	lemma/76788	DC2D7	rema	DC683	rhema	NO
+N3B	m	NcC	lemma/121771	r0399	reno	DC684	rheno	OK
+V1		VmF	lemma/122827	r1451	rhetorico	DC686	rhetoricor	OK
+N2/1	*	Af-	lemma/122082	r0709	ricinus	DC6B7	richinus	NO
+V1		VmF	lemma/122841	r1461	rimor	DC6G1	rimo	OK
+N2	m	NcB	lemma/122126	r0755	riuulus	DC771	riuolus	OK
+N1	f	NcA	lemma/77080	DC7AC	rocca	DC7AE	roccha	NO
+N1	f	NcA	lemma/77086	DC7A7	roca	DC7B3	rocha	NO
+N2	n	NcB	lemma/77077	DC7AA	rocassium	DC7B8	rochassium	NO
+N2	n	NcB	lemma/77084	DC7B1	rocerium	DC7BB	rocherium	NO
+N2	m	NcB	lemma/77098	DC7BG	rochus	DC7C3	rocus	NO
+N2/1	*	Af-	lemma/122048	r0680	rhodinus	DC7D4	rodinus	NO
+N2	m	NcB	lemma/77185	DC80H	romaeus	DC833	romeus	NO
+N2	m	NcB	lemma/122062	r0690	rhonchus	DC846	ronchus	OK
+V1		VmF	lemma/122854	r1473	roncho	DC83G	ronco	OK
+N2	n	NcB	lemma/122321	r0945	rutabulum	DC8C2	rotabulum	OK
+N2	n	NcB	lemma/77331	DC8C5	rotagium	DC8DE	rothagium	NO
+N2	m	NcB	lemma/77325	DC8CG	rotarii	DC8DF	rotharii	NO
+N2	m	NcB	lemma/77361	DC691	rhothus	DC8E1	rothus	NO
+N2	n	NcB	lemma/77334	DC8E0	rothorium	DC8EE	rotorium	NO
+N2	m	NcB	lemma/77361	DC691	rhothus	DC8G7	rotus	NO
+N2	m	NcB	lemma/77365	DC8GC	rouchinus	DC8GD	roucinus	NO
+N2/1	*	Af-	lemma/122134	r0763	robeus	71786	rubeus	OK
+V1		VmF	lemma/122848	r1467	robigino	DC926	rubigino	OK
+N1	f	NcA	lemma/77446	DC943	ruca	DC94A	rucha	NO
+V1		VmF	lemma/122864	r1482	ructo	DC956	ructuor	OK
+N2	m	NcB	lemma/122060	r0689	rhombus	DC9AB	rumbus	OK
+N2	m	NcB	lemma/77553	DC9D6	runcinus	DC9CF	runchinus	NO
+N1	f	NcA	lemma/77601	DC9H7	rusca	DC9HE	ruscha	NO
+V1		VmF	lemma/122888	r1501	ruspor	DCA0F	ruspo	OK
+N2	m	NcB	lemma/77647	DCA2G	rutarii	DCA36	rutharii	NO
+N2	n	NcB	lemma/122329	r0953	rutrum	DCA37	ruthrum	NO
+N3B	m	NcC	lemma/127392	s9014	sabulo	DCA6F	sablo	OK
+N2	m	NcB	lemma/77731	DCA91	sacchi	DCA92	sacci	NO
+N2	m	NcB	lemma/123046	s0025	saccellus	DCAAH	sacellus	OK
+N1	f	NcA	lemma/77712	DCA7B	saca	DCAC3	sacha	NO
+N2	m	NcB	lemma/123046	s0025	saccellus	DCAC8	sachellus	NO
+N3B	m	NcC	lemma/77765	DCAC9	sachibaro	DCAD1	sacibaro	NO
+N2	m	NcB	lemma/77824	DCACF	sachus	DCAH5	sacus	NO
+N1	f	NcA	lemma/124374	s1263	sepia	DCAHF	saepia	OK
+N2	n	NcB	lemma/123197	s0158	salictetum	DCBE6	salicetum	OK
+N2	n	NcB	lemma/123232	s0191	salsamentum	DCC0H	salmentum	OK
+I		X--	lemma/123252	s0210	saltem	DCC4F	saltim	OK
+N3A	*	Af-	lemma/123376	s0329	sanqualis	73031	sangualis	OK
+N1	f	NcA	lemma/123379	s0332	sapa	DCD37	sapha	NO
+N1	f	NcA	lemma/123405	s0357	sarca	DCD72	sarcha	NO
+N3B	m	NcC	lemma/78382	DCD75	sarcho	DCD87	sarco	NO
+N1	f	NcA	lemma/123443	s0393	sarisa	DCDA9	sarissa	OK
+N2	n	NcB	lemma/124522	s1402	serracum	DCDC4	sarracum	OK
+N1	f	NcA	lemma/124524	s1404	serralia	DCDC8	sarralia	OK
+N2	m	NcB	lemma/123516	s0460	satyrus	DCDH0	satirus	NO
+N2	n	NcB	lemma/77913	DCB6A	saiguatorium	DCE5F	sayguatorium	NO
+N2	n	NcB	lemma/77922	DCB72	saisimentum	DCE61	saysimentum	NO
+N2	n	NcB	lemma/123559	s0500	scabillum	DCE7D	scabellum	OK
+N2	m	NcB	lemma/78709	DCED5	scalchus	DCED8	scalcus	NO
+N3B	f	NcC	lemma/123624	s0559	scansio	DCF05	scancio	NO
+N1	f	NcA	lemma/123626	s0561	scapha	DCF30	scapa	NO
+N2	n	NcB	lemma/92668	c0486	caphisterium	DCF39	scaphisterium	OK
+N2	m	NcB	lemma/78823	DCF37	scaphinus	DCF3G	scapinus	NO
+N1	f	NcA	lemma/123634	s0569	scapula	DCF40	scapla	OK
+N1	f	NcA	lemma/123681	s0613	schedula	DCFD8	scedula	NO
+N3B	n	NcC	lemma/123684	s0614	schema	DCFE8	scema	NO
+N1	f	NcA	lemma/123062	s0039	sacena	DCFF0	scena	OK
+N1	f	NcA	lemma/123574	s0514	scaena	DCFF0	scena	OK
+N1	m	NcA	lemma/123693	s0622	schoenobates	DCFF9	scenobates	OK
+N1	f	NcA	lemma/123670	s0604	scenopegia	DCFFD	scenophegia	NO
+N1	f	NcA	lemma/78661	DCE9A	scacia	DCFH2	schacia	NO
+N1	f	NcA	lemma/78675	DCEA9	scafa	DCFH5	schafa	NO
+N3B	n	NcC	lemma/78779	DCF0A	scandalia	DCFHE	schandalia	NO
+N1	f	NcA	lemma/123626	s0561	scapha	DCFHF	schapha	NO
+N1	f	NcA	lemma/78842	DCF52	scara	DCG00	schara	NO
+N2	m	NcB	lemma/79032	DCF6C	scarescellus	DCG01	scharescellus	NO
+N2	m	NcB	lemma/79034	DCF7C	scaritus	DCG03	scharitus	NO
+N2	n	NcB	lemma/78881	DCF82	scarlatum	DCG04	scharlatum	NO
+N		NcP	lemma/78966	DCFD3	sceawing	DCG0A	scheawing	NO
+N1	f	NcA	lemma/78976	DCFDE	scela	DCG12	schela	NO
+N2	n	NcB	lemma/79061	DCFGG	sceurum	DCG24	scheurum	NO
+N1	f	NcA	lemma/123619	s0554	scandula	DCG2H	schindula	NO
+N2	m	NcB	lemma/79087	DCGE2	sclauus	DCG40	schlauus	NO
+N2	m	NcB	lemma/79522	DCHH5	scultetus	DCG62	schultetus	NO
+N2/1	*	Af-	lemma/123907	s0821	scutarius	DCG66	schutarius	NO
+N1	f	NcA	lemma/79168	DCG38	schira	DCG69	schyra	NO
+N1	f	NcA	lemma/123677	s0611	schida	DCG72	scida	OK
+N2/1	*	Af-	lemma/79066	DCG29	schifatus	DCG7A	scifatus	NO
+N2	m	NcB	lemma/79592	DCG2C	schillingus	DCG7E	scillingus	NO
+N3B	m	NcC	lemma/79139	DCG2D	schilpor	DCG7G	scilpor	NO
+N1	f	NcA	lemma/123619	s0554	scandula	DCG90	scindula	OK
+N3B	f	NcC	lemma/123725	s0648	sciniphes	DCG91	scinifes	OK
+N3B	f	NcC	lemma/123725	s0648	sciniphes	DCG91	scinifes	OK
+N1	f	NcA	lemma/79168	DCG38	schira	DCGA0	scira	NO
+N3B	n	NcC	lemma/123688	s0618	schisma	DCGB4	scisma	NO
+N3B	m	NcC	lemma/123701	s0626	scholares	DCGG8	scolares	OK
+N2	m	NcB	lemma/79104	DCG53	scholtetus	DCGH6	scoltetus	NO
+N1	f	NcA	lemma/79310	DCG57	schoppa	DCH21	scoppa	NO
+N3B	m	NcC	lemma/123807	s0727	scorpio	DCH3F	scorofio	OK
+N1	f	NcA	lemma/123295	s0251	scortea	DCH4D	scortia	OK
+N3B	m	NcC	lemma/123895	s0809	sculptor	DCHH6	scultor	OK
+N1	f	NcA	lemma/123913	s0826	scutra	DD01G	scuta	OK
+N2	m	NcB	lemma/79592	DCG2C	schillingus	DD042	scyllingus	NO
+N1	f	NcA	lemma/79168	DCG38	schira	DD049	scyra	NO
+N1	f	NcA	lemma/123062	s0039	sacena	DD070	secena	OK
+N1	f	NcA	lemma/125014	s1856	socordia	DD07E	secordia	OK
+N3A	*	Af-	lemma/123103	s0073	saecularis	DD0B0	secularis	OK
+N2	n	NcB	lemma/123105	s0075	saeculum	DD0B2	seculum	OK
+N1	f	NcA	lemma/77831	DCAHE	saenia	DD21B	senia	NO
+V1		VmF	lemma/124333	s1223	sensifico	DD25G	sentifico	OK
+N2/1	*	Af-	lemma/124368	s1258	saeparius	DD283	separius	OK
+N2/1	*	Af-	lemma/124368	s1258	saeparius	DD283	separius	OK
+N2/1	*	Af-	lemma/123117	s0087	saeptatus	DD29E	septatus	OK
+N2	n	NcB	lemma/124427	s1315	septizonium	DD2A5	septemzodium	OK
+N2	n	NcB	lemma/127248	s3971	saeptum	DD2C8	septum	OK
+N4	m	NcD	lemma/127247	s3970	saeptus	DD2CD	septus	OK
+N1	f	NcA	lemma/124450	s1338	sequella	DD2DC	sequela	OK
+N2	n	NcB	lemma/124518	s1398	serpullum	DD363	serpillum	OK
+N2/1	*	Af-	lemma/124603	s1475	sesquiplus	DD3D5	sescuplus	OK
+I		X--	lemma/123994	s0902	sed	DD3FH	set	OK
+N1	f	NcA	lemma/123120	s0090	saeta	DD3G0	seta	OK
+N2/1	*	Af-	lemma/123121	s0091	saetiger	DD3H0	setiger	OK
+V4		VmL	lemma/123125	s0095	saeuio	DD410	seuio	NO
+N2	n	NcB	lemma/123940	s0851	sebum	DD41G	seuum	OK
+N1	f	NcA	lemma/79798	DD13D	seignoria	DD457	seygnoria	NO
+N2	n	NcB	lemma/80527	DD14A	seitorium	DD462	seytorium	NO
+N1	f	NcA	lemma/124816	s1676	spongia	DD471	sfungia	OK
+N1	f	NcA	lemma/124687	s1553	sybina	DD49C	sibyna	OK
+N3B	n	NcC	lemma/123943	s0854	secale	DD49H	sicale	OK
+N1	f	NcA	lemma/124691	s1556	sica	DD4B7	sicha	NO
+N1	f	NcA	lemma/80606	DD4B1	sicela	DD4BA	sichela	NO
+N1	f	NcA	lemma/80608	DD4BC	sichia	DD4BD	sicia	NO
+N2	n	NcB	lemma/125635	s2425	sincinium	DD4BH	sicinium	OK
+N2/1	*	Af-	lemma/124738	s1602	sigillaricius	DD4F1	sigillaritius	NO
+V1		VmF	lemma/127191	s3920	syllogizo	DD550	sillogizo	NO
+N1	f	NcA	lemma/127193	s3921	symbola	DD568	simbola	NO
+N3B	n	NcC	lemma/124745	s1608	sigma	DD581	simma	OK
+N1	f	NcA	lemma/124820	s1679	simila	DD59G	simula	OK
+V1		VmF	lemma/127230	s3954	syncopo	DD5BB	sincopo	NO
+V1		VmF	lemma/83786	DE0F3	syndico	DD5C1	sindico	NO
+N2	n	NcB	lemma/124919	s1766	siparium	DD5G4	sipharium	NO
+V1		VmF	lemma/127041	s3777	suppo	DD5G0	sipo	OK
+N2/1	*	Af-	lemma/80898	DD5H3	sirichus	DD5H6	siricus	NO
+N2/1	*	Af-	lemma/80898	DD5H3	sirichus	DD605	sirycus	NO
+N1	f	NcA	lemma/124942	s1789	sisera	DD609	sisara	OK
+N2	n	NcB	lemma/124950	s1797	sisymbrium	DD60H	sisimbrium	NO
+N3A	*	Af-	lemma/125216	s2040	sospes	DD616	sispes	OK
+N2	n	NcB	lemma/124918	s1765	sion	DD643	sium	OK
+N3B	n	NcC	lemma/124976	s1823	smegma	DD66C	smigma	OK
+N1	f	NcA	lemma/81026	DD68C	soca	DD69G	socha	NO
+N1	f	NcA	lemma/124995	s1841	socera	DD6BB	socra	OK
+N2	n	NcB	lemma/125029	s1869	solacium	DD6H1	solatium	OK
+N2/1	*	Af-	lemma/125062	s1901	solidus	DD715	soledus	OK
+N3A	*	Af-	lemma/123629	s0564	sollemnis	DD718	solemnis	OK
+N3B	f	NcC	lemma/125081	s1920	sollemnitas	DD719	solemnitas	OK
+N2	n	NcB	lemma/125079	s1918	solium	DD729	soleum	OK
+N3A	*	Af-	lemma/123629	s0564	sollemnis	DD766	sollempnis	OK
+V1		VmF	lemma/125083	s1922	sollemnizo	DD768	sollempnizo	OK
+V1		VmF	lemma/125123	s1961	somnio	DD7B0	somnior	OK
+N1	f	NcA	lemma/131228	z0035	zona	DD7BG	sona	OK
+V4		VmL	lemma/125212	s2036	sortior	DD834	sortio	OK
+N2	m	NcB	lemma/90233	a3065	asparagus	DD8BH	sparagus	OK
+N1	f	NcA	lemma/125263	s2083	spatha	DD8EF	spata	OK
+N2/1	*	Af-	lemma/125261	s2082	spatarius	DD8F5	spatharius	OK
+N2/1	*	Af-	lemma/125261	s2082	spatarius	DD8F5	spatharius	OK
+N2	n	NcB	lemma/125271	s2090	spatium	DD8F9	spathium	NO
+N1	f	NcA	lemma/125273	s2092	spatula	DD8FB	spathula	OK
+V1		VmF	lemma/125268	s2087	spatior	DD8FF	spatio	OK
+N1	f	NcA	lemma/125395	s2204	spira	DD94B	spera	OK
+V3		VmH	lemma/125240	s2064	spargo	DD958	spergo	OK
+N3A	*	Af-	lemma/125348	s2161	sphaeroides	DD966	speroides	NO
+N3B	m	NcC	lemma/125310	s2128	speculator	DD98B	spiculator	OK
+N2/1	*	Af-	lemma/125355	s2168	sphingatus	DD9BD	spingatus	OK
+N3A	*	Af-	lemma/125404	s2213	spiritalis	DD9E1	spiritualis	OK
+N1	f	NcA	lemma/81772	DD9F8	spleca	DD9F9	splecha	NO
+N2/1	*	Af-	lemma/125467	s2272	sponsalicius	DDA0D	sponsalitius	NO
+N2	n	NcB	lemma/123697	s0624	schoinuanthos	DDA6D	squinantum	OK
+N1	f	NcA	lemma/81923	DDA9D	staca	DDAA3	stacha	NO
+V1		VmF	lemma/81927	DDAA0	staco	DDAA4	stacho	NO
+N2	n	NcB	lemma/127352	s7364	stagnum	DDB28	stannum	OK
+N2	n	NcB	lemma/125652	s2441	sterculinum	DDC0E	sterquilinium	OK
+N3B	n	NcC	lemma/82209	DDBEE	stema	DDC17	sthema	NO
+N2	n	NcB	lemma/125691	s2476	stillicidium	DDC3B	stilicidium	OK
+N1	f	NcA	lemma/125707	s2490	stipa	DDC74	stipha	NO
+N2	n	NcB	lemma/82331	DDC61	stipadium	DDC75	stiphadium	NO
+N2/1	*	Af-	lemma/125922	s2690	stypticus	DDC7C	stipticus	OK
+V1		VmF	lemma/125726	s2508	stipulor	DDC7G	stipulo	OK
+N3B	2	NcC	lemma/125733	s2515	stirps	DDC8B	stirpes	OK
+N3B	2	NcC	lemma/125733	s2515	stirps	DDC8B	stirpes	OK
+N1	f	NcA	lemma/125735	s2517	stlatta	DDC98	stlata	OK
+N2	m	NcB	lemma/82376	DDCA2	stochus	DDCAB	stocus	NO
+N2	m	NcB	lemma/82405	DDCCB	stophus	DDCCG	stopus	NO
+N3B	m	NcC	lemma/125764	s2544	styrax	DDCD5	storax	OK
+N1	f	NcA	lemma/105561	h0463	historia	DDCD9	storia	OK
+N1	f	NcA	lemma/125767	s2546	storea	DDCD9	storia	OK
+N1	f	NcA	lemma/125805	s2579	straua	DDCEF	straba	OK
+N1	f	NcA	lemma/125807	s2581	strena	DDD36	strenua	OK
+N1	f	NcA	lemma/125851	s2624	stropha	DDD99	strofa	OK
+N2	m	NcB	lemma/125876	s2648	struppus	DDDB1	stroppus	OK
+N2	m	NcB	lemma/125860	s2632	strophus	DDDB2	stropus	NO
+N1	f	NcA	lemma/125904	s2673	stuppa	DDDG4	stupa	OK
+N1	f	NcA	lemma/125904	s2673	stuppa	DDDGD	stupha	NO
+N1	f	NcA	lemma/126079	s2839	stipula	DDDH3	stupla	OK
+N1	f	NcA	lemma/126079	s2839	stipula	DDDH7	stupula	OK
+N1	f	NcA	lemma/82277	DDC1C	stica	DDE0F	styca	NO
+N2	m	NcB	lemma/125696	s2480	stilus	DDE10	stylus	OK
+N3A	*	Af-	lemma/82723	DDC88	stirpalis	DDE12	styrpalis	NO
+N2	n	NcB	lemma/126531	s3284	succingulum	DDE73	subcingulum	OK
+V1		VmF	lemma/126591	s3341	suffarcino	DDEA5	subfarcino	OK
+N2	n	NcB	lemma/126639	s3388	suffugium	DDEAE	subfugium	NO
+V1		VmF	lemma/126645	s3394	suffumo	DDEAF	subfumo	OK
+N1	f	NcA	lemma/126659	s3408	suggrunda	DDEB3	subgrunda	OK
+N1	f	NcA	lemma/126489	s3242	subula	DDEE7	subla	OK
+V1		VmF	lemma/127011	s3748	suppedito	DDF13	subpedito	OK
+N2	n	NcB	lemma/126337	s3091	subsannium	DDF35	subsanium	OK
+N2/1	*	Af-	lemma/126357	s3111	subsequus	DDF4F	subsicuus	OK
+N3B	n	NcC	lemma/126418	s3172	subtemen	DDF88	subtegmen	OK
+N2	m	NcB	lemma/126487	s3240	subuilicus	DDFCD	subuillicus	OK
+N3B	f	NcC	lemma/82884	DDECB	subimaginatio	DDFDG	subymaginatio	NO
+N2	m	NcB	lemma/126766	s3509	sucus	DDFGE	succus	OK
+N3B	f	NcC	lemma/126654	s3403	suggestio	DDG62	suggessio	NO
+N2	n	NcB	lemma/83254	DDG8F	sulphurium	DDG90	sulpurium	NO
+N2	m	NcB	lemma/82933	DDEGH	submerinus	DDGC1	summerinus	NO
+V3		VmH	lemma/126224	s2979	submitto	DDGCA	summitto	OK
+V2		VmG	lemma/126226	s2981	submoneo	DDGCC	summoneo	OK
+N3B	m	NcC	lemma/126713	s3458	syntonator	DDGEH	suntonator	OK
+N1	f	NcA	lemma/127433	s9933	superabundantia	DDH42	superhabundantia	NO
+N3B	n	NcC	lemma/126886	s3625	superlimen	DDH63	superliminare	OK
+N2	n	NcB	lemma/127033	s3769	supplicamentum	DDHEH	suppliciamentum	OK
+N2/1	*	Af-	lemma/127045	s3781	suppositicius	DDHG1	supposititius	NO
+V1		VmF	lemma/127084	s3819	surculo	DE01G	surclo	OK
+N3B	f	NcC	lemma/126291	s3045	subrectio	DE03E	surrectio	OK
+N4	m	NcD	lemma/127496	s9984	subrectus	DE03F	surrectus	OK
+V3		VmH	lemma/126307	s3061	surgo	DE040	surrigo	OK
+V1		VmF	lemma/126315	s3069	subrogo	DE042	surrogo	OK
+N3B	f	NcC	lemma/127131	s3863	suspicio	DE077	suspitio	OK
+N1	f	NcA	lemma/80588	DD4A1	sicaria	DE0BD	sycaria	NO
+N1	f	NcA	lemma/124801	s1661	silua	DE0C9	sylua	OK
+N2/1	*	Af-	lemma/124802	s1662	siluaticus	DE0CA	syluaticus	NO
+N2/1	*	Af-	lemma/124870	s1726	simus	DE0DF	symus	NO
+N1	f	NcA	lemma/127228	s3952	syncope	DE0EA	syncopa	OK
+N3B	f	NcC	lemma/124882	s1736	sindon	DE0F8	syndon	OK
+N2/1	*	Af-	lemma/80898	DD5H3	sirichus	DE0HG	syricus	NO
+N2	n	NcB	lemma/83831	DD62B	sitamentum	DE10C	sytamentum	NO
+N2	m	NcB	lemma/83833	DD644	sixhindi	DE10E	syxhindi	NO
+N2	m	NcB	lemma/127523	t0009	tabernacularius	DED95	tabernaclarius	OK
+N1	f	NcA	lemma/127594	t0072	talla	DEE32	tala	OK
+N1	f	NcA	lemma/128090	t0534	thapsia	DEF12	tapsia	OK
+N1	f	NcA	lemma/127673	t0145	taura	DEFAF	taurea	OK
+N1	f	NcA	lemma/132279	DEE30	taisia	DEFDF	taysia	NO
+N1	f	NcA	lemma/127562	t0042	taeda	DEFFA	teda	OK
+N2	m	NcB	lemma/127725	t0194	tegetarius	DEFG2	tegenarius	OK
+N2	m	NcB	lemma/127725	t0194	tegetarius	DEFGB	tegitarius	OK
+N1	f	NcA	lemma/132279	DEE30	taisia	DEG01	teisia	NO
+N1	f	NcA	lemma/127807	t0275	tenebra	DEG89	tenebrae	OK
+N1	f	NcA	lemma/127570	t0049	taenia	DEGBC	tenia	NO
+N3B	f	NcC	lemma/127792	t0260	temptatio	DEGE3	tentatio	OK
+N3B	f	NcC	lemma/127838	t0304	tensio	DEGEB	tentio	OK
+N1	f	NcA	lemma/127912	t0372	terra	DEGGB	tera	OK
+V1		VmF	lemma/127991	t0445	testificor	DF01A	testifico	OK
+V1		VmF	lemma/127997	t0450	testor	DF00D	testo	OK
+N1	m	NcA	lemma/128044	t0491	tetrarches	DF04D	tetrarcha	OK
+N2	m	NcB	lemma/133044	DF094	thainus	DF0B2	thaynus	NO
+N1	f	NcA	lemma/127834	t0300	tensa	DF0E0	thensa	OK
+N2	n	NcB	lemma/133219	t0645	thymiamaterium	DF112	thimiamaterium	NO
+N1	f	NcA	lemma/133284	DF146	thrimsa	DF14D	thrymsa	NO
+N2/1	*	Af-	lemma/129263	t1782	tureus	DF15B	thureus	OK
+N2	n	NcB	lemma/129268	t1787	turibulum	DF15F	thuribulum	OK
+N3B	f	NcC	lemma/129271	t1790	turificatio	DF164	thurificatio	OK
+V1		VmF	lemma/129273	t1792	turifico	DF162	thurifico	OK
+N2/1	*	Af-	lemma/128001	t0453	turinus	84000	thurinus	OK
+N2	n	NcB	lemma/133327	DF11F	thisiasterium	DF173	thysiasterium	NO
+N2	m	NcB	lemma/133234	DF11H	thiuphadus	DF175	thyuphadus	NO
+N2	n	NcB	lemma/132261	DEFGH	tegorium	DF19A	tigurium	NO
+N2	m	NcB	lemma/133220	DF113	thimonus	DF1C0	timonus	NO
+N2	n	NcB	lemma/129341	t1862	tympanum	DF1C9	timpanum	NO
+N2/1	*	Af-	lemma/128281	t0711	tineosus	DF1F7	tiniosus	OK
+N2	n	NcB	lemma/128294	t0723	tintinnabulum	DF1GC	tintinabulum	OK
+N2	m	NcB	lemma/128494	t0901	tyrannus	DF205	tirannus	NO
+N1	f	NcA	lemma/133229	DF11C	thiriaca	DF218	tiriaca	NO
+N2	m	NcB	lemma/133234	DF11H	thiuphadus	DF24B	tiuphadus	NO
+N2	m	NcB	lemma/128342	t0767	tofus	DF2FC	tophus	OK
+N3B	n	NcC	lemma/128413	t0831	toral	DF2G6	torale	OK
+N3B	n	NcC	lemma/128413	t0831	toral	DF2G6	torale	OK
+N3B	m	NcC	lemma/128464	t0874	tortor	DF368	torsor	OK
+N1	f	NcA	lemma/128011	t0462	taberna	DF3E1	trabena	OK
+N3B	f	NcC	lemma/128496	t0903	trabs	DF3E3	trabes	OK
+N3B	f	NcC	lemma/128496	t0903	trabs	DF3E3	trabes	OK
+N3B	f	NcC	lemma/128496	t0903	trabs	DF3E6	trabis	OK
+N3B	f	NcC	lemma/128496	t0903	trabs	DF3E6	trabis	OK
+N2	m	NcB	lemma/128528	t0935	tragelaphos	DF435	tragelaphus	OK
+N1	f	NcA	lemma/128548	t0952	trahea	DF442	traha	OK
+V1		VmF	lemma/128666	t1068	transnato	DF47E	tranato	OK
+V3		VmH	lemma/128712	t1113	transumo	DF4EH	transsumo	OK
+N2/1	*	Af-	lemma/128704	t1105	transuersarius	DF51H	trauersarius	OK
+N2/1	*	Af-	lemma/128704	t1105	transuersarius	DF51H	trauersarius	OK
+V1		VmF	lemma/134239	DF460	traino	DF535	trayno	NO
+N1	f	NcA	lemma/127862	t0326	tribula	DF5G2	tribla	OK
+N2	m	NcB	lemma/128778	t1170	tribolus	DF5H7	tribulus	OK
+V1		VmF	lemma/128840	t1223	tricor	DF60C	trico	OK
+N	m	NcP	lemma/134690	DF5EC	triaen	DF637	trien	NO
+I		X--	lemma/128825	t1212	triciens	DF652	trigies	OK
+V1		VmF	lemma/129012	t1380	trisso	DF688	trinso	OK
+V1		VmF	lemma/128986	t1354	tripodo	DF693	tripedo	OK
+N1	f	NcA	lemma/128964	t1332	tripeccia	DF699	tripetia	OK
+V1		VmF	lemma/128993	t1361	tripudio	DF6A9	tripodio	OK
+N2	m	NcB	lemma/129071	t1433	trochiscus	DF6H8	trociscus	OK
+N1	f	NcA	lemma/129072	t1434	trochlea	DF6HB	troclea	OK
+N2	n	NcB	lemma/135058	DF70E	troillium	DF74D	troyllium	NO
+N2	n	NcB	lemma/129121	t1475	tryblium	DF753	trublium	OK
+V1		VmF	lemma/129091	t1453	trucilo	DF75G	truculo	NO
+N1	f	NcA	lemma/129099	t1460	trulla	DF765	truella	OK
+N1	f	NcA	lemma/135232	DF76C	truia	DF7AB	truya	NO
+N2	n	NcB	lemma/129182	t1707	tuccetum	DF7CG	tucetum	OK
+V1		VmF	lemma/129217	t1738	tumultuor	DF7HF	tumultuo	OK
+N1	f	NcA	lemma/129240	t1760	turbella	DF82D	turbela	OK
+N3B	f	NcC	lemma/129281	t1801	turpedo	DF87A	turpido	OK
+N1	f	NcA	lemma/129297	t1818	turturella	DF8A1	turturilla	OK
+N1	f	NcA	lemma/128386	t0809	tonsillae	DF8AB	tusillae	OK
+N1	f	NcA	lemma/129315	t1837	tutela	DF8BG	tutella	OK
+V1		VmF	lemma/129322	t1843	tutor	DF8B8	tuto	OK
+N1	f	NcA	lemma/128232	t0667	tibia	DF8D7	tybia	NO
+N2	n	NcB	lemma/132261	DEFGH	tegorium	DF8DC	tygurium	NO
+N1	f	NcA	lemma/128257	t0689	tilia	DF8DE	tylia	NO
+N2	n	NcB	lemma/133407	DF1BF	timonagium	DF8E5	tymonagium	NO
+N2	m	NcB	lemma/133220	DF113	thimonus	DF8E6	tymonus	NO
+N3B	n	NcC	lemma/133420	DF1CA	timpora	DF8F3	tympora	NO
+N1	f	NcA	lemma/135637	DF204	tirannia	DF8G6	tyrannia	NO
+N1	f	NcA	lemma/133229	DF11C	thiriaca	DF8GG	tyriaca	NO
+N1	f	NcA	lemma/128310	t0737	tisana	DF8H3	tysana	OK
+N2	m	NcB	lemma/133234	DF11H	thiuphadus	DF8H6	tyuphadus	NO
+N1	f	NcA	lemma/83877	DE124	uacaria	DE13G	uacharia	NO
+N1	f	NcA	lemma/129654	u0179	uecordia	DE170	uaecordia	OK
+N2/1	*	Af-	lemma/129735	u0255	uenaliciarius	DE171	uaenaliciarius	NO
+N3A	*	Af-	lemma/129740	u0257	uenalis	DE172	uaenalis	NO
+V1		VmF	lemma/129494	u0037	uagito	DE18E	uagitor	OK
+N3B	f	NcC	lemma/129512	u0053	ualetudo	DE1E3	ualitudo	OK
+N3B	m	NcC	lemma/91593	b0364	baro	DE27E	uaro	OK
+V1		VmF	lemma/129633	u0160	uaticinor	DE2DF	uaticino	OK
+N1	f	NcA	lemma/91423	b0208	batiola	DE2E3	uatiola	OK
+N2	n	NcB	lemma/84270	DE1A0	uaisellum	DE2FB	uaysellum	NO
+N1	f	NcA	lemma/84311	DE306	uechia	DE308	uecia	NO
+N2/1	*	Af-	lemma/129681	u0206	uecturarius	DE311	uectarius	OK
+N2/1	*	Af-	lemma/129681	u0206	uecturarius	DE311	uectarius	OK
+V1		VmF	lemma/129718	u0238	uelitor	DE373	uelito	OK
+N1	f	NcA	lemma/130202	u0662	uilla	DE376	uella	OK
+N2	m	NcB	lemma/130211	u0671	uillus	DE37F	uellus	OK
+N2	n	NcB	lemma/130251	u0706	uindicium	DE3B8	uendicium	OK
+V1		VmF	lemma/130252	u0707	uindico	DE3B5	uendico	OK
+N2/1	*	Af-	lemma/129818	u0326	uentriosus	DE405	uentrosus	OK
+N1	f	NcA	lemma/129975	u0466	ueruella	DE425	uerbella	OK
+N3B	m	NcC	lemma/129976	u0467	ueruex	DE42E	uerbex	OK
+N3B	m	NcC	lemma/129976	u0467	ueruex	DE435	uerbix	OK
+N1	f	NcA	lemma/84613	DE174	uaeria	DE47A	ueria	NO
+N2/1	*	Af-	lemma/130355	u0799	uirosus	DE4CA	uerosus	OK
+N2/1	*	Af-	lemma/131148	u9999	uirosus	DE4CA	uerosus	OK
+N3B	m	NcC	lemma/129915	u0414	uerres	DE4D9	uerris	OK
+I		X--	lemma/129944	u0440	uersus	DE4G4	uersum	OK
+N2	m	NcB	lemma/129968	u0460	uertragus	DE4G9	uertagus	OK
+V1		VmF	lemma/129961	u0454	uertiginor	DE4HC	uerticinor	OK
+V1		VmF	lemma/130065	u0539	ueto	DE58C	uetho	NO
+N2	n	NcB	lemma/130172	u0634	uiduuium	DE65C	uidubium	OK
+N3B	m	NcC	lemma/130434	u0873	uitor	DE675	uietor	OK
+N1	f	NcA	lemma/91584	b0356	biga	DE678	uiga	OK
+N2	m	NcB	lemma/130951	u1360	uilicus	DE6C5	uillicus	OK
+N1	f	NcA	lemma/131092	u9735	uinacea	DE6DA	uinacia	OK
+N1	f	NcA	lemma/130259	u0714	uineola	DE729	uiniola	OK
+N2/1	*	Af-	lemma/130302	u0752	uiracius	DE75F	uiratius	OK
+N2/1	*	Af-	lemma/130302	u0752	uiracius	DE75H	uiratus	OK
+N2	m	NcB	lemma/129868	u0373	uergobretus	DE78B	uirgobretus	OK
+N2	n	NcB	lemma/130874	u1290	uiridiarium	DE798	uiridarium	OK
+N3B	m	NcC	lemma/91664	b0428	bison	DE7GD	uison	OK
+N2/1	*	Af-	lemma/130440	u0879	uitrearius	DE826	uitriarius	OK
+N2/1	*	Af-	lemma/130440	u0879	uitrearius	DE826	uitriarius	OK
+N2	m	NcB	lemma/130531	u0966	umbilicus	DE89H	umblicus	OK
+N3B	f	NcC	lemma/130602	u1030	undatio	DE8D6	undacio	NO
+N3A	*	Af-	lemma/130991	u1400	unanimis	DE8FD	unianimis	OK
+N2/1	*	Af-	lemma/130998	u1407	unoculus	DE8H3	unioculus	OK
+N2/1	*	Af-	lemma/130688	u1114	unipetius	DE8H6	unipecius	OK
+N2/1	*	Af-	lemma/130688	u1114	unipetius	DE8H6	unipecius	OK
+I		X--	lemma/130569	u1000	umquam	DE911	unquam	OK
+N3B	m	NcC	lemma/130657	u1085	unguis	DE917	unx	OK
+V1		VmF	lemma/130725	u1148	uociferor	DE930	uocifero	OK
+N2	n	NcB	lemma/91742	b0500	bolarium	DE954	uolarium	OK
+N1	f	NcA	lemma/130737	u1159	uolatica	DE956	uolaticha	NO
+N2	n	NcB	lemma/130735	u1158	uolaemum	DE961	uolemum	OK
+N1	f	NcA	lemma/131124	u9977	uulsura	DE973	uolsura	OK
+N2	m	NcB	lemma/91976	b0720	bulbus	DE9A0	uoluus	OK
+N1	f	NcA	lemma/129952	u0447	uersura	DE9B5	uorsura	OK
+N3B	m	NcC	lemma/129951	u0446	uertex	DE9B7	uortex	OK
+V1		VmF	lemma/130065	u0539	ueto	DE9C4	uoto	OK
+N2	n	NcB	lemma/85784	DE945	uoiagium	DE9DG	uoyagium	NO
+N2	m	NcB	lemma/130811	u1232	uranoscopos	DE9EB	uranoscopus	OK
+V1		VmF	lemma/130837	u1257	urinor	DE9GF	urino	OK
+N3B	m	NcC	lemma/130748	u1170	uolpio	DEAC0	uulpio	OK
+N1	f	NcA	lemma/130749	u1171	uolsella	DEAC1	uulsella	OK
+N2	n	NcB	lemma/85418	DE80A	uitatorium	DEAD8	uytatorium	NO
+N2	n	NcB	lemma/58246	D7BF9	ibernagium	DEC2H	ybernagium	NO
+N1	f	NcA	lemma/58262	D7BGA	icona	DEC33	ycona	NO
+N2	m	NcB	lemma/58263	D7BGD	iconomus	DEC34	yconomus	NO
+N3B	f	NcC	lemma/58273	D7BHB	idemptitas	DEC36	ydemptitas	NO
+N1	m	NcA	lemma/106089	i0082	idiota	DEC37	ydiota	NO
+N1	f	NcA	lemma/58285	D7C07	idolagia	DEC38	ydolagia	NO
+N2/1	*	Af-	lemma/106101	i0093	idoneus	DEC3A	ydoneus	NO
+N1	f	NcA	lemma/86468	D7C14	idria	DEC3B	ydria	NO
+N3B	f	NcC	lemma/106313	i0290	imaginatio	DEC47	ymaginatio	NO
+N3A	*	Af-	lemma/86492	D7DGA	impraeceps	DEC52	ympreceps	NO
+N2	m	NcB	lemma/59125	D7G38	indardus	DEC53	yndardus	NO
+N2/1	*	Af-	lemma/86495	D81DF	inspurus	DEC56	ynspurus	NO
+N2	n	NcB	lemma/86523	DEC6G	ypopirgium	DEC6H	ypopyrgium	NO
+N2	m	NcB	lemma/86545	D8489	isembrunus	DEC83	ysembrunus	NO
+N1	f	NcA	lemma/60367	D8491	ispia	DEC8H	yspia	NO
+N2	n	NcB	lemma/60441	D84F4	iuernagium	DEC9C	yuernagium	NO
+N1	f	NcA	lemma/99187	d1245	diaeta	DED00	zeta	OK
+N2	m	NcB	lemma/131186	z0002	zaeus	DED08	zeus	OK
+V1		VmF	lemma/131217	z0028	zinzio	DED27	zinzito	OK
+V1		VmF	lemma/131215	z0026	zinzilo	DED29	zinzulo	NO

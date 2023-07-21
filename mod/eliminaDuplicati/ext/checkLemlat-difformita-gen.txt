@@ -1,0 +1,39 @@
+##checkLemlat.tsv##
+
+Righe con chk='NO'
+
+(1)
+Condizione: la clem da deprecare è costituita da una sola riga.
+Se la coppia les-codles della clem da deprecare non è presente nella clem da tenere:
+copiare la riga della clem da deprecare in quella da tenere.
+
+NB:
+(a) se la clem da tenere è originariamente composta di una sola riga,
+dopo l'aggiunta della nuova riga (proveniente dalla clem da deprecare),
+aggiungere il valore clem='v' sull'unica riga originaria della clme da tenere. Altimenti non farlo;
+(b) scrivere il codice dell'origine del les nel campo src della nuova riga (ad esempio, D se la clem deprecata è del Ducange)
+Esempio: N2	m	NcB	lemma/26821	D0280	acatus	D03C2	achatus	NO
+(c) [nota più generale] ovviamente queste unificazioni (come ogni altra) ha conseguenze non solo sul lessario,
+ma anche sul lemmario di lemlat
+
+Inoltre:
+- se la coppia les-codles della clem da deprecare è già presente nella clem da tenere: non fare niente ->
+ma questo caso non dovrebbe sussistere, in quanto dovrebbe avere chk='OK'
+- se la riga unica (o la riga con clem='v') della clem da tenere ha un qualche valore in campo a_gra,
+verificare che esso già non gestisca già l'alternanza grafica ->
+ma anche questo caso non dovrebbe sussistere, in quanto dovrebbe avere chk='OK'
+
+(2)
+Condizione: la clem da deprecare è costituita da più di una riga.
+Segnalare questi casi, perché devo vederli per rendermi conto cosa fare.
+
+-----------------------------------
+
+##In merito ai casi di 'difformità' sul campo gen.##
+
+Vanno tutti bene (dunque, ok su tutte le deprecazioni/unificazioni)
+Ma ho trovato due errori di codifica nel lessario. Eccoli:
+- p0382 gen='1' -> gen='2'
+- c4758 gen='1' -> gen='2'
+Per favore, applica le due correzioni indicate sia sul lessario che sul lemmario. Sul lila_db lo faccio io.
+Queste correzioni non comportano conseguenze sulle deprecazioni/unificazioni (che vanno fatte anche sui due casi in questione).

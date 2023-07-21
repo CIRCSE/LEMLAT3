@@ -56,3 +56,8 @@ groupsAdd.tsv
 + bugfix:
 findGroupsBF3.sql
 
+================ EXT : caretella 'ext' ======================================
+- extensione degli accorpamenti ai casi di gruppi imperfetti
+(i.e.: uno degli attributi non coincidenti)
+
+
