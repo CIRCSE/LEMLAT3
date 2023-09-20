@@ -2,14 +2,20 @@ MD=.
 OD=debug.linux
 LD=$(MD)/lib.linux/debug
 SD=$(MD)/mysqlUtil
-MYSQL_INCLUDE_DIR=/usr/include/mysql/
+#MYSQL_INCLUDE_DIR=/usr/include/mysql/
+# mariadb_config --cflags
+MY_FLAGS=-I/usr/include/mariadb -I/usr/include/mariadb/mysql
 
 mysqlUtil.a : $(OD)/mysqlUtil.o
 	ar rs $(LD)/mysqlUtil.a $(OD)/mysqlUtil.o
 
+#$(OD)/mysqlUtil.o : $(SD)/mysqlUtil.c $(MD)/include/mysqlUtil.h
+#	gcc -c $(SD)/mysqlUtil.c -o $(OD)/mysqlUtil.o \
+#-I$(MD)/include/ -I$(MYSQL_INCLUDE_DIR) -g
 $(OD)/mysqlUtil.o : $(SD)/mysqlUtil.c $(MD)/include/mysqlUtil.h
 	gcc -c $(SD)/mysqlUtil.c -o $(OD)/mysqlUtil.o \
--I$(MD)/include/ -I$(MYSQL_INCLUDE_DIR) -g
+-I$(MD)/include/ $(MY_FLAGS) -g
+
 
 clean_all : 
 	rm -f $(OD)/*.o 

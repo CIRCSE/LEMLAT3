@@ -1,15 +1,15 @@
 #mysql configuration file
 #for lemlat application
 [mysqld_safe]
-ledir = /home/paolo/LemLat2015/lemlat_workspace/LemLat_client/bin.linux/embeddedD/bin
+ledir = /home/paolo/UNICATT/LemLat/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD/bin
 
 [mysqld]
 port = 63301
-socket = /home/paolo/LemLat2015/lemlat_workspace/LemLat_client/bin.linux/embeddedD/run/mysql63301.sock
-basedir = /home/paolo/LemLat2015/lemlat_workspace/LemLat_client/bin.linux/embeddedD
-datadir = /home/paolo/LemLat2015/lemlat_workspace/LemLat_client/bin.linux/embeddedD/data
-tmpdir = /home/paolo/LemLat2015/lemlat_workspace/LemLat_client/bin.linux/embeddedD/tmp
-pid-file = /home/paolo/LemLat2015/lemlat_workspace/LemLat_client/bin.linux/embeddedD/tmp/mysql66301.pid
+socket = /home/paolo/UNICATT/LemLat/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD/run/mysql63301.sock
+basedir = /home/paolo/UNICATT/LemLat/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD
+datadir = /home/paolo/UNICATT/LemLat/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD/data
+tmpdir = /home/paolo/UNICATT/LemLat/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD/tmp
+pid-file = /home/paolo/UNICATT/LemLat/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD/tmp/mysql66301.pid
 log-error
 
 [lemlat_CLIENT]

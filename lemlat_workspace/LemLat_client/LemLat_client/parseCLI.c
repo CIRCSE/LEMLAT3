@@ -20,9 +20,9 @@
 int src=3;
 
 //PAOLO
-/*
+/* */
 char* LESSARIO;
-*/
+/* */
 //OLOAP
 
 int interactive;

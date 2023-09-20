@@ -23,8 +23,10 @@ $(LEMLATLIBDIR)/include -I $(LEMLATDBDIR)/include
 
 CC=gcc
 
+# mariadb_config --cflags
+MY_FLAGS=-I/usr/include/mariadb -I/usr/include/mariadb/mysql
 # mysql_config --cflags
-MY_FLAGS=-I/usr/include/mysql -DBIG_JOINS=1  -fno-strict-aliasing -DTAOCRYPT_DISABLE_X86ASM   -g -DNDEBUG
+#MY_FLAGS=-I/usr/include/mysql -DBIG_JOINS=1  -fno-strict-aliasing -DTAOCRYPT_DISABLE_X86ASM   -g -DNDEBUG
 #MY_FLAGS=-I/usr/include/mysql -DBIG_JOINS=1  -fno-strict-aliasing -DTAOCRYPT_DISABLE_X86ASM
 FLAGS=$(MY_FLAGS) $(INCS)
 
@@ -39,16 +41,25 @@ MY_LIBS_E=-L/usr/lib/i386-linux-gnu -lmysqld -lpthread -lz -lm -lwrap -lcrypt -l
 #################   64bits:
 #-L/usr/lib/x86_64-linux-gnu -lmysqlclient -lpthread -lz -lm -lrt -latomic -ldl
 
-MY_LIBS_64=-L/usr/lib/x86_64-linux-gnu -lmysqlclient -lpthread -lz -lm -lrt -latomic -ldl
+# mariadb_config 
+# --libs          [-L/usr/lib/x86_64-linux-gnu/ -lmariadb]
+# --libs_sys      [-ldl -lm -lpthread -lssl -lcrypto]
+## NB manca -lz
+MY_LIBS_64=-L/usr/lib/x86_64-linux-gnu/ -lmariadb -ldl -lm -lpthread -lssl -lcrypto
+# MY_LIBS_64=-L/usr/lib/x86_64-linux-gnu -lmysqlclient -lpthread -lz -lm -lrt -latomic -ldl
 MYSQL_LIB_DIR_64=/usr/lib/x86_64-linux-gnu
 #MY_LIBS_S_64=$(MYSQL_LIB_DIR_64)/libmysqlclient.a -L$(MYSQL_LIB_DIR_64) -lpthread -lz -lm -latomic  -ldl -lstdc++
-MY_LIBS_S_64=$(MYSQL_LIB_DIR_64)/libmariadbclient.a -L$(MYSQL_LIB_DIR_64) -lpthread -lz -lm -latomic  -ldl -lstdc++
+MY_LIBS_S_64=$(MYSQL_LIB_DIR_64)/libmariadb.a -ldl -lm -lpthread -lssl -lcrypto  -lz
 
 # mysql_config --libmysqld-libs 
 # NB added -lstdc++
 #-L/usr/lib/x86_64-linux-gnu -lmysqld -lpthread -lz -lm -lrt -latomic -lcrypt -ldl -laio -llz4 -lnuma
 
-MY_LIBS_E_64=-L$(MYSQL_LIB_DIR_64) -lmysqld -lpthread -lz -lm -lrt -latomic -lcrypt -ldl -laio -llz4 -lnuma -lstdc++
+#MY_LIBS_E_64=-L$(MYSQL_LIB_DIR_64) -lmysqld -lpthread -lz -lm -lrt -latomic -lcrypt -ldl -laio -llz4 -lnuma -lstdc++
+
+# mariadb_config 
+# --libmysqld-libs  [-L/usr/lib/x86_64-linux-gnu/ -lmariadbd -ldl -lm -lpthread -lssl -lcrypto]
+MY_LIBS_E_64=-L$(MYSQL_LIB_DIR_64) -lmariadbd -ldl -lm -lpthread -lssl -lcrypto
 
 
 client_64 : conIO.o LemLat_client.o parseCLI.o XMLOut.o CSVOut.o

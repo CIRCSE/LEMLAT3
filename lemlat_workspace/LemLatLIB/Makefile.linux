@@ -4,7 +4,8 @@ OD=debug.linux
 LD=$(MD)/lib.linux/debug
 SD=$(MD)/LemLatLIB
 LEMLATDBDIR=$(MD)/../LemLatDB
-MYSQL_INCLUDE_DIR=/usr/include/mysql
+## NOT NEEDED
+#MYSQL_INCLUDE_DIR=/usr/include/mysql
 
 # Compiler
 CC=gcc
@@ -37,7 +38,8 @@ INCS=$(SD)/sillem.h \
      $(SD)/silset.h
 
 # Flags
-FLAGS=-Wall -g -I$(SD)/ -I$(LEMLATDBDIR)/include/ -I$(MD)/include/ -I$(MYSQL_INCLUDE_DIR)/
+#FLAGS=-Wall -g -I$(SD)/ -I$(LEMLATDBDIR)/include/ -I$(MD)/include/ -I$(MYSQL_INCLUDE_DIR)/
+FLAGS=-Wall -g -I$(SD)/ -I$(LEMLATDBDIR)/include/ -I$(MD)/include/
 
 $(OUTPUT) : $(OBJS) $(OBJS_C)  $(INCS)
 	ar rs $(OUTPUT) $(OBJS) 

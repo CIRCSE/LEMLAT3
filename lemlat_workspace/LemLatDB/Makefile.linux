@@ -4,7 +4,10 @@ LD=$(MD)/lib.linux/debug
 SD=$(MD)/LemLatDB
 MYSQLUTILDIR=$(MD)/../mysqlUtil
 INCS=-I$(MYSQLUTILDIR)/include -I$(MD)/include
-MYSQL_INCLUDE_DIR=/usr/include/mysql/
+#MYSQL_INCLUDE_DIR=/usr/include/mysql/
+# mariadb_config --cflags
+MY_FLAGS=-I/usr/include/mariadb -I/usr/include/mariadb/mysql
+# sostituisco: -I$(MYSQL_INCLUDE_DIR) con $(MY_FLAGS)
 
 lemlatDB.a : lemlatDB.o tabSF.o codMorf.o tabFE.o tabSAI.o tabSI.o \
 tabSM.o tabSPF.o eagles3.o lemmaEnding.o tabLE.o tabLES.o
@@ -21,61 +24,61 @@ $(OD)/lemmasDerivations.o
 
 lemmasDerivations.o :
 	gcc -c $(SD)/lemmasDerivations.c -o $(OD)/lemmasDerivations.o \
-$(INCS) -I$(MYSQL_INCLUDE_DIR) -g
+$(INCS) $(MY_FLAGS) -g
 
 lemlatDB.o : $(SD)/lemlatDB.c $(MD)/include/lemlatDB.h
 	gcc -c $(SD)/lemlatDB.c -o $(OD)/lemlatDB.o \
-$(INCS) -I$(MYSQL_INCLUDE_DIR) -g
+$(INCS) $(MY_FLAGS) -g
 
 tabSF.o : $(SD)/tabSF.c $(MD)/include/tabSF_def.h
 	gcc -c $(SD)/tabSF.c -o $(OD)/tabSF.o \
-$(INCS) -I$(MYSQL_INCLUDE_DIR) -g
+$(INCS) $(MY_FLAGS) -g
 
 codMorf.o : $(SD)/codMorf.c
 	gcc -c $(SD)/codMorf.c -o $(OD)/codMorf.o \
-$(INCS) -I$(MYSQL_INCLUDE_DIR) -g
+$(INCS) $(MY_FLAGS) -g
 
 tabFE.o : $(SD)/tabFE.c
 	gcc -c $(SD)/tabFE.c -o $(OD)/tabFE.o \
-$(INCS) -I$(MYSQL_INCLUDE_DIR) -g
+$(INCS) $(MY_FLAGS) -g
 
 tabSAI.o : $(SD)/tabSAI.c
 	gcc -c $(SD)/tabSAI.c -o $(OD)/tabSAI.o \
-$(INCS) -I$(MYSQL_INCLUDE_DIR) -g
+$(INCS) $(MY_FLAGS) -g
 
 tabSI.o : $(SD)/tabSI.c
 	gcc -c $(SD)/tabSI.c -o $(OD)/tabSI.o \
-$(INCS) -I$(MYSQL_INCLUDE_DIR) -g
+$(INCS) $(MY_FLAGS) -g
 
 tabSM.o : $(SD)/tabSM.c
 	gcc -c $(SD)/tabSM.c -o $(OD)/tabSM.o \
-$(INCS) -I$(MYSQL_INCLUDE_DIR) -g
+$(INCS) $(MY_FLAGS) -g
 
 tabSPF.o : $(SD)/tabSPF.c
 	gcc -c $(SD)/tabSPF.c -o $(OD)/tabSPF.o \
-$(INCS) -I$(MYSQL_INCLUDE_DIR) -g
+$(INCS) $(MY_FLAGS) -g
 
 eagles3.o : $(SD)/eagles3.c
 	gcc -c $(SD)/eagles3.c -o $(OD)/eagles3.o \
-$(INCS) -I$(MYSQL_INCLUDE_DIR) -g
+$(INCS) $(MY_FLAGS) -g
 
 lemmaEnding.o : $(SD)/lemmaEnding.c
 	gcc -c $(SD)/lemmaEnding.c -o $(OD)/lemmaEnding.o \
-$(INCS) -I$(MYSQL_INCLUDE_DIR) -g
+$(INCS) $(MY_FLAGS) -g
 
 tabLE.o : $(SD)/tabLE.c
 	gcc -c $(SD)/tabLE.c -o $(OD)/tabLE.o \
-$(INCS) -I$(MYSQL_INCLUDE_DIR) -g
+$(INCS) $(MY_FLAGS) -g
 
 tabLES.o : $(SD)/tabLES.c
 	gcc -c $(SD)/tabLES.c -o $(OD)/tabLES.o \
-$(INCS) -I$(MYSQL_INCLUDE_DIR) -g
+$(INCS) $(MY_FLAGS) -g
 
 # dynamic table name versions
 
 tabLES_dtn.o : $(SD)/tabLES_dtn.c
 	gcc -c $(SD)/tabLES_dtn.c -o $(OD)/tabLES_dtn.o \
-$(INCS) -I$(MYSQL_INCLUDE_DIR) -g
+$(INCS) $(MY_FLAGS) -g
 
 #
 clean_all : 

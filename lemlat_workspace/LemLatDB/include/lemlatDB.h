@@ -13,7 +13,11 @@ void ll_disconnect(const int stopServer);
 
 //PAOLO
 /*--------------definizione dinamica tabella lessario---------------*/
-char* LESSARIO;
+// BUGFIX definizione multipla!!
+#ifndef __LESSARIO
+#define __LESSARIO
+extern char* LESSARIO;
+#endif
 void initLESsource(const char* source);
 void setLESsource(const char* source);
 //OLOAP
