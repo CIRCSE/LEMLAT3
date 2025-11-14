@@ -2890,3 +2890,41 @@ mod/BUGFIX_e1381.sql
 mod/BUGFIX_nobiscum.sql
 BUGFIX_absolute.sql
 mod/BUGFIX_sallustius.sql
+
+#######
+14/11/2025
+
+fixing les that are mistakenly tagged as n71 > n7 (and corresponding inflection types in the lemmario)
+
+in lemlat_db.lessario: codles "n71" > "n7", codLE "d" > ""
+in lila_db.lemma: fl_cat "n71" > "n7"
+in one case (censualis) there are two les, one n71, the other n7; the les n71 can be removed, here are the old values for the record
+c1126	*					censual	n71			+								9295	2018-07-24 18:08:15	B
+
+here are the commands run:
+
+UPDATE `lemlat_db`.`lessario` SET `codles` = 'n7', `codLE` = '' WHERE (`pr_key` = '11020');
+UPDATE `lemlat_db`.`lessario` SET `codles` = 'n7', `codLE` = '' WHERE (`pr_key` = '24049');
+UPDATE `lemlat_db`.`lessario` SET `codles` = 'n7', `codLE` = '' WHERE (`pr_key` = '24060');
+UPDATE `lemlat_db`.`lessario` SET `codles` = 'n7', `codLE` = '' WHERE (`pr_key` = '26746');
+UPDATE `lemlat_db`.`lessario` SET `codles` = 'n7' WHERE (`pr_key` = '33866');
+UPDATE `lemlat_db`.`lessario` SET `codles` = 'n7', `codLE` = '' WHERE (`pr_key` = '42265');
+UPDATE `lemlat_db`.`lessario` SET `codles` = 'n7', `codLE` = '' WHERE (`pr_key` = '50685');
+UPDATE `lemlat_db`.`lessario` SET `codles` = 'n7', `codLE` = '' WHERE (`pr_key` = '50686');
+UPDATE `lemlat_db`.`lessario` SET `codles` = 'n7', `codLE` = '' WHERE (`pr_key` = '62331');
+UPDATE `lemlat_db`.`lessario` SET `codles` = 'n7', `codLE` = '' WHERE (`pr_key` = '63817');
+UPDATE `lemlat_db`.`lessario` SET `codles` = 'n7', `codLE` = '' WHERE (`pr_key` = '63818');
+
+UPDATE `lila_db`.`lemma` SET `fl_cat` = 'n7' WHERE (`id_lemma` = '94668');
+UPDATE `lila_db`.`lemma` SET `fl_cat` = 'n7' WHERE (`id_lemma` = '103090');
+UPDATE `lila_db`.`lemma` SET `fl_cat` = 'n7' WHERE (`id_lemma` = '103098');
+UPDATE `lila_db`.`lemma` SET `fl_cat` = 'n7' WHERE (`id_lemma` = '105190');
+UPDATE `lila_db`.`lemma` SET `fl_cat` = 'n7' WHERE (`id_lemma` = '110327');
+UPDATE `lila_db`.`lemma` SET `fl_cat` = 'n7' WHERE (`id_lemma` = '116551');
+UPDATE `lila_db`.`lemma` SET `fl_cat` = 'n7' WHERE (`id_lemma` = '122156');
+UPDATE `lila_db`.`lemma` SET `fl_cat` = 'n7' WHERE (`id_lemma` = '130037');
+UPDATE `lila_db`.`lemma` SET `fl_cat` = 'n7' WHERE (`id_lemma` = '131065');
+
+DELETE FROM `lemlat_db`.`lessario` WHERE (`pr_key` = '9295');
+
+######
