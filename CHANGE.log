@@ -2928,3 +2928,9 @@ UPDATE `lila_db`.`lemma` SET `fl_cat` = 'n7' WHERE (`id_lemma` = '131065');
 DELETE FROM `lemlat_db`.`lessario` WHERE (`pr_key` = '9295');
 
 ######
+
+18/11/2025
+
+same change as 14/11 for les with pr_key 33887 that was left out
+
+UPDATE `lemlat_db`.`lessario` SET `codles` = 'n7' WHERE (`pr_key` = '33887');
