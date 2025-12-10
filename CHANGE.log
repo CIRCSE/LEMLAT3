@@ -2936,3 +2936,6 @@ same change as 14/11 for les with pr_key 33887 that was left out
 UPDATE `lemlat_db`.`lessario` SET `codles` = 'n7' WHERE (`pr_key` = '33887');
 ######## mer 10 dic 2025, 18:09:03, CET
 update dump file
+mod/modFaria.sql
+### Wed 10 Dec 2025 06:42:42 PM CET
+update dump file 
