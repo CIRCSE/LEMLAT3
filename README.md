@@ -6,10 +6,6 @@ Contribution of the [CIRCSE Research Centre](https://centridiricerca.unicatt.it/
 
 **NB: LEMLAT analyzes *types*, not *tokens*; it doesn't therefore disambiguate words in context.**
 
-
-LEMLAT 3.0 website: http://www.lemlat3.eu/<br />
-LEMLAT 3.0 credits: http://www.lemlat3.eu/about/credits/
-
 To cite LEMLAT 3.0 (first release), you can adapt the following:
 
 >Marco Passarotti, Paolo Ruffolo, Flavio M. Cecchini, Eleonora Litta, Marco Budassi (2018) *LEMLAT 3.0*. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1492134.svg)](https://doi.org/10.5281/zenodo.1492134)
